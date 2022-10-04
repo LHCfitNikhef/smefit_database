@@ -4,12 +4,6 @@ order: NLO
 use_theory_covmat: True
 use_quad: True
 
-# NS settings
-nlive: 1000
-efr: 0.005
-ceff: True
-toll: 0.5
-
 #MC settings
 mc_minimiser: 'cma'
 restarts: 7

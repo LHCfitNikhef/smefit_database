@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import argparse
 import json
 import pathlib
-import argparse
 
 import numpy as np
 import pandas as pd

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import pathlib
 import argparse
+import pathlib
 
 import numpy as np
 import yaml

@@ -1,6 +1,7 @@
 import argparse
-import yaml
 import pathlib
+
+import yaml
 
 here = pathlib.Path(__file__).parent.absolute()
 
@@ -23,7 +24,7 @@ def update_paths(loaded_runcard, destination):
 
 def dump_runcard(card, file_name, destination):
     with open(destination / f"{file_name}.yaml", "w", encoding="utf-8") as f:
-        yaml.dump(card, f,sort_keys=False)
+        yaml.dump(card, f, sort_keys=False)
 
 
 if __name__ == "__main__":
@@ -35,7 +36,8 @@ if __name__ == "__main__":
         "base_runcard", type=pathlib.Path, help="path to base runcards to update"
     )
     parser.add_argument(
-        "-d", "--destination",
+        "-d",
+        "--destination",
         type=pathlib.Path,
         default=here,
         help="path to smefit runcards folder",
