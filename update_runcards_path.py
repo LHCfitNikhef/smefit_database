@@ -1,5 +1,6 @@
 import argparse
 import pathlib
+import os
 
 import yaml
 
@@ -14,11 +15,11 @@ def load_base_runcard(base_runcard_path):
 
 def update_paths(loaded_runcard, destination):
     # path to common data
-    loaded_runcard["data_path"] = here.joinpath("commondata").as_posix()
+    loaded_runcard["data_path"] = os.path.normpath(here.joinpath("commondata").as_posix())
     # path to theory tables, default same as data path
-    loaded_runcard["theory_path"] = here.joinpath("theory").as_posix()
+    loaded_runcard["theory_path"] = os.path.normpath(here.joinpath("theory").as_posix())
     # absolute path where results are stored
-    loaded_runcard["result_path"] = destination.joinpath("results").as_posix()
+    loaded_runcard["result_path"] = os.path.normpath(destination.joinpath("results").as_posix())
     return loaded_runcard
 
 
