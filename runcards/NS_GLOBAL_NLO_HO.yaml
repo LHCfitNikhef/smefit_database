@@ -1,0 +1,184 @@
+# Input YAML configurations for SMEFiT code
+
+order: NLO
+use_theory_covmat: True
+use_quad: True
+
+# NS settings
+nlive: 1000
+efr: 0.005
+ceff: True
+toll: 0.5
+
+datasets:
+
+  # TOP QUARK PRODUCTION
+  # ttbar
+  - ATLAS_tt_8TeV_ljets_Mtt
+  - ATLAS_tt_8TeV_dilep_Mtt
+  - CMS_tt_8TeV_ljets_Ytt
+  - CMS_tt2D_8TeV_dilep_MttYtt
+  - CMS_tt_13TeV_ljets_2015_Mtt
+  - CMS_tt_13TeV_dilep_2015_Mtt
+  - CMS_tt_13TeV_ljets_2016_Mtt
+  - CMS_tt_13TeV_dilep_2016_Mtt
+  - ATLAS_tt_13TeV_ljets_2016_Mtt
+  - ATLAS_CMS_tt_AC_8TeV
+  - ATLAS_tt_AC_13TeV
+
+  # ttbar asymm and helicity frac
+  - ATLAS_WhelF_8TeV
+  - CMS_WhelF_8TeV
+
+  # ttbb
+  - CMS_ttbb_13TeV
+  - CMS_ttbb_13TeV_2016
+  - ATLAS_ttbb_13TeV_2016
+
+  # tttt
+  - CMS_tttt_13TeV
+  - CMS_tttt_13TeV_run2
+  - ATLAS_tttt_13TeV_run2
+
+  # ttZ
+  - CMS_ttZ_8TeV
+  - CMS_ttZ_13TeV
+  - CMS_ttZ_13TeV_pTZ
+  - ATLAS_ttZ_8TeV
+  - ATLAS_ttZ_13TeV
+  - ATLAS_ttZ_13TeV_2016
+
+  # ttW
+  - CMS_ttW_8TeV
+  - CMS_ttW_13TeV
+  - ATLAS_ttW_8TeV
+  - ATLAS_ttW_13TeV
+  - ATLAS_ttW_13TeV_2016
+
+  # Single top
+  - CMS_t_tch_8TeV_inc
+  - ATLAS_t_tch_8TeV
+  - CMS_t_tch_8TeV_diff_Yt
+  - CMS_t_sch_8TeV
+  - ATLAS_t_sch_8TeV
+  - ATLAS_t_tch_13TeV
+  - CMS_t_tch_13TeV_inc
+  - CMS_t_tch_13TeV_diff_Yt
+  - CMS_t_tch_13TeV_2016_diff_Yt
+
+  # tW
+  - ATLAS_tW_8TeV_inc
+  - ATLAS_tW_slep_8TeV_inc
+  - CMS_tW_8TeV_inc
+  - ATLAS_tW_13TeV_inc
+  - CMS_tW_13TeV_inc
+
+  # tZ
+  - ATLAS_tZ_13TeV_inc
+  - ATLAS_tZ_13TeV_run2_inc
+  - CMS_tZ_13TeV_inc
+  - CMS_tZ_13TeV_2016_inc
+
+  # HIGGS PRODUCTION
+
+  # ATLAS & CMS Combined Run 1 Higgs Measurements
+  - ATLAS_CMS_SSinc_RunI
+  - ATLAS_SSinc_RunII
+  - CMS_SSinc_RunII
+
+  # ATLAS & CMS Run II Higgs Differential
+  - CMS_H_13TeV_2015_pTH
+  - ATLAS_H_13TeV_2015_pTH
+
+  # # ATLAS & CMS STXS
+  - ATLAS_WH_Hbb_13TeV
+  - ATLAS_ZH_Hbb_13TeV
+  - ATLAS_ggF_ZZ_13TeV
+  - CMS_ggF_aa_13TeV
+  #- CMS_ggF_tautau_13TeV
+
+  # DIBOSON DATA
+  - ATLAS_WW_13TeV_2016_memu
+  - ATLAS_WZ_13TeV_2016_mTWZ
+  #- CMS_WZ_13TeV_2016_mWZ
+  - CMS_WZ_13TeV_2016_pTZ
+
+  # LEP
+  - LEP_eeWW_182GeV
+  - LEP_eeWW_189GeV
+  - LEP_eeWW_198GeV
+  - LEP_eeWW_206GeV
+
+coefficients:
+
+  ## TOP COEFFICIENTS ##
+  OpQM: {'min': -5, 'max': 5}
+  O3pQ3: {'min': -5.0, 'max': 5.0}
+  Opt: {'min': -25.0, 'max': 15.0}
+  OtW: {'min': -5.0, 'max': 5.0}
+  OtG: {'min': -5.0, 'max': 5.0}
+  Otp: {'min': -50.0, 'max': 50.0}
+  OtZ: {'min': 5, 'max': 5}
+
+  OQQ1: {'min': -10, 'max': 10.0}
+  OQQ8: {'min': -20.0, 'max': 20.0}
+  OQt1: {'min': -10.0, 'max': 10.0}
+  OQt8: {'min': -20.0, 'max': 20.0}
+  Ott1: {'min': -5.0, 'max': 5.0}
+
+  O81qq: {'min': -5, 'max': 5}
+  O11qq: {'min': -5, 'max': 5}
+  O83qq: {'min': -5, 'max': 5}
+  O13qq: {'min': -5, 'max': 5}
+  O8qt: {'min': -5, 'max': 5}
+  O1qt: {'min': -5, 'max': 5}
+  O8ut: {'min': -5, 'max': 5}
+  O1ut: {'min': -5, 'max': 5}
+  O8qu: {'min': -5, 'max': 5}
+  O1qu: {'min': -5, 'max': 5}
+  O8dt: {'min': -5, 'max': 5}
+  O1dt: {'min': -5, 'max': 5}
+  O8qd: {'min': -5, 'max': 5}
+  O1qd: {'min': -5, 'max': 5}
+
+  # Do not enter with our flavor assumptions
+  #Off: {'fixed': True,  'min': -35.0, 'max': 10.0}
+  #ObW: {'fixed': True,  'min': -35.0, 'max': 10.0}
+  #OQtQb1: {'fixed': True,  'min': -35.0, 'max': 10.0}
+  #OQtQb8: {'fixed': True,  'min': -35.0, 'max': 10.0}
+  #OQb1: {'fixed': True,  'min': -35.0, 'max': 10.0}
+  #OQb8: {'fixed': True,  'min': -35.0, 'max': 10.0}
+  #Otb1: {'fixed': True,  'min': -35.0, 'max': 10.0}
+  #Otb8: {'fixed': True,  'min': -35.0, 'max': 10.0}
+
+  ## HIGGS COEFFICIENTS ##
+  OpG: {'min': -1.0, 'max': 1.0}
+  OpB: {'min': -1.0, 'max': 1.0}
+  OpW: {'min': -1.0, 'max': 1.0}
+  OpWB: {'min': -5.0, 'max': 5.0}
+  Opd: {'min': -5.0, 'max': 5.0}
+  OpD: {'min': -5.0, 'max': 5.0}
+  OpqMi: {'constrain': [{'OpD': 0.9248},{'OpWB': 1.8347}], 'min': -30, 'max': 30}
+  O3pq: {'constrain': [{'OpD': -0.8415},{'OpWB': -1.8347}], 'min': -0.5, 'max': 1.0}
+  Opui: {'constrain': {'OpD': 0.3333}, 'min': -0.5, 'max': 1.0}
+  Opdi: {'constrain': {'OpD': -0.1667}, 'min': -0.5, 'max': 1.0}
+  Ocp: {'min': -1.0, 'max': 1.0}
+  Obp: {'min': -0.6, 'max': 0.22}
+  Opl1: {'constrain': {'OpD': -0.25}, 'min': -0.5, 'max': 1.0}
+  Opl2: {'constrain': {'OpD': -0.25}, 'min': -0.5, 'max': 1.0}
+  Opl3: {'constrain': {'OpD': -0.25}, 'min': -0.5, 'max': 1.0}
+  O3pl1: {'constrain': [{'OpD': -0.8415},{'OpWB': -1.8347}], 'min': -30.0, 'max': 60.0}
+  O3pl2: {'constrain': [{'OpD': -0.8415},{'OpWB': -1.8347}], 'min': -30.0, 'max': 60.0}
+  O3pl3: {'constrain': [{'OpD': -0.8415},{'OpWB': -1.8347}], 'min': -0.5, 'max': 1.0}
+  Ope: {'constrain': {'OpD': -0.5}, 'min': -0.5, 'max': 1.0}
+  Opmu: {'constrain': {'OpD': -0.5}, 'min': -0.5, 'max': 1.0}
+  Opta: {'constrain': {'OpD': -0.5}, 'min': -0.5, 'max': 1.0}
+  Otap: {'min': -0.28, 'max': 0.72}
+  Oll: {'constrain': True, 'value': 0.0,  'min': -0.5, 'max': 1.0}
+
+  # DIBOSON COEFFICIENTS ##
+  OWWW: {'min': -1.0, 'max': 1.0}
+  OW: {'constrain': [{'OpD': -5.1754},{'OpWB': -11.2835}], 'min': -0.80, 'max': 0.25}
+  OB: {'constrain': {'OpD': 2.8209}, 'value':, 'min': -0.85, 'max': 0.30}
+
+rot_to_fit_basis: null
