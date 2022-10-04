@@ -1,5 +1,6 @@
 # Input YAML configurations for SMEFiT code
 
+# pQCD order (LO or NLO)
 order: NLO
 use_theory_covmat: True
 use_quad: True
@@ -10,6 +11,7 @@ efr: 0.005
 ceff: True
 toll: 0.5
 
+# Datasets to include
 datasets:
 
   # TOP QUARK PRODUCTION
@@ -109,22 +111,23 @@ datasets:
   - LEP_eeWW_198GeV
   - LEP_eeWW_206GeV
 
+# Coefficients to fit
 coefficients:
 
   ## TOP COEFFICIENTS ##
-  OpQM: {'min': -5, 'max': 5}
-  O3pQ3: {'min': -5.0, 'max': 5.0}
+  OpQM: {'min': -10, 'max': 10}
+  O3pQ3: {'min': -2.0, 'max': 2.0}
   Opt: {'min': -25.0, 'max': 15.0}
-  OtW: {'min': -5.0, 'max': 5.0}
-  OtG: {'min': -5.0, 'max': 5.0}
-  Otp: {'min': -50.0, 'max': 50.0}
-  OtZ: {'min': 5, 'max': 5}
+  OtW: {'min': -1.0, 'max': 1.0}
+  OtG: {'min': -1.0, 'max': 1.0}
+  Otp: {'min': -10.0, 'max': 5.0}
+  OtZ: {'min': -10, 'max': 10}
 
   OQQ1: {'min': -10, 'max': 10.0}
   OQQ8: {'min': -20.0, 'max': 20.0}
   OQt1: {'min': -10.0, 'max': 10.0}
   OQt8: {'min': -20.0, 'max': 20.0}
-  Ott1: {'min': -5.0, 'max': 5.0}
+  Ott1: {'min': -10.0, 'max': 10.0}
 
   O81qq: {'min': -5, 'max': 5}
   O11qq: {'min': -5, 'max': 5}
@@ -152,17 +155,17 @@ coefficients:
   #Otb8: {'fixed': True,  'min': -35.0, 'max': 10.0}
 
   ## HIGGS COEFFICIENTS ##
-  OpG: {'min': -1.0, 'max': 1.0}
-  OpB: {'min': -1.0, 'max': 1.0}
-  OpW: {'min': -1.0, 'max': 1.0}
-  OpWB: {'min': -5.0, 'max': 5.0}
+  OpG: {'min': -0.2, 'max': 0.075}
+  OpB: {'min': -0.5, 'max': 0.35}
+  OpW: {'min': -0.4, 'max': 0.5}
+  OpWB: {'min': -0.3, 'max': 0.5}
   Opd: {'min': -5.0, 'max': 5.0}
-  OpD: {'min': -5.0, 'max': 5.0}
+  OpD: {'min': -1.0, 'max': 1.0}
   OpqMi: {'constrain': [{'OpD': 0.9248},{'OpWB': 1.8347}], 'min': -30, 'max': 30}
   O3pq: {'constrain': [{'OpD': -0.8415},{'OpWB': -1.8347}], 'min': -0.5, 'max': 1.0}
   Opui: {'constrain': {'OpD': 0.3333}, 'min': -0.5, 'max': 1.0}
   Opdi: {'constrain': {'OpD': -0.1667}, 'min': -0.5, 'max': 1.0}
-  Ocp: {'min': -1.0, 'max': 1.0}
+  Ocp: {'min': -0.44, 'max': 0.81}
   Obp: {'min': -0.6, 'max': 0.22}
   Opl1: {'constrain': {'OpD': -0.25}, 'min': -0.5, 'max': 1.0}
   Opl2: {'constrain': {'OpD': -0.25}, 'min': -0.5, 'max': 1.0}
@@ -177,7 +180,7 @@ coefficients:
   Oll: {'constrain': True, 'value': 0.0,  'min': -0.5, 'max': 1.0}
 
   # DIBOSON COEFFICIENTS ##
-  OWWW: {'min': -1.0, 'max': 1.0}
+  OWWW: {'min': -0.85, 'max': 0.35}
   OW: {'constrain': [{'OpD': -5.1754},{'OpWB': -11.2835}], 'min': -0.80, 'max': 0.25}
   OB: {'constrain': {'OpD': 2.8209}, 'value':, 'min': -0.85, 'max': 0.30}
 
