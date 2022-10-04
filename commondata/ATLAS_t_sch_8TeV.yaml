@@ -1,0 +1,14 @@
+dataset_name: ATLAS_t_sch_8TeV
+num_data: 1
+num_sys: 2
+data_central: 4.8072
+statistical_error: 0.8
+systematics:
+- 1.45
+- 0.1344
+sys_names:
+- UNCORR
+- ATLASLUMI12
+sys_type:
+- MULT
+- MULT

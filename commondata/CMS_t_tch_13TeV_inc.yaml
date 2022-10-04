@@ -1,0 +1,64 @@
+dataset_name: CMS_t_tch_13TeV_inc
+num_data: 2
+num_sys: 13
+data_central:
+- 154.0
+- 82.8325
+statistical_error:
+- 8.162
+- 9.775
+systematics:
+- - 8.778
+  - 4.165
+- - 3.542
+  - 1.955
+- - 12.628
+  - 7.225
+- - 3.311
+  - 1.9125
+- - 3.311
+  - 1.9125
+- - 1.5015
+  - 1.02
+- - 1.5015
+  - 1.02
+- - 8.393
+  - 5.2275
+- - 5.852
+  - 3.315
+- - 1.078
+  - 0.765
+- - 5.005
+  - 3.6975
+- - 2.849
+  - 1.6575
+- - 0.308
+  - 0.17
+sys_names:
+- CORR
+- CMSLUMI15
+- CORR
+- CORR
+- UNCORR
+- CORR
+- UNCORR
+- CORR
+- CORR
+- CORR
+- CORR
+- UNCORR
+- CORR
+sys_type:
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT

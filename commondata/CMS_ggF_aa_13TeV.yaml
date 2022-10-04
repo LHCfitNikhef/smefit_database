@@ -1,0 +1,26 @@
+dataset_name: CMS_ggF_aa_13TeV
+num_data: 6
+num_sys: 1
+data_central:
+- 72.61
+- 21.75
+- 7.6
+- 3.155
+- 8.4
+- 2.965
+statistical_error:
+- 10.98
+- 8.25
+- 4.0
+- 1.19
+- 5.5
+- 0.78
+systematics:
+- - 5.49
+  - 3.0
+  - 1.0
+  - 0.425
+  - 1.1
+  - 0.455
+sys_names: CORR
+sys_type: ADD

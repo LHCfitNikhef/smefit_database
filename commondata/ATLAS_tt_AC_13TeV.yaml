@@ -1,0 +1,18 @@
+dataset_name: ATLAS_tt_AC_13TeV
+num_data: 5
+num_sys: 0
+data_central:
+- 0.0045
+- 0.0051
+- 0.01
+- 0.0169
+- 0.0121
+statistical_error:
+- 0.0045
+- 0.0031
+- 0.007
+- 0.0083
+- 0.0329
+systematics: []
+sys_names: []
+sys_type: []

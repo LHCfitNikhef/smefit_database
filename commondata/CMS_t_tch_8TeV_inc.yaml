@@ -1,0 +1,52 @@
+dataset_name: CMS_t_tch_8TeV_inc
+num_data: 2
+num_sys: 10
+data_central:
+- 53.8
+- 27.6
+statistical_error:
+- 2.7
+- 4.9
+systematics:
+- - 2.2596
+  - 1.4352
+- - 1.3988
+  - 0.7176
+- - 0.269
+  - 0.138
+- - 0.8608
+  - 0.966
+- - 0.9146
+  - 0.9936
+- - 0.0538
+  - 0.0552
+- - 2.6362
+  - 2.5944
+- - 0.3228
+  - 0.3036
+- - 1.345
+  - 1.3248
+- - 1.3988
+  - 0.7176
+sys_names:
+- CORR
+- CORR
+- CORR
+- CORR
+- CORR
+- CORR
+- CORR
+- UNCORR
+- CORR
+- CMSLUMI12
+sys_type:
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT

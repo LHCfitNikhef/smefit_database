@@ -1,0 +1,14 @@
+dataset_name: CMS_tW_13TeV_inc
+num_data: 1
+num_sys: 2
+data_central: 63.1
+statistical_error: 1.8
+systematics:
+- 6.4
+- 2.1
+sys_names:
+- UNCORR
+- CMSLUMI15
+sys_type:
+- MULT
+- MULT

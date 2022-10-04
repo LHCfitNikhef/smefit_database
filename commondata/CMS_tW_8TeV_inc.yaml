@@ -1,0 +1,9 @@
+dataset_name: CMS_tW_8TeV_inc
+num_data: 1
+num_sys: 1
+data_central: 23.4
+statistical_error: 0.0
+systematics:
+- 5.4
+sys_names: UNCORR
+sys_type: MULT

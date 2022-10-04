@@ -1,0 +1,26 @@
+dataset_name: CMS_t_tch_8TeV_diff_Yt
+num_data: 6
+num_sys: 1
+data_central:
+- 17.56817586
+- 17.989906086
+- 16.1739521
+- 13.133142927
+- 9.6985
+- 6.6310549155
+statistical_error:
+- 0.7326
+- 0.5698
+- 0.5698
+- 0.5698
+- 0.6512
+- 0.4884
+systematics:
+- - 2.2385
+  - 1.4245
+  - 0.6919
+  - 1.221
+  - 1.3431
+  - 1.0989
+sys_names: UNCORR
+sys_type: MULT

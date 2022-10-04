@@ -1,0 +1,9 @@
+dataset_name: ATLAS_ttbb_13TeV_2016
+num_data: 1
+num_sys: 1
+data_central: 359.0
+statistical_error: 11.0
+systematics:
+- 61.0
+sys_names: UNCORR
+sys_type: MULT

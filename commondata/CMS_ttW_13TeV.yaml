@@ -1,0 +1,9 @@
+dataset_name: CMS_ttW_13TeV
+num_data: 1
+num_sys: 1
+data_central: 808.5
+statistical_error: 120.0
+systematics:
+- 125.0
+sys_names: UNCORR
+sys_type: MULT

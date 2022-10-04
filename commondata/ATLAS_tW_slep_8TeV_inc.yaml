@@ -1,0 +1,8 @@
+dataset_name: ATLAS_tW_slep_8TeV_inc
+num_data: 1
+num_sys: 0
+data_central: 26.0
+statistical_error: 7.0
+systematics: []
+sys_names: []
+sys_type: []

@@ -1,0 +1,9 @@
+dataset_name: CMS_tZ_13TeV_2016_inc
+num_data: 1
+num_sys: 1
+data_central: 112.0
+statistical_error: 13.0
+systematics:
+- 10.0
+sys_names: UNCORR
+sys_type: MULT

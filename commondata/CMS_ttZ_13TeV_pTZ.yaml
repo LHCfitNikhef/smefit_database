@@ -1,0 +1,20 @@
+dataset_name: CMS_ttZ_13TeV_pTZ
+num_data: 4
+num_sys: 1
+data_central:
+- 3.834
+- 4.809
+- 2.115
+- 0.3299
+statistical_error:
+- 0.558
+- 0.512
+- 0.251
+- 0.0574
+systematics:
+- - 0.4109562020459
+  - 0.3789788912327
+  - 0.1624807680927
+  - 0.03237360035585
+sys_names: UNCORR
+sys_type: ADD

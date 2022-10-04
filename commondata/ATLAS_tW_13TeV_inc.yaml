@@ -1,0 +1,14 @@
+dataset_name: ATLAS_tW_13TeV_inc
+num_data: 1
+num_sys: 2
+data_central: 96.82
+statistical_error: 10.0
+systematics:
+- 25.0
+- 2.0
+sys_names:
+- UNCORR
+- ATLASLUMI15
+sys_type:
+- MULT
+- MULT

@@ -1,0 +1,28 @@
+dataset_name: CMS_t_tch_13TeV_diff_Yt
+num_data: 4
+num_sys: 2
+data_central:
+- 151.368
+- 132.328
+- 121.38
+- 42.84
+statistical_error:
+- 19.992
+- 15.232
+- 14.28
+- 9.52
+systematics:
+- - 27.846
+  - 22.372
+  - 21.896
+  - 16.422
+- - 3.481464
+  - 3.043544
+  - 2.79174
+  - 0.98532
+sys_names:
+- UNCORR
+- CMSLUMI15
+sys_type:
+- MULT
+- MULT

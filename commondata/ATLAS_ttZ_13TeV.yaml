@@ -1,0 +1,9 @@
+dataset_name: ATLAS_ttZ_13TeV
+num_data: 1
+num_sys: 1
+data_central: 920.0
+statistical_error: 290.0
+systematics:
+- 100.0
+sys_names: UNCORR
+sys_type: MULT

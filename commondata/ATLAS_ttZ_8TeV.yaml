@@ -1,0 +1,9 @@
+dataset_name: ATLAS_ttZ_8TeV
+num_data: 1
+num_sys: 1
+data_central: 178.0
+statistical_error: 50.0
+systematics:
+- 24.0
+sys_names: UNCORR
+sys_type: MULT
