@@ -4,6 +4,7 @@ order: NLO
 use_theory_covmat: True
 use_quad: False
 use_bounds: False
+use_t0: True
 
 datasets:
 

@@ -4,6 +4,7 @@
 order: NLO
 use_theory_covmat: True
 use_quad: True
+use_t0: True
 
 # NS settings
 nlive: 1000

@@ -1,0 +1,258 @@
+# Input YAML file for a report
+
+name: "smefit2.0_NS_vs_MC_linear"
+
+title: "Comparison between linear analysis using NS and MC"
+
+result_IDs: [
+  "NS_GLOBAL_NLO_NHO",
+  "MC_GLOBAL_NLO_NHO",
+]
+
+fit_labels: [
+  'smefit2.0 NS',
+  'smefit2.0 MC',
+]
+
+report_path: 
+result_path:
+
+summary: True
+
+coefficients_plots:
+
+  scatter_plot:
+    figsize: [10,15]
+    x_min: -50
+    x_max: 50
+    lin_thr: .01
+    x_log: True
+        
+  confidence_level_bar:
+    confidence_level: 95
+    figsize: [10,15]
+    plot_cutoff: 400
+    x_min: 0.001
+    x_max: 500
+    x_log: True
+
+  contours_2d:
+    show: True
+    confidence_level: 95
+    dofs_show: ["O3pQ3", "OpQM"] # Null or list of op per fit to be displayed
+
+  posterior_histograms: True
+
+  table: True
+
+  logo: True
+  show_only: Null
+  hide_dofs: Null #[Oll] # or list
+
+  double_solution:  # List of op per fit with double solution
+    NS_GLOBAL_NLO_NHO: []
+    MC_GLOBAL_NLO_NHO: []
+
+correlations:
+   hide_dofs: Null # Null or list of op not be displayed
+   thr_show: 0.1 # Min value to show, if Null show the full matrix
+
+PCA:
+  table: True # display the list of PC decomposition
+  thr_show: 1.e-2
+  sv_min: 1.e-4
+  plot: True
+  fit_list: [NS_GLOBAL_NLO_NHO] # or list of fits to include by name
+
+chi2_plots:
+  table: True # bool, chi2 table
+  plot_experiment:  # chi2 plot per experiment
+    figsize: [10,15]
+  plot_distribution: #  chi2 distribution per replica
+    figsize: [7,5]
+
+
+
+coeff_info:
+  4H: [
+    [OQQ1, "$c_{QQ}^{1}$"],
+    [OQQ8, "$c_{QQ}^{8}$"],
+    [OQt1, "$c_{Qt}^{1}$"],
+    [OQt8, "$c_{Qt}^{8}$"],
+    [OQb1, "$c_{Qb}^{1}$"],
+    [OQb8, "$c_{Qb}^{8}$"],
+    [Ott1, "$c_{tt}^{1}$"],
+    [Otb1, "$c_{tb}^{1}$"],
+    [Otb8, "$c_{tb}^{8}$"],
+    [OQtQb1, "$c_{QtQb}^{1}$"],
+    [OQtQb8, "$c_{QtQb}^{8}$"],
+  ]
+  2L2H: [
+    [O81qq, "$c_{qq}^{1,8}$"],
+    [O11qq, "$c_{qq}^{1,1}$"],
+    [O83qq, "$c_{qq}^{8,3}$"],
+    [O13qq, "$c_{qq}^{1,3}$"],
+    [O8qt, "$c_{qt}^{8}$"],
+    [O1qt, "$c_{qt}^{1}$"],
+    [O8ut, "$c_{ut}^{8}$"],
+    [O1ut, "$c_{ut}^{1}$"],
+    [O8qu, "$c_{qu}^{8}$"],
+    [O1qu, "$c_{qu}^{1}$"],
+    [O8dt, "$c_{dt}^{8}$"],
+    [O1dt, "$c_{dt}^{1}$"],
+    [O8qd, "$c_{qd}^{8}$"],
+    [O1qd, "$c_{qd}^{1}$"],
+  ]
+  2FB: [
+    [Otp, "$c_{t \\varphi}$"],
+    [OtG, "$c_{tG}$"],
+    [Obp, "$c_{b \\varphi}$"],
+    [Ocp, "$c_{c \\varphi}$"],
+    [Otap, "$c_{\\tau \\varphi}$"],
+    [Omup, "$c_{\\mu \\varphi}$"],
+    [OtW, "$c_{tW}$"],
+    [OtZ, "$c_{tZ}$"],  # Non Warsaw
+    [OtB, "$c_{tB}$"],
+    [ObW, "$c_{bW}$"],
+    [\Off, "$c_{ff}$"],
+    [Opl1, "$c_{\\varphi l_1}$"],
+    [O3pl1, "$c_{\\varphi l_1}^{3}$"],
+    [Opl2, "$c_{\\varphi l_2}$"],
+    [O3pl2, "$c_{\\varphi l_2}^{3}$"],
+    [Opl3, "$c_{\\varphi l_3}$"],
+    [O3pl3, "$c_{\\varphi l_3}^{3}$"],
+    [Ope, "$c_{\\varphi e}$"],
+    [Opmu, "$c_{\\varphi \\mu}$"],
+    [Opta, "$c_{\\varphi \\tau}$"],
+    [O3pq, "$c_{\\varphi q}^{3}$"],
+    [O3pQ3, "$c_{\\varphi Q}^{3}$"],
+    [OpqMi, "$c_{\\varphi q}^{(-)}$"],  # Non Warsaw
+    [OpQM, "$c_{\\varphi Q}^{(-)}$"],  # Non Warsaw
+    [Opqi, "$c_{\\varphi q}^{(1)}$"],
+    [OpQ, "$c_{\\varphi Q}^{(1)}$"],
+    [Opui, "$c_{\\varphi u}$"],
+    [Opdi, "$c_{\\varphi d}$"],
+    [Opt, "$c_{\\varphi t}$"],
+    [Optb, "$c_{\\varphi tb}$"],  # Non SMEFiT2.0
+    [Oll, "$c_{ll}$"],
+  ]
+  B: [
+    [OpG, "$c_{\\varphi G}$"],
+    [OpGtil, "$c_{\\widetilde{\\varphi G}}$"],  # Non SMEFiT2.0
+    [OpB, "$c_{\\varphi B}$"],
+    [OpBtil, "$c_{\\widetilde{\\varphi B}}$"],  # Non SMEFiT2.0
+    [OpW, "$c_{\\varphi W}$"],
+    [OpWtil, "$c_{\\widetilde{\\varphi W}}$"],  # Non SMEFiT2.0
+    [OpWB, "$c_{\\varphi WB}$"],
+    [OpWBtil, "$c_{\\widetilde{\\varphi WB}}$"],  # Non SMEFiT2.0
+    [Opd, "$c_{\\varphi \\Box}$"],
+    [OpD, "$c_{\\varphi D}$"],
+    [OWWW, "$c_{WWW}$"],
+    [OWWWtil, "$c_{\\widetilde{WWW}}$"],
+    [OG, "$c_{G}$"],  # Non SMEFiT2.0
+    [OGtil, "$c_{\\widetilde{G}}$"],  # Non SMEFiT2.0
+  ]
+  
+data_info:
+  tt8: [
+    [ATLAS_tt_8TeV_ljets_Mtt, https://arxiv.org/abs/1511.04716],
+    [ATLAS_tt_8TeV_dilep_Mtt, https://arxiv.org/abs/1607.07281],
+    [CMS_tt_8TeV_ljets_Ytt, https://arxiv.org/abs/1505.04480],
+    [CMS_tt2D_8TeV_dilep_MttYtt, https://arxiv.org/abs/1703.01630],
+  ]
+  tt13: [
+    [CMS_tt_13TeV_ljets_2015_Mtt, https://arxiv.org/abs/1610.04191],
+    [CMS_tt_13TeV_dilep_2015_Mtt, https://arxiv.org/abs/1708.07638],
+    [CMS_tt_13TeV_ljets_2016_Mtt, https://arxiv.org/abs/1803.08856],
+    [CMS_tt_13TeV_dilep_2016_Mtt, https://arxiv.org/abs/1811.06625],
+    [ATLAS_tt_13TeV_ljets_2016_Mtt, https://arxiv.org/abs/1908.07305],
+  ]
+  WhelF: [
+    [ATLAS_WhelF_8TeV, https://arxiv.org/abs/1612.02577],
+    [CMS_WhelF_8TeV, https://arxiv.org/abs/1605.09047],
+  ]
+  AC: [
+    [ATLAS_CMS_tt_AC_8TeV, https://arxiv.org/abs/1709.05327],
+    [ATLAS_tt_AC_13TeV, https://cds.cern.ch/record/2682109],
+  ]
+  4H: [
+    [CMS_ttbb_13TeV, https://arxiv.org/abs/1705.10141],
+    [CMS_ttbb_13TeV_2016, https://arxiv.org/abs/1909.05306],
+    [ATLAS_ttbb_13TeV_2016, https://arxiv.org/abs/1811.12113],
+    [CMS_tttt_13TeV, https://arxiv.org/abs/1710.10614],
+    [CMS_tttt_13TeV_run2, https://arxiv.org/abs/1908.06463],
+    [ATLAS_tttt_13TeV_run2, https://arxiv.org/abs/2007.14858],
+  ]
+  ttZ: [
+    [ATLAS_ttZ_8TeV, https://arxiv.org/abs/1509.05276],
+    [ATLAS_ttZ_13TeV, https://arxiv.org/abs/1609.01599],
+    [ATLAS_ttZ_13TeV_2016, https://arxiv.org/abs/1901.03584],
+    [CMS_ttZ_8TeV, https://arxiv.org/abs/1510.01131],
+    [CMS_ttZ_13TeV, https://arxiv.org/abs/1711.02547],
+    [CMS_ttZ_13TeV_pTZ, https://arxiv.org/abs/1907.11270],
+  ]
+  ttW: [
+    [ATLAS_ttW_8TeV, https://arxiv.org/abs/1509.05276],
+    [ATLAS_ttW_13TeV, https://arxiv.org/abs/1609.01599],
+    [ATLAS_ttW_13TeV_2016, https://arxiv.org/abs/1901.03584],
+    [CMS_ttW_8TeV, https://arxiv.org/abs/1510.01131],
+    [CMS_ttW_13TeV, https://arxiv.org/abs/1711.02547],
+  ]
+  t8: [
+    [CMS_t_tch_8TeV_inc, https://arxiv.org/abs/1403.7366],
+    [CMS_t_tch_8TeV_diff_Yt, https://cds.cern.ch/record/1956681],
+    [CMS_t_sch_8TeV, https://arxiv.org/abs/1603.02555],
+    [ATLAS_t_tch_8TeV, https://arxiv.org/abs/1702.02859],
+    [ATLAS_t_sch_8TeV, https://arxiv.org/abs/1511.05980],
+  ]
+  t13: [
+    [CMS_t_tch_13TeV_inc, https://arxiv.org/abs/1610.00678],
+    [CMS_t_tch_13TeV_diff_Yt, https://cds.cern.ch/record/2151074],
+    [CMS_t_tch_13TeV_2016_diff_Yt, https://arxiv.org/abs/1907.08330],
+    [ATLAS_t_tch_13TeV, https://arxiv.org/abs/1609.03920],
+  ]
+  tW: [
+    [ATLAS_tW_8TeV_inc, https://arxiv.org/abs/1510.03752],
+    [ATLAS_tW_slep_8TeV_inc, https://arxiv.org/abs/2007.01554],
+    [CMS_tW_8TeV_inc, https://arxiv.org/abs/1401.2942],
+    [ATLAS_tW_13TeV_inc, https://arxiv.org/abs/1612.07231],
+    [CMS_tW_13TeV_inc, https://arxiv.org/abs/1805.07399],
+  ]
+  tZ: [
+    [ATLAS_tZ_13TeV_inc, https://arxiv.org/abs/1712.02825],
+    [ATLAS_tZ_13TeV_run2_inc, https://arxiv.org/abs/2002.07546],
+    [CMS_tZ_13TeV_inc, https://arxiv.org/abs/1712.02825],
+    [CMS_tZ_13TeV_2016_inc, https://arxiv.org/abs/1812.05900],
+  ]
+  HrunI: [
+    [ATLAS_CMS_SSinc_RunI, https://arxiv.org/abs/1606.02266],
+  ]
+  HrunII: [
+    [ATLAS_SSinc_RunII, https://arxiv.org/abs/1909.02845],
+    [CMS_SSinc_RunII, https://arxiv.org/abs/1809.10733],
+    # [ATLAS_ggF_ZZ_13TeV, https://arxiv.org/abs/1909.02845],
+    # [CMS_ggF_aa_13TeV, https://inspirehep.net/literature/1725274],
+    # [CMS_ggF_tautau_13TeV, https://inspirehep.net/literature/1726688],
+  ]
+  Hdiff: [
+    [ATLAS_ggF_ZZ_13TeV, https://arxiv.org/abs/1909.02845],
+    [CMS_ggF_aa_13TeV, https://inspirehep.net/literature/1725274],
+    [CMS_ggF_tautau_13TeV, https://inspirehep.net/literature/1726688],
+    [ATLAS_H_13TeV_2015_pTH, https://inspirehep.net/literature/1743896],
+    [CMS_H_13TeV_2015_pTH, https://arxiv.org/abs/1812.06504],
+    [ATLAS_WH_Hbb_13TeV, https://arxiv.org/abs/1903.04618],
+    [ATLAS_ZH_Hbb_13TeV, https://arxiv.org/abs/1903.04618],
+  ]
+  VV: [
+    [ATLAS_WW_13TeV_2016_memu, https://arxiv.org/abs/1905.04242],
+    [ATLAS_WZ_13TeV_2016_mTWZ, https://arxiv.org/abs/1902.05759],
+    #[CMS_WZ_13TeV_2016_mWZ, https://arxiv.org/abs/1901.03428],
+    [CMS_WZ_13TeV_2016_pTZ, https://arxiv.org/abs/1901.03428],
+  ]
+  LEP: [
+    [LEP_eeWW_182GeV, https://arxiv.org/abs/1302.3415],
+    [LEP_eeWW_189GeV, https://arxiv.org/abs/1302.3415],
+    [LEP_eeWW_198GeV, https://arxiv.org/abs/1302.3415],
+    [LEP_eeWW_206GeV, https://arxiv.org/abs/1302.3415],
+  ]
+
