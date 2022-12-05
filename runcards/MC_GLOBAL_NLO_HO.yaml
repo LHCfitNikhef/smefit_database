@@ -116,10 +116,10 @@ coefficients:
   OpQM: {'min': -10, 'max': 10}
   O3pQ3: {'min': -10.0, 'max': 10.0}
   Opt: {'min': -25.0, 'max': 15.0}
-  OtW: {'min': -10.0, 'max': 10.0}
+  OtW: {'min': -1.0, 'max': 1.0}
+  OtG: {'min': -1.0, 'max': 1.0}
   OtG: {'min': -10.0, 'max': 10.0}
-  OtG: {'min': -10.0, 'max': 10.0}
-  Otp: {'min': -50.0, 'max': 50.0}
+  Otp: {'min': -10.0, 'max': 5.0}
   OtZ: {'min': -10, 'max': 10}
 
   OQQ1: {'min': -10, 'max': 10.0}
