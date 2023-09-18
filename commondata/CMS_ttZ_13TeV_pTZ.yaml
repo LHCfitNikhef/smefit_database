@@ -1,4 +1,9 @@
 dataset_name: CMS_ttZ_13TeV_pTZ
+doi: 10.17182/hepdata.91636.v2/t1
+location: Data from Figure 5a
+arxiv: 1907.11270
+hepdata: https://www.hepdata.net/record/ins1746445?version=2&table=Abs.%20diff.%20cross%20section%3A%20%24p_%7B%5Cmathrm%7BT%7D%7D(%5Cmathrm%7BZ%7D)%24
+units: fb/GeV
 num_data: 4
 num_sys: 1
 data_central:

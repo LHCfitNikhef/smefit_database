@@ -1,5 +1,8 @@
 dataset_name: ATLAS_tZ_13TeV_inc
-num_data: 1
+doi: 10.1016/j.physletb.2018.03.023
+arxiv: 1710.03659
+hepdata: na
+num_data: 1ß
 num_sys: 1
 data_central: 600.0
 statistical_error: 170.0

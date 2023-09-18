@@ -1,4 +1,6 @@
 dataset_name: CMS_WhelF_8TeV
+doi: 10.1016/j.physletb.2016.10.007
+arxiv: 1605.09047
 num_data: 3
 num_sys: 4
 data_central:

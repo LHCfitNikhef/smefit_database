@@ -1,4 +1,8 @@
 dataset_name: ATLAS_t_tch_8TeV
+doi: 10.17182/hepdata.82544.v2/t28
+arxiv: 1702.02859
+hepdata: https://www.hepdata.net/record/ins1512776?version=2&table=Table%2028
+units: fb
 num_data: 4
 num_sys: 1
 data_central:

@@ -1,4 +1,8 @@
 dataset_name: CMS_ttW_13TeV
+doi: 10.1007/JHEP08(2018)011
+arxiv: 1711.02547
+hepdata: na
+units: fb
 num_data: 1
 num_sys: 1
 data_central: 808.5

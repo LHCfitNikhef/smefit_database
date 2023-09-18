@@ -1,4 +1,7 @@
 dataset_name: ATLAS_WhelF_8TeV
+doi: 10.1140/epjc/s10052-017-4819-4
+arxiv: 1612.02577
+hepdata: na
 num_data: 3
 num_sys: 3
 data_central:

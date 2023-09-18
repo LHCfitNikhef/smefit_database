@@ -1,4 +1,6 @@
 dataset_name: CMS_t_tch_8TeV_diff_Yt
+pas: https://cds.cern.ch/record/1956681
+hepdata: na
 num_data: 6
 num_sys: 1
 data_central:

@@ -1,4 +1,8 @@
 dataset_name: ATLAS_t_sch_8TeV
+doi: 10.1016/j.physletb.2016.03.017
+arxiv: 1511.05980
+hepdata: na
+units: pb
 num_data: 1
 num_sys: 2
 data_central: 4.8072

@@ -1,4 +1,8 @@
 dataset_name: ATLAS_ttW_13TeV_2016
+doi: 10.1103/PhysRevD.99.072009
+arxiv: 1901.03584
+hepdata: na
+units: fb
 num_data: 1
 num_sys: 1
 data_central: 870.0

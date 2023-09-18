@@ -1,4 +1,6 @@
 dataset_name: ATLAS_tW_13TeV_inc
+doi: 10.1007/JHEP01(2018)063
+arxiv: 1612.07231
 num_data: 1
 num_sys: 2
 data_central: 96.82
