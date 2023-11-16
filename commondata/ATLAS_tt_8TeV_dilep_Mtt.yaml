@@ -1,4 +1,11 @@
 dataset_name: ATLAS_tt_8TeV_dilep_Mtt
+doi: 10.17182/hepdata.75323.v1/t10
+location: Data from Table 8 in Auxiliary Material
+arxiv: 1607.07281
+hepdata: https://www.hepdata.net/record/ins1477814?version=1&table=Table%2010
+units: pb/GeV
+description: Parton-level absolute differential cross-sections in top-quark pair invariant mass at 8 TeV
+luminosity: 20.2
 num_data: 6
 num_sys: 7
 data_central:

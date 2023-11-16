@@ -1,5 +1,5 @@
 dataset_name: CMS_t_tch_13TeV_diff_Yt
-pas: https://cds.cern.ch/record/2151074
+arxiv: https://cds.cern.ch/record/2151074
 location: Figure 5 (right panel)
 hepdata: na
 units: pb

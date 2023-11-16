@@ -1,4 +1,11 @@
 dataset_name: ATLAS_tt_AC_13TeV
+doi: done
+location: Table 2
+arxiv: https://inspirehep.net/literature/1743677
+hepdata: none
+units: none
+description: statistical error refers to total uncertainty
+luminosity: 139
 num_data: 5
 num_sys: 0
 data_central:

@@ -1,8 +1,11 @@
 dataset_name: ATLAS_t_sch_8TeV
 doi: 10.1016/j.physletb.2016.03.017
+location: abstract
 arxiv: 1511.05980
-hepdata: na
+hepdata: none
 units: pb
+description: inclusive single top-quark production in the s-channel at 8TeV
+luminosity: 20.3
 num_data: 1
 num_sys: 2
 data_central: 4.8072
