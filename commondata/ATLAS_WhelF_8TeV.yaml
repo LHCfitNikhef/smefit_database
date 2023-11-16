@@ -1,7 +1,11 @@
 dataset_name: ATLAS_WhelF_8TeV
 doi: 10.1140/epjc/s10052-017-4819-4
+location: abstract
 arxiv: 1612.02577
-hepdata: na
+hepdata: none
+units: none
+description: W helicity fractions
+luminosity: 20.2
 num_data: 3
 num_sys: 3
 data_central:
