@@ -1,8 +1,11 @@
 dataset_name: CMS_t_tch_13TeV_diff_Yt
-arxiv: https://cds.cern.ch/record/2151074
-location: Figure 5 (right panel)
-hepdata: na
+doi: none
+location: Figure 5 (right panel), (normalised -> absolute)
+arxiv: https://inspirehep.net/literature/1456074
+hepdata: none
 units: pb
+description: single-top-quark production in the t-channel differential in the rapidity of the top + anti-top
+luminosity: 2.3
 num_data: 4
 num_sys: 2
 data_central:

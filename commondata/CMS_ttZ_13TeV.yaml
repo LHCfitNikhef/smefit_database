@@ -1,8 +1,11 @@
 dataset_name: CMS_ttZ_13TeV
 doi: 10.1007/JHEP08(2018)011
+location: abstract
 arxiv: 1711.02547
-hepdata: na
+hepdata: none
 units: fb
+description: inclusive ttZ cross-section
+luminosity: 35.9
 num_data: 1
 num_sys: 1
 data_central: 1089.0

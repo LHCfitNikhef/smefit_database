@@ -4,6 +4,8 @@ location: Data from Figure 5a
 arxiv: 1907.11270
 hepdata: https://www.hepdata.net/record/ins1746445?version=2&table=Abs.%20diff.%20cross%20section%3A%20%24p_%7B%5Cmathrm%7BT%7D%7D(%5Cmathrm%7BZ%7D)%24
 units: fb/GeV
+description: absolute differential tt̄Z production cross section in the full phase space as a function of the transverse momentum of the Z boson
+luminosity: 77.5
 num_data: 4
 num_sys: 1
 data_central:
