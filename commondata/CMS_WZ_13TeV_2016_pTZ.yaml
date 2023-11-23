@@ -3,6 +3,9 @@ doi: 10.17182/hepdata.89320.v1/t5
 location: Data from Table 8 (emm)
 arxiv: 1901.03428
 hepdata: https://www.hepdata.net/record/ins1713417?version=1&table=table_8.txt
+units: none
+description: Normalised differential cross section of WZ production in bins of pT(Z) in the final state emm
+luminosity: 35.9
 num_data: 11
 num_sys: 2
 data_central:

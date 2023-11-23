@@ -1,7 +1,11 @@
 dataset_name: CMS_tW_8TeV_inc
-doi: 10.1007/JHEP01(2016)064
+doi: 10.17182/hepdata.61399.v1/t1
+location: abstract
 arxiv: 1510.03752
-hepdata: na
+hepdata: https://www.hepdata.net/record/ins1276827?version=1&table=Table%201
+units: pb
+description: inclusive tW cross-section
+luminosity: 12.2
 num_data: 1
 num_sys: 1
 data_central: 23.4
