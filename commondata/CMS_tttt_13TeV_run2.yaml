@@ -4,7 +4,7 @@ location: abstract
 arxiv: 1908.06463
 hepdata: none
 units: pb
-description: four top quark production
+description: four top quark inclusive cross section
 luminosity: 137
 num_data: 1
 num_sys: 1
