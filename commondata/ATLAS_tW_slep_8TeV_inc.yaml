@@ -6,9 +6,10 @@ units: pb
 description: inclusive tW cross-section in the single-lepton channel
 luminosity: 20.2
 num_data: 1
-num_sys: 0
+num_sys: 1
 data_central: 26.0
-statistical_error: 7.0
-systematics: []
-sys_names: []
-sys_type: []
+statistical_error: 0
+systematics:
+- 7.0
+sys_names: UNCORR
+sys_type: ADD
