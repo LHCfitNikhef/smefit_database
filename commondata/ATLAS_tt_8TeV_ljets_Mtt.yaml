@@ -1,4 +1,11 @@
 dataset_name: ATLAS_tt_8TeV_ljets_Mtt
+doi: 10.17182/hepdata.84154.v2/t23
+location: Data from Table 30 of the auxiliary material
+arxiv: 1511.04716
+hepdata: https://www.hepdata.net/record/ins1404878?version=2&table=Table%2023
+units: pb/GeV
+description:
+luminosity: 20.3
 num_data: 7
 num_sys: 136
 data_central:

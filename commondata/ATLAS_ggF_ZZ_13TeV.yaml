@@ -1,4 +1,11 @@
 dataset_name: ATLAS_ggF_ZZ_13TeV
+doi: 10.1103/PhysRevD.101.012002
+location: Data from Tab 8
+arxiv: 1909.02845
+hepdata: none
+units: pb
+description: Higgs to ZZ from ggF, differential in pTH and Njets
+luminosity: 79.8 # units: fb^-1.
 num_data: 6
 num_sys: 6
 data_central:

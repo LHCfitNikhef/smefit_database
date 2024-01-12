@@ -1,4 +1,10 @@
 dataset_name: CMS_t_tch_8TeV_diff_Yt
+location: Fig. 4 (normalised -> absolute)
+arxiv: https://inspirehep.net/literature/1323200
+hepdata: none
+units: pb
+description: single top t-channel cross section differential in rapidity of the top quark
+luminosity: 19.7
 num_data: 6
 num_sys: 1
 data_central:

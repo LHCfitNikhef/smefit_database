@@ -1,4 +1,11 @@
 dataset_name: ATLAS_WW_13TeV_2016_memu
+doi: 10.17182/hepdata.89225.v1/t7
+location: Data from Figure(s) 07b
+arxiv: 1905.04242
+hepdata: https://www.hepdata.net/record/ins1734263?version=1&table=Table%207
+units: fb/GeV
+description: Differential fiducial cross-section in the invariant mass memu
+luminosity: 36.1
 num_data: 13
 num_sys: 11
 data_central:

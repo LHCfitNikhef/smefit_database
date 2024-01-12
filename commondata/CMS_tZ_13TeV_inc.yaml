@@ -1,4 +1,11 @@
 dataset_name: CMS_tZ_13TeV_inc
+doi: 10.17182/hepdata.81680.v1/t1
+location: abstract
+arxiv: 1712.02825
+hepdata: https://www.hepdata.net/record/ins1642230?version=1&table=Table%201
+units: pb
+description: inclusive tZ cross-section
+luminosity: 35.9
 num_data: 1
 num_sys: 1
 data_central: 127.72

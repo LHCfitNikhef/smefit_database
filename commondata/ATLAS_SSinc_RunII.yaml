@@ -1,4 +1,11 @@
 dataset_name: ATLAS_SSinc_RunII
+doi: none
+location: Fig. 5
+arxiv: 1909.02845
+hepdata: none
+units: none
+description: Combined ATLAS Higgs signal strengths of Run II.
+luminosity: 80
 num_data: 16
 num_sys: 16
 data_central:

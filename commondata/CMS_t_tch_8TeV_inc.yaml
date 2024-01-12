@@ -1,4 +1,11 @@
 dataset_name: CMS_t_tch_8TeV_inc
+doi: 10.17182/hepdata.64600.v1/t1
+location: Sec. 8 Eq. 7
+arxiv: 1403.7366
+hepdata: https://www.hepdata.net/record/ins1287736?version=1&table=Table%201
+units: pb
+description: single top and anti-top production cross-section in the t-channel
+luminosity: 19.7
 num_data: 2
 num_sys: 10
 data_central:

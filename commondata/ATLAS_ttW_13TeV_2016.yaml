@@ -1,4 +1,11 @@
 dataset_name: ATLAS_ttW_13TeV_2016
+doi: 10.1103/PhysRevD.99.072009
+location: Data from Figure 13 of the paper.
+arxiv: 1901.03584
+hepdata: https://www.hepdata.net/record/ins1713423?version=1&table=Table%201
+units: fb
+description: inclusive ttW cross-section
+luminosity: 36.1
 num_data: 1
 num_sys: 1
 data_central: 870.0
