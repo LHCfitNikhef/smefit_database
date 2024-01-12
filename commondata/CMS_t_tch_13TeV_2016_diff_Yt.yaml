@@ -4,7 +4,7 @@ location: Figure 5 (right panel), (normalised -> absolute)
 arxiv: https://inspirehep.net/literature/1456074
 hepdata: none
 units: pb
-description: single-top-quark production in the t-channel differential in the rapidity of the top + anti-top
+description: single-top-quark production in the t-channel differential in the rapidity of either the top or the anti-top
 luminosity: 2.3
 num_data: 4
 num_sys: 2

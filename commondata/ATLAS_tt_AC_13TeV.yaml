@@ -4,7 +4,7 @@ location: Table 2
 arxiv: https://inspirehep.net/literature/1743677
 hepdata: none
 units: none
-description: statistical error refers to total uncertainty
+description: top-anti-top Charge Asymmetry, statistical error refers to total uncertainty
 luminosity: 139
 num_data: 5
 num_sys: 0
