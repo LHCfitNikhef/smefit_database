@@ -90,10 +90,10 @@ sys_names:
 sys_type:
 - ADD
 - ADD
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
