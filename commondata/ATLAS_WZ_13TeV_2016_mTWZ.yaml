@@ -4,7 +4,7 @@ location: Data from Figure 4 of the paper, Auxiliary Table 4
 arxiv: 1902.05759
 hepdata: https://www.hepdata.net/record/ins1720438?version=1&table=Table%2012
 units: fb/GeV
-description: Differential fiducual cross-section in mTWZ
+description: Differential fiducial cross-section in mTWZ
 luminosity: 36.1
 num_data: 6
 num_sys: 9
@@ -90,10 +90,10 @@ sys_names:
 sys_type:
 - ADD
 - ADD
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
