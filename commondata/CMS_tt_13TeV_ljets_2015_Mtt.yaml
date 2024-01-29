@@ -1,4 +1,11 @@
 dataset_name: CMS_tt_13TeV_ljets_2015_Mtt
+doi: 10.17182/hepdata.76554.v1/t93
+location: Fig. 9 bottom left
+arxiv: 1610.04191
+hepdata: https://www.hepdata.net/record/ins1491950?version=1&table=Table%2093
+units: pb/GeV
+description: Top-quark pair production differential in mtt in the lepton + jets channel
+luminosity: 2.3
 num_data: 8
 num_sys: 8
 data_central:

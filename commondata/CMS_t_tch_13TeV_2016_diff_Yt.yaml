@@ -1,151 +1,35 @@
 dataset_name: CMS_t_tch_13TeV_2016_diff_Yt
-num_data: 5
-num_sys: 19
+doi: none
+location: Figure 5 (right panel), (normalised -> absolute)
+arxiv: https://inspirehep.net/literature/1456074
+hepdata: none
+units: pb
+description: single-top-quark production in the t-channel differential in the rapidity of either the top or the anti-top
+luminosity: 2.3
+num_data: 4
+num_sys: 2
 data_central:
-- 15.5
-- 14.2
-- 13.1
-- 12.4
-- 6.8
+- 151.368
+- 132.328
+- 121.38
+- 42.84
 statistical_error:
-- 0.909
-- 0.485
-- 0.53
-- 0.554
-- 0.297
+- 19.992
+- 15.232
+- 14.28
+- 9.52
 systematics:
-- - 0.22
-  - 0.0873
-  - 0.135
-  - 0.147
-  - 0.0761
-- - 0.258
-  - 0.0667
-  - 0.15
-  - 0.191
-  - 0.133
-- - 0.104
-  - 0.0603
-  - 0.065
-  - 0.068
-  - 0.0534
-- - 0.077
-  - 0.0755
-  - 0.119
-  - 0.0487
-  - 0.08
-- - 0.209
-  - 0.157
-  - 0.232
-  - 0.131
-  - 0.107
-- - 0.181
-  - 0.103
-  - 0.166
-  - 0.14
-  - 0.0731
-- - 0.234
-  - 0.165
-  - 0.155
-  - 0.0624
-  - 0.0966
-- - 0.42
-  - 0.104
-  - 0.412
-  - 0.392
-  - 0.0426
-- - 0.308
-  - 0.19
-  - 0.257
-  - 0.204
-  - 0.118
-- - 0.354
-  - 0.0977
-  - 0.321
-  - 0.122
-  - 0.0355
-- - 2.16
-  - 1.24
-  - 1.3
-  - 1.11
-  - 0.679
-- - 0.305
-  - 0.27
-  - 0.384
-  - 0.24
-  - 0.0781
-- - 0.939
-  - 0.347
-  - 0.552
-  - 0.256
-  - 0.249
-- - 0.619
-  - 0.42
-  - 0.215
-  - 0.382
-  - 0.202
-- - 0.194
-  - 0.138
-  - 0.159
-  - 0.0894
-  - 0.0749
-- - 0.367
-  - 0.0758
-  - 0.061
-  - 0.105
-  - 0.149
-- - 1.4
-  - 0.661
-  - 0.96
-  - 0.458
-  - 0.381
-- - 0.228
-  - 0.126
-  - 0.0575
-  - 0.145
-  - 0.00549
-- - 0.388
-  - 0.355
-  - 0.328
-  - 0.31
-  - 0.17
+- - 27.846
+  - 22.372
+  - 21.896
+  - 16.422
+- - 3.481464
+  - 3.043544
+  - 2.79174
+  - 0.98532
 sys_names:
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
-- CORR
+- UNCORR
 - CMSLUMI15
 sys_type:
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
-- MULT
 - MULT
 - MULT

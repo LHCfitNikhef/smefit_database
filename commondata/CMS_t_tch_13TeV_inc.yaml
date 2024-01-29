@@ -1,4 +1,11 @@
 dataset_name: CMS_t_tch_13TeV_inc
+doi: 10.1016/j.physletb.2017.07.047
+location: Sec. 7
+arxiv: 1610.00678
+hepdata: none
+units: pb
+description: single top and anti-top production cross-section in the t-channel
+luminosity: 2.2
 num_data: 2
 num_sys: 13
 data_central:
