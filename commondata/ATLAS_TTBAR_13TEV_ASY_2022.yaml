@@ -1,0 +1,62 @@
+dataset_name: ATLAS_TTBAR_13TEV_ASY_2022
+doi: 10.17182/hepdata.132116.v1/t3
+location: Tab.3 combination
+arxiv: 2208.12095
+hepdata:
+- https://www.hepdata.net/record/ins2141752?version=1&table=Results%20for%20charge%20asymmetry%20vs%20mtt
+- https://www.hepdata.net/record/ins2141752?version=1&table=Covariance%20matrix%20charge%20asymmetry%20vs%20mtt
+units: none
+description: charge asymmetry differential in mtt
+luminosity: 139
+num_data: 5
+num_sys: 5
+data_central:
+- 0.005935
+- 0.005503
+- 0.01024
+- 0.02458
+- 0.001395
+statistical_error:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+systematics:
+- - 8.219426422882994e-05
+  - 3.9082934585204666e-05
+  - -0.0004898948358639641
+  - 0.0026151171038450573
+  - -0.028802236157941297
+- - 0.0001857897571276196
+  - 0.0004746176902787251
+  - -0.0032450360739940767
+  - 0.008091249670662574
+  - 0.000791018863940574
+- - 0.0005943560269702022
+  - -0.0008768274449410671
+  - 0.004443171507785
+  - 0.0018110052512322282
+  - 8.936416199312327e-05
+- - 0.00034438454661709766
+  - 0.002004018899450306
+  - 0.0003442533549562156
+  - 1.2702557879909913e-05
+  - -9.999185588899438e-07
+- - 0.003521847876659337
+  - -0.0005219410452750159
+  - -0.0004759206953683497
+  - -0.000240690517495899
+  - -4.416535236344437e-06
+sys_names:
+- CORR
+- CORR
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD

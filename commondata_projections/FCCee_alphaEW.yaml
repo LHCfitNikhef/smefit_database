@@ -1,0 +1,10 @@
+dataset_name: FCCee_alphaEW
+luminosity: 150000
+num_data: 1
+num_sys: 1
+data_central: 0.007867785356962422
+statistical_error: 0.000231174
+systematics:
+- 5.32936e-09
+sys_names: UNCORR
+sys_type: ADD

@@ -1,0 +1,10 @@
+dataset_name: FCCee_bb_Afb_365GeV
+luminosity: 1500
+num_data: 1
+num_sys: 1
+data_central: 0.6026283462869723
+statistical_error: 0.00201041
+systematics:
+- 0.0
+sys_names: null
+sys_type: null

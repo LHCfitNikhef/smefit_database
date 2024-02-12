@@ -1,0 +1,60 @@
+dataset_name: ATLAS_tt_AC_13TeV
+doi: done
+location: Table 2
+arxiv: https://inspirehep.net/literature/1743677
+hepdata: none
+units: none
+description: top-anti-top Charge Asymmetry, statistical error refers to total uncertainty
+luminosity: 139
+num_data: 5
+num_sys: 0
+data_central:
+- 0.010757382701571795
+- 0.008939433046324989
+- 0.0047341213630959535
+- 0.006284776003259248
+- 0.012838672655199643
+statistical_error:
+- 0.0006027050135292831
+- 0.000430503581092345
+- 0.0010547337736762452
+- 0.0015498128919324422
+- 0.005962474598128978
+systematics:
+- - 0.0034
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0.0021
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0.0046
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0.0027
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 0.015
+sys_names:
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD

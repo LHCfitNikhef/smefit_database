@@ -1,0 +1,10 @@
+dataset_name: FCCee_bb_240GeV
+luminosity: 5000
+num_data: 1
+num_sys: 1
+data_central: 0.2507258693422858
+statistical_error: 0.000213759
+systematics:
+- 0.0
+sys_names:
+sys_type:

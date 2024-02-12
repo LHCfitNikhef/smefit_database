@@ -1,0 +1,10 @@
+dataset_name: FCCee_vvh_gg_365GeV
+luminosity: 1500
+num_data: 1
+num_sys: 1
+data_central: 0.0015190626666666668
+statistical_error: 0.0000683578
+systematics:
+- 0.0
+sys_names:
+sys_type:

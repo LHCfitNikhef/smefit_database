@@ -1,0 +1,16 @@
+dataset_name: CMS_4TOP_13TEV_SLEP_TOTAL
+data_central: 28.5
+doi:
+location:
+arxiv: 1906.02805
+hepdata: none
+units:
+description:
+luminosity: 35.8
+num_data: 1
+num_sys: 1
+statistical_error: 0.0
+sys_names: UNCORR
+sys_type: ADD
+systematics:
+- 34.30378987809
