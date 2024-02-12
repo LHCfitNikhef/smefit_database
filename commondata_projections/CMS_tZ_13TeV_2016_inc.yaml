@@ -1,14 +1,15 @@
 dataset_name: CMS_tZ_13TeV_2016_inc
+category: tZ
 doi: 10.1103/PhysRevLett.122/132003
-arxiv: 1812.059
+arxiv: 1812.05900
 hepdata: none
 units: pb
 description: inclusive tZ cross-section
 luminosity: 77.4
 num_data: 1
 num_sys: 1
-data_central: 86.43076573751267
-statistical_error: 2.0881091925471718
+data_central: 112.0
+statistical_error: 13.0
 systematics:
 - 10.0
 sys_names: UNCORR

@@ -1,4 +1,5 @@
 dataset_name: CMS_TTBAR_13TEV_LJETS_TOTAL
+category: tt13
 doi: 10.1103/PhysRevD.104.092013
 location: abstract
 arxiv: 2108.02803

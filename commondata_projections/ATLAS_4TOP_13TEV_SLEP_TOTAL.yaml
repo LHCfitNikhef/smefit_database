@@ -1,4 +1,5 @@
 dataset_name: ATLAS_4TOP_13TEV_SLEP_TOTAL
+category: 4H
 doi: 10.17182/hepdata.105039.v1/t2
 location: abstract
 arxiv: 2106.11683
@@ -8,8 +9,8 @@ description: 4 top production in the single-lepton channel
 luminosity: 139
 num_data: 1
 num_sys: 1
-data_central: 28.433523131266558
-statistical_error: 1.7220143243693802
+data_central: 27.0
+statistical_error: 8
 systematics:
 - 14.612449097911455
 sys_names: UNCORR

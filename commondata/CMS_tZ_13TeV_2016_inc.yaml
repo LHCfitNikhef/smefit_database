@@ -1,4 +1,5 @@
 dataset_name: CMS_tZ_13TeV_2016_inc
+category: tZ
 doi: 10.1103/PhysRevLett.122/132003
 arxiv: 1812.05900
 hepdata: none

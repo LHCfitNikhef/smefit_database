@@ -1,0 +1,37 @@
+dataset_name: ATLAS_ZH_Hbb_13TeV
+category: Hdiff
+doi: 10.1007/JHEP05%282019%29141
+location: Tab. 3
+arxiv: 1903.04618
+hepdata: none
+units: fb
+description: ZH production, H to bb
+luminosity: 79.8
+num_data: 3
+num_sys: 3
+data_central:
+- 24.714631522969263
+- 20.281946620287847
+- 4.4369804480223385
+statistical_error:
+- 5.708327250605032
+- 1.79404570733301
+- 0.6034517379211034
+systematics:
+- - 10.0
+  - 1.0
+  - 0.8
+- - 21.0
+  - 6.0
+  - 1.2
+- - 19.0
+  - 3.0
+  - 0.6
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- MULT
+- MULT
+- MULT

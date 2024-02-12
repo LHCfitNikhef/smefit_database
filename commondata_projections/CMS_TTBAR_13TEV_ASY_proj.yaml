@@ -1,0 +1,32 @@
+dataset_name: CMS_TTBAR_13TEV_ASY
+category: AC
+doi: none
+location: Tab.2
+arxiv: https://inspirehep.net/files/ed1440bf77ee87d1406fd5f4cb5ab630
+hepdata: none
+units: none
+description: charge asymmetry differential in mtt
+luminosity: 138
+data_central:
+- 0.009741146987365706
+- 0.020762446137258778
+- 0.020979718849899
+num_data: 3
+num_sys: 2
+statistical_error:
+- 0.0009436948659391975
+- 0.001394094688319269
+- 0.0012439614141925785
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
+systematics:
+- - 0.00384187454246
+  - 0.005267589581583
+  - 0.006462778040441
+- - 0.0032
+  - 0.004402272140611
+  - 0.004050617236916

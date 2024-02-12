@@ -1,4 +1,5 @@
 dataset_name: FCCee_cc_Afb_365GeV
+category: FCC
 luminosity: 1500
 num_data: 1
 num_sys: 1

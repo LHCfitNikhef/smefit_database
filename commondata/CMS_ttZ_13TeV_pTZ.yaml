@@ -1,4 +1,5 @@
 dataset_name: CMS_ttZ_13TeV_pTZ
+category: ttZ
 doi: 10.17182/hepdata.91636.v2/t1
 location: Data from Figure 5a
 arxiv: 1907.11270

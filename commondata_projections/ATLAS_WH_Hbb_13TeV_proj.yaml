@@ -1,0 +1,32 @@
+dataset_name: ATLAS_WH_Hbb_13TeV
+category: Hdiff
+doi: 10.1007/JHEP05%282019%29141
+location: Tab. 3
+arxiv: 1903.04618
+hepdata: none
+units: fb
+description: WH production, H to bb
+luminosity: 79.8
+num_data: 2
+num_sys: 3
+data_central:
+- 47.39366334006924
+- 12.652294107983787
+statistical_error:
+- 2.7726160931510155
+- 0.7176182829332041
+systematics:
+- - 2.0
+  - 0.5
+- - 13.0
+  - 2.5
+- - 9.0
+  - 0.9
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- MULT
+- MULT
+- MULT

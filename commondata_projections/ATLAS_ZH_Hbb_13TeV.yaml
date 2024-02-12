@@ -1,4 +1,5 @@
 dataset_name: ATLAS_ZH_Hbb_13TeV
+category: Hdiff
 doi: 10.1007/JHEP05%282019%29141
 location: Tab. 3
 arxiv: 1903.04618
@@ -9,13 +10,13 @@ luminosity: 79.8
 num_data: 3
 num_sys: 3
 data_central:
-- 28.548545533767445
-- 20.256769835820165
-- 6.128767961759156
+- 81.0
+- 14.0
+- 8.5
 statistical_error:
-- 5.708327250605032
-- 1.79404570733301
-- 0.6034517379211034
+- 35.0
+- 11.0
+- 3.7
 systematics:
 - - 10.0
   - 1.0

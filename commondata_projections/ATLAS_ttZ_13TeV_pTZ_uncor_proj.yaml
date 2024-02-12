@@ -1,0 +1,98 @@
+dataset_name: ATLAS_ttZ_13TeV_pTZ
+category: ttZ
+doi: 10.17182/hepdata.100351.v2/t6
+location: Data from Figure 9B
+arxiv: 2103.12603
+hepdata:
+- https://www.hepdata.net/record/ins1853014?version=2&table=Table%206
+units: fb/GeV
+description: The absolute parton-level differential cross-section measured in the
+  fiducial phase-space as a function of the $p_{\textrm{T}}$ of the $Z$ boson in the
+  3$\ell$+4$\ell$ channel. The uncertainty is decomposed into four components which
+  are the signal modelling uncertainty, the background modelling uncertainty, the
+  experimental uncertainty, and the data statistical uncertainty.
+luminosity: 139
+num_data: 7
+num_sys: 7
+data_central:
+- 2.015084880680659
+- 4.176320202455241
+- 4.749116721910971
+- 2.9654628621141326
+- 2.524470066185839
+- 1.0599297084208477
+- 0.3099098560135257
+statistical_error:
+- 0.11415448208035167
+- 0.202037483124543
+- 0.16105354220455176
+- 0.11787188050308407
+- 0.06631477163146483
+- 0.03523026055869206
+- 0.022685386205661122
+systematics:
+- - 0.3048918266809813
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.7932975343992449
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.6646105312280188
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.5825213055539213
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.20583482926970523
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.05845814835860023
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.08033891730706026
+sys_names:
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD

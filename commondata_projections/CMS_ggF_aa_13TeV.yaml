@@ -1,4 +1,5 @@
 dataset_name: CMS_ggF_aa_13TeV
+category: Hdiff
 doi: none
 location: Table 6, first 6 entries. See Table 1 for bin definitions.
 arxiv: https://inspirehep.net/files/82aa29e742f4324970d810e88817b0ac
@@ -9,19 +10,19 @@ luminosity: 77.4
 num_data: 6
 num_sys: 1
 data_central:
-- 57.88059784822398
-- 14.767728419218438
-- 10.378344073579347
-- 1.7028900987201374
-- 14.24822785897656
-- 1.1980845989237674
+- 72.61
+- 21.75
+- 7.6
+- 3.155
+- 8.4
+- 2.965
 statistical_error:
-- 1.7636491487821497
-- 1.3251462183472436
-- 0.6424951361683605
-- 0.19114230301008725
-- 0.8834308122314957
-- 0.1252865515528303
+- 10.98
+- 8.25
+- 4.0
+- 1.19
+- 5.5
+- 0.78
 systematics:
 - - 5.49
   - 3.0

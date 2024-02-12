@@ -1,4 +1,5 @@
 dataset_name: ATLAS_tttt_13TeV_run2
+category: 4H
 doi: 10.17182/hepdata.100170.v1/t1
 location: Sec. 5 page 15
 arxiv: 2007.14858
@@ -8,8 +9,8 @@ description: inclusive cross-section
 luminosity: 139
 num_data: 1
 num_sys: 1
-data_central: 11.2449278584932
-statistical_error: 1.0762589527308626
+data_central: 24.5
+statistical_error: 5.0
 systematics:
 - 4.5
 sys_names: UNCORR
