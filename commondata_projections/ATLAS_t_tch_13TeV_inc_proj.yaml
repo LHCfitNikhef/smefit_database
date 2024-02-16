@@ -1,0 +1,28 @@
+dataset_name: ATLAS_t_tch_13TeV_inc
+category: t13
+doi: 10.1007/JHEP04(2017)086
+location: abstract
+arxiv: 1609.0392
+hepdata: https://www.hepdata.net/record/ins1486394?version=1&table=Table%203
+units: pb
+description: inclusive single top-quark production in the t-channel at 13TeV
+luminosity: 3.2
+num_data: 2
+num_sys: 2
+data_central:
+- 145.9334642090627
+- 96.03840243415766
+statistical_error:
+- 0.16329931618554522
+- 0.13063945294843618
+systematics:
+- - 13.5
+  - 9.0
+- - 1.5
+  - 1.0
+sys_names:
+- UNCORR
+- ATLASLUMI15
+sys_type:
+- MULT
+- MULT

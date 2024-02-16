@@ -1,0 +1,17 @@
+dataset_name: CMS_tttt_13TeV_run2
+category: 4H
+doi: none
+location: abstract
+arxiv: 1908.06463
+hepdata: none
+units: pb
+description: four top quark inclusive cross section
+luminosity: 137
+num_data: 1
+num_sys: 1
+data_central: 15.191791277276591
+statistical_error: 0.0
+systematics:
+- 1.8315000000000001
+sys_names: UNCORR
+sys_type: MULT

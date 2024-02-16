@@ -1,0 +1,72 @@
+dataset_name: CMS_t_tch_13TeV_inc
+category: t13
+doi: 10.1016/j.physletb.2017.07.047
+location: Sec. 7
+arxiv: 1610.00678
+hepdata: none
+units: pb
+description: single top and anti-top production cross-section in the t-channel
+luminosity: 2.2
+num_data: 2
+num_sys: 13
+data_central:
+- 143.66880532747703
+- 89.2903662916574
+statistical_error:
+- 0.22102800486212903
+- 0.264708251351055
+systematics:
+- - 4.389
+  - 2.0825
+- - 1.771
+  - 0.9775
+- - 6.314
+  - 3.6125
+- - 1.6555
+  - 0.95625
+- - 1.6555
+  - 0.95625
+- - 0.75075
+  - 0.51
+- - 0.75075
+  - 0.51
+- - 4.1965
+  - 2.61375
+- - 2.926
+  - 1.6575
+- - 0.539
+  - 0.3825
+- - 2.5025
+  - 1.84875
+- - 1.4245
+  - 0.82875
+- - 0.154
+  - 0.085
+sys_names:
+- CORR
+- CMSLUMI15
+- CORR
+- CORR
+- UNCORR
+- CORR
+- UNCORR
+- CORR
+- CORR
+- CORR
+- CORR
+- UNCORR
+- CORR
+sys_type:
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
+- MULT
