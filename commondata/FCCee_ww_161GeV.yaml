@@ -1,0 +1,30 @@
+dataset_name: FCCee_ww_161GeV
+luminosity: 10000
+num_data: 3
+num_sys: 3
+data_central:
+- 2.873
+- 2.873
+- 2.873
+statistical_error:
+- 0.000551616
+- 0.000551616
+- 0.000551616
+systematics:
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD

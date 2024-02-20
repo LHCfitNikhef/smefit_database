@@ -1,0 +1,16 @@
+dataset_name: CMS_tW_13TeV_slep_inc
+doi: 10.17182/hepdata.102957.v1/t1
+location: abstract
+arxiv: 2109.01706
+hepdata: https://www.hepdata.net/record/ins1917152?version=1&table=Cross%20section
+units: pb
+description: inclusive tW cross-section in the single leptonic channel
+luminosity: 36
+data_central: 89.0
+num_data: 1
+num_sys: 1
+statistical_error: 4.0
+sys_names: UNCORR
+sys_type: ADD
+systematics:
+- 12.0

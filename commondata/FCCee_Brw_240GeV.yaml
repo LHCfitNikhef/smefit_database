@@ -1,0 +1,30 @@
+dataset_name: FCCee_Brw_240GeV
+luminosity: 5000
+num_data: 3
+num_sys: 3
+data_central:
+- 0.1083
+- 0.1083
+- 0.1083
+statistical_error:
+- 0.0000373635
+- 0.0000373635
+- 0.0000373635
+systematics:
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD
