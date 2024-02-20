@@ -1,5 +1,4 @@
 dataset_name: CMS_t_sch_8TeV
-category: t8
 doi: 10.1007/JHEP09(2016)027
 location: Sec. 9, combined
 arxiv: 1603.02555
@@ -9,7 +8,7 @@ description: single top quark production cross-section in the s-channel
 luminosity: 19.7
 num_data: 1
 num_sys: 1
-data_central: 13.4
+data_central: 6.607720998692464
 statistical_error: 0
 systematics:
 - 7.3

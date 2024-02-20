@@ -1,5 +1,4 @@
 dataset_name: ATLAS_ttZ_8TeV
-category: ttZ
 doi: 10.1007/JHEP11(2015)172
 location: Eq. 5 in Sec. 7
 arxiv: 1509.05276
@@ -9,7 +8,7 @@ description: inclusive ttZ cross-section
 luminosity: 20.3
 num_data: 1
 num_sys: 1
-data_central: 178.0
+data_central: 202.0098760025148
 statistical_error: 50.0
 systematics:
 - 24.0

@@ -1,5 +1,4 @@
 dataset_name: CMS_tZ_13TeV_inc
-category: tZ
 doi: 10.17182/hepdata.81680.v1/t1
 location: abstract
 arxiv: 1712.02825
@@ -9,7 +8,7 @@ description: inclusive tZ cross-section
 luminosity: 35.9
 num_data: 1
 num_sys: 1
-data_central: 127.72
+data_central: 78.00630139797732
 statistical_error: 32.0
 systematics:
 - 26.0

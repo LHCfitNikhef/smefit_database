@@ -1,5 +1,4 @@
 dataset_name: CMS_ttbb_13TeV
-category: 4H
 doi: none
 location: Tab. 3, bottom row
 arxiv: 1705.10141
@@ -9,7 +8,7 @@ description: ttbar cross-section in association with b jets
 luminosity: 2.3
 num_data: 1
 num_sys: 1
-data_central: 4.0
+data_central: 7.193784400726349
 statistical_error: 0.6
 systematics:
 - 1.3

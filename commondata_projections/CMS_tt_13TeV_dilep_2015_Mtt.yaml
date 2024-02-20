@@ -1,21 +1,21 @@
 dataset_name: CMS_tt_13TeV_dilep_2015_Mtt
-category: tt13
 doi: 10.17182/hepdata.81686.v1/t13
 location: Fig. 6, lower left (normalised -> absolute)
 arxiv: 1708.07638
 hepdata: https://www.hepdata.net/record/ins1620050?version=1&table=Table%2013
 units: pb/GeV
-description: top-quark pair production differential in the invariant mass of the top pair in the dilepton decay channel
+description: top-quark pair production differential in the invariant mass of the top
+  pair in the dilepton decay channel
 luminosity: 2.1
 num_data: 6
 num_sys: 4
 data_central:
-- 2.71917
-- 3.03264
-- 1.43613
-- 0.447606
-- 0.105705
-- 0.0239112
+- 2.524138510439728
+- 3.265647049260551
+- 1.6772899498823344
+- 0.5742258008226471
+- 0.09703069027171385
+- 0.0352762194991854
 statistical_error:
 - 0.1458
 - 0.08019

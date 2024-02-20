@@ -1,5 +1,4 @@
 dataset_name: CMS_tttt_13TeV
-category: 4H
 doi: none
 location: abstract
 arxiv: 1710.10614
@@ -9,7 +8,7 @@ description: Four top quark inclusive cross section
 luminosity: 35.9
 num_data: 1
 num_sys: 1
-data_central: 17.1028
+data_central: 2.838794891320431
 statistical_error: 0.0
 systematics:
 - 12.6

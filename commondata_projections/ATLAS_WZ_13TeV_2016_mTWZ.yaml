@@ -1,5 +1,4 @@
 dataset_name: ATLAS_WZ_13TeV_2016_mTWZ
-category: VV
 doi: 10.17182/hepdata.83701.v1/t12
 location: Data from Figure 4 of the paper, Auxiliary Table 4
 arxiv: 1902.05759
@@ -10,12 +9,12 @@ luminosity: 36.1
 num_data: 6
 num_sys: 9
 data_central:
-- 7.77
-- 25.65
-- 21.74
-- 7.76
-- 0.59
-- 0.42
+- 6.76512904252156
+- 27.758119012717497
+- 24.085583689063125
+- 8.512482448779158
+- 0.7506707914669135
+- 0.4019643630051463
 statistical_error:
 - 0.55167
 - 0.8208

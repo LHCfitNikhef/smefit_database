@@ -1,22 +1,21 @@
 dataset_name: ATLAS_tt_8TeV_ljets_Mtt
-category: tt8
 doi: 10.17182/hepdata.84154.v2/t23
 location: Data from Table 30 of the auxiliary material
 arxiv: 1511.04716
 hepdata: https://www.hepdata.net/record/ins1404878?version=2&table=Table%2023
 units: pb/GeV
-description:
+description: null
 luminosity: 20.3
 num_data: 7
 num_sys: 136
 data_central:
-- 1.13889
-- 1.11504
-- 0.678057
-- 0.349925
-- 0.146934
-- 0.0367417
-- 0.00436023
+- 1.0549898182193307
+- 1.0221554206634111
+- 0.5996902871142566
+- 0.3152861679600436
+- 0.13189066252990445
+- 0.03239484532292012
+- 0.0026059929859349566
 statistical_error:
 - 0.0
 - 0.0

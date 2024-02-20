@@ -1,5 +1,4 @@
 dataset_name: CMS_t_tch_8TeV_inc
-category: t8
 doi: 10.17182/hepdata.64600.v1/t1
 location: Sec. 8 Eq. 7
 arxiv: 1403.7366
@@ -10,8 +9,8 @@ luminosity: 19.7
 num_data: 2
 num_sys: 10
 data_central:
-- 53.8
-- 27.6
+- 62.96864883189458
+- 31.907735032374653
 statistical_error:
 - 2.7
 - 4.9

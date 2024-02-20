@@ -1,26 +1,26 @@
 dataset_name: CMS_WZ_13TeV_2016_pTZ
-category: VV
 doi: 10.17182/hepdata.89320.v1/t5
 location: Data from Table 8 (emm)
 arxiv: 1901.03428
 hepdata: https://www.hepdata.net/record/ins1713417?version=1&table=table_8.txt
 units: none
-description: Normalised differential cross section of WZ production in bins of pT(Z) in the final state emm
+description: Normalised differential cross section of WZ production in bins of pT(Z)
+  in the final state emm
 luminosity: 35.9
 num_data: 11
 num_sys: 2
 data_central:
-- 0.052
-- 0.132
-- 0.175
-- 0.186
-- 0.149
-- 0.083
-- 0.108
-- 0.043
-- 0.041
-- 0.02
-- 0.01
+- 0.04113664530739095
+- 0.13928296356678008
+- 0.17078848747623857
+- 0.1618451080349648
+- 0.15493420861897234
+- 0.13291293196137155
+- 0.10341485314733834
+- 0.05589887355777946
+- 0.050909441136422255
+- 0.030111587953246012
+- 0.008364218495280441
 statistical_error:
 - 0.012
 - 0.021

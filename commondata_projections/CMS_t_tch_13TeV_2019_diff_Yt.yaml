@@ -1,20 +1,20 @@
 dataset_name: CMS_t_tch_13TeV_2019_diff_Yt
-category: t13
 doi: 10.1140/epjc/s10052-020-7858-1
 location: Fig. 7, upper row, right column (page 18 of preprint)
-arxiv: 1907.08330
+arxiv: 1907.0833
 hepdata: https://www.hepdata.net/record/ins1744604?version=1&table=Table%203
 units: pb
-description: single-top-quark production in the t-channel differential in the rapidity of the top
+description: single-top-quark production in the t-channel differential in the rapidity
+  of the top
 luminosity: 35.9
 num_data: 5
 num_sys: 19
 data_central:
-- 15.5
-- 14.2
-- 13.1
-- 12.4
-- 6.8
+- 11.524100211591861
+- 13.388218148274614
+- 12.263085696440342
+- 12.15674472591491
+- 6.048000817542405
 statistical_error:
 - 0.909
 - 0.485

@@ -2,9 +2,9 @@ dataset_name: LEP_Brw_2013
 num_data: 3
 num_sys: 3
 data_central:
-- 0.1071
-- 0.1063
-- 0.1138
+- 0.10877812349616638
+- 0.10782241615542221
+- 0.10927553353273176
 statistical_error:
 - 0.0
 - 0.0

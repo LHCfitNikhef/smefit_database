@@ -1,38 +1,37 @@
 dataset_name: ATLAS_CMS_SSinc_RunI
-category: HrunI
 doi: 10.17182/hepdata.78403.v1/t2
 location: Data from Tab 8, Fig 7 (first 20), Data from Fig 1 (last two)
 arxiv: 1606.02266, 1507.04548
 hepdata: https://www.hepdata.net/record/ins1468068?version=1&table=Table%202
 units: none
-description: Combined ATLAS and CMS Higgs signal strengths of Run I. First 20 datapoints are from 1606.02266, 
-  last 2 from 1507.04548.
-luminosity: 20 # units: fb^-1. Note: 5fb^-1 at 7 TeV and 20fb^-1 at 8TeV. Dataset consists of both 7 and 8 TeV.
+description: Combined ATLAS and CMS Higgs signal strengths of Run I. First 20 datapoints
+  are from 1606.02266, last 2 from 1507.04548.
+luminosity: 20
 num_data: 22
 num_sys: 22
 data_central:
-- 1.1065
-- 1.152
-- 0.8415
-- 1.045
-- 1.3105
-- 0.315
-- 1.2
-- 1.275
-- 0.52
-- 1.665
-- -1.4
-- 1.05
-- 0.885
-- 6.15
-- 2.47
-- 0.365
-- 2.405
-- 5.005
-- -1.575
-- 1.065
-- 2.7
-- -0.7
+- 0.9234043030994664
+- 1.1966842956833115
+- 1.0383451793811946
+- -0.41019627576464446
+- 0.24652828406355987
+- -3.886080234968505
+- 0.6641350379246215
+- 0.885409864419146
+- -0.9198341089763893
+- 3.273741016013662
+- 0.7245361338015517
+- 0.8160775930390399
+- 3.3593970790715013
+- -0.4090819935017609
+- -0.16918848677551224
+- 0.961346000750531
+- 0.01904198454963968
+- 1.0721694470561791
+- 5.529112021546549
+- 1.9151449389830812
+- 3.9151909045504087
+- 3.0706991322956547
 statistical_error:
 - 0.215
 - 0.3187737821288

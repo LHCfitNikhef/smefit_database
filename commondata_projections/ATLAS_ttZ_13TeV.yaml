@@ -1,5 +1,4 @@
 dataset_name: ATLAS_ttZ_13TeV
-category: ttZ
 doi: 10.1140/epjc/s10052-016-4574-y
 location: Sec. 7
 arxiv: 1609.01599
@@ -9,7 +8,7 @@ description: inclusive ttZ cross-section
 luminosity: 3.2
 num_data: 1
 num_sys: 1
-data_central: 920.0
+data_central: 1132.7050488001626
 statistical_error: 290.0
 systematics:
 - 100.0

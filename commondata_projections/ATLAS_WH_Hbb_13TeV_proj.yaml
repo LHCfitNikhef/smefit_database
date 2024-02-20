@@ -1,5 +1,4 @@
 dataset_name: ATLAS_WH_Hbb_13TeV
-category: Hdiff
 doi: 10.1007/JHEP05%282019%29141
 location: Tab. 3
 arxiv: 1903.04618
@@ -10,8 +9,8 @@ luminosity: 79.8
 num_data: 2
 num_sys: 3
 data_central:
-- 25.60111321642951
-- 7.155297765810796
+- 26.335756022692504
+- 6.690095917643906
 statistical_error:
 - 2.7726160931510155
 - 0.7176182829332041

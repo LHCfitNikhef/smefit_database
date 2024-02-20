@@ -1,31 +1,31 @@
 dataset_name: CMS_tt2D_8TeV_dilep_MttYtt
-category: tt8
 doi: 10.17182/hepdata.77008.v1/t7
 location: Tab 11 (normalised -> absolute)
-arxiv: 1703.01630
+arxiv: 1703.0163
 hepdata: https://www.hepdata.net/record/ins1516191?version=1&table=Table%2011
 units: pb/GeV
-description: Double differential cross-section for top quark pair production in mtt and ytt
+description: Double differential cross-section for top quark pair production in mtt
+  and ytt
 luminosity: 19.7
 num_data: 16
 num_sys: 47
 data_central:
-- 776.333
-- 751.843
-- 597.556
-- 223.8386
-- 749.394
-- 675.924
-- 502.045
-- 157.4707
-- 328.166
-- 286.533
-- 187.5934
-- 45.3065
-- 36.4901
-- 28.8982
-- 15.99197
-- 2.32655
+- 723.2409671953561
+- 671.2950676881323
+- 630.1489277018982
+- 211.76295174569634
+- 781.28692883952
+- 560.7262872657764
+- 439.13043650353046
+- 158.79105598163437
+- 282.84505870276854
+- 256.5884695392945
+- 159.53849081048944
+- 51.79653132799031
+- 30.952598703013788
+- 27.46896742855364
+- 18.04162578022818
+- 1.5754650540392423
 statistical_error:
 - 0.0
 - 0.0

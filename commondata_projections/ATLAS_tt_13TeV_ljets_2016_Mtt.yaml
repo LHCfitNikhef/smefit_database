@@ -1,22 +1,22 @@
 dataset_name: ATLAS_tt_13TeV_ljets_2016_Mtt
-category: tt13
 doi: 10.17182/hepdata.95758.v1/t838
 location: Data from Figure 065a
 arxiv: 1908.07305
 hepdata: https://www.hepdata.net/record/ins1750330?version=1&table=Table%20837
 units: pb/GeV
-description: Absolute differential cross-section in the invariant mass of the top-quark pair at parton level
+description: Absolute differential cross-section in the invariant mass of the top-quark
+  pair at parton level
 luminosity: 36.1
 num_data: 7
 num_sys: 208
 data_central:
-- 1.362109
-- 3.349314
-- 1.66184
-- 0.5322028
-- 0.1427022
-- 0.02924067
-- 0.002894712
+- 1.1797909620128608
+- 3.6023069367344243
+- 1.9006693703865107
+- 0.6145458828097885
+- 0.15481255043471057
+- 0.029177540305024126
+- 0.0029526307124487453
 statistical_error:
 - 0.00493083458
 - 0.00659814858

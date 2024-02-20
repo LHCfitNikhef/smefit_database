@@ -1,5 +1,4 @@
 dataset_name: ATLAS_tta_8TeV
-category: tta
 doi: 10.17182/hepdata.81946.v1/t1
 location: abstract
 arxiv: 1706.03046
@@ -9,7 +8,7 @@ description: Fiducial cross section of tta production
 luminosity: 20.2
 num_data: 1
 num_sys: 1
-data_central: 139
+data_central: 113.37887075512268
 statistical_error: 7
 systematics:
 - 17

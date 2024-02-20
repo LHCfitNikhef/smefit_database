@@ -1,5 +1,4 @@
 dataset_name: CMS_ttW_13TeV
-category: ttW
 doi: 10.1007/JHEP08(2018)011
 location: abstract
 arxiv: 1711.02547
@@ -9,7 +8,7 @@ description: inclusive ttW cross-section
 luminosity: 35.9
 num_data: 1
 num_sys: 1
-data_central: 808.5
+data_central: 711.7990501448957
 statistical_error: 120.0
 systematics:
 - 125.0

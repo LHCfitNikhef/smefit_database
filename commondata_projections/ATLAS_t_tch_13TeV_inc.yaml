@@ -1,8 +1,7 @@
 dataset_name: ATLAS_t_tch_13TeV_inc
-category: t13
 doi: 10.1007/JHEP04(2017)086
 location: abstract
-arxiv: 1609.03920
+arxiv: 1609.0392
 hepdata: https://www.hepdata.net/record/ins1486394?version=1&table=Table%203
 units: pb
 description: inclusive single top-quark production in the t-channel at 13TeV
@@ -10,8 +9,8 @@ luminosity: 3.2
 num_data: 2
 num_sys: 2
 data_central:
-- 156.0
-- 91.0
+- 190.10238760395308
+- 91.00724898197544
 statistical_error:
 - 5.0
 - 4.0

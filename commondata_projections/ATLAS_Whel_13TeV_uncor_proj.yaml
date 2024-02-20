@@ -1,0 +1,28 @@
+dataset_name: ATLAS_Whel_13TeV_uncor
+doi: 10.1016/j.physletb.2023.137829
+location: Sec. 9. Correlation from Tab. 2
+arxiv: 2209.14903
+hepdata: none
+units: none
+description: W helicity fractions, F0 and FL, FR is redundant because their sum is
+  constrained to one. Errors are uncorrelated.
+luminosity: 139
+num_data: 2
+num_sys: 2
+data_central:
+- 0.6808239290861184
+- 0.31506894121865486
+statistical_error:
+- 0.0010762589527308626
+- 0.0006457553716385176
+systematics:
+- - 0.007
+  - 0.0
+- - 0.0
+  - 0.004
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

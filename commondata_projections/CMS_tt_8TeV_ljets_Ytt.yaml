@@ -1,25 +1,25 @@
 dataset_name: CMS_tt_8TeV_ljets_Ytt
-category: tt8
 doi: 10.17182/hepdata.68516.v1/t36
 location: Fig.14 (normalised -> absolute), Table A.9
-arxiv: 1505.04480
+arxiv: 1505.0448
 hepdata: https://www.hepdata.net/record/ins1370682?version=1&table=Table%2036
 units: pb
-description: top-quark pair production differential in the rapidity of the top pair in the lepton + jets decay channel
+description: top-quark pair production differential in the rapidity of the top pair
+  in the lepton + jets decay channel
 luminosity: 19.7
 num_data: 10
 num_sys: 23
 data_central:
-- 14.90792
-- 54.032
-- 80.3112
-- 91.6088
-- 104.8712
-- 101.4328
-- 91.8544
-- 77.8552
-- 56.488
-- 15.74296
+- 17.2724207798713
+- 57.694348925865896
+- 78.02877279018628
+- 96.40100145603071
+- 106.68286569548056
+- 103.2717374424506
+- 94.8775411631795
+- 80.41301458089858
+- 57.014328673136774
+- 15.577735441329011
 statistical_error:
 - 0.07891000000000001
 - 0.286

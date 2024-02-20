@@ -4,21 +4,22 @@ location: Tab. 5.6
 arxiv: 1302.3415
 hepdata: none
 units: pb
-description: Combined W− differential angular cross-section in the 10 angular bins
-luminosity: 0.63051 # fb^-1
+description: "Combined W\u2212 differential angular cross-section in the 10 angular\
+  \ bins"
+luminosity: 0.63051
 num_data: 10
 num_sys: 1
 data_central:
-- 0.495
-- 0.602
-- 0.653
-- 1.057
-- 1.24
-- 1.707
-- 2.294
-- 2.797
-- 4.481
-- 7.584
+- 0.5990030835352934
+- 0.5859731953676635
+- 0.8448574437536996
+- 0.8983976298112333
+- 1.2472592200211305
+- 1.5566845374884242
+- 2.151887208005445
+- 2.861078396552882
+- 4.483489934126366
+- 7.251502369204662
 statistical_error:
 - 0.057
 - 0.065

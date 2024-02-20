@@ -1,5 +1,4 @@
 dataset_name: ATLAS_ttZ_13TeV_2016
-category: ttZ
 doi: 10.17182/hepdata.88175.v1/t1
 location: Data from Figure 13 of the paper
 arxiv: 1901.03584
@@ -9,7 +8,7 @@ description: inclsuive ttZ cross-section
 luminosity: 36.1
 num_data: 1
 num_sys: 1
-data_central: 950.0
+data_central: 1025.4243822800477
 statistical_error: 80.0
 systematics:
 - 100.0

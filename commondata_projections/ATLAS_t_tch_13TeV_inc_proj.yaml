@@ -1,5 +1,4 @@
 dataset_name: ATLAS_t_tch_13TeV_inc
-category: t13
 doi: 10.1007/JHEP04(2017)086
 location: abstract
 arxiv: 1609.0392
@@ -10,8 +9,8 @@ luminosity: 3.2
 num_data: 2
 num_sys: 2
 data_central:
-- 145.9334642090627
-- 96.03840243415766
+- 126.9931341675233
+- 78.23290519399623
 statistical_error:
 - 0.16329931618554522
 - 0.13063945294843618

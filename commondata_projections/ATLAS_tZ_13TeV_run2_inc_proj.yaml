@@ -1,5 +1,4 @@
 dataset_name: ATLAS_tZ_13TeV_run2_inc
-category: tZ
 doi: 10.1007/JHEP07(2020)124
 location: abstract
 arxiv: 2002.07546
@@ -9,7 +8,7 @@ description: inclusive tZ cross-section
 luminosity: 139
 num_data: 1
 num_sys: 1
-data_central: 88.86097326101434
+data_central: 93.82399621456636
 statistical_error: 2.7982732771002428
 systematics:
 - 3.5

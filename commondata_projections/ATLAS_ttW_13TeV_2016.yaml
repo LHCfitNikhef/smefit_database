@@ -1,5 +1,4 @@
 dataset_name: ATLAS_ttW_13TeV_2016
-category: ttW
 doi: 10.1103/PhysRevD.99.072009
 location: Data from Figure 13 of the paper.
 arxiv: 1901.03584
@@ -9,7 +8,7 @@ description: inclusive ttW cross-section
 luminosity: 36.1
 num_data: 1
 num_sys: 1
-data_central: 870.0
+data_central: 935.0735572172703
 statistical_error: 130.0
 systematics:
 - 140.0

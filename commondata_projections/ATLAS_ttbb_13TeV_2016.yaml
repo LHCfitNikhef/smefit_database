@@ -1,5 +1,4 @@
 dataset_name: ATLAS_ttbb_13TeV_2016
-category: 4H
 doi: 10.17182/hepdata.87098.v1/t1
 location: Tab. 5
 arxiv: 1811.12113
@@ -9,7 +8,7 @@ description: fidcucial cross section
 luminosity: 36.1
 num_data: 1
 num_sys: 1
-data_central: 359.0
+data_central: 243.83957746164742
 statistical_error: 11.0
 systematics:
 - 61.0

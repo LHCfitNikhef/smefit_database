@@ -1,0 +1,61 @@
+dataset_name: ATLAS_tt_13TeV_asy_2022_uncor
+doi: 10.17182/hepdata.132116.v1/t3
+location: Tab.3 combination
+arxiv: 2208.12095
+hepdata: https://www.hepdata.net/record/ins2141752?version=1&table=Results%20for%20charge%20asymmetry%20vs%20mtt
+units: none
+description: charge asymmetry differential in mtt. Stat and sys uncertainties are
+  uncorrelated.
+luminosity: 139
+num_data: 5
+num_sys: 5
+data_central:
+- 0.005720349622813011
+- 0.007076900745833419
+- 0.006039383184207195
+- 0.004878230445590924
+- 0.023124877204937208
+statistical_error:
+- 0.0005779510576164732
+- 0.00040704113592281225
+- 0.0009996293152964252
+- 0.0015963072786904153
+- 0.0060274806388739225
+systematics:
+- - 0.0011945
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0006535
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.001524
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.002272
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0033945
+sys_names:
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD

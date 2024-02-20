@@ -1,21 +1,21 @@
 dataset_name: ATLAS_CMS_tt_AC_8TeV
-category: AC
 doi: 10.1007/JHEP04(2018)033
 location: Combined AC table 4
 arxiv: 1709.05327
 hepdata: none
 units: none
-description: Combined ATLAS and CMS charge asymmetries differential in the top-quark pair invariant mass
-luminosity: 20 # units: fb^-1.
+description: Combined ATLAS and CMS charge asymmetries differential in the top-quark
+  pair invariant mass
+luminosity: 20
 num_data: 6
 num_sys: 1
 data_central:
-- -0.005
-- 0.015
-- -0.004
-- 0.027
-- -0.019
-- 0.05
+- 0.022000057194429032
+- 0.016190641090777717
+- 0.0155959158364898
+- 0.04371478603745755
+- 0.03188668868820803
+- -0.0004328569431994774
 statistical_error:
 - 0.017
 - 0.009

@@ -1,5 +1,4 @@
 dataset_name: CMS_ttW_8TeV
-category: ttW
 doi: 10.1007/JHEP01(2016)096
 location: abstract
 arxiv: 1510.01131
@@ -9,7 +8,7 @@ description: inclusive ttW cross-section
 luminosity: 19.5
 num_data: 1
 num_sys: 1
-data_central: 410.65
+data_central: 171.25538869044294
 statistical_error: 0.0
 systematics:
 - 109.5

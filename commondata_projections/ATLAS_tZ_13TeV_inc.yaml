@@ -1,5 +1,4 @@
 dataset_name: ATLAS_tZ_13TeV_inc
-category: tZ
 doi: 10.1016/j.physletb.2018.03.023
 location: abstract
 arxiv: 1710.03659
@@ -9,7 +8,7 @@ description: inclusive tZ cross-section
 luminosity: 36.1
 num_data: 1
 num_sys: 1
-data_central: 600.0
+data_central: 473.39081994218014
 statistical_error: 170.0
 systematics:
 - 140.0

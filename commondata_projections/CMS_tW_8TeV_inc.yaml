@@ -1,5 +1,4 @@
 dataset_name: CMS_tW_8TeV_inc
-category: tW
 doi: 10.17182/hepdata.61399.v1/t1
 location: abstract
 arxiv: 1510.03752
@@ -9,7 +8,7 @@ description: inclusive tW cross-section
 luminosity: 12.2
 num_data: 1
 num_sys: 1
-data_central: 23.4
+data_central: 30.832500756429614
 statistical_error: 0.0
 systematics:
 - 5.4
