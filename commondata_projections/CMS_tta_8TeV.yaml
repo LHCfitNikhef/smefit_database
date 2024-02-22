@@ -8,7 +8,7 @@ description: Total cross section of tta production
 luminosity: 19.7
 num_data: 1
 num_sys: 1
-data_central: 745.1975017283003
+data_central: 801.6061328730912
 statistical_error: 0
 systematics:
 - 108.0

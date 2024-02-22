@@ -6,7 +6,7 @@ hepdata: https://www.hepdata.net/record/ins1917152?version=1&table=Cross%20secti
 units: pb
 description: inclusive tW cross-section in the single leptonic channel
 luminosity: 36
-data_central: 83.99408755964062
+data_central: 80.41349740521878
 num_data: 1
 num_sys: 1
 statistical_error: 0.4381780460041329

@@ -8,7 +8,7 @@ description: ttbar cross-section in association with b jets
 luminosity: 35.9
 num_data: 1
 num_sys: 1
-data_central: 7.331610657899192
+data_central: 5.994484587327645
 statistical_error: 0.03281767816284387
 systematics:
 - 0.5625

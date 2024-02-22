@@ -8,7 +8,7 @@ description: Fiducial cross section of tta production
 luminosity: 20.2
 num_data: 1
 num_sys: 1
-data_central: 113.37887075512268
+data_central: 123.25998920343943
 statistical_error: 7
 systematics:
 - 17

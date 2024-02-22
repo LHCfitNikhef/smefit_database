@@ -6,7 +6,7 @@ hepdata: none
 units: pb
 description: inclusive ttbb production in the full phase in the dilepton channel
 luminosity: 35.9
-data_central: 3.1808873365825483
+data_central: 3.4760813422751156
 num_data: 1
 num_sys: 1
 statistical_error: 0.1

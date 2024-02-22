@@ -8,7 +8,7 @@ description: inclsuive ttZ cross-section
 luminosity: 36.1
 num_data: 1
 num_sys: 1
-data_central: 1025.4243822800477
+data_central: 1046.369392669123
 statistical_error: 80.0
 systematics:
 - 100.0

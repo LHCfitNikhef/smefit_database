@@ -6,7 +6,7 @@ hepdata: none
 units: pb
 description: inclusive ttbb production in the full phase in the lepton + jets channel
 luminosity: 35.9
-data_central: 4.17471922164044
+data_central: 4.486501504206112
 num_data: 1
 num_sys: 1
 statistical_error: 0.021878452108562586

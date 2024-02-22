@@ -8,7 +8,7 @@ description: inclusive ttZ cross-section
 luminosity: 19.5
 num_data: 1
 num_sys: 1
-data_central: 256.5565874826043
+data_central: 269.12975562052213
 statistical_error: 0.0
 systematics:
 - 60.0

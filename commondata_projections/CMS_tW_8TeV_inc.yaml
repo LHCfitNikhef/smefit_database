@@ -8,7 +8,7 @@ description: inclusive tW cross-section
 luminosity: 12.2
 num_data: 1
 num_sys: 1
-data_central: 30.832500756429614
+data_central: 30.54619502943705
 statistical_error: 0.0
 systematics:
 - 5.4

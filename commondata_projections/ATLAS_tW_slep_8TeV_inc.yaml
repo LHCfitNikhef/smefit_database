@@ -7,7 +7,7 @@ description: inclusive tW cross-section in the single-lepton channel
 luminosity: 20.2
 num_data: 1
 num_sys: 1
-data_central: 21.92692932437793
+data_central: 21.10455546595934
 statistical_error: 0
 systematics:
 - 7.0

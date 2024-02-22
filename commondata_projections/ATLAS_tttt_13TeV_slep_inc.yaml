@@ -8,7 +8,7 @@ description: 4 top production in the single-lepton channel
 luminosity: 139
 num_data: 1
 num_sys: 1
-data_central: 11.545225171359474
+data_central: -9.181631975687687
 statistical_error: 8
 systematics:
 - 14.612449097911455

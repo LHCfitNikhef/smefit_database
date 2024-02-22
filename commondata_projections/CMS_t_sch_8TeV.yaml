@@ -8,7 +8,7 @@ description: single top quark production cross-section in the s-channel
 luminosity: 19.7
 num_data: 1
 num_sys: 1
-data_central: 6.607720998692464
+data_central: -0.13301844502737303
 statistical_error: 0
 systematics:
 - 7.3

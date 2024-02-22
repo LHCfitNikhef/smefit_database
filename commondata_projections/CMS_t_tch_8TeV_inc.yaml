@@ -9,8 +9,8 @@ luminosity: 19.7
 num_data: 2
 num_sys: 10
 data_central:
-- 62.96864883189458
-- 31.907735032374653
+- 54.77558226438719
+- 28.122694727329748
 statistical_error:
 - 2.7
 - 4.9
