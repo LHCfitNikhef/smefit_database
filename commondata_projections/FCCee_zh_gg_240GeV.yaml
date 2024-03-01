@@ -2,7 +2,7 @@ dataset_name: FCCee_zh_gg_240GeV
 luminosity: 5000
 num_data: 1
 num_sys: 1
-data_central: 0.010411430987898125
+data_central: 0.010474786760733719
 statistical_error: 0.000199279
 systematics:
 - 0.0

@@ -2,7 +2,7 @@ dataset_name: FCCee_vvh_bb_240GeV
 luminosity: 5000
 num_data: 1
 num_sys: 1
-data_central: 0.003751597450401866
+data_central: 0.0038076355202906285
 statistical_error: 0.00011592
 systematics:
 - 0.0

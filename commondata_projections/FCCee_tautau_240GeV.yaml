@@ -2,7 +2,7 @@ dataset_name: FCCee_tautau_240GeV
 luminosity: 5000
 num_data: 1
 num_sys: 1
-data_central: 1.4887744841423005
+data_central: 1.4893690240757507
 statistical_error: 0.00052845
 systematics:
 - 0.0

@@ -2,7 +2,7 @@ dataset_name: FCCee_tautau_365GeV
 luminosity: 1500
 num_data: 1
 num_sys: 1
-data_central: 0.6267861040049988
+data_central: 0.6263631088496409
 statistical_error: 0.000625816
 systematics:
 - 0.0

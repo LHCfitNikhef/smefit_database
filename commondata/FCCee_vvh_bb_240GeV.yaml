@@ -1,5 +1,4 @@
 dataset_name: FCCee_vvh_bb_240GeV
-category: FCC
 luminosity: 5000
 num_data: 1
 num_sys: 1

@@ -2,7 +2,7 @@ dataset_name: FCCee_ee_Afb_240GeV
 luminosity: 5000
 num_data: 1
 num_sys: 1
-data_central: 0.9572965140997718
+data_central: 0.9572826001754288
 statistical_error: 1.38408e-05
 systematics:
 - 0.0

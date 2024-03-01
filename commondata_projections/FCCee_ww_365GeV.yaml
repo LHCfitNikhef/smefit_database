@@ -1,11 +1,11 @@
-dataset_name: FCCee_ww_161GeV
+dataset_name: FCCee_ww_365GeV
 description: Fully inclusive W-pair production cross section
 units: pb
-luminosity: 10000
+luminosity: 1500
 num_data: 1
 num_sys: 1
-data_central: 2.873
-statistical_error: 0.000551616
+data_central: 10.740039908839764
+statistical_error: 0.00427452
 systematics:
 - 0.0
 sys_names: UNCORR

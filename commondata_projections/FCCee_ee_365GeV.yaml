@@ -2,7 +2,7 @@ dataset_name: FCCee_ee_365GeV
 luminosity: 1500
 num_data: 1
 num_sys: 1
-data_central: 28.09968604443827
+data_central: 28.09273642354981
 statistical_error: 0.00387576
 systematics:
 - 0.0
