@@ -7,9 +7,9 @@ units: none
 description: charge asymmetry differential in mtt
 luminosity: 138
 data_central:
-- -0.0019487958276137958
-- 0.016486170245847823
-- 0.029281833928631318
+- 0.011820546646005025
+- 0.019564369159665213
+- 0.016582591193188823
 num_data: 3
 num_sys: 2
 statistical_error:

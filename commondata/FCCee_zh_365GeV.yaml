@@ -1,9 +1,11 @@
 dataset_name: FCCee_zh_365GeV
-luminosity: 1500
+description: ZH inclusive production cross section.
+units: pb
+luminosity: 3000
 num_data: 1
 num_sys: 1
 data_central: 0.1171
-statistical_error: 0.0010539
+statistical_error: 0.00074522
 systematics:
 - 0.0
 sys_names:

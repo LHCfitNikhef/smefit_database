@@ -8,7 +8,7 @@ description: inclusive single top-quark production in the s-channel at 8TeV
 luminosity: 20.3
 num_data: 1
 num_sys: 2
-data_central: 3.038394681264152
+data_central: 7.404431499948126
 statistical_error: 0.8
 systematics:
 - 1.45

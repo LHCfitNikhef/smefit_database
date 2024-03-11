@@ -1,7 +1,7 @@
 dataset_name: LEP_alphaEW
 num_data: 1
 num_sys: 1
-data_central: 0.007791416471696366
+data_central: 0.007799396912917259
 statistical_error: 0.0
 systematics:
 - 5.497372182462537e-07

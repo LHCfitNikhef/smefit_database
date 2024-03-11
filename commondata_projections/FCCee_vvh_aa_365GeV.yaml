@@ -1,9 +1,11 @@
 dataset_name: FCCee_vvh_aa_365GeV
-luminosity: 1500
+description: Higgs production in VBF times aa BR.
+units: pb
+luminosity: 3000
 num_data: 1
 num_sys: 1
-data_central: 8.771506440899116e-05
-statistical_error: 1.74746e-05
+data_central: 7.899736444925578e-05
+statistical_error: 1.23564e-05
 systematics:
 - 0.0
 sys_names: null

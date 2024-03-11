@@ -1,9 +1,11 @@
 dataset_name: FCCee_bb_240GeV
-luminosity: 5000
+description: bb production cross section.
+units: pb
+luminosity: 10000
 num_data: 1
 num_sys: 1
-data_central: 0.25091322778818975
-statistical_error: 0.000213759
+data_central: 0.2506675013197959
+statistical_error: 0.000151151
 systematics:
 - 0.0
 sys_names: null

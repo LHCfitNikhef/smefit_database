@@ -1,9 +1,11 @@
 dataset_name: FCCee_zh_aa_365GeV
-luminosity: 1500
+description: ZH inclusive production cross section times aa BR.
+units: pb
+luminosity: 3000
 num_data: 1
 num_sys: 1
-data_central: 0.00026463097507858994
-statistical_error: 4.81515e-05
+data_central: 0.0002728777423075404
+statistical_error: 3.40483e-05
 systematics:
 - 0.0
 sys_names: null

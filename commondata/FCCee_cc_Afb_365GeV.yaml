@@ -1,9 +1,10 @@
 dataset_name: FCCee_cc_Afb_365GeV
-luminosity: 1500
+description: Forward-backward asymmetry in cc production.
+luminosity: 3000
 num_data: 1
 num_sys: 1
 data_central: 0.5956504476168163
-statistical_error: 0.00336367
+statistical_error: 0.00237848
 systematics:
 - 0.0
 sys_names:

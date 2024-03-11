@@ -1,9 +1,10 @@
 dataset_name: FCCee_alphaEW
-luminosity: 150000
+description: Alpha EW.
+luminosity: 300000
 num_data: 1
 num_sys: 1
-data_central: 0.00792535814357526
-statistical_error: 0.000231174
+data_central: 0.007534151984675679
+statistical_error: 0.000163465
 systematics:
 - 5.32936e-09
 sys_names: UNCORR

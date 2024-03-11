@@ -1,0 +1,12 @@
+dataset_name: CEPC_zh_bb_240GeV
+description: ZH inclusive production cross section times bb BR.
+units: pb
+luminosity: 20000
+num_data: 1
+num_sys: 1
+data_central: 0.14190804444444444
+statistical_error: 0.000198671
+systematics:
+- 0.0
+sys_names:
+sys_type:

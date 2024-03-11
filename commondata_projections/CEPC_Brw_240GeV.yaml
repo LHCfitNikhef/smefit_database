@@ -1,0 +1,31 @@
+dataset_name: CEPC_Brw_240GeV
+description: W leptonic branching ratio (first, second and third generation)
+luminosity: 20000
+num_data: 3
+num_sys: 3
+data_central:
+- 0.10832531428643492
+- 0.10829168115376395
+- 0.10829725601729051
+statistical_error:
+- 1.87359e-05
+- 1.87359e-05
+- 1.87359e-05
+systematics:
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD

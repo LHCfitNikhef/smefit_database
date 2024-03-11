@@ -8,7 +8,7 @@ description: four top quark inclusive cross section
 luminosity: 137
 num_data: 1
 num_sys: 1
-data_central: 14.702185259770514
+data_central: 13.362262900534866
 statistical_error: 0.0
 systematics:
 - 1.8315000000000001

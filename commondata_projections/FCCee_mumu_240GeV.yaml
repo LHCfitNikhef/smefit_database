@@ -1,9 +1,11 @@
 dataset_name: FCCee_mumu_240GeV
-luminosity: 5000
+description: mu+mu- production cross section.
+units: pb
+luminosity: 10000
 num_data: 1
 num_sys: 1
-data_central: 1.752759495288323
-statistical_error: 0.000573439
+data_central: 1.7521664628340305
+statistical_error: 0.000405483
 systematics:
 - 0.0
 sys_names: null

@@ -8,7 +8,7 @@ description: single top-quark production in the s-channel
 luminosity: 139
 num_data: 1
 num_sys: 1
-data_central: 10.885418227050007
+data_central: 10.324162443571275
 statistical_error: 0.615
 systematics:
 - 3.30542922

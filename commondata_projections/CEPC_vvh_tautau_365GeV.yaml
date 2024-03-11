@@ -1,0 +1,12 @@
+dataset_name: CEPC_vvh_tautau_365GeV
+description: Higgs production in VBF times tau+tau- BR.
+units: pb
+luminosity: 1000
+num_data: 1
+num_sys: 1
+data_central: 0.0017994801554407857
+statistical_error: 8.42454e-05
+systematics:
+- 0.0
+sys_names: null
+sys_type: null

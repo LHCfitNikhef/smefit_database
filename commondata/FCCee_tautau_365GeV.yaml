@@ -1,9 +1,11 @@
 dataset_name: FCCee_tautau_365GeV
-luminosity: 1500
+description: tau+tau- production cross section.
+units: pb
+luminosity: 3000
 num_data: 1
 num_sys: 1
 data_central: 0.6268557596132733
-statistical_error: 0.000625816
+statistical_error: 0.000442519
 systematics:
 - 0.0
 sys_names:

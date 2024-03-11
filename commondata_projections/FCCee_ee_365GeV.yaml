@@ -1,9 +1,11 @@
 dataset_name: FCCee_ee_365GeV
-luminosity: 1500
+description: e+e- production cross section.
+units: pb
+luminosity: 3000
 num_data: 1
 num_sys: 1
-data_central: 28.09273642354981
-statistical_error: 0.00387576
+data_central: 28.101224125180217
+statistical_error: 0.00274058
 systematics:
 - 0.0
 sys_names: null

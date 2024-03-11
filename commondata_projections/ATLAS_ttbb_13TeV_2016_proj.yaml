@@ -8,7 +8,7 @@ description: fidcucial cross section
 luminosity: 36.1
 num_data: 1
 num_sys: 1
-data_central: 304.0009396952866
+data_central: 251.968993499378
 statistical_error: 1.2066620626063178
 systematics:
 - 30.5

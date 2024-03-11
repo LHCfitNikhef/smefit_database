@@ -1,9 +1,10 @@
 dataset_name: FCCee_bb_Afb_365GeV
-luminosity: 1500
+description: Forward-backward asymmetry in bb production.
+luminosity: 3000
 num_data: 1
 num_sys: 1
-data_central: 0.603555832495668
-statistical_error: 0.00201041
+data_central: 0.6026115196092192
+statistical_error: 0.00142157
 systematics:
 - 0.0
 sys_names: null

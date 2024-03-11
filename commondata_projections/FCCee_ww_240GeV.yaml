@@ -1,11 +1,11 @@
 dataset_name: FCCee_ww_240GeV
 description: Fully inclusive W-pair production cross section
 units: pb
-luminosity: 5000
+luminosity: 10000
 num_data: 1
 num_sys: 1
-data_central: 17.13086317092406
-statistical_error: 0.00294636
+data_central: 17.12809213537314
+statistical_error: 0.00208339
 systematics:
 - 0.0
 sys_names: UNCORR

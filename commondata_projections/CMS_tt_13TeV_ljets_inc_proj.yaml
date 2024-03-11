@@ -9,7 +9,7 @@ description: Inclusive top-quark pair production cross-section in the lepton+jet
 luminosity: 137
 num_data: 1
 num_sys: 1
-data_central: 782.9789527713141
+data_central: 786.9363061632413
 statistical_error: 0.21369760566432808
 systematics:
 - 12.619429464123963
