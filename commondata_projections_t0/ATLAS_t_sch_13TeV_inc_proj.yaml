@@ -1,0 +1,17 @@
+dataset_name: ATLAS_t_sch_13TeV_inc
+doi: 10.17182/hepdata.133620.v1/t1
+location: abstract
+arxiv: 2209.0899
+hepdata: https://www.hepdata.net/record/ins2153660?version=1&table=Cross-section%20measurement
+units: pb
+description: single top-quark production in the s-channel
+luminosity: 139
+num_data: 1
+num_sys: 1
+data_central: 10.508142411964942
+statistical_error:
+- 0.15222612584057227
+systematics:
+- 1.65271461
+sys_names: UNCORR
+sys_type: ADD

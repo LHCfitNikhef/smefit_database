@@ -1,0 +1,28 @@
+dataset_name: ATLAS_t_tch_8TeV_diff_Yt
+doi: 10.17182/hepdata.82544.v2/t28
+location: Tab. 20
+arxiv: 1702.02859
+hepdata: https://www.hepdata.net/record/ins1512776?version=2&table=Table%2028
+units: fb
+description: Absolute unfolded differential tq production cross-sections in yt at
+  parton level
+luminosity: 20.2
+num_data: 4
+num_sys: 1
+data_central:
+- 35558.29797401407
+- 29756.635459904817
+- 32220.094044335627
+- 16100.143050802353
+statistical_error:
+- 1874.6679706017278
+- 1828.4377794652453
+- 1381.524949384104
+- 933.7934780990173
+systematics:
+- - 2494.775925925926
+  - 2373.248407643312
+  - 2145.775889328063
+  - 1291.8077922077923
+sys_names: UNCORR
+sys_type: ADD

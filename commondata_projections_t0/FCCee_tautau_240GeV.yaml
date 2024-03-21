@@ -1,0 +1,13 @@
+dataset_name: FCCee_tautau_240GeV
+description: tau+tau- production cross section.
+units: pb
+luminosity: 10000
+num_data: 1
+num_sys: 1
+data_central: 1.4888319984694565
+statistical_error:
+- 0.000373671
+systematics:
+- 0.0
+sys_names: null
+sys_type: null

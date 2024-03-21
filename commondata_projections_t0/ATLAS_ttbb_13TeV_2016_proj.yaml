@@ -1,0 +1,17 @@
+dataset_name: ATLAS_ttbb_13TeV_2016
+doi: 10.17182/hepdata.87098.v1/t1
+location: Tab. 5
+arxiv: 1811.12113
+hepdata: https://www.hepdata.net/record/ins1705857?version=1&table=Table%205-%20ttX%20contribution%20included
+units: fb
+description: fidcucial cross section
+luminosity: 36.1
+num_data: 1
+num_sys: 1
+data_central: 276.7739545752392
+statistical_error:
+- 1.0464544196321635
+systematics:
+- 22.93871866295265
+sys_names: UNCORR
+sys_type: ADD

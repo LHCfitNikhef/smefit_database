@@ -1,0 +1,22 @@
+dataset_name: ATLAS_tW_8TeV_inc
+doi: 10.1007/JHEP01(2016)064
+location: Sec. 7, page 21
+arxiv: 1510.03752
+hepdata: none
+units: pb
+description: inclusive tW cross-section
+luminosity: 20.3
+num_data: 1
+num_sys: 2
+data_central: 26.69159095248652
+statistical_error:
+- 1.313232387560639
+systematics:
+- 3.418544773682263
+- 1.1225072391195492
+sys_names:
+- UNCORR
+- ATLASLUMI12
+sys_type:
+- ADD
+- ADD

@@ -1,0 +1,13 @@
+dataset_name: CEPC_zh_tautau_240GeV
+description: ZH inclusive production cross section times tau+tau- BR.
+units: pb
+luminosity: 20000
+num_data: 1
+num_sys: 1
+data_central: 0.013889533025630393
+statistical_error:
+- 5.81674e-05
+systematics:
+- 0.0
+sys_names: null
+sys_type: null
