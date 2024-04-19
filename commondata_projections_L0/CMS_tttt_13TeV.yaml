@@ -1,0 +1,17 @@
+dataset_name: CMS_tttt_13TeV
+doi: none
+location: abstract
+arxiv: 1710.10614
+hepdata: none
+units: pb
+description: Four top quark inclusive cross section
+luminosity: 35.9
+num_data: 1
+num_sys: 1
+data_central: 14.145
+statistical_error:
+- 0.0
+systematics:
+- 10.420925228617536
+sys_names: UNCORR
+sys_type: ADD

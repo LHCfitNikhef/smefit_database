@@ -1,0 +1,13 @@
+dataset_name: CEPC_vvh_cc_365GeV
+description: Higgs production in VBF times cc BR.
+units: pb
+luminosity: 1000
+num_data: 1
+num_sys: 1
+data_central: 0.003065168666666667
+statistical_error:
+- 0.000490427
+systematics:
+- 0.0
+sys_names: null
+sys_type: null

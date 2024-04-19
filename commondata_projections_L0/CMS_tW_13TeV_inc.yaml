@@ -1,0 +1,22 @@
+dataset_name: CMS_tW_13TeV_inc
+doi: 10.17182/hepdata.85698.v1/t1
+location: abstract
+arxiv: 1805.07399
+hepdata: https://www.hepdata.net/record/ins1674077?version=1&table=Table%201
+units: pb
+description: inclusive tW cross-section
+luminosity: 35.9
+num_data: 1
+num_sys: 2
+data_central: 76.7937
+statistical_error:
+- 1.985731942400118
+systematics:
+- 7.788901426307448
+- 2.5557332805071313
+sys_names:
+- UNCORR
+- CMSLUMI15
+sys_type:
+- ADD
+- ADD

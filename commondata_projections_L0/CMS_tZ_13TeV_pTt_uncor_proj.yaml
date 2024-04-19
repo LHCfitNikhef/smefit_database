@@ -1,0 +1,38 @@
+dataset_name: CMS_tZ_13TeV_pTt_uncor
+doi: 10.17182/hepdata.105865.v1/t42
+location: Fig. 15 top left
+arxiv: 2111.0286
+hepdata:
+- https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt
+- https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt_covariance_syst
+units: fb/GeV
+description: Absolute tZ cross-section differential in pTt
+luminosity: 138
+num_data: 3
+num_sys: 3
+data_central:
+- 0.06393670024243271
+- 0.055543501084902344
+- 0.021857282844543996
+statistical_error:
+- 0.003384817333014224
+- 0.0028445026165060316
+- 0.0012197475521293958
+systematics:
+- - 0.3438749772809881
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.25980762113533157
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.1387443692551161
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD
