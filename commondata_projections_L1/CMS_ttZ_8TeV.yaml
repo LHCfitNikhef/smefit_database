@@ -1,0 +1,17 @@
+dataset_name: CMS_ttZ_8TeV
+doi: 10.1007/JHEP01(2016)096
+location: abstract
+arxiv: 1510.01131
+hepdata: none
+units: fb
+description: inclusive ttZ cross-section
+luminosity: 19.5
+num_data: 1
+num_sys: 1
+data_central: 179.44737053087135
+statistical_error:
+- 0.0
+systematics:
+- 57.09303423848879
+sys_names: UNCORR
+sys_type: ADD

@@ -1,0 +1,18 @@
+dataset_name: CMS_tt_13TeV_ljets_inc
+doi: 10.1103/PhysRevD.104.092013
+location: abstract
+arxiv: 2108.02803
+hepdata: none
+units: pb
+description: Inclusive top-quark pair production cross-section in the lepton+jets
+  channel
+luminosity: 137
+num_data: 1
+num_sys: 1
+data_central: 803.0
+statistical_error:
+- 1.0075567825378016
+systematics:
+- 25.238858928247925
+sys_names: UNCORR
+sys_type: ADD

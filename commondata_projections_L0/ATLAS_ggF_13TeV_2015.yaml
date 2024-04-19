@@ -1,0 +1,42 @@
+dataset_name: ATLAS_ggF_13TeV_2015
+doi: 10.17182/hepdata.83202.v1/t1
+location: Fig. 2a
+arxiv: 1805.10197
+hepdata: https://www.hepdata.net/record/ins1674946?version=1&table=Table%201
+units: pb/GeV
+description: Combined H to aa and ZZ differential in pTH
+luminosity: 36.1
+num_data: 9
+num_sys: 1
+data_central:
+- 0.77
+- 1.052
+- 0.828
+- 0.589
+- 0.388
+- 0.25
+- 0.128
+- 0.0399
+- 0.00601
+statistical_error:
+- 0.22897278011024286
+- 0.305277127039982
+- 0.2568855239475224
+- 0.16921839755602394
+- 0.1421560175769332
+- 0.08898427057069107
+- 0.03311125324393222
+- 0.00908017672597841
+- 0.0017160710940983769
+systematics:
+- - 0.09
+  - 0.075
+  - 0.045
+  - 0.045
+  - 0.025
+  - 0.0195
+  - 0.015
+  - 0.0035
+  - 0.0008
+sys_names: CORR
+sys_type: ADD

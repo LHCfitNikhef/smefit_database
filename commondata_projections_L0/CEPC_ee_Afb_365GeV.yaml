@@ -1,0 +1,12 @@
+dataset_name: CEPC_ee_Afb_365GeV
+description: Forward-backward asymmetry in e+e- production.
+luminosity: 1000
+num_data: 1
+num_sys: 1
+data_central: 0.959412131187776
+statistical_error:
+- 4.83215e-05
+systematics:
+- 0.0
+sys_names: null
+sys_type: null

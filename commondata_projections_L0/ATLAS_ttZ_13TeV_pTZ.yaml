@@ -1,0 +1,98 @@
+dataset_name: ATLAS_ttZ_13TeV_pTZ
+doi: 10.17182/hepdata.100351.v2/t6
+location: Data from Figure 9B
+arxiv: 2103.12603
+hepdata:
+- https://www.hepdata.net/record/ins1853014?version=2&table=Table%206
+- https://www.hepdata.net/record/ins1853014?version=2&table=Table%2041
+units: fb/GeV
+description: The absolute parton-level differential cross-section measured in the
+  fiducial phase-space as a function of the $p_{\textrm{T}}$ of the $Z$ boson in the
+  3$\ell$+4$\ell$ channel. The uncertainty is decomposed into four components which
+  are the signal modelling uncertainty, the background modelling uncertainty, the
+  experimental uncertainty, and the data statistical uncertainty.
+luminosity: 139
+num_data: 7
+num_sys: 7
+data_central:
+- 2.373888637
+- 4.73874084
+- 4.673103975
+- 3.419080457
+- 2.032086855
+- 1.00816125
+- 0.3902470893
+statistical_error:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+systematics:
+- - -0.29474010257594874
+  - -1.101219448171047
+  - -0.7102317823264458
+  - -0.5147009732530792
+  - -0.16356005082077696
+  - -0.05225592791509908
+  - -0.053746577916888104
+- - -0.12312459695135226
+  - 0.5285406535621894
+  - -0.6446067035955731
+  - -0.15348927444335111
+  - -0.04607476814356601
+  - -0.011574235515661481
+  - -0.014650788517470512
+- - 0.1481757655376097
+  - -0.13373667226997574
+  - -0.276423370757998
+  - 0.5668061184081135
+  - 0.04037806500606976
+  - 0.013510382318931955
+  - 0.01635175127966412
+- - -0.4994722918720667
+  - 0.014022129067579547
+  - 0.06825487557601345
+  - 0.16871624102365984
+  - -0.02033830956756009
+  - -0.004028118081117559
+  - -9.477981119510082e-05
+- - 0.027127803146712925
+  - 0.013446035500996108
+  - 0.022291569393202353
+  - 0.030782911855708927
+  - -0.3260396327520266
+  - -0.0032602800473318433
+  - -0.018260421513250337
+- - -0.003387849623857804
+  - -0.0024347877950924757
+  - -0.003020427085678204
+  - -0.005036390978263219
+  - -0.0030328141825034117
+  - 0.16465596562157267
+  - 0.005749323062067673
+- - -0.001231814401486257
+  - -0.0011717551339690288
+  - -0.001931420548781352
+  - -0.0036719805287681955
+  - -0.007170341684187643
+  - -0.0044279197189374874
+  - 0.11757621795870409
+sys_names:
+- CORR
+- CORR
+- CORR
+- CORR
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD

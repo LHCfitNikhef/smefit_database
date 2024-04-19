@@ -1,0 +1,17 @@
+dataset_name: CMS_ttbb_13TeV
+doi: none
+location: Tab. 3, bottom row
+arxiv: 1705.10141
+hepdata: none
+units: pb
+description: ttbar cross-section in association with b jets
+luminosity: 2.3
+num_data: 1
+num_sys: 1
+data_central: 7.20144
+statistical_error:
+- 0.8050649663225943
+systematics:
+- 2.340468
+sys_names: UNCORR
+sys_type: ADD

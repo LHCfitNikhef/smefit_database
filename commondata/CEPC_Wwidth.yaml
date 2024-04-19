@@ -1,0 +1,12 @@
+dataset_name: CEPC_Wwidth
+description: W total width.
+units: GeV
+luminosity: 100000
+num_data: 1
+num_sys: 1
+data_central: 2.045612800402105
+statistical_error: 0.0018
+systematics:
+  - 0.0009
+sys_names: UNCORR
+sys_type: ADD

@@ -1,0 +1,13 @@
+dataset_name: FCCee_vvh_bb_240GeV
+description: Higgs production in VBF times bb BR.
+units: pb
+luminosity: 10000
+num_data: 1
+num_sys: 1
+data_central: 0.0038403179701395444
+statistical_error:
+- 8.19678e-05
+systematics:
+- 0.0
+sys_names: null
+sys_type: null

@@ -1,0 +1,16 @@
+dataset_name: ATLAS_tttt_13TeV_2023
+doi: https://doi.org/10.48550/arXiv.2303.15061
+location: abstract
+arxiv: 2303.15061
+units: fb
+description: Observation of 4 top production (symmetrised)
+luminosity: 139
+num_data: 1
+num_sys: 1
+data_central: 13.0
+statistical_error:
+- 3.397862057464207
+systematics:
+- 4.19804992
+sys_names: UNCORR
+sys_type: ADD

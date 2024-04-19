@@ -1,0 +1,17 @@
+dataset_name: ATLAS_ttW_8TeV
+doi: 10.1007/JHEP11(2015)172
+location: Eq. 4
+arxiv: 1509.05276
+hepdata: none
+units: fb
+description: inclusive ttW cross-section
+luminosity: 20.3
+num_data: 1
+num_sys: 1
+data_central: 264.392
+statistical_error:
+- 69.87918505550454
+systematics:
+- 31.18833243967828
+sys_names: UNCORR
+sys_type: ADD

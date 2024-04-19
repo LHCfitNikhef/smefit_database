@@ -1,0 +1,17 @@
+dataset_name: CMS_tttt_13TeV_2023
+doi: 10.1016/j.physletb.2023.138290
+location: abstract
+hepdata: https://www.hepdata.net/record/ins2661880?version=1&table=Figure%208
+arxiv: 2305.13439
+units: fb
+description: Observation of 4 tops production
+luminosity: 139
+num_data: 1
+num_sys: 1
+data_central: 14.269252232754011
+statistical_error:
+- 0.6642361432248641
+systematics:
+- 1.024664095
+sys_names: UNCORR
+sys_type: ADD

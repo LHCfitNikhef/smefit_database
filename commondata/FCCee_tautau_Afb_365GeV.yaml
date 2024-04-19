@@ -1,0 +1,11 @@
+dataset_name: FCCee_tautau_Afb_365GeV
+description: Forward-backward asymmetry in tau+tau- production.
+luminosity: 3000
+num_data: 1
+num_sys: 1
+data_central: 0.4742426564309802
+statistical_error: 0.000623889
+systematics:
+- 0.0
+sys_names:
+sys_type:

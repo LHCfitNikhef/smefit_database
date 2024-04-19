@@ -1,0 +1,17 @@
+dataset_name: CMS_tta_8TeV
+doi: 10.1007/JHEP10(2017)006
+location: abstract
+arxiv: 1706.08128
+hepdata: https://www.hepdata.net/record/ins1604029?version=1&table=Table%201
+units: fb
+description: Total cross section of tta production
+luminosity: 19.7
+num_data: 1
+num_sys: 1
+data_central: 592.0
+statistical_error:
+- 0.0
+systematics:
+- 108.0
+sys_names: UNCORR
+sys_type: ADD

@@ -1,0 +1,31 @@
+dataset_name: CMS_tt_13TeV_asy
+doi: none
+location: Tab.2
+arxiv: https://inspirehep.net/files/ed1440bf77ee87d1406fd5f4cb5ab630
+hepdata: none
+units: none
+description: charge asymmetry differential in mtt
+luminosity: 138
+data_central:
+- 0.005711
+- 0.01728
+- 0.009642
+num_data: 3
+num_sys: 2
+statistical_error:
+- 0.00412431737941612
+- 0.005677421296925344
+- 0.010575783658906796
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
+systematics:
+- - 0.00384187454246
+  - 0.005267589581583
+  - 0.006462778040441
+- - 0.0032
+  - 0.004402272140611
+  - 0.004050617236916

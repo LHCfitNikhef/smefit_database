@@ -1,0 +1,16 @@
+dataset_name: ATLAS_tttt_13TeV_slep_inc
+doi: 10.17182/hepdata.105039.v1/t2
+location: abstract
+arxiv: 2106.11683
+hepdata: https://www.hepdata.net/record/ins1869695?version=1&table=Table%2002%3A%20Fitted%20cross%20section%20in%201L%2F2LOS
+units: fb
+description: 4 top production in the single-lepton channel
+luminosity: 139
+num_data: 1
+num_sys: 1
+data_central: 27.0
+statistical_error: 8
+systematics:
+- 14.612449097911455
+sys_names: UNCORR
+sys_type: ADD

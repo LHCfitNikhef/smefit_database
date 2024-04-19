@@ -1,0 +1,31 @@
+dataset_name: FCCee_Brw_240GeV
+description: W leptonic branching ratio (first, second and third generation)
+luminosity: 10000
+num_data: 3
+num_sys: 3
+data_central:
+- 0.1083
+- 0.1083
+- 0.1083
+statistical_error:
+- 0.00002642
+- 0.00002642
+- 0.00002642
+systematics:
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD
