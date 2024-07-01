@@ -1,5 +1,6 @@
 import numpy as np
 import pathlib
+import jax.numpy as jnp
 
 current_file_path = pathlib.Path(__file__).resolve().parent
 
@@ -27,16 +28,18 @@ class OptimalWW:
             '{collider}_ww_semilep_365': 'invcov_{collider}_ww_semilep_365.dat'
         }
 
-        self.invcovs = [np.loadtxt(current_file_path / path.format(collider=collider)) for path in self.datasets.values()]
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            temp = self.project.T @ invcov @ self.project
+            incovs_reordered.append(temp)
+        self.incovs_reordered = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
         self.n_dat = len(oo_wc_basis)
 
     def compute_chi2(self, coefficient_values):
 
-        chi2_value = 0
-        for invcov in self.invcovs:
-            chi2_value += np.linalg.multi_dot(
-                [coefficient_values, self.project.T, invcov, self.project, coefficient_values])
+        chi2_value = coefficient_values @ self.incovs_reordered @ coefficient_values
 
         return chi2_value
 
@@ -56,17 +59,19 @@ class Optimaltt:
             '{collider}_tt_365': 'invcov_{collider}_tt_365GeV.dat'
         }
 
-        self.invcovs = [np.loadtxt(current_file_path / path.format(collider=collider)) for path in
-                        self.datasets.values()]
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            temp = self.project.T @ invcov @ self.project
+            incovs_reordered.append(temp)
+        self.incovs_reordered = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
         self.n_dat = len(oo_tt_wc_basis)
 
     def compute_chi2(self, coefficient_values):
 
-        chi2_value = 0
-        for invcov in self.datasets.values():
-            chi2_value += np.linalg.multi_dot(
-                [coefficient_values, self.project.T, invcov, self.project, coefficient_values])
+        chi2_value = coefficient_values @ self.incovs_reordered @ coefficient_values
+
         return chi2_value
 
 
