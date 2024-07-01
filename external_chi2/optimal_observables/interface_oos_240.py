@@ -25,13 +25,15 @@ class OptimalWW:
 
         }
 
+        self.invcovs = [np.loadtxt(current_file_path / path.format(collider=collider)) for path in
+                        self.datasets.values()]
+
         self.n_dat = len(oo_wc_basis)
 
     def compute_chi2(self, coefficient_values):
 
         chi2_value = 0
-        for invcov_path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / invcov_path.format(collider=collider))
+        for invcov in self.invcovs:
             chi2_value += np.linalg.multi_dot(
                 [coefficient_values, self.project.T, invcov, self.project, coefficient_values])
 
