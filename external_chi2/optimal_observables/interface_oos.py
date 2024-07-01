@@ -1,5 +1,6 @@
 import numpy as np
 import pathlib
+import jax.numpy as jnp
 
 current_file_path = pathlib.Path(__file__).resolve().parent
 
@@ -27,15 +28,18 @@ class OptimalWW:
             '{collider}_ww_semilep_365': 'invcov_{collider}_ww_semilep_365.dat'
         }
 
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            temp = jnp.einsum("i, ij, j", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
         self.n_dat = len(oo_wc_basis)
 
     def compute_chi2(self, coefficient_values):
 
-        chi2_value = 0
-        for invcov_path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / invcov_path.format(collider=collider))
-            chi2_value += np.linalg.multi_dot(
-                [coefficient_values, self.project.T, invcov, self.project, coefficient_values])
+        chi2_value = jnp.einsum("i, ij, j", coefficient_values, self.incov_tot, coefficient_values)
 
         return chi2_value
 
@@ -54,15 +58,20 @@ class Optimaltt:
         self.datasets = {
             '{collider}_tt_365': 'invcov_{collider}_tt_365GeV.dat'
         }
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            temp = jnp.einsum("i, ij, j", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
         self.n_dat = len(oo_tt_wc_basis)
 
     def compute_chi2(self, coefficient_values):
 
-        chi2_value = 0
-        for invcov_path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / invcov_path.format(collider=collider))
-            chi2_value += np.linalg.multi_dot(
-                [coefficient_values, self.project.T, invcov, self.project, coefficient_values])
+        chi2_value = jnp.einsum("i, ij, j", coefficient_values, self.incov_tot, coefficient_values)
+
         return chi2_value
 
 
