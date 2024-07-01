@@ -29,7 +29,7 @@ class OptimalWW:
         incovs_reordered = []
         for path in self.datasets.values():
             invcov = np.loadtxt(current_file_path / path.format(collider=collider))
-            temp = jnp.einsum("i, ij, j", self.project.T, invcov, self.project)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
