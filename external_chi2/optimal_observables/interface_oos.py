@@ -10,7 +10,7 @@ collider = 'FCCee'
 
 class OptimalWW:
 
-    def __init__(self, coefficients):
+    def __init__(self, coefficients, rgemat=None):
 
         oo_wc_basis = ['OpD', 'OpWB', 'OWWW', 'Opl1', 'Ope', 'O3pl1']
 
@@ -35,18 +35,46 @@ class OptimalWW:
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
+        self.rgemat = rgemat
+
         self.n_dat = len(oo_wc_basis)
 
     def compute_chi2(self, coefficient_values):
 
-        chi2_value = jnp.einsum("i, ij, j", coefficient_values, self.incov_tot, coefficient_values)
+        chi2_value = 0
+        for invcov_path in self.datasets.values():
+            invcov = np.loadtxt(
+                current_file_path / invcov_path.format(collider=collider)
+            )
+            if self.rgemat is not None:
+                chi2_value += jnp.linalg.multi_dot(
+                    [
+                        coefficient_values,
+                        self.rgemat.T,
+                        self.project.T,
+                        invcov,
+                        self.project,
+                        self.rgemat,
+                        coefficient_values,
+                    ]
+                )
+            else:
+                chi2_value += jnp.linalg.multi_dot(
+                    [
+                        coefficient_values,
+                        self.project.T,
+                        invcov,
+                        self.project,
+                        coefficient_values,
+                    ]
+                )
 
         return chi2_value
 
 
 class Optimaltt:
 
-    def __init__(self, coefficients):
+    def __init__(self, coefficients, rgemat=None):
 
         oo_tt_wc_basis = ['OpQM', 'Opt', 'OtW', 'OtZ']
 
@@ -66,11 +94,39 @@ class Optimaltt:
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
+        self.rgemat = rgemat
+
         self.n_dat = len(oo_tt_wc_basis)
 
     def compute_chi2(self, coefficient_values):
 
-        chi2_value = jnp.einsum("i, ij, j", coefficient_values, self.incov_tot, coefficient_values)
+        chi2_value = 0
+        for invcov_path in self.datasets.values():
+            invcov = np.loadtxt(
+                current_file_path / invcov_path.format(collider=collider)
+            )
+            if self.rgemat is not None:
+                chi2_value += jnp.linalg.multi_dot(
+                    [
+                        coefficient_values,
+                        self.rgemat.T,
+                        self.project.T,
+                        invcov,
+                        self.project,
+                        self.rgemat,
+                        coefficient_values,
+                    ]
+                )
+            else:
+                chi2_value += jnp.linalg.multi_dot(
+                    [
+                        coefficient_values,
+                        self.project.T,
+                        invcov,
+                        self.project,
+                        coefficient_values,
+                    ]
+                )
 
         return chi2_value
 
