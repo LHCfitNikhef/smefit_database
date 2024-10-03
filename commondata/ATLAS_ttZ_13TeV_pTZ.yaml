@@ -14,6 +14,30 @@ description: The absolute parton-level differential cross-section measured in th
 luminosity: 139
 num_data: 7
 num_sys: 7
+kinematic: pT_Z
+bins:
+- pT_Z:
+    min: 0
+    max: 40
+- pT_Z:
+    min: 40
+    max: 70
+- pT_Z:
+    min: 70
+    max: 110
+- pT_Z:
+    min: 110
+    max: 160
+- pT_Z:
+    min: 160
+    max: 220
+- pT_Z:
+    min: 220
+    max: 290
+- pT_Z:
+    min: 290
+    max: 400
+
 data_central:
 - 1.4883350000000002
 - 4.3679250000000005
