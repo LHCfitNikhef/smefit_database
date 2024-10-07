@@ -1,5 +1,8 @@
 {
     "best_sm":[1.0],
+    "scales": [
+        250.0
+    ],
     "theory_cov":[
         [
             0.0
