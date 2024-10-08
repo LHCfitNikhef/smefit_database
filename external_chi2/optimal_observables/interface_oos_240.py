@@ -5,14 +5,14 @@ import jax.numpy as jnp
 current_file_path = pathlib.Path(__file__).resolve().parent
 
 # future colliders to include
-collider = 'FCCee'
+collider = "FCCee"
 
 
 class OptimalWW:
 
-    def __init__(self, coefficients):
+    def __init__(self, coefficients, rgemat=None):
 
-        oo_wc_basis = ['OpD', 'OpWB', 'OWWW', 'Opl1', 'Ope', 'O3pl1']
+        oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
         for i, op in enumerate(oo_wc_basis):
@@ -20,10 +20,8 @@ class OptimalWW:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
         self.datasets = {
-
-            '{collider}_ww_lepto_240': 'invcov_{collider}_ww_leptonic_240.dat',
-            '{collider}_ww_semilep_240': 'invcov_{collider}_ww_semilep_240.dat',
-
+            "{collider}_ww_lepto_240": "invcov_{collider}_ww_leptonic_240.dat",
+            "{collider}_ww_semilep_240": "invcov_{collider}_ww_semilep_240.dat",
         }
 
         incovs_reordered = []
@@ -33,18 +31,20 @@ class OptimalWW:
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            # multiply the RGE matrix as well
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
         self.n_dat = len(oo_wc_basis)
 
     def compute_chi2(self, coefficient_values):
 
-        chi2_value = jnp.einsum("i, ij, j", coefficient_values, self.incov_tot, coefficient_values)
+        chi2_value = jnp.einsum(
+            "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
+        )
 
         return chi2_value
-
-
-
-
-
-
-
-
