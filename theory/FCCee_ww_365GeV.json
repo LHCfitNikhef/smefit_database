@@ -2,6 +2,9 @@
  "best_sm": [
   10.74
  ],
+ "scales": [
+    365.0
+    ],
  "theory_cov": [
   [
    0.0
