@@ -8,7 +8,7 @@ current_file_path = pathlib.Path(__file__).resolve().parent
 collider = "FCCee"
 
 
-class OptimalWW240:
+class OptimalWW161:
 
     def __init__(self, coefficients, rgemat=None):
 
@@ -20,9 +20,9 @@ class OptimalWW240:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
         self.datasets = {
-            "{collider}_ww_lepto_240": "invcov_{collider}_ww_leptonic_240.dat",
-            "{collider}_ww_semilep_240": "invcov_{collider}_ww_semilep_240.dat",
-        }
+            "{collider}_ww_lepto_161": "invcov_{collider}_ww_leptonic_161.dat",
+            "{collider}_ww_semilep_161": "invcov_{collider}_ww_semilep_161.dat"
+            }
 
         incovs_reordered = []
         for path in self.datasets.values():
