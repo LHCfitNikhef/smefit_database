@@ -22,6 +22,26 @@ statistical_error:
 - 0.02187
 - 0.009477
 - 0.0043011
+kinematic: M_tt
+bins:
+  - M_tt:
+      min: 340
+      max: 380
+  - M_tt:
+      min: 380
+      max: 470
+  - M_tt:
+      min: 470
+      max: 620
+  - M_tt:
+      min: 620
+      max: 820
+  - M_tt:
+      min: 820
+      max: 1100
+  - M_tt:
+      min: 1100
+      max: 1600
 systematics:
 - - 0.5103
   - 0.10935
