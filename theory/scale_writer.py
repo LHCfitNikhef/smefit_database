@@ -88,16 +88,29 @@ for commondata_file in path_to_commondata.iterdir():
         if "bins" in commondata:
             scales = compute_scale(commondata)
 
-            path_to_theory = theory_base_path / f"{commondata_file.stem}.json"
-
             # add scales to theory file
+            path_to_theory = theory_base_path / f"{commondata_file.stem}.json"
             with open(path_to_theory) as f_theory:
                 theory_config = json.load(f_theory)
                 theory_config['scales'] = scales
 
+            # add scale to projected dataset if it exists
+            path_to_theory_proj = theory_base_path / f"{commondata_file.stem}_proj.json"
+
+            if path_to_theory_proj.exists():
+                with open(path_to_theory_proj) as f_theory_proj:
+                    theory_config_proj = json.load(f_theory_proj)
+                    theory_config_proj['scales'] = scales
+
+                # dump theory file
+                with open(path_to_theory_proj, "w") as f:
+                    json.dump(theory_config_proj, f, indent=1)
+
             # dump theory file
             with open(path_to_theory, "w") as f:
                 json.dump(theory_config, f, indent=1)
+
+
 
             scales_dict[commondata['dataset_name']] = scales
 
