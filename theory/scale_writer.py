@@ -11,25 +11,27 @@ mz = 91.1876
 mw = 80.387
 
 
-def scale_ttZ(bin):
+def scale_ttZ(bin, kinematic=None):
     return np.sqrt((2 * mt + mz) ** 2 + bin ** 2) # bin = pT_V
 
-def scale_ggF(bin):
+def scale_ggF(bin, kinematic=None):
     return np.sqrt(mh ** 2 + bin ** 2) # bin = pT_H
 
-def scale_H_VBF(bin):
+def scale_H_VBF(bin, kinematic=None):
     return scale_ggF(bin)
 
-def scale_tt(bin):
+def scale_tt(bin, kinematic=None):
     return bin
 
-def scale_wz(bin):
+def scale_wz(bin, kinematic=None):
     return np.sqrt((mz + mw) ** 2 + bin ** 2)
 
-def scale_tz(bin):
+def scale_tz(bin, kinematic=None):
+    if kinematic == 'pTt':
+        return np.sqrt((mt + mz) ** 2 + bin ** 2)
     return mt + mz
 
-def scale_tw(bin):
+def scale_tw(bin, kinematic=None):
     return mt + mw
 
 # collect all scale choices in dictionary with process name as key
@@ -55,7 +57,13 @@ def compute_scale(commondata):
         List of the renormalisation scales
     """
     dataset_name = commondata['dataset_name']
-    process = dataset_name.split('_')[1]
+    dataset_parts = dataset_name.split('_')
+    process = dataset_parts[1]
+
+    #extract kinematic
+    kinematic = dataset_parts[-1]
+    if kinematic == 'proj':
+        kinematic = dataset_parts[-2]
 
     if 'bins' in commondata:
         kin = commondata["kinematic"]
@@ -64,7 +72,7 @@ def compute_scale(commondata):
             min = bin[kin]['min']
             max = bin[kin]['max']
             bin_average = (min + max) / 2
-            scale = scale_funct_dict[process](bin_average)
+            scale = scale_funct_dict[process](bin_average, kinematic)
             scales.append(scale)
 
         return scales
