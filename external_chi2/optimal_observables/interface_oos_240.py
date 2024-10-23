@@ -8,7 +8,7 @@ current_file_path = pathlib.Path(__file__).resolve().parent
 collider = "FCCee"
 
 
-class OptimalWW:
+class OptimalWW240:
 
     def __init__(self, coefficients, rgemat=None):
 
