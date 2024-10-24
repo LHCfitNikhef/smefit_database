@@ -13,6 +13,20 @@ data_central:
 - 4.809
 - 2.115
 - 0.3299
+kinematic: pT_Z
+bins:
+  - pT_Z:
+      min: 0
+      max: 75
+  - pT_Z:
+      min: 75
+      max: 150
+  - pT_Z:
+      min: 150
+      max: 250
+  - pT_Z:
+      min: 250
+      max: 500
 statistical_error:
 - 0.558
 - 0.512

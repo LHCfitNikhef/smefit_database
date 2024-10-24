@@ -19,6 +19,38 @@ data_central:
 - 0.0162867
 - 0.0048548
 - 0.00061642
+kinematic: M_tt
+bins:
+  - M_tt:
+      min: 300
+      max: 360
+  - M_tt:
+      min: 360
+      max: 430
+  - M_tt:
+      min: 430
+      max: 500
+  - M_tt:
+      min: 500
+      max: 580
+  - M_tt:
+      min: 580
+      max: 680
+  - M_tt:
+      min: 680
+      max: 800
+  - M_tt:
+      min: 800
+      max: 1000
+  - M_tt:
+      min: 1000
+      max: 1200
+  - M_tt:
+      min: 1200
+      max: 1500
+  - M_tt:
+      min: 1500
+      max: 2500
 statistical_error:
 - 0.0
 - 0.0

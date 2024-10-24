@@ -15,6 +15,26 @@ data_central:
 - 3.155
 - 8.4
 - 2.965
+kinematic: pT_H
+bins:
+  - pT_H:
+      min: 0
+      max: 0
+  - pT_H:
+      min: 0
+      max: 60
+  - pT_H:
+      min: 60
+      max: 120
+  - pT_H:
+      min: 120
+      max: 200
+  - pT_H:
+      min: 200
+      max: 200
+  - pT_H:
+      min: 0
+      max: 60
 statistical_error:
 - 10.98
 - 8.25
