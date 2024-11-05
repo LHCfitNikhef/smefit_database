@@ -1,8 +1,6 @@
 # .github/workflows/pre-commit.yml
 name: Pre-commit
-
 on: [pull_request, push]
-
 jobs:
   pre-commit:
     runs-on: ubuntu-latest
