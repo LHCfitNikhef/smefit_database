@@ -9,7 +9,7 @@ repos:
     hooks:
       - id: check-jsonschema
         files: ^theory/.*\.json$
-        args: ["--schemafile", "schemas/theory_scheme.json"]
+        args: ["--schemafile", ".github/theory_scheme.json"]
   - repo: local
     hooks:
       - id: format-json
