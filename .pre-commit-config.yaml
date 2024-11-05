@@ -1,0 +1,25 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.1.0 # Replace with the latest Black version
+    hooks:
+      - id: black
+        language_version: python3
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.29.4
+    hooks:
+      - id: check-jsonschema
+        files: ^theory/.*\.json$
+        args: ["--schemafile", "schemas/theory_scheme.json"]
+  - repo: local
+    hooks:
+      - id: format-json
+        name: Format JSON Files
+        entry: python .github/format_json.py
+        language: python
+        types: [json]
+        files: ^theory/.*\.json$
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.8.0 # Replace with the latest version of yamlfmt
+    hooks:
+      - id: yamlfmt
+        name: Format YAML with yamlfmt

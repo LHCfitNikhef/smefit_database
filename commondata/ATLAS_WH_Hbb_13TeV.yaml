@@ -9,23 +9,23 @@ luminosity: 79.8
 num_data: 2
 num_sys: 3
 data_central:
-- 20.0
-- 8.8
+  - 20.0
+  - 8.8
 statistical_error:
-- 17.0
-- 4.4
+  - 17.0
+  - 4.4
 systematics:
-- - 2.0
-  - 0.5
-- - 13.0
-  - 2.5
-- - 9.0
-  - 0.9
+  - - 2.0
+    - 0.5
+  - - 13.0
+    - 2.5
+  - - 9.0
+    - 0.9
 sys_names:
-- CORR
-- CORR
-- CORR
+  - CORR
+  - CORR
+  - CORR
 sys_type:
-- MULT
-- MULT
-- MULT
+  - MULT
+  - MULT
+  - MULT

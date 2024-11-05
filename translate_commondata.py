@@ -11,7 +11,6 @@ new_commondata_folder.mkdir(exist_ok=True)
 
 
 def load_data(dataset):
-
     data_file = old_commondata_path / f"DATA_{dataset}.dat"
     sys_file = old_commondata_path / f"systypes/SYSTYPE_{dataset}_DEFAULT.dat"
 
@@ -144,7 +143,6 @@ if __name__ == "__main__":
     ]
 
     for dataset in datasets:
-
         print(f"Converting dataset: {dataset}")
         (
             central_values,
