@@ -9,7 +9,9 @@ collider = "FCCee"
 
 
 class OptimalWW161:
+
     def __init__(self, coefficients, rgemat=None):
+
         oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
@@ -19,8 +21,8 @@ class OptimalWW161:
 
         self.datasets = {
             "{collider}_ww_lepto_161": "invcov_{collider}_ww_leptonic_161.dat",
-            "{collider}_ww_semilep_161": "invcov_{collider}_ww_semilep_161.dat",
-        }
+            "{collider}_ww_semilep_161": "invcov_{collider}_ww_semilep_161.dat"
+            }
 
         incovs_reordered = []
         for path in self.datasets.values():
@@ -40,6 +42,7 @@ class OptimalWW161:
         self.n_dat = len(oo_wc_basis)
 
     def compute_chi2(self, coefficient_values):
+
         chi2_value = jnp.einsum(
             "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
         )

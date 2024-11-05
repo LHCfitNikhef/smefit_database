@@ -9,7 +9,9 @@ collider = "FCCee"
 
 
 class OptimalWW240:
+
     def __init__(self, coefficients, rgemat=None):
+
         oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
@@ -40,6 +42,7 @@ class OptimalWW240:
         self.n_dat = len(oo_wc_basis)
 
     def compute_chi2(self, coefficient_values):
+
         chi2_value = jnp.einsum(
             "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
         )

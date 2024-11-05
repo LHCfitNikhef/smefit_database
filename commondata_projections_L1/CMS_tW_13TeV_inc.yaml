@@ -10,13 +10,13 @@ num_data: 1
 num_sys: 2
 data_central: 78.35672114873117
 statistical_error:
-  - 1.985731942400118
+- 1.985731942400118
 systematics:
-  - 7.788901426307448
-  - 2.5557332805071313
+- 7.788901426307448
+- 2.5557332805071313
 sys_names:
-  - UNCORR
-  - CMSLUMI15
+- UNCORR
+- CMSLUMI15
 sys_type:
-  - ADD
-  - ADD
+- ADD
+- ADD

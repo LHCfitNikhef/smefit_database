@@ -13,4 +13,4 @@ statistical_error: 0.1
 sys_names: UNCORR
 sys_type: ADD
 systematics:
-  - 0.5
+- 0.5

@@ -10,8 +10,8 @@ luminosity: 35.8
 num_data: 1
 num_sys: 1
 statistical_error:
-  - 0.0
+- 0.0
 sys_names: UNCORR
 sys_type: ADD
 systematics:
-  - 11.42316202940397
+- 11.42316202940397

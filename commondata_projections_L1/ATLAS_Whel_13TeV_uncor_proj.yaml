@@ -4,24 +4,25 @@ location: Sec. 9. Correlation from Tab. 2
 arxiv: 2209.14903
 hepdata: none
 units: none
-description: W helicity fractions, F0 and FL, FR is redundant because their sum is constrained to one. Errors are uncorrelated.
+description: W helicity fractions, F0 and FL, FR is redundant because their sum is
+  constrained to one. Errors are uncorrelated.
 luminosity: 139
 num_data: 2
 num_sys: 2
 data_central:
-  - 0.6818418080070967
-  - 0.3118204394903766
+- 0.6818418080070967
+- 0.3118204394903766
 statistical_error:
-  - 0.0010786165874350617
-  - 0.0006386084518051582
+- 0.0010786165874350617
+- 0.0006386084518051582
 systematics:
-  - - 0.007
-    - 0.0
-  - - 0.0
-    - 0.004
+- - 0.007
+  - 0.0
+- - 0.0
+  - 0.004
 sys_names:
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
+- ADD
+- ADD

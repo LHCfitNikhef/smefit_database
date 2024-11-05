@@ -11,6 +11,6 @@ num_sys: 1
 data_central: 1500.0
 statistical_error: 720.0
 systematics:
-  - 330.0
+- 330.0
 sys_names: UNCORR
 sys_type: MULT

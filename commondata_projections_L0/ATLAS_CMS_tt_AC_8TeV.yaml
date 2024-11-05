@@ -4,30 +4,31 @@ location: Combined AC table 4
 arxiv: 1709.05327
 hepdata: none
 units: none
-description: Combined ATLAS and CMS charge asymmetries differential in the top-quark pair invariant mass
+description: Combined ATLAS and CMS charge asymmetries differential in the top-quark
+  pair invariant mass
 luminosity: 20
 num_data: 6
 num_sys: 1
 data_central:
-  - 0.0069
-  - 0.0095
-  - 0.01095
-  - 0.01219
-  - 0.01327
-  - 0.01286
+- 0.0069
+- 0.0095
+- 0.01095
+- 0.01219
+- 0.01327
+- 0.01286
 statistical_error:
-  - 0.017
-  - 0.007162401831787992
-  - 0.009
-  - 0.008063084604128455
-  - 0.022
-  - 0.013693020119754443
+- 0.017
+- 0.007162401831787992
+- 0.009
+- 0.008063084604128455
+- 0.022
+- 0.013693020119754443
 systematics:
-  - - 0.013
-    - 0.006
-    - 0.007
-    - 0.014
-    - 0.02
-    - 0.024
+- - 0.013
+  - 0.006
+  - 0.007
+  - 0.014
+  - 0.02
+  - 0.024
 sys_names: UNCORR
 sys_type: ADD

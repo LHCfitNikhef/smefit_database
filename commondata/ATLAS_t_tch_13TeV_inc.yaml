@@ -9,19 +9,19 @@ luminosity: 3.2
 num_data: 2
 num_sys: 2
 data_central:
-  - 156.0
-  - 91.0
+- 156.0
+- 91.0
 statistical_error:
-  - 5.0
-  - 4.0
+- 5.0
+- 4.0
 systematics:
-  - - 27.0
-    - 18.0
-  - - 3.0
-    - 2.0
+- - 27.0
+  - 18.0
+- - 3.0
+  - 2.0
 sys_names:
-  - UNCORR
-  - ATLASLUMI15
+- UNCORR
+- ATLASLUMI15
 sys_type:
-  - MULT
-  - MULT
+- MULT
+- MULT

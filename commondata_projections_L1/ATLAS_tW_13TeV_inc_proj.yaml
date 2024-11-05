@@ -10,13 +10,13 @@ num_data: 1
 num_sys: 2
 data_central: 84.42864192051292
 statistical_error:
-  - 0.290867112142736
+- 0.290867112142736
 systematics:
-  - 9.914493389795497
-  - 0.7931594711836398
+- 9.914493389795497
+- 0.7931594711836398
 sys_names:
-  - UNCORR
-  - ATLASLUMI15
+- UNCORR
+- ATLASLUMI15
 sys_type:
-  - ADD
-  - ADD
+- ADD
+- ADD

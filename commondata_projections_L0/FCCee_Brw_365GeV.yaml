@@ -4,28 +4,28 @@ luminosity: 3000
 num_data: 3
 num_sys: 3
 data_central:
-  - 0.1083
-  - 0.1083
-  - 0.1083
+- 0.1083
+- 0.1083
+- 0.1083
 statistical_error:
-  - 6.09574e-05
-  - 6.09574e-05
-  - 6.09574e-05
+- 6.09574e-05
+- 6.09574e-05
+- 6.09574e-05
 systematics:
-  - - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
 sys_names:
-  - CORR
-  - CORR
-  - CORR
+- CORR
+- CORR
+- CORR
 sys_type:
-  - ADD
-  - ADD
-  - ADD
+- ADD
+- ADD
+- ADD

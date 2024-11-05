@@ -4,24 +4,25 @@ location: Tab. 20
 arxiv: 1702.02859
 hepdata: https://www.hepdata.net/record/ins1512776?version=2&table=Table%2028
 units: fb
-description: Absolute unfolded differential tq production cross-sections in yt at parton level
+description: Absolute unfolded differential tq production cross-sections in yt at
+  parton level
 luminosity: 20.2
 num_data: 4
 num_sys: 1
 data_central:
-  - 35143.8
-  - 32400.0
-  - 28572.7
-  - 16578.2
+- 35143.8
+- 32400.0
+- 28572.7
+- 16578.2
 statistical_error:
-  - 1874.6679706017278
-  - 1828.4377794652453
-  - 1381.524949384104
-  - 933.7934780990173
+- 1874.6679706017278
+- 1828.4377794652453
+- 1381.524949384104
+- 933.7934780990173
 systematics:
-  - - 2494.775925925926
-    - 2373.248407643312
-    - 2145.775889328063
-    - 1291.8077922077923
+- - 2494.775925925926
+  - 2373.248407643312
+  - 2145.775889328063
+  - 1291.8077922077923
 sys_names: UNCORR
 sys_type: ADD

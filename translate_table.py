@@ -53,6 +53,7 @@ def change_label_names(df):
 
 
 def dump_to_json(data_dict, dataset):
+
     new_table_folder = pathlib.Path(f"{new_table_path}/theory/")
     new_table_folder.mkdir(exist_ok=True)
     with open(f"{new_table_folder}/{dataset}.json", "w", encoding="utf-8") as f:
@@ -64,6 +65,7 @@ def dump_to_json(data_dict, dataset):
 
 
 if __name__ == "__main__":
+
     parser = argparse.ArgumentParser(
         description="Translate old theory files into new format"
     )
