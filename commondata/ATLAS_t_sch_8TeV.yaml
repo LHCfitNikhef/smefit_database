@@ -11,11 +11,11 @@ num_sys: 2
 data_central: 4.8072
 statistical_error: 0.8
 systematics:
-- 1.45
-- 0.1344
+  - 1.45
+  - 0.1344
 sys_names:
-- UNCORR
-- ATLASLUMI12
+  - UNCORR
+  - ATLASLUMI12
 sys_type:
-- MULT
-- MULT
+  - MULT
+  - MULT
