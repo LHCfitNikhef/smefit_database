@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties":{
+    "best_sm":{
+      "type":"array",
+      "items":{
+        "type":"number"
+      }
+    },
+    "scales":{
+      "type":"array",
+      "items":{
+        "type":"number"
+      }
+    },
+    "theory_cov":{
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "LO":{
+      "type":"object",
+      "additionalProperties":{
+        "type":"array",
+        "items":{
+          "type":"number"
+        }
+      }
+    },
+    "NLO":{
+      "type":"object",
+      "additionalProperties":{
+        "type":"array",
+        "items":{
+          "type":"number"
+        }
+      }
+    }
+  },
+  "required": ["best_sm", "scales", "theory_cov", "LO"],
+  "additionalProperties": false
+}
