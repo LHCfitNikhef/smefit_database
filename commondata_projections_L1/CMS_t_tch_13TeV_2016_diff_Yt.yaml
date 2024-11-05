@@ -4,33 +4,32 @@ location: Figure 5 (right panel), (normalised -> absolute)
 arxiv: https://inspirehep.net/literature/1456074
 hepdata: none
 units: pb
-description: single-top-quark production in the t-channel differential in the rapidity
-  of either the top or the anti-top
+description: single-top-quark production in the t-channel differential in the rapidity of either the top or the anti-top
 luminosity: 2.3
 num_data: 4
 num_sys: 2
 data_central:
-- 183.16022692656293
-- 66.27979288736034
-- 115.13324237406889
-- 95.12589373500614
+  - 183.16022692656293
+  - 66.27979288736034
+  - 115.13324237406889
+  - 95.12589373500614
 statistical_error:
-- 18.896114820797283
-- 14.823412040349737
-- 13.054792223547642
-- 11.42093477396273
+  - 18.896114820797283
+  - 14.823412040349737
+  - 13.054792223547642
+  - 11.42093477396273
 systematics:
-- - 24.876849056603774
-  - 21.187870503597125
-  - 18.29988235294118
-  - 23.634991666666664
-- - 3.1102440000000002
-  - 2.882452
-  - 2.3332349999999997
-  - 1.4180994999999998
+  - - 24.876849056603774
+    - 21.187870503597125
+    - 18.29988235294118
+    - 23.634991666666664
+  - - 3.1102440000000002
+    - 2.882452
+    - 2.3332349999999997
+    - 1.4180994999999998
 sys_names:
-- UNCORR
-- CMSLUMI15
+  - UNCORR
+  - CMSLUMI15
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD
