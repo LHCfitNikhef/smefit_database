@@ -42,6 +42,6 @@
       }
     }
   },
-  "required": ["best_sm", "scales", "theory_cov"],
+  "required": ["best_sm", "scales", "theory_cov", "LO"],
   "additionalProperties": false
 }
