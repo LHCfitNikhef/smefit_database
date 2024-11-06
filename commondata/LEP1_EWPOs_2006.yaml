@@ -1,6 +1,8 @@
 dataset_name: LEP1_EWPOs_2006
 num_data: 19
 num_sys: 19
+description: The order corresponds to the observables GammaZ, SigmaHad, Re, Rmu, Rtau, AFBe, AFBmu, AFBtau, AeSLD, 
+  AmuSLD, AtauSLD, AtauPT, AePT, Rb, Rc, AFBb, AFBc, Ab, Ac
 data_central:
   - 2.4952
   - 41541.0
