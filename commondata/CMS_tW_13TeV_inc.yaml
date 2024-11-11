@@ -11,11 +11,11 @@ num_sys: 2
 data_central: 63.1
 statistical_error: 1.8
 systematics:
-- 6.4
-- 2.1
+  - 6.4
+  - 2.1
 sys_names:
-- UNCORR
-- CMSLUMI15
+  - UNCORR
+  - CMSLUMI15
 sys_type:
-- MULT
-- MULT
+  - MULT
+  - MULT

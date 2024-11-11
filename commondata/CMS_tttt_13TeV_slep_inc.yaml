@@ -13,4 +13,4 @@ statistical_error: 0.0
 sys_names: UNCORR
 sys_type: ADD
 systematics:
-- 34.30378987809
+  - 34.30378987809

@@ -3,95 +3,91 @@ doi: 10.17182/hepdata.100351.v2/t6
 location: Data from Figure 9B
 arxiv: 2103.12603
 hepdata:
-- https://www.hepdata.net/record/ins1853014?version=2&table=Table%206
+  - https://www.hepdata.net/record/ins1853014?version=2&table=Table%206
 units: fb/GeV
-description: The absolute parton-level differential cross-section measured in the
-  fiducial phase-space as a function of the $p_{\textrm{T}}$ of the $Z$ boson in the
-  3$\ell$+4$\ell$ channel. The uncertainty is decomposed into four components which
-  are the signal modelling uncertainty, the background modelling uncertainty, the
-  experimental uncertainty, and the data statistical uncertainty.
+description: The absolute parton-level differential cross-section measured in the fiducial phase-space as a function of the $p_{\textrm{T}}$ of the $Z$ boson in the 3$\ell$+4$\ell$ channel. The uncertainty is decomposed into four components which are the signal modelling uncertainty, the background modelling uncertainty, the experimental uncertainty, and the data statistical uncertainty.
 luminosity: 139
 num_data: 7
 num_sys: 7
 data_central:
-- 1.4883350000000002
-- 4.3679250000000005
-- 4.274375
-- 4.435455
-- 1.756715
-- 0.580145
-- 0.560495
+  - 1.4883350000000002
+  - 4.3679250000000005
+  - 4.274375
+  - 4.435455
+  - 1.756715
+  - 0.580145
+  - 0.560495
 statistical_error:
-- 0.53033
-- 0.93861
-- 0.74821
-- 0.5476
-- 0.30808
-- 0.16367
-- 0.10539
+  - 0.53033
+  - 0.93861
+  - 0.74821
+  - 0.5476
+  - 0.30808
+  - 0.16367
+  - 0.10539
 systematics:
-- - 0.3048918266809813
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.7932975343992449
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.6646105312280188
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.5825213055539213
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.20583482926970523
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.05845814835860023
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.08033891730706026
+  - - 0.3048918266809813
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.7932975343992449
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.6646105312280188
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.5825213055539213
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.20583482926970523
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.05845814835860023
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.08033891730706026
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD

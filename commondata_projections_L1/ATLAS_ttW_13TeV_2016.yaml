@@ -10,8 +10,8 @@ num_data: 1
 num_sys: 1
 data_central: 1027.2324237659607
 statistical_error:
-- 123.04151434728672
+  - 123.04151434728672
 systematics:
-- 125.4136091954023
+  - 125.4136091954023
 sys_names: UNCORR
 sys_type: ADD

@@ -4,58 +4,57 @@ location: Tab.3 combination
 arxiv: 2208.12095
 hepdata: https://www.hepdata.net/record/ins2141752?version=1&table=Results%20for%20charge%20asymmetry%20vs%20mtt
 units: none
-description: charge asymmetry differential in mtt. Stat and sys uncertainties are
-  uncorrelated.
+description: charge asymmetry differential in mtt. Stat and sys uncertainties are uncorrelated.
 luminosity: 139
 num_data: 5
 num_sys: 5
 data_central:
-- 0.005935
-- 0.005503
-- 0.01024
-- 0.02458
-- 0.001395
+  - 0.005935
+  - 0.005503
+  - 0.01024
+  - 0.02458
+  - 0.001395
 statistical_error:
-- 0.002685
-- 0.001891
-- 0.004644
-- 0.007416
-- 0.028002
+  - 0.002685
+  - 0.001891
+  - 0.004644
+  - 0.007416
+  - 0.028002
 systematics:
-- - 0.002389
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.001307
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.003048
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.004544
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.006789
+  - - 0.002389
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.001307
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.003048
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.004544
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.006789
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
