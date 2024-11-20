@@ -1,6 +1,6 @@
 dataset_name: CEPC_Zdata
 units: pb,GeV
-description: EWPOs
+description: The order corresponds to the observables GammaZ, SigmaHad, Re, Rmu, Rtau, Ae, Amu, Atau, Rb, Rc, Ab, Ac
 luminosity: 100000
 num_data: 12
 num_sys: 12
