@@ -4,9 +4,9 @@ units: pb
 luminosity: 3000
 num_data: 1
 num_sys: 1
-data_central: 0.0024200666666666665
-statistical_error: 0.000205349
+data_central: 0.00250273
+statistical_error: 0.0002123632005054957
 systematics:
-  - 0.0
+- 0.0
 sys_names:
 sys_type:
