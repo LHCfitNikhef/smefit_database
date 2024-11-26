@@ -6,8 +6,8 @@ num_data: 1
 num_sys: 1
 data_central: 0.00529072
 statistical_error:
-- 0.00013093887719584776
+  - 0.00013093887719584776
 systematics:
-- 0.0
+  - 0.0
 sys_names:
 sys_type:

@@ -9,9 +9,7 @@ collider = "FCCee"
 
 
 class OptimalWW365:
-
     def __init__(self, coefficients, rgemat=None):
-
         oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
@@ -21,7 +19,7 @@ class OptimalWW365:
 
         self.datasets = {
             "{collider}_ww_lepto_365": "invcov_{collider}_ww_leptonic_365.dat",
-            "{collider}_ww_semilep_365": "invcov_{collider}_ww_semilep_365.dat"
+            "{collider}_ww_semilep_365": "invcov_{collider}_ww_semilep_365.dat",
         }
 
         incovs_reordered = []
@@ -42,7 +40,6 @@ class OptimalWW365:
         self.n_dat = len(oo_wc_basis)
 
     def compute_chi2(self, coefficient_values):
-
         chi2_value = jnp.einsum(
             "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
         )
@@ -51,9 +48,7 @@ class OptimalWW365:
 
 
 class Optimaltt:
-
     def __init__(self, coefficients, rgemat=None):
-
         oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
 
         self.project = np.zeros((len(oo_tt_wc_basis), coefficients.size))
@@ -81,7 +76,6 @@ class Optimaltt:
         self.n_dat = len(oo_tt_wc_basis)
 
     def compute_chi2(self, coefficient_values):
-
         chi2_value = jnp.einsum(
             "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
         )
