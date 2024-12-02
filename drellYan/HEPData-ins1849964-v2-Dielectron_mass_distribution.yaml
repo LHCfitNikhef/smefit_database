@@ -1,0 +1,1075 @@
+dependent_variables:
+- header:
+    name: observed data
+    units: Events / GeV
+  values:
+  - value: 3090.4
+  - value: 4400.6
+  - value: 13989.0
+  - value: 60804.0
+  - value: 304450.0
+  - value: 1927700.0
+  - value: 2620100.0
+  - value: 437690.0
+  - value: 126950.0
+  - value: 66157.0
+  - value: 42749.0
+  - value: 30794.0
+  - value: 23651.0
+  - value: 18999.0
+  - value: 15671.0
+  - value: 13050.0
+  - value: 11309.0
+  - value: 9738.2
+  - value: 7934.5
+  - value: 6226.3
+  - value: 5015.2
+  - value: 4091.8
+  - value: 3371.8
+  - value: 2558.2
+  - value: 1821.8
+  - value: 1315.1
+  - value: 975.8
+  - value: 728.35
+  - value: 559.3
+  - value: 431.8
+  - value: 339.6
+  - value: 264.65
+  - value: 206.15
+  - value: 168.0
+  - value: 137.95
+  - value: 111.4
+  - value: 87.4
+  - value: 76.4
+  - value: 61.7
+  - value: 52.95
+  - value: 43.2
+  - value: 37.55
+  - value: 33.05
+  - value: 26.433
+  - value: 21.3
+  - value: 17.167
+  - value: 14.433
+  - value: 12.467
+  - value: 10.367
+  - value: 6.8
+  - value: 6.9
+  - value: 5.2
+  - value: 4.1333
+  - value: 3.54
+  - value: 3.12
+  - value: 1.72
+  - value: 1.56
+  - value: 1.56
+  - value: 0.98
+  - value: 0.82
+  - value: 0.71667
+  - value: 0.53333
+  - value: 0.35
+  - value: 0.41667
+  - value: 0.25
+  - value: 0.25
+  - value: 0.11429
+  - value: 0.15714
+  - value: 0.085714
+  - value: 0.11429
+  - value: 0.1
+  - value: 0.0875
+  - value: 0.0375
+  - value: 0.025
+  - value: 0.075
+  - value: 0.0
+  - value: 0.0125
+  - value: 0.0
+  - value: 0.025
+  - value: 0.0125
+  - value: 0.0
+  - value: 0.025
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0125
+  - value: 0.0125
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+- header:
+    name: total background estimate
+    units: Events / GeV
+  values:
+  - errors:
+    - label: total background uncertainty
+      symerror: 166.2
+    value: 2781.8
+  - errors:
+    - label: total background uncertainty
+      symerror: 204.66
+    value: 3778.1
+  - errors:
+    - label: total background uncertainty
+      symerror: 538.59
+    value: 13705.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 2060.4
+    value: 59672.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 10001.0
+    value: 301340.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 64256.0
+    value: 1923300.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 85960.0
+    value: 2615200.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 14596.0
+    value: 450340.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 4313.0
+    value: 129030.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 2242.0
+    value: 66895.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 1510.4
+    value: 43594.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 1100.2
+    value: 31433.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 1051.4
+    value: 24737.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 1039.4
+    value: 19825.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 1036.1
+    value: 16341.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 640.03
+    value: 13797.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 480.02
+    value: 11794.0
+  - errors:
+    - label: total background uncertainty
+      symerror: 438.74
+    value: 9962.1
+  - errors:
+    - label: total background uncertainty
+      symerror: 431.78
+    value: 8211.7
+  - errors:
+    - label: total background uncertainty
+      symerror: 247.8
+    value: 6478.3
+  - errors:
+    - label: total background uncertainty
+      symerror: 202.01
+    value: 5098.5
+  - errors:
+    - label: total background uncertainty
+      symerror: 163.72
+    value: 4222.3
+  - errors:
+    - label: total background uncertainty
+      symerror: 143.89
+    value: 3417.3
+  - errors:
+    - label: total background uncertainty
+      symerror: 137.56
+    value: 2569.2
+  - errors:
+    - label: total background uncertainty
+      symerror: 71.557
+    value: 1847.2
+  - errors:
+    - label: total background uncertainty
+      symerror: 54.182
+    value: 1324.4
+  - errors:
+    - label: total background uncertainty
+      symerror: 41.254
+    value: 980.94
+  - errors:
+    - label: total background uncertainty
+      symerror: 28.66
+    value: 733.14
+  - errors:
+    - label: total background uncertainty
+      symerror: 25.178
+    value: 558.03
+  - errors:
+    - label: total background uncertainty
+      symerror: 18.91
+    value: 435.81
+  - errors:
+    - label: total background uncertainty
+      symerror: 13.883
+    value: 339.1
+  - errors:
+    - label: total background uncertainty
+      symerror: 13.056
+    value: 269.28
+  - errors:
+    - label: total background uncertainty
+      symerror: 9.1576
+    value: 212.51
+  - errors:
+    - label: total background uncertainty
+      symerror: 8.8254
+    value: 169.99
+  - errors:
+    - label: total background uncertainty
+      symerror: 5.8349
+    value: 137.19
+  - errors:
+    - label: total background uncertainty
+      symerror: 5.1407
+    value: 110.2
+  - errors:
+    - label: total background uncertainty
+      symerror: 3.8087
+    value: 91.695
+  - errors:
+    - label: total background uncertainty
+      symerror: 3.2256
+    value: 79.915
+  - errors:
+    - label: total background uncertainty
+      symerror: 3.5661
+    value: 63.408
+  - errors:
+    - label: total background uncertainty
+      symerror: 2.3624
+    value: 53.386
+  - errors:
+    - label: total background uncertainty
+      symerror: 2.0214
+    value: 44.674
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.8429
+    value: 37.077
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.5904
+    value: 32.04
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.7265
+    value: 25.992
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.97316
+    value: 20.992
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.87829
+    value: 17.123
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.77264
+    value: 13.759
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.62408
+    value: 11.005
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.54473
+    value: 8.897
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.51604
+    value: 8.1158
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.55759
+    value: 6.2229
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.28234
+    value: 5.3314
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.25302
+    value: 4.4801
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.27087
+    value: 3.6019
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.16433
+    value: 2.7381
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.12883
+    value: 2.1161
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.12022
+    value: 1.5959
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.091592
+    value: 1.2843
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.074023
+    value: 1.0423
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.065312
+    value: 0.82623
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.063826
+    value: 0.65595
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.043793
+    value: 0.50858
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.035652
+    value: 0.39629
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.027165
+    value: 0.31856
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.024249
+    value: 0.25044
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.018897
+    value: 0.20022
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.015786
+    value: 0.16176
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.012041
+    value: 0.12137
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0099235
+    value: 0.097925
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0077531
+    value: 0.075079
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0064852
+    value: 0.058907
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.004848
+    value: 0.044736
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0039789
+    value: 0.03575
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0031802
+    value: 0.027946
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0026031
+    value: 0.022132
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0019266
+    value: 0.016396
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0016296
+    value: 0.013315
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0014085
+    value: 0.011175
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.0010894
+    value: 0.0086179
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00083613
+    value: 0.0065874
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00089061
+    value: 0.0064573
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00056873
+    value: 0.0043002
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00046446
+    value: 0.0034507
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00038138
+    value: 0.0027694
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00032951
+    value: 0.002333
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00034681
+    value: 0.0024315
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00038743
+    value: 0.0019394
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00018209
+    value: 0.0012327
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00015116
+    value: 0.0010083
+  - errors:
+    - label: total background uncertainty
+      symerror: 0.00014226
+    value: 0.00093592
+  - errors:
+    - label: total background uncertainty
+      symerror: 9.9785e-05
+    value: 0.00064954
+  - errors:
+    - label: total background uncertainty
+      symerror: 8.3186e-05
+    value: 0.00053485
+  - errors:
+    - label: total background uncertainty
+      symerror: 6.9051e-05
+    value: 0.00043738
+  - errors:
+    - label: total background uncertainty
+      symerror: 5.7856e-05
+    value: 0.00036094
+  - errors:
+    - label: total background uncertainty
+      symerror: 4.8432e-05
+    value: 0.00029758
+  - errors:
+    - label: total background uncertainty
+      symerror: 4.044e-05
+    value: 0.0002448
+  - errors:
+    - label: total background uncertainty
+      symerror: 3.3072e-05
+    value: 0.00019701
+  - errors:
+    - label: total background uncertainty
+      symerror: 2.6916e-05
+    value: 0.00015746
+  - errors:
+    - label: total background uncertainty
+      symerror: 2.1115e-05
+    value: 0.00012133
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.6417e-05
+    value: 9.2675e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.3579e-05
+    value: 7.5327e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.0673e-05
+    value: 5.8344e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 8.5709e-06
+    value: 4.6144e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 6.9662e-06
+    value: 3.6909e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 5.5219e-06
+    value: 2.8794e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 4.5385e-06
+    value: 2.3162e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 3.4764e-06
+    value: 1.757e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 2.7851e-06
+    value: 1.386e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 2.1596e-06
+    value: 1.0585e-05
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.7155e-06
+    value: 8.2822e-06
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.3351e-06
+    value: 6.3504e-06
+  - errors:
+    - label: total background uncertainty
+      symerror: 1.0387e-06
+    value: 4.8666e-06
+  - errors:
+    - label: total background uncertainty
+      symerror: 8.2213e-07
+    value: 3.7951e-06
+  - errors:
+    - label: total background uncertainty
+      symerror: 6.4793e-07
+    value: 2.9466e-06
+  - errors:
+    - label: total background uncertainty
+      symerror: 5.0143e-07
+    value: 2.2477e-06
+  - errors:
+    - label: total background uncertainty
+      symerror: 3.9637e-07
+    value: 1.7531e-06
+  - errors:
+    - label: total background uncertainty
+      symerror: 3.1578e-07
+    value: 1.3806e-06
+- header:
+    name: G_KK signal m = 3.5 TeV k/Mpl = 0.05
+    units: Events / GeV
+  values:
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 7.0154e-06
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 7.0154e-06
+  - value: 0.0
+  - value: 7.0154e-06
+  - value: 0.0
+  - value: 7.0154e-06
+  - value: 7.0154e-06
+  - value: 0.0
+  - value: 7.0154e-06
+  - value: 1.4031e-05
+  - value: 0.0
+  - value: 7.0154e-06
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 9.3538e-06
+  - value: 0.0
+  - value: 9.3538e-06
+  - value: 8.4185e-06
+  - value: 5.6123e-06
+  - value: 2.8062e-06
+  - value: 1.6837e-05
+  - value: 0.0
+  - value: 8.4185e-06
+  - value: 2.8062e-06
+  - value: 4.6769e-06
+  - value: 9.3538e-06
+  - value: 2.3385e-06
+  - value: 1.4031e-05
+  - value: 9.3538e-06
+  - value: 2.3385e-06
+  - value: 1.2026e-05
+  - value: 6.0132e-06
+  - value: 1.4031e-05
+  - value: 1.4031e-05
+  - value: 1.9292e-05
+  - value: 1.0523e-05
+  - value: 1.0523e-05
+  - value: 2.1046e-05
+  - value: 2.28e-05
+  - value: 1.7538e-05
+  - value: 3.5077e-05
+  - value: 1.5785e-05
+  - value: 2.1046e-05
+  - value: 1.9292e-05
+  - value: 4.7354e-05
+  - value: 3.8585e-05
+  - value: 5.0862e-05
+  - value: 6.84e-05
+  - value: 8.7692e-05
+  - value: 0.00013154
+  - value: 0.00018591
+  - value: 0.00031394
+  - value: 0.0013557
+  - value: 0.012066
+  - value: 0.010544
+  - value: 0.00084711
+  - value: 8.2431e-05
+  - value: 8.7692e-06
+  - value: 3.5077e-06
+  - value: 1.7538e-06
+  - value: 1.4031e-06
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 1.4031e-06
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+  - value: 0.0
+- header:
+    name: Z' SSM signal m = 5 TeV
+    units: Events / GeV
+  values:
+  - value: 0.0
+  - value: 2.5837e-05
+  - value: 9.0428e-05
+  - value: 0.00038755
+  - value: 0.00041338
+  - value: 0.00045214
+  - value: 0.00065883
+  - value: 0.00068467
+  - value: 0.00093011
+  - value: 0.00096887
+  - value: 0.00087844
+  - value: 0.0010851
+  - value: 0.0011368
+  - value: 0.0012272
+  - value: 0.0010593
+  - value: 0.0012531
+  - value: 0.0012531
+  - value: 0.001266
+  - value: 0.0014856
+  - value: 0.0014404
+  - value: 0.0013564
+  - value: 0.0016406
+  - value: 0.0013952
+  - value: 0.0016116
+  - value: 0.001547
+  - value: 0.0016148
+  - value: 0.0016277
+  - value: 0.0015599
+  - value: 0.0016471
+  - value: 0.00166
+  - value: 0.0015986
+  - value: 0.0017052
+  - value: 0.0014404
+  - value: 0.0015728
+  - value: 0.0017149
+  - value: 0.0015244
+  - value: 0.0015567
+  - value: 0.0014824
+  - value: 0.0016923
+  - value: 0.001505
+  - value: 0.0015308
+  - value: 0.0015017
+  - value: 0.0014404
+  - value: 0.0014038
+  - value: 0.0013004
+  - value: 0.0012875
+  - value: 0.0013672
+  - value: 0.0012746
+  - value: 0.0013026
+  - value: 0.0011842
+  - value: 0.0012531
+  - value: 0.0012488
+  - value: 0.0011476
+  - value: 0.0010722
+  - value: 0.0011123
+  - value: 0.0011058
+  - value: 0.00098954
+  - value: 0.00092624
+  - value: 0.00094174
+  - value: 0.00087715
+  - value: 0.00087629
+  - value: 0.00079663
+  - value: 0.00072127
+  - value: 0.00070835
+  - value: 0.00068467
+  - value: 0.00067067
+  - value: 0.00063576
+  - value: 0.00056102
+  - value: 0.00055087
+  - value: 0.00052134
+  - value: 0.00043761
+  - value: 0.00045052
+  - value: 0.00041258
+  - value: 0.00038916
+  - value: 0.0003609
+  - value: 0.00033507
+  - value: 0.00030762
+  - value: 0.00028016
+  - value: 0.00028824
+  - value: 0.00028824
+  - value: 0.00024868
+  - value: 0.00022849
+  - value: 0.00021073
+  - value: 0.00022284
+  - value: 0.00019054
+  - value: 0.0001744
+  - value: 0.00018812
+  - value: 0.00015583
+  - value: 0.00016309
+  - value: 0.00018166
+  - value: 0.00018005
+  - value: 0.00013968
+  - value: 0.00016067
+  - value: 0.00014856
+  - value: 0.00014937
+  - value: 0.00015663
+  - value: 0.00015308
+  - value: 0.00016923
+  - value: 0.00017569
+  - value: 0.0002054
+  - value: 0.00024028
+  - value: 0.00030939
+  - value: 0.00041403
+  - value: 0.00072665
+  - value: 0.0013674
+  - value: 0.0024021
+  - value: 0.0023027
+  - value: 0.0010935
+  - value: 0.00042501
+  - value: 0.00015696
+  - value: 8.2677e-05
+  - value: 5.3611e-05
+  - value: 2.5191e-05
+  - value: 1.1626e-05
+  - value: 1.0981e-05
+  - value: 3.2296e-06
+  - value: 0.00032296
+independent_variables:
+- header:
+    name: dilepton mass with binning for electron mass distribution
+    units: GeV
+  values:
+  - high: 65.0
+    low: 60.0
+  - high: 70.0
+    low: 65.0
+  - high: 75.0
+    low: 70.0
+  - high: 80.0
+    low: 75.0
+  - high: 85.0
+    low: 80.0
+  - high: 90.0
+    low: 85.0
+  - high: 95.0
+    low: 90.0
+  - high: 100.0
+    low: 95.0
+  - high: 105.0
+    low: 100.0
+  - high: 110.0
+    low: 105.0
+  - high: 115.0
+    low: 110.0
+  - high: 120.0
+    low: 115.0
+  - high: 125.0
+    low: 120.0
+  - high: 130.0
+    low: 125.0
+  - high: 135.0
+    low: 130.0
+  - high: 140.0
+    low: 135.0
+  - high: 145.0
+    low: 140.0
+  - high: 150.0
+    low: 145.0
+  - high: 160.0
+    low: 150.0
+  - high: 170.0
+    low: 160.0
+  - high: 180.0
+    low: 170.0
+  - high: 190.0
+    low: 180.0
+  - high: 200.0
+    low: 190.0
+  - high: 220.0
+    low: 200.0
+  - high: 240.0
+    low: 220.0
+  - high: 260.0
+    low: 240.0
+  - high: 280.0
+    low: 260.0
+  - high: 300.0
+    low: 280.0
+  - high: 320.0
+    low: 300.0
+  - high: 340.0
+    low: 320.0
+  - high: 360.0
+    low: 340.0
+  - high: 380.0
+    low: 360.0
+  - high: 400.0
+    low: 380.0
+  - high: 420.0
+    low: 400.0
+  - high: 440.0
+    low: 420.0
+  - high: 460.0
+    low: 440.0
+  - high: 480.0
+    low: 460.0
+  - high: 500.0
+    low: 480.0
+  - high: 520.0
+    low: 500.0
+  - high: 540.0
+    low: 520.0
+  - high: 560.0
+    low: 540.0
+  - high: 580.0
+    low: 560.0
+  - high: 600.0
+    low: 580.0
+  - high: 630.0
+    low: 600.0
+  - high: 660.0
+    low: 630.0
+  - high: 690.0
+    low: 660.0
+  - high: 720.0
+    low: 690.0
+  - high: 750.0
+    low: 720.0
+  - high: 780.0
+    low: 750.0
+  - high: 810.0
+    low: 780.0
+  - high: 840.0
+    low: 810.0
+  - high: 870.0
+    low: 840.0
+  - high: 900.0
+    low: 870.0
+  - high: 950.0
+    low: 900.0
+  - high: 1000.0
+    low: 950.0
+  - high: 1050.0
+    low: 1000.0
+  - high: 1100.0
+    low: 1050.0
+  - high: 1150.0
+    low: 1100.0
+  - high: 1200.0
+    low: 1150.0
+  - high: 1250.0
+    low: 1200.0
+  - high: 1310.0
+    low: 1250.0
+  - high: 1370.0
+    low: 1310.0
+  - high: 1430.0
+    low: 1370.0
+  - high: 1490.0
+    low: 1430.0
+  - high: 1550.0
+    low: 1490.0
+  - high: 1610.0
+    low: 1550.0
+  - high: 1680.0
+    low: 1610.0
+  - high: 1750.0
+    low: 1680.0
+  - high: 1820.0
+    low: 1750.0
+  - high: 1890.0
+    low: 1820.0
+  - high: 1970.0
+    low: 1890.0
+  - high: 2050.0
+    low: 1970.0
+  - high: 2130.0
+    low: 2050.0
+  - high: 2210.0
+    low: 2130.0
+  - high: 2290.0
+    low: 2210.0
+  - high: 2370.0
+    low: 2290.0
+  - high: 2450.0
+    low: 2370.0
+  - high: 2530.0
+    low: 2450.0
+  - high: 2610.0
+    low: 2530.0
+  - high: 2690.0
+    low: 2610.0
+  - high: 2770.0
+    low: 2690.0
+  - high: 2850.0
+    low: 2770.0
+  - high: 2930.0
+    low: 2850.0
+  - high: 3010.0
+    low: 2930.0
+  - high: 3090.0
+    low: 3010.0
+  - high: 3170.0
+    low: 3090.0
+  - high: 3250.0
+    low: 3170.0
+  - high: 3330.0
+    low: 3250.0
+  - high: 3410.0
+    low: 3330.0
+  - high: 3490.0
+    low: 3410.0
+  - high: 3570.0
+    low: 3490.0
+  - high: 3650.0
+    low: 3570.0
+  - high: 3730.0
+    low: 3650.0
+  - high: 3810.0
+    low: 3730.0
+  - high: 3890.0
+    low: 3810.0
+  - high: 3970.0
+    low: 3890.0
+  - high: 4070.0
+    low: 3970.0
+  - high: 4170.0
+    low: 4070.0
+  - high: 4270.0
+    low: 4170.0
+  - high: 4370.0
+    low: 4270.0
+  - high: 4470.0
+    low: 4370.0
+  - high: 4570.0
+    low: 4470.0
+  - high: 4670.0
+    low: 4570.0
+  - high: 4770.0
+    low: 4670.0
+  - high: 4870.0
+    low: 4770.0
+  - high: 4970.0
+    low: 4870.0
+  - high: 5070.0
+    low: 4970.0
+  - high: 5170.0
+    low: 5070.0
+  - high: 5270.0
+    low: 5170.0
+  - high: 5370.0
+    low: 5270.0
+  - high: 5470.0
+    low: 5370.0
+  - high: 5570.0
+    low: 5470.0
+  - high: 5670.0
+    low: 5570.0
+  - high: 5770.0
+    low: 5670.0
+  - high: 5870.0
+    low: 5770.0
+  - high: 5970.0
+    low: 5870.0
+  - high: 6070.0
+    low: 5970.0
