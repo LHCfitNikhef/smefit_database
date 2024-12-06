@@ -1,18 +1,13 @@
 datasetname: ILC_mumu_Afb_neg80_pos20
-description: 'Light difermion (mumu) production at ILC. Observable: FB asymmetry (AFB).
-  Beam polarization: neg80pos20. From Snowmass 2206.08326'
+description: 'Light difermion (mumu) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: neg80pos20. From Snowmass 2206.08326'
 units: pb
-luminosity:
-- 3200000.0
+luminosity: 3200000
 num_data: 1
 num_sys: 1
-data_central:
-- 0.4882487276798549
+data_central: 0.4882487276798549
 statistical_error:
-- 0.0003906119908553175
+  - 0.0003906119908553175
 systematics:
-- 0.0
-sys_names:
-- UNCORR
-sys_type:
-- ADD
+  - 0.0
+sys_names: UNCORR
+sys_type: ADD

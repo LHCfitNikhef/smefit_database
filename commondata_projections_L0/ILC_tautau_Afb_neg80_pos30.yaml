@@ -1,26 +1,25 @@
 datasetname: ILC_tautau_Afb_neg80_pos30
-description: 'Light difermion (tautau) production at ILC. Observable: FB asymmetry
-  (AFB). Beam polarization: neg80pos30. From Snowmass 2206.08326'
+description: 'Light difermion (tautau) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: neg80pos30. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 900000.0
-- 1600000.0
+  - 900000.0
+  - 1600000.0
 num_data: 2
 num_sys: 2
 data_central:
-- 0.5199299970861764
-- 0.4829414811391651
+  - 0.5199299970861764
+  - 0.4829414811391651
 statistical_error:
-- 0.0007600657844965909
-- 0.0005493982396331264
+  - 0.0007600657844965909
+  - 0.0005493982396331264
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

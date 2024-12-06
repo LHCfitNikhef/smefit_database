@@ -1,36 +1,35 @@
 datasetname: CLIC_bb_neg80_0
-description: 'Light difermion (bb) production at CLIC. Observable: inclusive cross
-  section. Beam polarization: neg800. From Snowmass 2206.08326'
+description: 'Light difermion (bb) production at CLIC. Observable: inclusive cross section. Beam polarization: neg800. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 500000.0
-- 2000000.0
-- 4000000.0
+  - 500000.0
+  - 2000000.0
+  - 4000000.0
 num_data: 3
 num_sys: 3
 data_central:
-- 0.1329923157071584
-- 0.0079571472803734
-- 0.0019824305136282
+  - 0.1329923157071584
+  - 0.0079571472803734
+  - 0.0019824305136282
 statistical_error:
-- 0.0005157369789091303
-- 6.307593550782026e-05
-- 2.2262246706185115e-05
+  - 0.0005157369789091303
+  - 6.307593550782026e-05
+  - 2.2262246706185115e-05
 systematics:
-- - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD

@@ -1,0 +1,25 @@
+datasetname: ILC_bb_neg80_pos30
+description: 'Light difermion (bb) production at ILC. Observable: inclusive cross section. Beam polarization: neg80pos30. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 900000.0
+  - 1600000.0
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.4404537283237212
+  - 0.09610299137577752
+statistical_error:
+  - 0.0006995432290333813
+  - 0.00024448761408039465
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD

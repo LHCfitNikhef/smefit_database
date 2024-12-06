@@ -1,26 +1,25 @@
 datasetname: ILC_ee_pos80_pos30
-description: 'Light difermion (ee) production at ILC. Observable: inclusive cross
-  section. Beam polarization: pos80pos30. From Snowmass 2206.08326'
+description: 'Light difermion (ee) production at ILC. Observable: inclusive cross section. Beam polarization: pos80pos30. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 100000.0
-- 400000.0
+  - 100000.0
+  - 400000.0
 num_data: 2
 num_sys: 2
 data_central:
-- 58.607120991536
-- 13.75506295146572
+  - 58.607120991536
+  - 13.75506295146572
 statistical_error:
-- 0.024208907656384664
-- 0.005864099025311927
+  - 0.024208907656384664
+  - 0.005864099025311927
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

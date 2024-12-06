@@ -1,36 +1,35 @@
 datasetname: CLIC_mumu_Afb_neg80_0
-description: 'Light difermion (mumu) production at CLIC. Observable: FB asymmetry
-  (AFB). Beam polarization: neg800. From Snowmass 2206.08326'
+description: 'Light difermion (mumu) production at CLIC. Observable: FB asymmetry (AFB). Beam polarization: neg800. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 500000.0
-- 2000000.0
-- 4000000.0
+  - 500000.0
+  - 2000000.0
+  - 4000000.0
 num_data: 3
 num_sys: 3
 data_central:
-- 0.504818744551303
-- 0.4853011372619089
-- 0.4843284887277156
+  - 0.504818744551303
+  - 0.4853011372619089
+  - 0.4843284887277156
 statistical_error:
-- 0.0010048071900133906
-- 0.000492595745648452
-- 0.0003479685649335711
+  - 0.0010048071900133906
+  - 0.000492595745648452
+  - 0.0003479685649335711
 systematics:
-- - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD

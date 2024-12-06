@@ -1,26 +1,25 @@
 datasetname: ILC_mumu_neg80_neg30
-description: 'Light difermion (mumu) production at ILC. Observable: inclusive cross
-  section. Beam polarization: neg80neg30. From Snowmass 2206.08326'
+description: 'Light difermion (mumu) production at ILC. Observable: inclusive cross section. Beam polarization: neg80neg30. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 100000.0
-- 400000.0
+  - 100000.0
+  - 400000.0
 num_data: 2
 num_sys: 2
 data_central:
-- 1.3098428732682077
-- 0.315415334636855
+  - 1.3098428732682077
+  - 0.315415334636855
 statistical_error:
-- 0.0036191751453448725
-- 0.0008879968111384959
+  - 0.0036191751453448725
+  - 0.0008879968111384959
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

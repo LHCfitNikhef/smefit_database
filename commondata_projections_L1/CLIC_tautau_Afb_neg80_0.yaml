@@ -1,0 +1,35 @@
+datasetname: CLIC_tautau_Afb_neg80_0
+description: 'Light difermion (tautau) production at CLIC. Observable: FB asymmetry (AFB). Beam polarization: neg800. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 500000.0
+  - 2000000.0
+  - 4000000.0
+num_data: 3
+num_sys: 3
+data_central:
+  - 0.4896844721092291
+  - 0.47010766206380183
+  - 0.4700194579102872
+statistical_error:
+  - 0.0009898084433626094
+  - 0.00048524277399014263
+  - 0.0003427744417229223
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD

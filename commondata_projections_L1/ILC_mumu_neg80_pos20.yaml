@@ -1,0 +1,13 @@
+datasetname: ILC_mumu_neg80_pos20
+description: 'Light difermion (mumu) production at ILC. Observable: inclusive cross section. Beam polarization: neg80pos20. From Snowmass 2206.08326'
+units: pb
+luminosity: 3200000
+num_data: 1
+num_sys: 1
+data_central: 0.12165389873143125
+statistical_error:
+  - 0.00019491703644825773
+systematics:
+  - 0.0
+sys_names: UNCORR
+sys_type: ADD

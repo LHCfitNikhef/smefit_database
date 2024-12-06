@@ -1,0 +1,35 @@
+datasetname: CLIC_ee_Afb_neg80_0
+description: 'Light difermion (ee) production at CLIC. Observable: FB asymmetry (AFB). Beam polarization: neg800. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 500000.0
+  - 2000000.0
+  - 4000000.0
+num_data: 3
+num_sys: 3
+data_central:
+  - 0.9583207452791584
+  - 0.9653484046976817
+  - 0.9653214292884281
+statistical_error:
+  - 0.0013861840279157543
+  - 0.000694498622228027
+  - 0.0004911742423922016
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
