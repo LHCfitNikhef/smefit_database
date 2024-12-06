@@ -1,0 +1,36 @@
+datasetname: CLIC_cc_Afb_pos80_0
+description: 'Light difermion (cc) production at CLIC. Observable: FB asymmetry (AFB).
+  Beam polarization: pos800. From Snowmass 2206.08326'
+units: pb
+luminosity:
+- 500000.0
+- 500000.0
+- 1000000.0
+num_data: 3
+num_sys: 3
+data_central:
+- 0.6311703198403922
+- 0.6128726591847917
+- 0.6119224421002301
+statistical_error:
+- 0.0011235393360629544
+- 0.001107133830378958
+- 0.0007822547168922857
+systematics:
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
+- ADD
