@@ -1,0 +1,26 @@
+datasetname: ILC_ee_Afb_neg80_neg30
+description: 'Light difermion (ee) production at ILC. Observable: FB asymmetry (AFB).
+  Beam polarization: neg80neg30. From Snowmass 2206.08326'
+units: pb
+luminosity:
+- 100000.0
+- 400000.0
+num_data: 2
+num_sys: 2
+data_central:
+- 0.951410153017577
+- 0.9538821116802784
+statistical_error:
+- 0.0030844937234780962
+- 0.0015442490988181589
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
