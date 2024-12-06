@@ -1,26 +1,25 @@
 datasetname: ILC_cc_Afb_pos80_pos30
-description: 'Light difermion (cc) production at ILC. Observable: FB asymmetry (AFB).
-  Beam polarization: pos80pos30. From Snowmass 2206.08326'
+description: 'Light difermion (cc) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: pos80pos30. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 100000.0
-- 400000.0
+  - 100000.0
+  - 400000.0
 num_data: 2
 num_sys: 2
 data_central:
-- 0.6461105382874687
-- 0.6144642511471258
+  - 0.6461105382874687
+  - 0.6144642511471258
 statistical_error:
-- 0.0025418704496639253
-- 0.0012394194721190297
+  - 0.0025418704496639253
+  - 0.0012394194721190297
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

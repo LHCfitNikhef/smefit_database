@@ -1,18 +1,13 @@
 datasetname: ILC_tautau_neg80_neg20
-description: 'Light difermion (tautau) production at ILC. Observable: inclusive cross
-  section. Beam polarization: neg80neg20. From Snowmass 2206.08326'
+description: 'Light difermion (tautau) production at ILC. Observable: inclusive cross section. Beam polarization: neg80neg20. From Snowmass 2206.08326'
 units: pb
-luminosity:
-- 800000.0
+luminosity: 800000
 num_data: 1
 num_sys: 1
-data_central:
-- 0.0738149409627391
+data_central: 0.0738149409627391
 statistical_error:
-- 0.0003037575944785972
+  - 0.0003037575944785972
 systematics:
-- 0.0
-sys_names:
-- UNCORR
-sys_type:
-- ADD
+  - 0.0
+sys_names: UNCORR
+sys_type: ADD

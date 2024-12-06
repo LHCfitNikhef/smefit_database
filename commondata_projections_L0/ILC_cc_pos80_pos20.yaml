@@ -1,18 +1,13 @@
 datasetname: ILC_cc_pos80_pos20
-description: 'Light difermion (cc) production at ILC. Observable: inclusive cross
-  section. Beam polarization: pos80pos20. From Snowmass 2206.08326'
+description: 'Light difermion (cc) production at ILC. Observable: inclusive cross section. Beam polarization: pos80pos20. From Snowmass 2206.08326'
 units: pb
-luminosity:
-- 800000.0
+luminosity: 800000
 num_data: 1
 num_sys: 1
-data_central:
-- 0.0027639335486517
+data_central: 0.0027639335486517
 statistical_error:
-- 5.8778541457020054e-05
+  - 5.8778541457020054e-05
 systematics:
-- 0.0
-sys_names:
-- UNCORR
-sys_type:
-- ADD
+  - 0.0
+sys_names: UNCORR
+sys_type: ADD
