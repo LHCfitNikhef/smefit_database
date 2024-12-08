@@ -1,4 +1,4 @@
-dataset_name: ATLAS_hh_runII_14TeV
+dataset_name: ATLAS_hh_runII_13TeV
 description: HH inclusive signal strengths upper bound from LHC Run 2
 arxiv: 2406.09971
 doi: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.101801
