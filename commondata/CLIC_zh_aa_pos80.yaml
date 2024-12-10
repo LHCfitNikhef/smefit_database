@@ -3,35 +3,15 @@ description: ZH inclusive production cross section times aa BR with polarised be
 units: pb
 luminosity:
   - 500
-  - 500
-  - 1000
-num_data: 3
-num_sys: 3
+num_data: 1
+num_sys: 1
 data_central:
   - 0.00020226405643760252
-  - 0.0
-  - 0.0
 statistical_error:
   - 6.270185749565678e-05
-  - 0.0
-  - 0.0
 systematics:
   - - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
 sys_names:
   - UNCORR
-  - UNCORR
-  - UNCORR
-  - UNCORR
 sys_type:
-  - ADD
-  - ADD
-  - ADD
   - ADD

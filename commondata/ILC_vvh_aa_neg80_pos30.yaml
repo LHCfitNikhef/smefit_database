@@ -2,19 +2,16 @@ dataset_name: ILC_vvh_aa_neg80_pos30
 description: Higgs production in VBF times aa BR with polarised beams (-0.8,+0.3) at sqrts=250, 350, 500, 1000 GeV
 units: pb
 luminosity:
-  - 900
   - 135
   - 1600
   - 3200
-num_data: 4
-num_sys: 4
+num_data: 3
+num_sys: 3
 data_central:
-  - 0.0
   - 7.070355555555554e-05
   - 0.00017286391111111108
   - 0.00048498755555555554
 statistical_error:
-  - 0.0
   - 4.312916888888888e-05
   - 1.8496438488888886e-05
   - 2.3279402666666668e-05
@@ -22,26 +19,17 @@ systematics:
   - - 0.0
     - 0.0
     - 0.0
-    - 0.0
   - - 0.0
     - 0.0
     - 0.0
-    - 0.0
   - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
     - 0.0
     - 0.0
 sys_names:
   - UNCORR
   - UNCORR
   - UNCORR
-  - UNCORR
 sys_type:
-  - ADD
   - ADD
   - ADD
   - ADD
