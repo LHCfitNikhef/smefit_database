@@ -3,35 +3,15 @@ description: ZH inclusive production cross section times tau tau BR with polaris
 units: pb
 luminosity:
   - 500
-  - 500
-  - 1000
-num_data: 3
-num_sys: 3
+num_data: 1
+num_sys: 1
 data_central:
   - 0.005107757689805605
-  - 0.0
-  - 0.0
 statistical_error:
   - 0.00033711200752716995
-  - 0.0
-  - 0.0
 systematics:
   - - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
 sys_names:
   - UNCORR
-  - UNCORR
-  - UNCORR
-  - UNCORR
 sys_type:
-  - ADD
-  - ADD
-  - ADD
   - ADD

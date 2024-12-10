@@ -5,43 +5,31 @@ luminosity:
   - 900
   - 45
   - 1600
-  - 3200
-num_data: 4
-num_sys: 4
+num_data: 3
+num_sys: 3
 data_central:
   - 0.031231850011863224
   - 0.01678264998089615
   - 0.007439699219589285
-  - 0.0
 statistical_error:
   - 0.001367955030519609
   - 0.004346706345052103
   - 0.0005282186445908393
-  - 0.0
 systematics:
   - - 0.0
     - 0.0
     - 0.0
-    - 0.0
   - - 0.0
     - 0.0
     - 0.0
-    - 0.0
   - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
     - 0.0
     - 0.0
 sys_names:
   - UNCORR
   - UNCORR
   - UNCORR
-  - UNCORR
 sys_type:
-  - ADD
   - ADD
   - ADD
   - ADD
