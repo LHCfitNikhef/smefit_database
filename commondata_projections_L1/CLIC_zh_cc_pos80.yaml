@@ -1,0 +1,13 @@
+dataset_name: CLIC_zh_cc_pos80
+description: ZH inclusive production cross section times cc BR with polarised beams (+0.8,0) at sqrts=380, 1500, 3000 GeV
+units: pb
+luminosity: 500
+num_data: 1
+num_sys: 1
+data_central: 0.008881944943814467
+statistical_error:
+  - 0.0011707901438054026
+systematics:
+  - 0.0
+sys_names: UNCORR
+sys_type: ADD

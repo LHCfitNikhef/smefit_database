@@ -1,0 +1,35 @@
+dataset_name: ILC_zh_xstot_neg80_pos30
+description: ZH inclusive production cross section with polarised beams (-0.8,+0.3) at sqrts=250, 350, 500, 1000 GeV
+units: pb
+luminosity:
+  - 900
+  - 135
+  - 1600
+num_data: 3
+num_sys: 3
+data_central:
+  - 0.35428113197223243
+  - 0.19037540941273692
+  - 0.0843928572930472
+statistical_error:
+  - 0.0037908081121028874
+  - 0.004683235071553328
+  - 0.0014093607167938883
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD

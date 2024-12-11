@@ -1,0 +1,35 @@
+dataset_name: ILC_vvh_tautau_pos80_neg30
+description: Higgs production in VBF times tau tau BR with polarised beams (+0.8,-0.3) at sqrts=250, 350, 500, 1000 GeV
+units: pb
+luminosity:
+  - 45
+  - 1600
+  - 3200
+num_data: 3
+num_sys: 3
+data_central:
+  - 0.0017491271111111115
+  - 0.004269554666666668
+  - 0.012010826666666669
+statistical_error:
+  - 0.002728638293333334
+  - 0.0006745896373333335
+  - 0.0007686929066666668
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
