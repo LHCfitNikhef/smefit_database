@@ -5,7 +5,7 @@ arxiv: 2103.02708
 hepdata: https://www.hepdata.net/record/ins1849964?version=2&table=Dielectron%20mass%20distribution
 units: fb/GeV
 description: The invariant mass distribution for electron pair production in the range
-  from 200 to 6070 GeV.
+  500-6070 GeV.
 luminosity: 137
 num_data: 79
 num_sys: 1

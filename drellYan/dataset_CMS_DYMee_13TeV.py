@@ -3,6 +3,7 @@
 import yaml
 import json
 import math 
+import os
 
 # Constants
 DATASETNAME = 'CMS_DYMee_13TeV'
@@ -32,6 +33,23 @@ def systematic_error(n_events_per_GeV: float, mee_bin: dict) -> float:
     n_events_systematic_error = n_events * selection_efficency
     
     return n_events_systematic_error / LUMINOSITY / bin_width
+
+def read_json_result(operators: list) -> list:
+    if operators == ["SM"]:
+        file_result = "mg5_LO/results_SM.json"
+    elif len(operators) == 1:
+        file_result = f"mg5_LO/linear/results_{operators[0]}.json"
+    elif len(operators) == 2:
+        file_result = f"mg5_LO/quadratic/results_{operators[0]}_{operators[1]}.json"
+
+    if not os.path.exists(file_result):
+        return operators
+
+    with open(file_result, 'r') as file:
+        result = json.load(file)
+    
+    return result
+    
 
 # Reading the dataset downloaded from HEPData 
 with open('HEPData-ins1849964-v2-Dielectron_mass_distribution.yaml', 'r') as file:
@@ -69,13 +87,47 @@ with open(DATASETNAME + '.yaml', 'w') as file:
     yaml.dump(commondata, file, sort_keys=False)
     print("Created file: " + DATASETNAME + '.yaml')
 
+operators_map = {
+    'OpWB': 'OpWB',
+    'OpD': 'OpD',
+    'Ope': 'Ope',
+    'Opmu': 'Opmu',
+    'Opl1': 'Opl1',
+    'Opl2': 'Opl2',
+    'O3pl1': 'O3pl1',
+    'O3pl2': 'O3pl2',
+    'Opui': 'Opui',
+    'Opdi': 'Opdi',
+    'OpqMi_small': 'OpqMi',
+    'O3pq': 'O3pq',
+    'OpQMi_big': 'OpQMi',
+    'OpQ3': 'OpQ3',
+    'Oeu': 'Oeu',
+    'Oed': 'Oed',
+    'Olq1': 'Olq1',
+    'Olq3': 'Olq3',
+    'OQl1': 'OQl1',
+    'OQl3': 'OQl3',
+    'Olu': 'Olu',
+    'Old': 'Old',
+    'Oqe': 'Oqe',
+    'Oll': 'Oll'
+}
+operators = list(operators_map.keys())
 
 # theory card
 theory = {
-    'best_sm': [from_events_to_xsec(entry['value']) for entry in mee_background], # cross-check with MATRIX in progress
-    'scales': [91.18 for entry in mee_background]
+    'best_sm': [from_events_to_xsec(entry['value']) for entry in mee_background], 
+    'scales': [91.18 for entry in mee_background],
+    'LO': {
+        'SM': read_json_result(['SM']),
+        **{operators_map[op]: read_json_result([op]) for op in operators},
+        **{f"{operators_map[operators[i]]}*{operators_map[operators[j]]}": read_json_result([operators[i], operators[j]]) for i in range(len(operators)) for j in range(i, len(operators))}
+    }
 }
  
 with open(DATASETNAME + '.json', "w") as outfile:
     outfile.write(json.dumps(theory, indent=2))
     print("Created file: " + DATASETNAME + '.json')
+
+
