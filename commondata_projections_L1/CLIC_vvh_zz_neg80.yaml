@@ -1,0 +1,35 @@
+dataset_name: CLIC_vvh_zz_neg80
+description: Higgs production in VBF times zz BR with polarised beams (-0.8,0) at sqrts=380, 1500, 3000 GeV
+units: pb
+luminosity:
+  - 500
+  - 2000
+  - 4000
+num_data: 3
+num_sys: 3
+data_central:
+  - 0.0007138923674939701
+  - 0.0067136227019116475
+  - 0.01029028634296248
+statistical_error:
+  - 0.00013089729333333336
+  - 0.0002322024
+  - 0.00021734720000000002
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
