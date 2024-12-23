@@ -1,0 +1,25 @@
+datasetname: ILC_ee_neg80_neg30
+description: 'Light difermion (ee) production at ILC. Observable: inclusive cross section. Beam polarization: neg80neg30. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 100000.0
+  - 400000.0
+num_data: 2
+num_sys: 2
+data_central:
+  - 59.984456222064054
+  - 14.566888183938211
+statistical_error:
+  - 0.024490850438177197
+  - 0.006035284325471971
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
