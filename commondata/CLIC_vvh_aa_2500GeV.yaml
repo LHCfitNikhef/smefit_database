@@ -1,0 +1,26 @@
+dataset_name: CLIC_vvh_aa_2500GeV
+description: Higgs production in VBF times aa BR with polarised beams (-0.8,0) and  (+0.8,0)
+  at sqrts=2500 GeV
+units: pb
+luminosity:
+  - 2000
+  - 500
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.0007129751111111111
+  - 0.0007022382222222223
+statistical_error:
+  - 7.129751111111111e-05
+  - 0.00042134293333333337
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD

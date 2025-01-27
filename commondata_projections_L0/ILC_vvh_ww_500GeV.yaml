@@ -1,0 +1,26 @@
+dataset_name: ILC_vvh_ww_500GeV
+description: Higgs production in VBF times ww BR with polarised beams (-0.8,+0.3)
+  and  (+0.8,-0.3) at sqrts=500 GeV
+units: pb
+luminosity:
+  - 1600
+  - 1600
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.010879664444444444
+  - 0.010640993333333336
+statistical_error:
+  - 0.00014796343644444445
+  - 0.0005852546333333335
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD

@@ -1,0 +1,41 @@
+dataset_name: CLIC_zh_bb_380GeV
+description: ZH inclusive production cross section times bb BR with polarised beams
+  (-0.8,0) and (+0.8,0) at sqrts=380 GeV
+units: pb
+luminosity:
+  - 500
+  - 500
+  - 500
+  - 500
+num_data: 3
+num_sys: 3
+data_central:
+  - 0.07403202882907493
+  - 0.07403202882907493
+  - 0.05233680837782323
+  - 0.05233680837782323
+statistical_error:
+  - 0.000599659433515507
+  - 0.000599659433515507
+  - 0.0004814986370759737
+  - 0.0004814986370759737
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
+  - ADD

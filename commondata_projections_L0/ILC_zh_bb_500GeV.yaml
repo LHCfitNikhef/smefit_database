@@ -1,0 +1,26 @@
+dataset_name: ILC_zh_bb_500GeV
+description: ZH inclusive production cross section times bb BR with polarised beams
+  (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
+units: pb
+luminosity:
+  - 1600
+  - 1600
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.03392945102837995
+  - 0.04988555564433452
+statistical_error:
+  - 0.00034268745538663746
+  - 0.0005038441120077786
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
