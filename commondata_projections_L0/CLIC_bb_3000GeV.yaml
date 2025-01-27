@@ -1,0 +1,27 @@
+dataset_name: CLIC_bb_3000GeV
+description: 'Light difermion (bb) production at CLIC. Observable: inclusive cross
+  section. Beam polarization: (-0.8,0). From Snowmass 2206.08326 and (+0.8,0). From
+  Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 4000000.0
+  - 1000000.0
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.0019824305136282
+  - 0.0006293317399328
+statistical_error:
+  - 2.2262246706185115e-05
+  - 2.5086485204842867e-05
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD

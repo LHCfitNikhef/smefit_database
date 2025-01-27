@@ -1,0 +1,26 @@
+dataset_name: CLIC_mumu_Afb_1500GeV
+description: 'Light difermion (mumu) production at CLIC. Observable: FB asymmetry
+  (AFB). Beam polarization: neg800 and pos800. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 2000000.0
+  - 500000.0
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.4853011372619089
+  - 0.4454400621508108
+statistical_error:
+  - 0.000492595745648452
+  - 0.0009438644628873478
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD

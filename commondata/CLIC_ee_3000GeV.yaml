@@ -1,0 +1,27 @@
+dataset_name: CLIC_ee_3000GeV
+description: 'Light difermion (ee) production at CLIC. Observable: inclusive cross
+  section. Beam polarization: (-0.8,0). From Snowmass 2206.08326 and (+0.8,0). From
+  Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 4000000.0
+  - 1000000.0
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.4636205438309541
+  - 0.4068941877465161
+statistical_error:
+  - 0.00034044843362503305
+  - 0.0006378825814728884
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD

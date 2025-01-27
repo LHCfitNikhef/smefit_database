@@ -1,0 +1,27 @@
+dataset_name: CLIC_mumu_3000GeV
+description: 'Light difermion (mumu) production at CLIC. Observable: inclusive cross
+  section. Beam polarization: (-0.8,0). From Snowmass 2206.08326 and (+0.8,0). From
+  Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 4000000.0
+  - 1000000.0
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.0115550706370421
+  - 0.0099424315536318
+statistical_error:
+  - 5.3747257225467094e-05
+  - 9.971174230566729e-05
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
