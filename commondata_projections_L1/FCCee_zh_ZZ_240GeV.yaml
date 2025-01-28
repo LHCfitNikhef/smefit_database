@@ -1,13 +1,13 @@
 dataset_name: FCCee_zh_ZZ_240GeV
 description: ZH inclusive production cross section times ZZ BR.
 units: pb
-luminosity: 10000
+luminosity: 10800
 num_data: 1
 num_sys: 1
-data_central: 0.003949088219991114
+data_central: 0.0040864408844470505
 statistical_error:
-  - 0.0001249983821385429
+- 0.00012027974929325908
 systematics:
-  - 0.0
+- 0.0
 sys_names:
 sys_type:

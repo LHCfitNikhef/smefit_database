@@ -1,13 +1,13 @@
 dataset_name: FCCee_Wwidth
 description: W total width.
 units: GeV
-luminosity: 300000
+luminosity: 205000
 num_data: 1
 num_sys: 1
-data_central: 2.046593344160977
+data_central: 2.0453928757486817
 statistical_error:
-  - 0.000848528
+- 0.0010264785410780191
 systematics:
-  - 0.0003
+- 0.0003
 sys_names: UNCORR
 sys_type: ADD
