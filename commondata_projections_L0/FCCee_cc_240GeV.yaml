@@ -1,13 +1,13 @@
 dataset_name: FCCee_cc_240GeV
 description: cc production cross section.
 units: pb
-luminosity: 10000
+luminosity: 10800
 num_data: 1
 num_sys: 1
 data_central: 0.0847908622333129
 statistical_error:
-  - 8.77705e-05
+- 8.445720300318008e-05
 systematics:
-  - 0.0
-sys_names: null
-sys_type: null
+- 0.0
+sys_names:
+sys_type:
