@@ -612,6 +612,41 @@ class OptimalttCEPC365:
 
         return chi2_value
 
+class OptimalttCEPC365full:
+    def __init__(self, coefficients, rgemat=None):
+        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+
+        self.project = np.zeros((len(oo_tt_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_tt_wc_basis):
+            if op in coefficients.name:
+                self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
+
+        collider = "CEPC"
+        self.datasets = {"{collider}_tt_365": "invcov_{collider}_tt_365GeV_full.dat"}
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            # multiply the RGE matrix as well
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.n_dat = len(oo_tt_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        chi2_value = jnp.einsum(
+            "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
+        )
+
+        return chi2_value
 
 class OptimalttCLIC380:
     def __init__(self, coefficients, rgemat=None):
