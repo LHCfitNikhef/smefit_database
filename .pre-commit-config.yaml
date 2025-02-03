@@ -27,3 +27,4 @@ repos:
     rev: v4.0.1
     hooks:
       - id: trailing-whitespace
+        exclude: '/external_chi2/optimal_observables/.*\.dat$'
