@@ -9,7 +9,7 @@ num_data: 1
 num_sys: 1
 data_central: 1.0000
 statistical_error:
-  - 0.30
+  - 0.05
 systematics:
   - 0.0000
 sys_names: UNCORR
