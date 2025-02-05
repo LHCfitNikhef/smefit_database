@@ -1,76 +1,77 @@
-dataset_name: FCCee_Brw_161GeV
-description: W leptonic branching ratio (first, second and third generation for first polarization and then same for second polarization). From 1907.04311
+dataset_name: CLIC_Brw_1500GeV
+description: W leptonic branching ratio (first, second and third generation for first
+  polarization and then same for second polarization). From 1907.04311
 luminosity:
-  - 2000000.0
-  - 2000000.0
-  - 2000000.0
-  - 500000.0
-  - 500000.0
-  - 500000.0
+- 2000000.0
+- 2000000.0
+- 2000000.0
+- 500000.0
+- 500000.0
+- 500000.0
 num_data: 6
 num_sys: 6
 data_central:
-  - 0.1083
-  - 0.1083
-  - 0.1083
-  - 0.1083
-  - 0.1083
-  - 0.1083
+- 0.1083
+- 0.1083
+- 0.1083
+- 0.1083
+- 0.1083
+- 0.1083
 statistical_error:
-  - 0.000152703
-  - 0.000152703
-  - 0.000152703
-  - 0.0009086369999999999
-  - 0.0009086369999999999
-  - 0.0009086369999999999
+- 0.000152703
+- 0.000152703
+- 0.000152703
+- 0.0009086369999999999
+- 0.0009086369999999999
+- 0.0009086369999999999
 systematics:
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
 sys_names:
-  - UNCORR
-  - UNCORR
-  - UNCORR
-  - UNCORR
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
-  - ADD
-  - ADD
-  - ADD
-  - ADD
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
+- ADD
