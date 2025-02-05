@@ -1,6 +1,5 @@
 dataset_name: ILC_zh_ww_250GeV
-description: ZH inclusive production cross section times ww BR with polarised beams
-  (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=250 GeV
+description: ZH inclusive production cross section times ww BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=250 GeV
 units: pb
 luminosity:
   - 900

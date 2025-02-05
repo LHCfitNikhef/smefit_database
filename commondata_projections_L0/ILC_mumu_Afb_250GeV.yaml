@@ -1,7 +1,5 @@
 dataset_name: ILC_mumu_Afb_250GeV
-description: 'Light difermion (mumu) production at ILC. Observable: FB asymmetry (AFB).
-  Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass
-  2206.08326'
+description: 'Light difermion (mumu) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass 2206.08326'
 units: pb
 luminosity:
   - 100000.0

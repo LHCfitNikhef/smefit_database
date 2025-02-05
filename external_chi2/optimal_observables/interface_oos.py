@@ -539,6 +539,7 @@ class OptimalttFCC365:
 
         return chi2_value
 
+
 class OptimalttFCC365full:
     def __init__(self, coefficients, rgemat=None):
         oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
@@ -612,6 +613,7 @@ class OptimalttCEPC365:
 
         return chi2_value
 
+
 class OptimalttCEPC365full:
     def __init__(self, coefficients, rgemat=None):
         oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
@@ -647,6 +649,7 @@ class OptimalttCEPC365full:
         )
 
         return chi2_value
+
 
 class OptimalttCLIC380:
     def __init__(self, coefficients, rgemat=None):
