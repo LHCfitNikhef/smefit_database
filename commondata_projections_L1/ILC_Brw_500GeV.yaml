@@ -1,77 +1,76 @@
 dataset_name: ILC_Brw_500GeV
-description: W leptonic branching ratio (first, second and third generation for first
-  polarization and then same for second polarization). From 1907.04311
+description: W leptonic branching ratio (first, second and third generation for first polarization and then same for second polarization). From 1907.04311
 luminosity:
-- 1600000.0
-- 1600000.0
-- 1600000.0
-- 1600000.0
-- 1600000.0
-- 1600000.0
+  - 1600000.0
+  - 1600000.0
+  - 1600000.0
+  - 1600000.0
+  - 1600000.0
+  - 1600000.0
 num_data: 6
 num_sys: 6
 data_central:
-- 0.10826466315791304
-- 0.10831624390926149
-- 0.10826871054677802
-- 0.10840383156170981
-- 0.10849958277807152
-- 0.10827775790994539
+  - 0.10826466315791304
+  - 0.10831624390926149
+  - 0.10826871054677802
+  - 0.10840383156170981
+  - 0.10849958277807152
+  - 0.10827775790994539
 statistical_error:
-- 6.69294e-05
-- 6.69294e-05
-- 6.69294e-05
-- 0.000264252
-- 0.000264252
-- 0.000264252
+  - 6.69294e-05
+  - 6.69294e-05
+  - 6.69294e-05
+  - 0.000264252
+  - 0.000264252
+  - 0.000264252
 systematics:
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD

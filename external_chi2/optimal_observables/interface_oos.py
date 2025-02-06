@@ -689,6 +689,44 @@ class OptimalttCLIC380:
         return chi2_value
 
 
+class OptimalttCLIC380full:
+    def __init__(self, coefficients, rgemat=None):
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+
+        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_wc_basis):
+            if op in coefficients.name:
+                self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
+
+        self.datasets = {
+            "CLIC_tt_wbwb_380_neg80_0": "invcov_CLIC_tt_wbwb_380_neg80_0_full.dat",
+            "CLIC_tt_wbwb_380_pos80_0": "invcov_CLIC_tt_wbwb_380_pos80_0_full.dat",
+        }
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            # multiply the RGE matrix as well
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.n_dat = len(oo_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        chi2_value = jnp.einsum(
+            "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
+        )
+        return chi2_value
+
+
 class OptimalttCLIC1500:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
@@ -728,6 +766,45 @@ class OptimalttCLIC1500:
         return chi2_value
 
 
+class OptimalttCLIC1500full:
+    def __init__(self, coefficients, rgemat=None):
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+
+        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_wc_basis):
+            if op in coefficients.name:
+                self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
+
+        self.datasets = {
+            "CLIC_tt_wbwb_1500_neg80_0": "invcov_CLIC_tt_wbwb_1500_neg80_0_full.dat",
+            "CLIC_tt_wbwb_1500_pos80_0": "invcov_CLIC_tt_wbwb_1500_pos80_0_full.dat",
+        }
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            # multiply the RGE matrix as well
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.n_dat = len(oo_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        chi2_value = jnp.einsum(
+            "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
+        )
+
+        return chi2_value
+
+
 class OptimalttCLIC3000:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
@@ -740,6 +817,45 @@ class OptimalttCLIC3000:
         self.datasets = {
             "CLIC_tt_wbwb_3000_neg80_0": "invcov_CLIC_tt_wbwb_3000_neg80_0.dat",
             "CLIC_tt_wbwb_3000_pos80_0": "invcov_CLIC_tt_wbwb_3000_pos80_0.dat",
+        }
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            # multiply the RGE matrix as well
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.n_dat = len(oo_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        chi2_value = jnp.einsum(
+            "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
+        )
+
+        return chi2_value
+
+
+class OptimalttCLIC3000full:
+    def __init__(self, coefficients, rgemat=None):
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+
+        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_wc_basis):
+            if op in coefficients.name:
+                self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
+
+        self.datasets = {
+            "CLIC_tt_wbwb_3000_neg80_0": "invcov_CLIC_tt_wbwb_3000_neg80_0_full.dat",
+            "CLIC_tt_wbwb_3000_pos80_0": "invcov_CLIC_tt_wbwb_3000_pos80_0_full.dat",
         }
 
         incovs_reordered = []
@@ -808,6 +924,47 @@ class OptimalttILC350:
         return chi2_value
 
 
+class OptimalttILC350full:
+    def __init__(self, coefficients, rgemat=None):
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+
+        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_wc_basis):
+            if op in coefficients.name:
+                self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
+
+        self.datasets = {
+            "ILC_tt_wbwb_350_neg80_neg30": "invcov_ILC_tt_wbwb_350_neg80_neg30_full.dat",
+            "ILC_tt_wbwb_350_pos80_neg30": "invcov_ILC_tt_wbwb_350_pos80_neg30_full.dat",
+            "ILC_tt_wbwb_350_neg80_pos30": "invcov_ILC_tt_wbwb_350_neg80_pos30_full.dat",
+            "ILC_tt_wbwb_350_pos80_pos30": "invcov_ILC_tt_wbwb_350_pos80_pos30_full.dat",
+        }
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            # multiply the RGE matrix as well
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.n_dat = len(oo_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        chi2_value = jnp.einsum(
+            "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
+        )
+
+        return chi2_value
+
+
 class OptimalttILC500:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
@@ -849,6 +1006,47 @@ class OptimalttILC500:
         return chi2_value
 
 
+class OptimalttILC500full:
+    def __init__(self, coefficients, rgemat=None):
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+
+        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_wc_basis):
+            if op in coefficients.name:
+                self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
+
+        self.datasets = {
+            "ILC_tt_wbwb_500_neg80_neg30": "invcov_ILC_tt_wbwb_500_neg80_neg30_full.dat",
+            "ILC_tt_wbwb_500_pos80_neg30": "invcov_ILC_tt_wbwb_500_pos80_neg30_full.dat",
+            "ILC_tt_wbwb_500_neg80_pos30": "invcov_ILC_tt_wbwb_500_neg80_pos30_full.dat",
+            "ILC_tt_wbwb_500_pos80_pos30": "invcov_ILC_tt_wbwb_500_pos80_pos30_full.dat",
+        }
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            # multiply the RGE matrix as well
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.n_dat = len(oo_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        chi2_value = jnp.einsum(
+            "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
+        )
+
+        return chi2_value
+
+
 class OptimalttILC1000:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
@@ -863,6 +1061,47 @@ class OptimalttILC1000:
             "ILC_tt_wbwb_1000_pos80_neg20": "invcov_ILC_tt_wbwb_1000_pos80_neg20.dat",
             "ILC_tt_wbwb_1000_neg80_pos20": "invcov_ILC_tt_wbwb_1000_neg80_pos20.dat",
             "ILC_tt_wbwb_1000_pos80_pos20": "invcov_ILC_tt_wbwb_1000_pos80_pos20.dat",
+        }
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            # multiply the RGE matrix as well
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.n_dat = len(oo_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        chi2_value = jnp.einsum(
+            "i, ij, j", coefficient_values, self.incov_tot, coefficient_values
+        )
+
+        return chi2_value
+
+
+class OptimalttILC1000full:
+    def __init__(self, coefficients, rgemat=None):
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+
+        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_wc_basis):
+            if op in coefficients.name:
+                self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
+
+        self.datasets = {
+            "ILC_tt_wbwb_1000_neg80_neg20": "invcov_ILC_tt_wbwb_1000_neg80_neg20_full.dat",
+            "ILC_tt_wbwb_1000_pos80_neg20": "invcov_ILC_tt_wbwb_1000_pos80_neg20_full.dat",
+            "ILC_tt_wbwb_1000_neg80_pos20": "invcov_ILC_tt_wbwb_1000_neg80_pos20_full.dat",
+            "ILC_tt_wbwb_1000_pos80_pos20": "invcov_ILC_tt_wbwb_1000_pos80_pos20_full.dat",
         }
 
         incovs_reordered = []
