@@ -1,0 +1,27 @@
+dataset_name: CLIC_cc_380GeV
+description: 'Light difermion (cc) production at CLIC. Observable: inclusive cross
+  section. Beam polarization: (-0.8,0). From Snowmass 2206.08326 and (+0.8,0). From
+  Snowmass 2206.08326'
+units: pb
+luminosity:
+- 500
+- 500
+num_data: 2
+num_sys: 2
+data_central:
+- 0.04151171034715643
+- 0.02192890341678752
+statistical_error:
+- 0.00028847451405038986
+- 0.00021042515533878644
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

@@ -1,0 +1,27 @@
+dataset_name: CLIC_tautau_1500GeV
+description: 'Light difermion (tautau) production at CLIC. Observable: inclusive cross
+  section. Beam polarization: (-0.8,0). From Snowmass 2206.08326 and (+0.8,0). From
+  Snowmass 2206.08326'
+units: pb
+luminosity:
+- 2000.0
+- 500.0
+num_data: 2
+num_sys: 2
+data_central:
+- 0.03924552621848906
+- 0.03397385954289889
+statistical_error:
+- 0.00014016810308079634
+- 0.00025998343249700125
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
