@@ -1,12 +1,12 @@
 dataset_name: CLIC_Brw_380GeV
 description: W leptonic branching ratio (first, second and third generation for first polarization and then same for second polarization). From 1907.04311
 luminosity:
-  - 500000.0
-  - 500000.0
-  - 500000.0
-  - 500000.0
-  - 500000.0
-  - 500000.0
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
 num_data: 6
 num_sys: 6
 data_central:

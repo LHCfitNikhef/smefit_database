@@ -2,10 +2,10 @@ dataset_name: ILC_mumu_500GeV
 description: 'Light difermion (mumu) production at ILC. Observable: inclusive cross section. Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass 2206.08326'
 units: pb
 luminosity:
-  - 400000.0
-  - 1600000.0
-  - 1600000.0
-  - 400000.0
+  - 400.0
+  - 1600.0
+  - 1600.0
+  - 400.0
 num_data: 4
 num_sys: 4
 data_central:

@@ -1,12 +1,12 @@
 dataset_name: ILC_Brw_250GeV
 description: W leptonic branching ratio (first, second and third generation for first polarization and then same for second polarization). From 1907.04311
 luminosity:
-  - 900000.0
-  - 900000.0
-  - 900000.0
-  - 900000.0
-  - 900000.0
-  - 900000.0
+  - 900
+  - 900
+  - 900
+  - 900
+  - 900
+  - 900
 num_data: 6
 num_sys: 6
 data_central:

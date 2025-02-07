@@ -2,9 +2,9 @@ datasetname: CLIC_cc_pos80_0
 description: 'Light difermion (cc) production at CLIC. Observable: inclusive cross section. Beam polarization: pos800. From Snowmass 2206.08326'
 units: pb
 luminosity:
-  - 500000.0
-  - 500000.0
-  - 1000000.0
+  - 500.0
+  - 500.0
+  - 1000.0
 num_data: 3
 num_sys: 3
 data_central:

@@ -1,7 +1,7 @@
 datasetname: ILC_ee_pos80_pos20
 description: 'Light difermion (ee) production at ILC. Observable: inclusive cross section. Beam polarization: pos80pos20. From Snowmass 2206.08326'
 units: pb
-luminosity: 800000
+luminosity: 800
 num_data: 1
 num_sys: 1
 data_central: 3.4534616240781104
