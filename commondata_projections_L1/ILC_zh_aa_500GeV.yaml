@@ -1,0 +1,26 @@
+dataset_name: ILC_zh_aa_500GeV
+description: ZH inclusive production cross section times aa BR with polarised beams
+  (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
+units: pb
+luminosity:
+- 1600
+- 1600
+num_data: 2
+num_sys: 2
+data_central:
+- 0.0001417129461192312
+- 0.00018540214063428247
+statistical_error:
+- 2.4389407790355167e-05
+- 3.585908768286435e-05
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
