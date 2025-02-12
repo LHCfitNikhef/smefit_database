@@ -2,8 +2,8 @@ dataset_name: ILC_Zdata_GigaZ
 units: pb/GeV
 description: EWPOs
 luminosity: 300000
-num_data: 12
-num_sys: 12
+num_data: 11
+num_sys: 11
 data_central:
   - 2.4957
   - 20.758
@@ -30,7 +30,6 @@ statistical_error:
   - 2.0e-04
 systematics:
   - - 1.2e-04
-    - 0.0
     - 0.0
     - 0.0
     - 0.0
