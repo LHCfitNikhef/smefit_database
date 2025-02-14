@@ -1,0 +1,25 @@
+dataset_name: CLIC_ww_3000GeV
+description: Fully inclusive W-pair production cross section
+units: pb
+luminosity:
+- 4000.0
+- 1000.0
+num_data: 2
+num_sys: 2
+data_central:
+- 0.46927460560036893
+- 0.46162838360657565
+statistical_error:
+- 0.00041098750000000004
+- 0.0024132059999999998
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

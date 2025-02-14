@@ -1,0 +1,25 @@
+dataset_name: ILC_ww_250GeV
+description: Fully inclusive W-pair production cross section
+units: pb
+luminosity:
+- 900.0
+- 900.0
+num_data: 2
+num_sys: 2
+data_central:
+- 16.66
+- 16.32
+statistical_error:
+- 0.00453152
+- 0.0168096
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
