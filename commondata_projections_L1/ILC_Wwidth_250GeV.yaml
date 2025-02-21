@@ -1,0 +1,13 @@
+dataset_name: ILC_Wwidth_250GeV
+description: W total width.
+units: GeV
+luminosity: 300000
+num_data: 1
+num_sys: 1
+data_central: 2.0422668844867378
+statistical_error:
+- 0.002
+systematics:
+- 0.0
+sys_names: UNCORR
+sys_type: ADD

@@ -1,0 +1,49 @@
+dataset_name: ILC_cc_250GeV
+description: 'Light difermion (cc) production at ILC. Observable: inclusive cross
+  section. Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From
+  Snowmass 2206.08326'
+units: pb
+luminosity:
+- 100
+- 900
+- 900
+- 100
+num_data: 4
+num_sys: 4
+data_central:
+- 0.07315564920099732
+- 0.12950835226426968
+- 0.06215466197410325
+- 0.04365416968289616
+statistical_error:
+- 0.0008623644622627512
+- 0.00038025796786077167
+- 0.0002624972098119648
+- 0.0006588065628776158
+systematics:
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
+- ADD
+- ADD

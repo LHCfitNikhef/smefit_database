@@ -1,0 +1,26 @@
+dataset_name: ILC_zh_aa_250GeV
+description: ZH inclusive production cross section times aa BR with polarised beams
+  (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=250 GeV
+units: pb
+luminosity:
+- 900
+- 900
+num_data: 2
+num_sys: 2
+data_central:
+- 0.00045880271222364846
+- 0.0007628291723891973
+statistical_error:
+- 9.853344665616973e-05
+- 0.00014487106590327644
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

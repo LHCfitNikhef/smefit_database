@@ -23,3 +23,8 @@ repos:
     hooks:
       - id: yamlfmt
         name: Format YAML with yamlfmt
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: trailing-whitespace
+        exclude: '/external_chi2/optimal_observables/.*\.dat$'
