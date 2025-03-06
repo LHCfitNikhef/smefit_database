@@ -1,49 +1,47 @@
 dataset_name: ILC_bb_250GeV
-description: 'Light difermion (bb) production at ILC. Observable: inclusive cross
-  section. Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From
-  Snowmass 2206.08326'
+description: 'Light difermion (bb) production at ILC. Observable: inclusive cross section. Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 100
-- 900
-- 900
-- 100
+  - 100
+  - 900
+  - 900
+  - 100
 num_data: 4
 num_sys: 4
 data_central:
-- 0.24401315722330003
-- 0.4400249836870074
-- 0.12302874316221024
-- 0.09933772354286696
+  - 0.24401315722330003
+  - 0.4400249836870074
+  - 0.12302874316221024
+  - 0.09933772354286696
 statistical_error:
-- 0.0015644379698839161
-- 0.0006995432290333813
-- 0.00036858692761297586
-- 0.0010006556716015641
+  - 0.0015644379698839161
+  - 0.0006995432290333813
+  - 0.00036858692761297586
+  - 0.0010006556716015641
 systematics:
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD

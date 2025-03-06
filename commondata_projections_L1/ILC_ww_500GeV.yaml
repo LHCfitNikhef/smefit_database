@@ -2,24 +2,24 @@ dataset_name: ILC_ww_500GeV
 description: Fully inclusive W-pair production cross section
 units: pb
 luminosity:
-- 1600.0
-- 1600.0
+  - 1600.0
+  - 1600.0
 num_data: 2
 num_sys: 2
 data_central:
-- 7.266465233086055
-- 7.096095871212366
+  - 7.266465233086055
+  - 7.096095871212366
 statistical_error:
-- 0.002245812
-- 0.00865834
+  - 0.002245812
+  - 0.00865834
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

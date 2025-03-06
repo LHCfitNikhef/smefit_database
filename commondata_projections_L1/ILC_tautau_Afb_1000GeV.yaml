@@ -1,49 +1,47 @@
 dataset_name: ILC_tautau_Afb_1000GeV
-description: 'Light difermion (tautau) production at ILC. Observable: FB asymmetry
-  (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass
-  2206.08326'
+description: 'Light difermion (tautau) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 800.0
-- 3200.0
-- 3200.0
-- 800.0
+  - 800.0
+  - 3200.0
+  - 3200.0
+  - 800.0
 num_data: 4
 num_sys: 4
 data_central:
-- 0.4703184612512559
-- 0.47422669697843595
-- 0.4322952628333982
-- 0.4363784718797406
+  - 0.4703184612512559
+  - 0.47422669697843595
+  - 0.4322952628333982
+  - 0.4363784718797406
 statistical_error:
-- 0.0007670633747486144
-- 0.0003847813296619812
-- 0.0003674765364205863
-- 0.0007384660409392284
+  - 0.0007670633747486144
+  - 0.0003847813296619812
+  - 0.0003674765364205863
+  - 0.0007384660409392284
 systematics:
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD

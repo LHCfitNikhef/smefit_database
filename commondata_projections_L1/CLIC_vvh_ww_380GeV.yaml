@@ -1,26 +1,25 @@
 dataset_name: CLIC_vvh_ww_380GeV
-description: Higgs production in VBF times ww BR with polarised beams (-0.8,0) and  (+0.8,0)
-  at sqrts=380 GeV
+description: Higgs production in VBF times ww BR with polarised beams (-0.8,0) and  (+0.8,0) at sqrts=380 GeV
 units: pb
 luminosity:
-- 500
-- 500
+  - 500
+  - 500
 num_data: 2
 num_sys: 2
 data_central:
-- 0.0055587161185276885
-- 0.00502105161711382
+  - 0.0055587161185276885
+  - 0.00502105161711382
 statistical_error:
-- 0.0002601860177777777
-- 0.0007787867111111111
+  - 0.0002601860177777777
+  - 0.0007787867111111111
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

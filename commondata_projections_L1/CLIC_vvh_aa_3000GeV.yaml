@@ -1,26 +1,25 @@
 dataset_name: CLIC_vvh_aa_3000GeV
-description: Higgs production in VBF times aa BR with polarised beams (-0.8,0) and  (+0.8,0)
-  at sqrts=3000 GeV
+description: Higgs production in VBF times aa BR with polarised beams (-0.8,0) and  (+0.8,0) at sqrts=3000 GeV
 units: pb
 luminosity:
-- 4000
-- 1000
+  - 4000
+  - 1000
 num_data: 2
 num_sys: 2
 data_central:
-- 0.0012138086972973638
-- 0.00067047501554416
+  - 0.0012138086972973638
+  - 0.00067047501554416
 statistical_error:
-- 5.720248888888889e-05
-- 0.00033780079999999997
+  - 5.720248888888889e-05
+  - 0.00033780079999999997
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

@@ -1,26 +1,25 @@
 dataset_name: CLIC_zh_xstot_380GeV
-description: ZH inclusive production cross section  with polarised beams (-0.8,0)
-  and (+0.8,0) at sqrts=380 GeV
+description: ZH inclusive production cross section  with polarised beams (-0.8,0) and (+0.8,0) at sqrts=380 GeV
 units: pb
 luminosity:
-- 500
-- 500
+  - 500
+  - 500
 num_data: 2
 num_sys: 2
 data_central:
-- 0.12332956469267131
-- 0.09083063953716197
+  - 0.12332956469267131
+  - 0.09083063953716197
 statistical_error:
-- 0.001878632310512241
-- 0.0015937148415803334
+  - 0.001878632310512241
+  - 0.0015937148415803334
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

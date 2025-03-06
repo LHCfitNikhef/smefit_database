@@ -1,26 +1,25 @@
 dataset_name: CLIC_vvh_tautau_380GeV
-description: Higgs production in VBF times tau tau BR with polarised beams (-0.8,0)
-  and  (-0.8,0) at sqrts=380 GeV
+description: Higgs production in VBF times tau tau BR with polarised beams (-0.8,0) and  (-0.8,0) at sqrts=380 GeV
 units: pb
 luminosity:
-- 500
-- 500
+  - 500
+  - 500
 num_data: 2
 num_sys: 2
 data_central:
-- 0.002351558025264686
-- 0.0013152478675419867
+  - 0.002351558025264686
+  - 0.0013152478675419867
 statistical_error:
-- 0.00029276303466666676
-- 0.0008704734133333336
+  - 0.00029276303466666676
+  - 0.0008704734133333336
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

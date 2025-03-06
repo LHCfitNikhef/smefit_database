@@ -1,26 +1,25 @@
 dataset_name: ILC_zh_ww_350GeV
-description: ZH inclusive production cross section times ww BR with polarised beams
-  (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=350 GeV
+description: ZH inclusive production cross section times ww BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=350 GeV
 units: pb
 luminosity:
-- 135
-- 45
+  - 135
+  - 45
 num_data: 2
 num_sys: 2
 data_central:
-- 0.018419635967831395
-- 0.02984606381513951
+  - 0.018419635967831395
+  - 0.02984606381513951
 statistical_error:
-- 0.0014148755067662016
-- 0.003613071436774528
+  - 0.0014148755067662016
+  - 0.003613071436774528
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

@@ -1,26 +1,25 @@
 dataset_name: CLIC_bb_Afb_1500GeV
-description: 'Light difermion (bb) production at CLIC. Observable: FB asymmetry (AFB).
-  Beam polarization: neg800 and pos800. From Snowmass 2206.08326'
+description: 'Light difermion (bb) production at CLIC. Observable: FB asymmetry (AFB). Beam polarization: neg800 and pos800. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 2000.0
-- 500.0
+  - 2000.0
+  - 500.0
 num_data: 2
 num_sys: 2
 data_central:
-- 0.6436871320193635
-- 0.49998053427617317
+  - 0.6436871320193635
+  - 0.49998053427617317
 statistical_error:
-- 0.0005671361121291097
-- 0.0009989599217388367
+  - 0.0005671361121291097
+  - 0.0009989599217388367
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

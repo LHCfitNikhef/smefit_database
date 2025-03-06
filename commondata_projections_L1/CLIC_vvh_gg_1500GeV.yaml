@@ -1,26 +1,25 @@
 dataset_name: CLIC_vvh_gg_1500GeV
-description: Higgs production in VBF times gg BR with polarised beams (-0.8,0) and  (+0.8,0)
-  at sqrts=1500 GeV
+description: Higgs production in VBF times gg BR with polarised beams (-0.8,0) and  (+0.8,0) at sqrts=1500 GeV
 units: pb
 luminosity:
-- 2000
-- 500
+  - 2000
+  - 500
 num_data: 2
 num_sys: 2
 data_central:
-- 0.014279824451390293
-- 0.010811188314664618
+  - 0.014279824451390293
+  - 0.010811188314664618
 statistical_error:
-- 0.00044996497333333333
-- 0.002685992888888889
+  - 0.00044996497333333333
+  - 0.002685992888888889
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

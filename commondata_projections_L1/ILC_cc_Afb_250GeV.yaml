@@ -1,49 +1,47 @@
 dataset_name: ILC_cc_Afb_250GeV
-description: 'Light difermion (cc) production at ILC. Observable: FB asymmetry (AFB).
-  Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass
-  2206.08326'
+description: 'Light difermion (cc) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 100
-- 900
-- 900
-- 100
+  - 100
+  - 900
+  - 900
+  - 100
 num_data: 4
 num_sys: 4
 data_central:
-- 0.5974180432752892
-- 0.5941141170078786
-- 0.663512123865283
-- 0.6487029268365574
+  - 0.5974180432752892
+  - 0.5941141170078786
+  - 0.663512123865283
+  - 0.6487029268365574
 statistical_error:
-- 0.002447908761154652
-- 0.0008129381400066541
-- 0.0008577036516902787
-- 0.0025418704496639253
+  - 0.002447908761154652
+  - 0.0008129381400066541
+  - 0.0008577036516902787
+  - 0.0025418704496639253
 systematics:
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
