@@ -29,7 +29,7 @@ statistical_error:
   - 9.0e-05
   - 2.0e-04
 systematics:
-  - - 1.2e-04
+  - - 0.0
     - 0.0
     - 0.0
     - 0.0
