@@ -67,6 +67,6 @@ class HLLHC_kappa_lambda_chi2_2025:
         klambda = 1 - 0.47 * coeffs_vals
 
         # The extra factor is chosen so that the result for kappa_lambda is ~26%
-        chi2_value = 4.1 * self.chi2(klambda).squeeze()
+        chi2_value = 4 * self.chi2(klambda).squeeze()
 
         return chi2_value
