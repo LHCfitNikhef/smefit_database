@@ -1,0 +1,17 @@
+dataset_name: HH_14Tev_MHH_proj
+description: HH production differential in MHH at 14 TeV HLLHC
+units: pb
+arxiv: 2406.06670
+location: Table 2d
+luminosity: 3000
+num_data: 3
+num_sys: 0
+luminosity: 3000
+data_central:
+  - 10.155052826000396,
+  - 3.7049206930095213,
+  - 0.47903102500027445
+statistical_error:
+systematics:
+sys_names: CORR
+sys_type: ADD
