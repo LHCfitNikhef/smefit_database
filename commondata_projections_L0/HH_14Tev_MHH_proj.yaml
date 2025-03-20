@@ -1,6 +1,6 @@
 dataset_name: HH_14Tev_MHH_proj
 description: HH production differential in MHH at 14 TeV HLLHC
-units: pb
+units: fb
 arxiv: 2406.06670
 location: Table 2d
 luminosity: 3000
