@@ -8,8 +8,8 @@ num_data: 3
 num_sys: 0
 luminosity: 3000
 data_central:
-  - 10.155052826000396,
-  - 3.7049206930095213,
+  - 10.155052826000396
+  - 3.7049206930095213
   - 0.47903102500027445
 statistical_error:
 systematics:
