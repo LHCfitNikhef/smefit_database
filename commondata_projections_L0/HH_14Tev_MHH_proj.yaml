@@ -12,6 +12,28 @@ data_central:
   - 3.7049206930095213
   - 0.47903102500027445
 statistical_error:
+  # # These uncertainties are obtained by uniform rescaling of the luminosity (until klambda ~ 27%)
+  # - 2.83
+  # - 1.72
+  # - 0.61
+
+  # # These uncertainties have the last two bins further improved by factor 0.5
+  # - 2.83
+  # - 0.86
+  # - 0.305
+
+  # # These uncertainties have the last two bins further improved by factor 0.4
+  # - 2.83
+  # - 0.69
+  # - 0.24
+
+  # These uncertainties have the last two bins further improved by factor 0.33
+  - 2.83
+  - 0.57
+  - 0.20
 systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
 sys_names: CORR
 sys_type: ADD
