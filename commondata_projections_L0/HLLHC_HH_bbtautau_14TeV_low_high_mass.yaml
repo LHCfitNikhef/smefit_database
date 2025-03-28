@@ -1,5 +1,5 @@
-dataset_name: HH_bbaa_14TeV_low_high_mass_proj
-description: HH production in bbaa channel split in low and high mass regions (350 MHH GeV)
+dataset_name: HLLHC_HH_bbtautau_14TeV_low_high_mass
+description: HH production in bbtautau channel split in low and high mass regions (350 MHH GeV)
 units: pb
 arxiv:
 location:
