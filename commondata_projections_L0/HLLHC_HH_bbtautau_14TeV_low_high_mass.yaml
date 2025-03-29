@@ -1,0 +1,19 @@
+dataset_name: HLLHC_HH_bbtautau_14TeV_low_high_mass
+description: HH production in bbtautau channel split in low and high mass regions (350 MHH GeV)
+units: pb
+arxiv:
+location:
+luminosity: 3000
+num_data: 2
+num_sys: 0
+data_central:
+  - 2.134
+  - 21.402
+statistical_error:
+  - 13.8606
+  - 10.359
+systematics:
+  - - 0.0
+    - 0.0
+sys_names: CORR
+sys_type: ADD
