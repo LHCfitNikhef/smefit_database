@@ -203,6 +203,7 @@ class Optimaltt:
 
         return chi2_value
 
+
 class OptimalttFCC365full:
     def __init__(self, coefficients, rgemat=None):
         oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
