@@ -1,0 +1,334 @@
+# Input YAML file for a report
+
+name: "230325_clic_sqrts"
+
+title: "smefit"
+
+result_IDs: [
+"100325_hllhc_quad_no4F_l0","210325_clic380_quad_l0","100325_clic1500_quad_l0","100325_clic3000_quad_l0",
+]
+
+# fit labels displayed in the plots
+fit_labels: [
+  "HL-LHC",
+  "CLIC: 380 GeV",
+  "CLIC: 380 + 1500 GeV",
+  "CLIC: 380 + 1500 + 3000 GeV", 
+]
+
+report_path: /Users/user/Desktop/SMEFiT/reports/
+result_path: /Users/user/Desktop/SMEFiT/results/
+
+summary: True
+
+coefficients_plots:
+
+##scatter plot with central values and error bands
+  scatter_plot:
+    figsize: [10,15] # figure size
+    x_min: -400 # x min value, you can specify different ranges with {type1: min1 ...}
+    x_max: 400 # x min value, you can specify different ranges with {type1: max1 ...}
+    lin_thr: .01 # linear threshold, in case of x_log, you can specify different ranges wit {type1: min1 ...}
+    x_log: True # use symlog scale on x axis ?
+
+  # confidence level error band plot
+  confidence_level_bar:
+    confidence_level: 95 # Avalable CL are 95% or 68%
+    figsize: [10,15] # figure size
+    plot_cutoff: 400 # value at which show a cut-off dashed line, defult is Null
+    x_min: 0.00001 # x min value
+    x_max: 500 # x max value
+    x_log: True # use log scale on x axis ?
+
+  # spider plot that displays the ratio of uncertainties to a baseline fit
+  spider_plot:
+    confidence_level: 95  # confidence level in percentage
+    log_scale: True  # use radial log scale
+    title: $\mathrm{Ratio\:of\:Uncertainties\:to\:}\mathrm{{\sc HL-LHC}}\mathrm{\:Baseline,\:}\mathcal{O}\left(\Lambda^{-4}\right),\:\mathrm{Marginalised}$
+    ncol: 2  # number of columns in the legend
+    legend_loc: 'upper center'
+    radial_lines: [0.1,0.5, 1, 5, 10, 20, 40, 80 ]  # where to draw radial lines
+    marker_styles: ['*', 'o', 'P']  # markers for the legend
+    class_order: ["4H", "2L2H", "2FB", "4l", "B"]  # order of operator classes (optional)
+
+  table:
+    round_val: 3
+
+  # contours_2d:
+    # show: True
+    # confidence_level: 95
+    # dofs_show: # Null or list of op per fit to be displayed
+#
+#  posterior_histograms: True
+#
+
+# # #
+#  logo: True
+#  show_only: Null
+#  hide_dofs: Null #[Oll] # or list
+#
+#  double_solution:  # List of op per fit with double solution
+#
+#
+#correlations:
+#   hide_dofs: Null # Null or list of op not be displayed
+#   thr_show: 0.1 # Min value to show, if Null show the full matrix
+
+#PCA:
+#  table: True # display the list of PC decomposition
+#  thr_show: 1.e-2
+#  #sv_min: 1.e-4
+#  plot: True
+#  fit_list: # or list of fits to include by name
+
+# chi2_plots:
+#   table: True # bool, chi2 table
+#   plot_experiment:  # chi2 plot per experiment
+#     figsize: [10,15]
+#   plot_distribution: #  chi2 distribution per replica
+#     figsize: [7,5]
+
+# fisher information options
+#fisher:
+#
+#  norm: "coeff" # normalize per "coeff" or "data"
+#  summary_only: True # if True display only the fisher information per dataset group. If False will show the fine grained dataset per dataset
+#  log: False # show values in log scale ?
+#  fit_list: # list of fit for which fisher is compued, by default all the fits will be included
+#
+#  # heatmap plot
+#  plot:
+#    summary_only: True # if True display only the fisher information per dataset group. If False will show the fine grained dataset per dataset
+#    figsize: [11, 15] # figure size
+#    title: true # if True display the fit label as title
+
+coeff_info:
+  # 2L2H: [
+  #   [O81qq, "$c_{Qq}^{1,8}$"], #yes
+  #   [O11qq, "$c_{Qq}^{1,1}$"], #yes
+  #   [O83qq, "$c_{Qq}^{3,8}$"], #yes
+  #   [O13qq, "$c_{Qq}^{3,1}$"], #yes
+  #   [O8qt, "$c_{tq}^{8}$"], #yes
+  #   [O1qt, "$c_{tq}^{1}$"], #yes
+  #   [O8ut, "$c_{tu}^{8}$"], #yes
+  #   [O1ut, "$c_{tu}^{1}$"], #yes
+  #   [O8qu, "$c_{Qu}^{8}$"], #yes
+  #   [O1qu, "$c_{Qu}^{1}$"], #yes
+  #   [O8dt, "$c_{td}^{8}$"], #yes
+  #   [O1dt, "$c_{td}^{1}$"], #yes
+  #   [O8qd, "$c_{Qd}^{8}$"], #yes
+  #   [O1qd, "$c_{Qd}^{1}$"], #yes
+  # ]
+  2FB: [
+    [Ocp, "$c_{c \\varphi}$"], #yes
+    [Obp, "$c_{b \\varphi}$"], #yes
+    [Otp, "$c_{t \\varphi}$"], #yes
+    [Otap, "$c_{\\tau \\varphi}$"], #yes
+    [OtG, "$c_{tG}$"], #yes
+    [OtW, "$c_{tW}$"], #yes
+    [OtZ, "$c_{tZ}$"],  ##yes
+    [ O3pq, "$c_{\\varphi q}^{(3)}$" ], #yes
+    [ O3pQ3, "$c_{\\varphi Q}^{(3)}$" ], #yes
+    [ OpqMi, "$c_{\\varphi q}^{(-)}$" ], #yes
+    [ OpQM, "$c_{\\varphi Q}^{(-)}$" ],  #yes
+    [ Opui, "$c_{\\varphi u}$" ], #yes
+    [ Opdi, "$c_{\\varphi d}$" ], #yes
+    [ Opt, "$c_{\\varphi t}$" ], #yes
+    [Opl1, "$c_{\\varphi l_1}$"], #yes
+    [Opl2, "$c_{\\varphi l_2}$"], #yes
+    [Opl3, "$c_{\\varphi l_3}$"], #yes
+    [O3pl1, "$c_{\\varphi l_1}^{(3)}$"], #yes
+    [O3pl2, "$c_{\\varphi l_2}^{(3)}$"], #yes
+    [O3pl3, "$c_{\\varphi l_3}^{(3)}$"], #yes
+    [Ope, "$c_{\\varphi e}$"], #yes
+    [Opmu, "$c_{\\varphi \\mu}$"], #yes
+    [Opta, "$c_{\\varphi \\tau}$"] #yes
+  ]
+  4l: [
+    [ Oll, "$c_{ll}$" ] #yes
+  ]
+  B: [
+    [OpG, "$c_{\\varphi G}$"],  #yes
+    [OpB, "$c_{\\varphi B}$"],  #yes
+    [OpW, "$c_{\\varphi W}$"], #yes
+    [OpWB, "$c_{\\varphi WB}$"], #yes
+     [OWWW, "$c_{WWW}$"], #yes
+    [Opd, "$c_{\\varphi \\Box}$"], #yes
+    [OpD, "$c_{\\varphi D}$"] #yes
+  ]
+
+data_info:
+  tt: [
+    [ ATLAS_tt_8TeV_dilep_Mtt, "https://arxiv.org" ],
+    [ ATLAS_tt_8TeV_ljets_Mtt, "https://arxiv.org" ],
+    [ CMS_tt2D_8TeV_dilep_MttYtt, "https://arxiv.org" ],
+    [ CMS_tt_8TeV_ljets_Ytt, "https://arxiv.org" ],
+    [ ATLAS_tt_13TeV_ljets_2016_Mtt, "https://arxiv.org" ],
+    [ CMS_tt_13TeV_Mtt, "https://arxiv.org" ],
+    [ CMS_tt_13TeV_dilep_2015_Mtt, "https://arxiv.org" ],
+    [ CMS_tt_13TeV_dilep_2016_Mtt, "https://arxiv.org" ],
+    [ CMS_tt_13TeV_ljets_2015_Mtt, "https://arxiv.org" ],
+    [ CMS_tt_13TeV_ljets_2016_Mtt, "https://arxiv.org" ],
+    [ CMS_tt_13TeV_ljets_inc, "https://arxiv.org" ],
+    [ ATLAS_WhelF_8TeV, "https://arxiv.org" ],
+    [ ATLAS_Whel_13TeV, "https://arxiv.org" ],
+    [ CMS_WhelF_8TeV, "https://arxiv.org" ],
+    [ ATLAS_CMS_tt_AC_8TeV, "https://arxiv.org" ],
+    [ ATLAS_tt_13TeV_asy_2022, "https://arxiv.org" ],
+    [ CMS_tt_13TeV_asy, "https://arxiv.org" ],
+  ]
+  tta: [
+    [ ATLAS_tta_8TeV, "https://arxiv.org" ],
+    [ CMS_tta_8TeV, "https://arxiv.org" ]
+  ]
+  4H: [
+    [ ATLAS_ttbb_13TeV_2016, "https://arxiv.org" ],
+    [ ATLAS_tttt_13TeV_run2, "https://arxiv.org" ],
+    [ ATLAS_tttt_13TeV_slep_inc, "https://arxiv.org" ],
+    [ ATLAS_tttt_13TeV_2023, "https://arxiv.org"],
+    [ CMS_ttbb_13TeV, "https://arxiv.org" ],
+    [ CMS_ttbb_13TeV_2016, "https://arxiv.org" ],
+    [ CMS_ttbb_13TeV_dilepton_inc, "https://arxiv.org" ],
+    [ CMS_ttbb_13TeV_ljets_inc, "https://arxiv.org" ],
+    [ CMS_tttt_13TeV, "https://arxiv.org" ],
+    [ CMS_tttt_13TeV_run2, "https://arxiv.org" ],
+    [ CMS_tttt_13TeV_slep_inc, "https://arxiv.org" ],
+    [ CMS_tttt_13TeV_2023, "https://arxiv.org" ]
+  ]
+  ttV: [
+    [ ATLAS_ttZ_13TeV, "https://arxiv.org" ],
+    [ ATLAS_ttZ_13TeV_2016, "https://arxiv.org" ],
+    [ ATLAS_ttZ_13TeV_pTZ, "https://arxiv.org" ],
+    [ ATLAS_ttZ_8TeV, "https://arxiv.org" ],
+    [ CMS_ttZ_13TeV, "https://arxiv.org" ],
+    [ CMS_ttZ_13TeV_pTZ, "https://arxiv.org" ],
+    [ CMS_ttZ_8TeV, "https://arxiv.org" ],
+    [ ATLAS_ttW_13TeV, "https://arxiv.org" ],
+    [ ATLAS_ttW_13TeV_2016, "https://arxiv.org" ],
+    [ ATLAS_ttW_8TeV, "https://arxiv.org" ],
+    [ CMS_ttW_13TeV, "https://arxiv.org" ],
+    [ CMS_ttW_8TeV, "https://arxiv.org" ]
+  ]
+  t8: [
+    [ ATLAS_t_sch_8TeV, "https://arxiv.org" ],
+    [ ATLAS_t_tch_8TeV_diff_Yt, "https://arxiv.org" ],
+    [ CMS_t_sch_8TeV, "https://arxiv.org" ],
+    [ CMS_t_tch_8TeV_diff_Yt, "https://arxiv.org" ],
+    [ CMS_t_tch_8TeV_inc, "https://arxiv.org" ],
+    [ ATLAS_t_sch_13TeV_inc, "https://arxiv.org" ],
+    [ ATLAS_t_tch_13TeV_inc, "https://arxiv.org" ],
+    [ CMS_t_tch_13TeV_2016_diff_Yt, "https://arxiv.org" ],
+    [ CMS_t_tch_13TeV_2019_diff_Yt, "https://arxiv.org" ],
+    [ CMS_t_tch_13TeV_inc, "https://arxiv.org" ],
+  ]
+  tW: [
+    [ ATLAS_tW_13TeV_inc, "https://arxiv.org" ],
+    [ ATLAS_tW_8TeV_inc, "https://arxiv.org" ],
+    [ ATLAS_tW_slep_8TeV_inc, "https://arxiv.org" ],
+    [ CMS_tW_13TeV_inc, "https://arxiv.org" ],
+    [ CMS_tW_13TeV_slep_inc, "https://arxiv.org" ],
+    [ CMS_tW_8TeV_inc, "https://arxiv.org" ],
+    [ ATLAS_tZ_13TeV_inc, "https://arxiv.org" ],
+    [ ATLAS_tZ_13TeV_run2_inc, "https://arxiv.org" ],
+    [ CMS_tZ_13TeV_2016_inc, "https://arxiv.org" ],
+    [ CMS_tZ_13TeV_inc, "https://arxiv.org" ],
+    [ CMS_tZ_13TeV_pTt, "https://arxiv.org" ],
+  ]
+  HrunI: [
+    [ ATLAS_CMS_SSinc_RunI, "https://arxiv.org" ],
+    [ ATLAS_SSinc_RunII, "https://arxiv.org" ],
+    [ CMS_SSinc_RunII, "https://arxiv.org" ],
+    [ ATLAS_WH_Hbb_13TeV, "https://arxiv.org" ],
+    [ ATLAS_ZH_Hbb_13TeV, "https://arxiv.org" ],
+    [ ATLAS_ggF_13TeV_2015, "https://arxiv.org" ],
+    [ ATLAS_ggF_ZZ_13TeV, "https://arxiv.org" ],
+    [ CMS_H_13TeV_2015_pTH, "https://arxiv.org" ],
+    [ CMS_ggF_aa_13TeV, "https://arxiv.org" ],
+    [ ATLAS_STXS_runII_13TeV, "https://arxiv.org" ],
+  ]
+  VV: [
+    [ ATLAS_WW_13TeV_2016_memu, "https://arxiv.org" ],
+    [ ATLAS_WZ_13TeV_2016_mTWZ, "https://arxiv.org" ],
+    [ CMS_WZ_13TeV_2016_pTZ, "https://arxiv.org" ],
+    [ CMS_WZ_13TeV_2022_pTZ, "https://arxiv.org" ],
+    [ LEP_eeWW_182GeV, "https://arxiv.org" ],
+    [ LEP_eeWW_189GeV, "https://arxiv.org" ],
+    [ LEP_eeWW_198GeV, "https://arxiv.org" ],
+    [ LEP_eeWW_206GeV, "https://arxiv.org" ],
+  ]
+  LEP: [
+    [ LEP1_EWPOs_2006, "https://arxiv.org" ],
+    [ LEP_Bhabha_2013, "https://arxiv.org" ],
+    [ LEP_Brw_2013, "https://arxiv.org" ],
+    [ LEP_alphaEW, "https://arxiv.org" ],
+  ]
+  CLIC: [
+    [ CLIC_zh_aa_380GeV,"https://arxiv.org" ],
+    [ CLIC_zh_bb_380GeV,"https://arxiv.org" ],
+    [ CLIC_zh_cc_380GeV,"https://arxiv.org" ],
+    [ CLIC_zh_gg_380GeV,"https://arxiv.org" ],
+    [ CLIC_zh_tautau_380GeV,"https://arxiv.org" ], 
+    [ CLIC_zh_ww_380GeV, "https://arxiv.org" ],
+    [ CLIC_zh_xstot_380GeV, "https://arxiv.org" ],
+    [ CLIC_zh_zz_380GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_aa_1500GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_aa_3000GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_aa_380GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_bb_1500GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_bb_3000GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_bb_380GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_cc_1500GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_cc_3000GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_cc_380GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_gg_1500GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_gg_3000GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_gg_380GeV, "https://arxiv.org" ],
+    [ CLIC_vvh_tautau_1500GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_tautau_3000GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_tautau_380GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_ww_1500GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_ww_3000GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_ww_380GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_za_1500GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_za_3000GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_zz_1500GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_zz_3000GeV,"https://arxiv.org" ],
+    [ CLIC_vvh_zz_380GeV,"https://arxiv.org" ],
+    [ CLIC_bb_1500GeV,"https://arxiv.org" ],
+    [ CLIC_bb_3000GeV,"https://arxiv.org" ],
+    [ CLIC_bb_380GeV,"https://arxiv.org" ],
+    [ CLIC_bb_Afb_1500GeV,"https://arxiv.org" ],
+    [ CLIC_bb_Afb_3000GeV,"https://arxiv.org" ],
+    [ CLIC_bb_Afb_380GeV,"https://arxiv.org" ],
+    [ CLIC_cc_1500GeV,"https://arxiv.org" ],
+    [ CLIC_cc_3000GeV,"https://arxiv.org" ],
+    [ CLIC_cc_380GeV,"https://arxiv.org" ],
+    [ CLIC_cc_Afb_1500GeV,"https://arxiv.org" ],
+    [ CLIC_cc_Afb_3000GeV,"https://arxiv.org" ],
+    [ CLIC_cc_Afb_380GeV,"https://arxiv.org" ],
+    [ CLIC_ee_1500GeV,"https://arxiv.org" ],
+    [ CLIC_ee_3000GeV,"https://arxiv.org" ],
+    [ CLIC_ee_380GeV,"https://arxiv.org" ],
+    [ CLIC_ee_Afb_1500GeV,"https://arxiv.org" ],
+    [ CLIC_ee_Afb_3000GeV,"https://arxiv.org" ],
+    [ CLIC_ee_Afb_380GeV,"https://arxiv.org" ],
+    [ CLIC_mumu_1500GeV,"https://arxiv.org" ],
+    [ CLIC_mumu_3000GeV,"https://arxiv.org" ],
+    [ CLIC_mumu_380GeV,"https://arxiv.org" ],
+    [ CLIC_mumu_Afb_1500GeV,"https://arxiv.org" ],
+    [ CLIC_mumu_Afb_3000GeV,"https://arxiv.org" ],
+    [ CLIC_mumu_Afb_380GeV,"https://arxiv.org" ],
+    [ CLIC_tautau_1500GeV,"https://arxiv.org" ],
+    [ CLIC_tautau_3000GeV,"https://arxiv.org" ],
+    [ CLIC_tautau_380GeV,"https://arxiv.org" ],
+    [ CLIC_tautau_Afb_1500GeV,"https://arxiv.org" ],
+    [ CLIC_tautau_Afb_3000GeV,"https://arxiv.org" ],
+    [ CLIC_tautau_Afb_380GeV,"https://arxiv.org" ],
+    [ CLIC_Zdata_380GeV,"https://arxiv.org" ],
+    [ CLIC_Brw_380GeV,"https://arxiv.org" ],
+    [ CLIC_Brw_1500GeV,"https://arxiv.org" ],
+    [ CLIC_Brw_3000GeV,"https://arxiv.org" ],
+    [ CLIC_ww_380GeV,"https://arxiv.org" ],
+    [ CLIC_ww_1500GeV,"https://arxiv.org" ],
+    [ CLIC_ww_3000GeV,"https://arxiv.org" ],
+  ]

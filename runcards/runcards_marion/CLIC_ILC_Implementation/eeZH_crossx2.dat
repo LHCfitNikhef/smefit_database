@@ -1,0 +1,2020 @@
+(Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+      (s + SMP["m_Z"]^2)]*(4*fL["e+"]*fR["e-"]*
+     (8*cpWB*SMP["m_W"]^5*Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]*
+       (2*Sqrt[2]*GF*s^2*SMP["m_Z"]^2 - 2*Sqrt[2]*GF*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 2*Sqrt[2]*GF*s*SMP["m_Z"]^4) - 
+      8*SMP["m_W"]^6*((2*Sqrt[2]*cpBB*GF*s^2 - 2*Sqrt[2]*cpW*GF*s^2)*
+         SMP["m_Z"]^2 + (-2*Sqrt[2]*cpBB*GF*s + 2*Sqrt[2]*cpW*GF*s)*
+         SMP["m_H"]^2*SMP["m_Z"]^2 + (2*Sqrt[2]*cpBB*GF*s - 
+          2*Sqrt[2]*cpW*GF*s)*SMP["m_Z"]^4) + 2*cpWB*s*SMP["m_W"]*
+       Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]^3*
+       (3*Sqrt[2]*GF*s^2*SMP["m_Z"]^2 + Sqrt[2]*GF*s^2*z^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*GF*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 2*Sqrt[2]*GF*s*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^2 - Sqrt[2]*GF*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        Sqrt[2]*GF*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*Sqrt[2]*GF*s*
+         SMP["m_Z"]^4 - 2*Sqrt[2]*GF*s*z^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*GF*SMP["m_H"]^2*SMP["m_Z"]^4 - 2*Sqrt[2]*GF*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^4 + 3*Sqrt[2]*GF*SMP["m_Z"]^6 + 
+        Sqrt[2]*GF*z^2*SMP["m_Z"]^6) - 2*cpWB*SMP["m_W"]^3*
+       Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]*
+       (3*Sqrt[2]*GF*s^3*SMP["m_Z"]^2 + Sqrt[2]*GF*s^3*z^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 2*Sqrt[2]*GF*s^2*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^2 - Sqrt[2]*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        Sqrt[2]*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 10*Sqrt[2]*GF*s^2*
+         SMP["m_Z"]^4 - 2*Sqrt[2]*GF*s^2*z^2*SMP["m_Z"]^4 - 
+        10*Sqrt[2]*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 2*Sqrt[2]*GF*s*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^4 + 11*Sqrt[2]*GF*s*SMP["m_Z"]^6 + 
+        Sqrt[2]*GF*s*z^2*SMP["m_Z"]^6) + SMP["m_W"]^4*
+       (-2*Sqrt[2]*c3pl1*GF*s^3*SMP["m_Z"]^2 - 2*Sqrt[2]*c3pl2*GF*s^3*
+         SMP["m_Z"]^2 + 2*Sqrt[2]*cdp*GF*s^3*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cll*GF*s^3*SMP["m_Z"]^2 + 16*Sqrt[2]*cpBB*GF*s^3*
+         SMP["m_Z"]^2 + Sqrt[2]*cpDC*GF*s^3*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*c3pl1*GF*s^3*z^2*SMP["m_Z"]^2 + 2*Sqrt[2]*c3pl2*GF*s^3*z^2*
+         SMP["m_Z"]^2 - 2*Sqrt[2]*cdp*GF*s^3*z^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*cll*GF*s^3*z^2*SMP["m_Z"]^2 - Sqrt[2]*cpDC*GF*s^3*z^2*
+         SMP["m_Z"]^2 + 4*Sqrt[2]*c3pl1*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*c3pl2*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*cdp*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*cll*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        16*Sqrt[2]*cpBB*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*cpDC*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*cdp*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*cll*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cpDC*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cdp*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cll*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        Sqrt[2]*cpDC*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*Sqrt[2]*c3pl1*GF*s*
+         z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*Sqrt[2]*c3pl2*GF*s*z^2*
+         SMP["m_H"]^4*SMP["m_Z"]^2 - 2*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 2*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        Sqrt[2]*cpDC*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        12*Sqrt[2]*c3pl1*GF*s^2*SMP["m_Z"]^4 - 12*Sqrt[2]*c3pl2*GF*s^2*
+         SMP["m_Z"]^4 + 12*Sqrt[2]*cdp*GF*s^2*SMP["m_Z"]^4 + 
+        12*Sqrt[2]*cll*GF*s^2*SMP["m_Z"]^4 + 48*Sqrt[2]*cpBB*GF*s^2*
+         SMP["m_Z"]^4 + 6*Sqrt[2]*cpDC*GF*s^2*SMP["m_Z"]^4 - 
+        32*Sqrt[2]*cpW*GF*s^2*SMP["m_Z"]^4 - 4*Sqrt[2]*c3pl1*GF*s^2*z^2*
+         SMP["m_Z"]^4 - 4*Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*cdp*GF*s^2*z^2*SMP["m_Z"]^4 + 4*Sqrt[2]*cll*GF*s^2*z^2*
+         SMP["m_Z"]^4 + 2*Sqrt[2]*cpDC*GF*s^2*z^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*cdp*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*cll*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 32*Sqrt[2]*cpBB*GF*s*
+         SMP["m_H"]^2*SMP["m_Z"]^4 - 2*Sqrt[2]*cpDC*GF*s*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 32*Sqrt[2]*cpW*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*c3pl2*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        2*Sqrt[2]*cpDC*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*c3pl1*GF*s*SMP["m_Z"]^6 - 2*Sqrt[2]*c3pl2*GF*s*
+         SMP["m_Z"]^6 + 2*Sqrt[2]*cdp*GF*s*SMP["m_Z"]^6 + 
+        2*Sqrt[2]*cll*GF*s*SMP["m_Z"]^6 + 32*Sqrt[2]*cpBB*GF*s*SMP["m_Z"]^6 + 
+        Sqrt[2]*cpDC*GF*s*SMP["m_Z"]^6 - 32*Sqrt[2]*cpW*GF*s*SMP["m_Z"]^6 + 
+        2*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_Z"]^6 + 2*Sqrt[2]*c3pl2*GF*s*z^2*
+         SMP["m_Z"]^6 - 2*Sqrt[2]*cdp*GF*s*z^2*SMP["m_Z"]^6 - 
+        2*Sqrt[2]*cll*GF*s*z^2*SMP["m_Z"]^6 - Sqrt[2]*cpDC*GF*s*z^2*
+         SMP["m_Z"]^6) + SMP["m_W"]^2*SMP["m_Z"]^2*(Sqrt[2]*cpe*GF*s^4 - 
+        Sqrt[2]*cpe*GF*s^4*z^2 - 2*Sqrt[2]*cpe*GF*s^3*SMP["m_H"]^2 + 
+        2*Sqrt[2]*cpe*GF*s^3*z^2*SMP["m_H"]^2 + Sqrt[2]*cpe*GF*s^2*
+         SMP["m_H"]^4 - Sqrt[2]*cpe*GF*s^2*z^2*SMP["m_H"]^4 + 
+        4*Sqrt[2]*c3pl1*GF*s^3*SMP["m_Z"]^2 + 4*Sqrt[2]*c3pl2*GF*s^3*
+         SMP["m_Z"]^2 - 4*Sqrt[2]*cdp*GF*s^3*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*cll*GF*s^3*SMP["m_Z"]^2 - 32*Sqrt[2]*cpBB*GF*s^3*
+         SMP["m_Z"]^2 - Sqrt[2]*cpDC*GF*s^3*SMP["m_Z"]^2 + 
+        6*Sqrt[2]*cpe*GF*s^3*SMP["m_Z"]^2 - 4*Sqrt[2]*c3pl1*GF*s^3*z^2*
+         SMP["m_Z"]^2 - 4*Sqrt[2]*c3pl2*GF*s^3*z^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*cdp*GF*s^3*z^2*SMP["m_Z"]^2 + 4*Sqrt[2]*cll*GF*s^3*z^2*
+         SMP["m_Z"]^2 + Sqrt[2]*cpDC*GF*s^3*z^2*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cpe*GF*s^3*z^2*SMP["m_Z"]^2 - 8*Sqrt[2]*c3pl1*GF*s^2*
+         SMP["m_H"]^2*SMP["m_Z"]^2 - 8*Sqrt[2]*c3pl2*GF*s^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 8*Sqrt[2]*cdp*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        8*Sqrt[2]*cll*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        32*Sqrt[2]*cpBB*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cpDC*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*cpe*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        8*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        8*Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        8*Sqrt[2]*cdp*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        8*Sqrt[2]*cll*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*cpDC*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cpe*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*cdp*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*cll*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        Sqrt[2]*cpDC*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 4*Sqrt[2]*c3pl1*GF*s*
+         z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 4*Sqrt[2]*c3pl2*GF*s*z^2*
+         SMP["m_H"]^4*SMP["m_Z"]^2 + 4*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + 4*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        Sqrt[2]*cpDC*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        24*Sqrt[2]*c3pl1*GF*s^2*SMP["m_Z"]^4 + 24*Sqrt[2]*c3pl2*GF*s^2*
+         SMP["m_Z"]^4 - 24*Sqrt[2]*cdp*GF*s^2*SMP["m_Z"]^4 - 
+        24*Sqrt[2]*cll*GF*s^2*SMP["m_Z"]^4 - 48*Sqrt[2]*cpBB*GF*s^2*
+         SMP["m_Z"]^4 - 6*Sqrt[2]*cpDC*GF*s^2*SMP["m_Z"]^4 + 
+        Sqrt[2]*cpe*GF*s^2*SMP["m_Z"]^4 + 16*Sqrt[2]*cpW*GF*s^2*
+         SMP["m_Z"]^4 + 8*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_Z"]^4 + 
+        8*Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_Z"]^4 - 8*Sqrt[2]*cdp*GF*s^2*z^2*
+         SMP["m_Z"]^4 - 8*Sqrt[2]*cll*GF*s^2*z^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*cpDC*GF*s^2*z^2*SMP["m_Z"]^4 - Sqrt[2]*cpe*GF*s^2*z^2*
+         SMP["m_Z"]^4 - 8*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        8*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        8*Sqrt[2]*cdp*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        8*Sqrt[2]*cll*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 16*Sqrt[2]*cpBB*GF*s*
+         SMP["m_H"]^2*SMP["m_Z"]^4 + 2*Sqrt[2]*cpDC*GF*s*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - 16*Sqrt[2]*cpW*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        8*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        8*Sqrt[2]*c3pl2*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        8*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        8*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*cpDC*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*c3pl1*GF*s*SMP["m_Z"]^6 + 4*Sqrt[2]*c3pl2*GF*s*
+         SMP["m_Z"]^6 - 4*Sqrt[2]*cdp*GF*s*SMP["m_Z"]^6 - 
+        4*Sqrt[2]*cll*GF*s*SMP["m_Z"]^6 - 16*Sqrt[2]*cpBB*GF*s*SMP["m_Z"]^6 - 
+        Sqrt[2]*cpDC*GF*s*SMP["m_Z"]^6 + 16*Sqrt[2]*cpW*GF*s*SMP["m_Z"]^6 - 
+        4*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_Z"]^6 - 4*Sqrt[2]*c3pl2*GF*s*z^2*
+         SMP["m_Z"]^6 + 4*Sqrt[2]*cdp*GF*s*z^2*SMP["m_Z"]^6 + 
+        4*Sqrt[2]*cll*GF*s*z^2*SMP["m_Z"]^6 + Sqrt[2]*cpDC*GF*s*z^2*
+         SMP["m_Z"]^6) + s*SMP["m_Z"]^2*(-(Sqrt[2]*cpe*GF*s^3*SMP["m_Z"]^2) + 
+        Sqrt[2]*cpe*GF*s^3*z^2*SMP["m_Z"]^2 + 2*Sqrt[2]*cpe*GF*s^2*
+         SMP["m_H"]^2*SMP["m_Z"]^2 - 2*Sqrt[2]*cpe*GF*s^2*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - Sqrt[2]*cpe*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        Sqrt[2]*cpe*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*c3pl1*GF*s^2*SMP["m_Z"]^4 - 2*Sqrt[2]*c3pl2*GF*s^2*
+         SMP["m_Z"]^4 + 2*Sqrt[2]*cdp*GF*s^2*SMP["m_Z"]^4 + 
+        2*Sqrt[2]*cll*GF*s^2*SMP["m_Z"]^4 + 16*Sqrt[2]*cpBB*GF*s^2*
+         SMP["m_Z"]^4 - 6*Sqrt[2]*cpe*GF*s^2*SMP["m_Z"]^4 + 
+        2*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_Z"]^4 + 2*Sqrt[2]*c3pl2*GF*s^2*z^2*
+         SMP["m_Z"]^4 - 2*Sqrt[2]*cdp*GF*s^2*z^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*cll*GF*s^2*z^2*SMP["m_Z"]^4 - 2*Sqrt[2]*cpe*GF*s^2*z^2*
+         SMP["m_Z"]^4 + 4*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*cdp*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*cll*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 16*Sqrt[2]*cpBB*GF*s*
+         SMP["m_H"]^2*SMP["m_Z"]^4 + 2*Sqrt[2]*cpe*GF*s*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - 4*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*c3pl2*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*cpe*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*c3pl1*GF*SMP["m_H"]^4*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*c3pl2*GF*SMP["m_H"]^4*SMP["m_Z"]^4 + 
+        2*Sqrt[2]*cdp*GF*SMP["m_H"]^4*SMP["m_Z"]^4 + 2*Sqrt[2]*cll*GF*
+         SMP["m_H"]^4*SMP["m_Z"]^4 + 2*Sqrt[2]*c3pl1*GF*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^4 + 2*Sqrt[2]*c3pl2*GF*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*cdp*GF*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*cll*GF*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 - 
+        12*Sqrt[2]*c3pl1*GF*s*SMP["m_Z"]^6 - 12*Sqrt[2]*c3pl2*GF*s*
+         SMP["m_Z"]^6 + 12*Sqrt[2]*cdp*GF*s*SMP["m_Z"]^6 + 
+        12*Sqrt[2]*cll*GF*s*SMP["m_Z"]^6 + 16*Sqrt[2]*cpBB*GF*s*
+         SMP["m_Z"]^6 - Sqrt[2]*cpe*GF*s*SMP["m_Z"]^6 - 
+        4*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_Z"]^6 - 4*Sqrt[2]*c3pl2*GF*s*z^2*
+         SMP["m_Z"]^6 + 4*Sqrt[2]*cdp*GF*s*z^2*SMP["m_Z"]^6 + 
+        4*Sqrt[2]*cll*GF*s*z^2*SMP["m_Z"]^6 + Sqrt[2]*cpe*GF*s*z^2*
+         SMP["m_Z"]^6 + 4*Sqrt[2]*c3pl1*GF*SMP["m_H"]^2*SMP["m_Z"]^6 + 
+        4*Sqrt[2]*c3pl2*GF*SMP["m_H"]^2*SMP["m_Z"]^6 - 
+        4*Sqrt[2]*cdp*GF*SMP["m_H"]^2*SMP["m_Z"]^6 - 4*Sqrt[2]*cll*GF*
+         SMP["m_H"]^2*SMP["m_Z"]^6 - 4*Sqrt[2]*c3pl1*GF*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^6 - 4*Sqrt[2]*c3pl2*GF*z^2*SMP["m_H"]^2*SMP["m_Z"]^6 + 
+        4*Sqrt[2]*cdp*GF*z^2*SMP["m_H"]^2*SMP["m_Z"]^6 + 
+        4*Sqrt[2]*cll*GF*z^2*SMP["m_H"]^2*SMP["m_Z"]^6 - 
+        2*Sqrt[2]*c3pl1*GF*SMP["m_Z"]^8 - 2*Sqrt[2]*c3pl2*GF*SMP["m_Z"]^8 + 
+        2*Sqrt[2]*cdp*GF*SMP["m_Z"]^8 + 2*Sqrt[2]*cll*GF*SMP["m_Z"]^8 + 
+        2*Sqrt[2]*c3pl1*GF*z^2*SMP["m_Z"]^8 + 2*Sqrt[2]*c3pl2*GF*z^2*
+         SMP["m_Z"]^8 - 2*Sqrt[2]*cdp*GF*z^2*SMP["m_Z"]^8 - 
+        2*Sqrt[2]*cll*GF*z^2*SMP["m_Z"]^8)) + 4*fL["e-"]*fR["e+"]*
+     (8*cpWB*SMP["m_W"]^5*Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]*
+       (2*Sqrt[2]*GF*s^2*SMP["m_Z"]^2 - 2*Sqrt[2]*GF*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 2*Sqrt[2]*GF*s*SMP["m_Z"]^4) - 
+      8*SMP["m_W"]^6*((2*Sqrt[2]*cpBB*GF*s^2 - 2*Sqrt[2]*cpW*GF*s^2)*
+         SMP["m_Z"]^2 + (-2*Sqrt[2]*cpBB*GF*s + 2*Sqrt[2]*cpW*GF*s)*
+         SMP["m_H"]^2*SMP["m_Z"]^2 + (2*Sqrt[2]*cpBB*GF*s - 
+          2*Sqrt[2]*cpW*GF*s)*SMP["m_Z"]^4) - 2*cpWB*SMP["m_W"]^3*
+       Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]^3*
+       (-(Sqrt[2]*GF*s^3) + Sqrt[2]*GF*s^3*z^2 + 2*Sqrt[2]*GF*s^2*
+         SMP["m_H"]^2 - 2*Sqrt[2]*GF*s^2*z^2*SMP["m_H"]^2 - 
+        Sqrt[2]*GF*s*SMP["m_H"]^4 + Sqrt[2]*GF*s*z^2*SMP["m_H"]^4 + 
+        2*Sqrt[2]*GF*s^2*SMP["m_Z"]^2 - 2*Sqrt[2]*GF*s^2*z^2*SMP["m_Z"]^2 - 
+        6*Sqrt[2]*GF*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 2*Sqrt[2]*GF*s*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^2 + 7*Sqrt[2]*GF*s*SMP["m_Z"]^4 + 
+        Sqrt[2]*GF*s*z^2*SMP["m_Z"]^4) + cpWB*s*SMP["m_W"]*
+       Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]^3*
+       (-(Sqrt[2]*GF*s^2*SMP["m_Z"]^2) + Sqrt[2]*GF*s^2*z^2*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*GF*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 2*Sqrt[2]*GF*s*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^2 - Sqrt[2]*GF*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        Sqrt[2]*GF*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 2*Sqrt[2]*GF*s*
+         SMP["m_Z"]^4 - 2*Sqrt[2]*GF*s*z^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*GF*SMP["m_H"]^2*SMP["m_Z"]^4 - 2*Sqrt[2]*GF*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^4 + 3*Sqrt[2]*GF*SMP["m_Z"]^6 + 
+        Sqrt[2]*GF*z^2*SMP["m_Z"]^6) + SMP["m_W"]^4*
+       (-2*Sqrt[2]*c3pl1*GF*s^3*SMP["m_Z"]^2 - 2*Sqrt[2]*c3pl2*GF*s^3*
+         SMP["m_Z"]^2 + 2*Sqrt[2]*cdp*GF*s^3*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cll*GF*s^3*SMP["m_Z"]^2 + 8*Sqrt[2]*cpBB*GF*s^3*
+         SMP["m_Z"]^2 + Sqrt[2]*cpDC*GF*s^3*SMP["m_Z"]^2 + 
+        8*Sqrt[2]*cpW*GF*s^3*SMP["m_Z"]^2 + 2*Sqrt[2]*c3pl1*GF*s^3*z^2*
+         SMP["m_Z"]^2 + 2*Sqrt[2]*c3pl2*GF*s^3*z^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*cdp*GF*s^3*z^2*SMP["m_Z"]^2 - 2*Sqrt[2]*cll*GF*s^3*z^2*
+         SMP["m_Z"]^2 - Sqrt[2]*cpDC*GF*s^3*z^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*c3pl1*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*c3pl2*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*cdp*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*cll*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        8*Sqrt[2]*cpBB*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*cpDC*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        8*Sqrt[2]*cpW*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*cdp*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*Sqrt[2]*cll*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cpDC*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cdp*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*Sqrt[2]*cll*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        Sqrt[2]*cpDC*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*Sqrt[2]*c3pl1*GF*s*
+         z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*Sqrt[2]*c3pl2*GF*s*z^2*
+         SMP["m_H"]^4*SMP["m_Z"]^2 - 2*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 2*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        Sqrt[2]*cpDC*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        12*Sqrt[2]*c3pl1*GF*s^2*SMP["m_Z"]^4 - 12*Sqrt[2]*c3pl2*GF*s^2*
+         SMP["m_Z"]^4 + 12*Sqrt[2]*cdp*GF*s^2*SMP["m_Z"]^4 + 
+        12*Sqrt[2]*cll*GF*s^2*SMP["m_Z"]^4 + 32*Sqrt[2]*cpBB*GF*s^2*
+         SMP["m_Z"]^4 + 6*Sqrt[2]*cpDC*GF*s^2*SMP["m_Z"]^4 - 
+        16*Sqrt[2]*cpW*GF*s^2*SMP["m_Z"]^4 - 4*Sqrt[2]*c3pl1*GF*s^2*z^2*
+         SMP["m_Z"]^4 - 4*Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*cdp*GF*s^2*z^2*SMP["m_Z"]^4 + 4*Sqrt[2]*cll*GF*s^2*z^2*
+         SMP["m_Z"]^4 + 2*Sqrt[2]*cpDC*GF*s^2*z^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*cdp*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*cll*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 24*Sqrt[2]*cpBB*GF*s*
+         SMP["m_H"]^2*SMP["m_Z"]^4 - 2*Sqrt[2]*cpDC*GF*s*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 24*Sqrt[2]*cpW*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*Sqrt[2]*c3pl2*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        2*Sqrt[2]*cpDC*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        2*Sqrt[2]*c3pl1*GF*s*SMP["m_Z"]^6 - 2*Sqrt[2]*c3pl2*GF*s*
+         SMP["m_Z"]^6 + 2*Sqrt[2]*cdp*GF*s*SMP["m_Z"]^6 + 
+        2*Sqrt[2]*cll*GF*s*SMP["m_Z"]^6 + 24*Sqrt[2]*cpBB*GF*s*SMP["m_Z"]^6 + 
+        Sqrt[2]*cpDC*GF*s*SMP["m_Z"]^6 - 24*Sqrt[2]*cpW*GF*s*SMP["m_Z"]^6 + 
+        2*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_Z"]^6 + 2*Sqrt[2]*c3pl2*GF*s*z^2*
+         SMP["m_Z"]^6 - 2*Sqrt[2]*cdp*GF*s*z^2*SMP["m_Z"]^6 - 
+        2*Sqrt[2]*cll*GF*s*z^2*SMP["m_Z"]^6 - Sqrt[2]*cpDC*GF*s*z^2*
+         SMP["m_Z"]^6) + (SMP["m_W"]^2*SMP["m_Z"]^2*(2*Sqrt[2]*c3pl1*GF*s^4 + 
+         2*Sqrt[2]*cpl1*GF*s^4 - 2*Sqrt[2]*c3pl1*GF*s^4*z^2 - 
+         2*Sqrt[2]*cpl1*GF*s^4*z^2 - 4*Sqrt[2]*c3pl1*GF*s^3*SMP["m_H"]^2 - 
+         4*Sqrt[2]*cpl1*GF*s^3*SMP["m_H"]^2 + 4*Sqrt[2]*c3pl1*GF*s^3*z^2*
+          SMP["m_H"]^2 + 4*Sqrt[2]*cpl1*GF*s^3*z^2*SMP["m_H"]^2 + 
+         2*Sqrt[2]*c3pl1*GF*s^2*SMP["m_H"]^4 + 2*Sqrt[2]*cpl1*GF*s^2*
+          SMP["m_H"]^4 - 2*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_H"]^4 - 
+         2*Sqrt[2]*cpl1*GF*s^2*z^2*SMP["m_H"]^4 + 16*Sqrt[2]*c3pl1*GF*s^3*
+          SMP["m_Z"]^2 + 4*Sqrt[2]*c3pl2*GF*s^3*SMP["m_Z"]^2 - 
+         4*Sqrt[2]*cdp*GF*s^3*SMP["m_Z"]^2 - 4*Sqrt[2]*cll*GF*s^3*
+          SMP["m_Z"]^2 - 24*Sqrt[2]*cpBB*GF*s^3*SMP["m_Z"]^2 - 
+         Sqrt[2]*cpDC*GF*s^3*SMP["m_Z"]^2 + 12*Sqrt[2]*cpl1*GF*s^3*
+          SMP["m_Z"]^2 - 8*Sqrt[2]*cpW*GF*s^3*SMP["m_Z"]^2 - 
+         4*Sqrt[2]*c3pl2*GF*s^3*z^2*SMP["m_Z"]^2 + 4*Sqrt[2]*cdp*GF*s^3*z^2*
+          SMP["m_Z"]^2 + 4*Sqrt[2]*cll*GF*s^3*z^2*SMP["m_Z"]^2 + 
+         Sqrt[2]*cpDC*GF*s^3*z^2*SMP["m_Z"]^2 + 4*Sqrt[2]*cpl1*GF*s^3*z^2*
+          SMP["m_Z"]^2 - 12*Sqrt[2]*c3pl1*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+         8*Sqrt[2]*c3pl2*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         8*Sqrt[2]*cdp*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         8*Sqrt[2]*cll*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         24*Sqrt[2]*cpBB*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         2*Sqrt[2]*cpDC*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+         4*Sqrt[2]*cpl1*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         8*Sqrt[2]*cpW*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         12*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         8*Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+         8*Sqrt[2]*cdp*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+         8*Sqrt[2]*cll*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+         2*Sqrt[2]*cpDC*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         4*Sqrt[2]*cpl1*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         4*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+         4*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+         4*Sqrt[2]*cdp*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 4*Sqrt[2]*cll*GF*s*
+          SMP["m_H"]^4*SMP["m_Z"]^2 - Sqrt[2]*cpDC*GF*s*SMP["m_H"]^4*
+          SMP["m_Z"]^2 - 4*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+         4*Sqrt[2]*c3pl2*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+         4*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+         4*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+         Sqrt[2]*cpDC*GF*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+         26*Sqrt[2]*c3pl1*GF*s^2*SMP["m_Z"]^4 + 24*Sqrt[2]*c3pl2*GF*s^2*
+          SMP["m_Z"]^4 - 24*Sqrt[2]*cdp*GF*s^2*SMP["m_Z"]^4 - 
+         24*Sqrt[2]*cll*GF*s^2*SMP["m_Z"]^4 - 40*Sqrt[2]*cpBB*GF*s^2*
+          SMP["m_Z"]^4 - 6*Sqrt[2]*cpDC*GF*s^2*SMP["m_Z"]^4 + 
+         2*Sqrt[2]*cpl1*GF*s^2*SMP["m_Z"]^4 + 8*Sqrt[2]*cpW*GF*s^2*
+          SMP["m_Z"]^4 + 6*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_Z"]^4 + 
+         8*Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_Z"]^4 - 8*Sqrt[2]*cdp*GF*s^2*z^2*
+          SMP["m_Z"]^4 - 8*Sqrt[2]*cll*GF*s^2*z^2*SMP["m_Z"]^4 - 
+         2*Sqrt[2]*cpDC*GF*s^2*z^2*SMP["m_Z"]^4 - 2*Sqrt[2]*cpl1*GF*s^2*z^2*
+          SMP["m_Z"]^4 - 8*Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         8*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+         8*Sqrt[2]*cdp*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 8*Sqrt[2]*cll*GF*s*
+          SMP["m_H"]^2*SMP["m_Z"]^4 + 16*Sqrt[2]*cpBB*GF*s*SMP["m_H"]^2*
+          SMP["m_Z"]^4 + 2*Sqrt[2]*cpDC*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         16*Sqrt[2]*cpW*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+         8*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+         8*Sqrt[2]*c3pl2*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         8*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         8*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         2*Sqrt[2]*cpDC*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+         4*Sqrt[2]*c3pl1*GF*s*SMP["m_Z"]^6 + 4*Sqrt[2]*c3pl2*GF*s*
+          SMP["m_Z"]^6 - 4*Sqrt[2]*cdp*GF*s*SMP["m_Z"]^6 - 
+         4*Sqrt[2]*cll*GF*s*SMP["m_Z"]^6 - 16*Sqrt[2]*cpBB*GF*s*
+          SMP["m_Z"]^6 - Sqrt[2]*cpDC*GF*s*SMP["m_Z"]^6 + 
+         16*Sqrt[2]*cpW*GF*s*SMP["m_Z"]^6 - 4*Sqrt[2]*c3pl1*GF*s*z^2*
+          SMP["m_Z"]^6 - 4*Sqrt[2]*c3pl2*GF*s*z^2*SMP["m_Z"]^6 + 
+         4*Sqrt[2]*cdp*GF*s*z^2*SMP["m_Z"]^6 + 4*Sqrt[2]*cll*GF*s*z^2*
+          SMP["m_Z"]^6 + Sqrt[2]*cpDC*GF*s*z^2*SMP["m_Z"]^6))/2 + 
+      (s*SMP["m_Z"]^2*(-(Sqrt[2]*c3pl1*GF*s^3*SMP["m_Z"]^2) - 
+         Sqrt[2]*cpl1*GF*s^3*SMP["m_Z"]^2 + Sqrt[2]*c3pl1*GF*s^3*z^2*
+          SMP["m_Z"]^2 + Sqrt[2]*cpl1*GF*s^3*z^2*SMP["m_Z"]^2 + 
+         2*Sqrt[2]*c3pl1*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+         2*Sqrt[2]*cpl1*GF*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+         2*Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+         2*Sqrt[2]*cpl1*GF*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+         Sqrt[2]*c3pl1*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+         Sqrt[2]*cpl1*GF*s*SMP["m_H"]^4*SMP["m_Z"]^2 + Sqrt[2]*c3pl1*GF*s*z^2*
+          SMP["m_H"]^4*SMP["m_Z"]^2 + Sqrt[2]*cpl1*GF*s*z^2*SMP["m_H"]^4*
+          SMP["m_Z"]^2 - 7*Sqrt[2]*c3pl1*GF*s^2*SMP["m_Z"]^4 - 
+         Sqrt[2]*c3pl2*GF*s^2*SMP["m_Z"]^4 + Sqrt[2]*cdp*GF*s^2*
+          SMP["m_Z"]^4 + Sqrt[2]*cll*GF*s^2*SMP["m_Z"]^4 + 
+         8*Sqrt[2]*cpBB*GF*s^2*SMP["m_Z"]^4 - 6*Sqrt[2]*cpl1*GF*s^2*
+          SMP["m_Z"]^4 - Sqrt[2]*c3pl1*GF*s^2*z^2*SMP["m_Z"]^4 + 
+         Sqrt[2]*c3pl2*GF*s^2*z^2*SMP["m_Z"]^4 - Sqrt[2]*cdp*GF*s^2*z^2*
+          SMP["m_Z"]^4 - Sqrt[2]*cll*GF*s^2*z^2*SMP["m_Z"]^4 - 
+         2*Sqrt[2]*cpl1*GF*s^2*z^2*SMP["m_Z"]^4 + 4*Sqrt[2]*c3pl1*GF*s*
+          SMP["m_H"]^2*SMP["m_Z"]^4 + 2*Sqrt[2]*c3pl2*GF*s*SMP["m_H"]^2*
+          SMP["m_Z"]^4 - 2*Sqrt[2]*cdp*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         2*Sqrt[2]*cll*GF*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 8*Sqrt[2]*cpBB*GF*s*
+          SMP["m_H"]^2*SMP["m_Z"]^4 + 2*Sqrt[2]*cpl1*GF*s*SMP["m_H"]^2*
+          SMP["m_Z"]^4 - 4*Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         2*Sqrt[2]*c3pl2*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+         2*Sqrt[2]*cdp*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+         2*Sqrt[2]*cll*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         2*Sqrt[2]*cpl1*GF*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+         Sqrt[2]*c3pl1*GF*SMP["m_H"]^4*SMP["m_Z"]^4 - Sqrt[2]*c3pl2*GF*
+          SMP["m_H"]^4*SMP["m_Z"]^4 + Sqrt[2]*cdp*GF*SMP["m_H"]^4*
+          SMP["m_Z"]^4 + Sqrt[2]*cll*GF*SMP["m_H"]^4*SMP["m_Z"]^4 + 
+         Sqrt[2]*c3pl1*GF*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 + 
+         Sqrt[2]*c3pl2*GF*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 - 
+         Sqrt[2]*cdp*GF*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 - Sqrt[2]*cll*GF*z^2*
+          SMP["m_H"]^4*SMP["m_Z"]^4 - 7*Sqrt[2]*c3pl1*GF*s*SMP["m_Z"]^6 - 
+         6*Sqrt[2]*c3pl2*GF*s*SMP["m_Z"]^6 + 6*Sqrt[2]*cdp*GF*s*
+          SMP["m_Z"]^6 + 6*Sqrt[2]*cll*GF*s*SMP["m_Z"]^6 + 
+         8*Sqrt[2]*cpBB*GF*s*SMP["m_Z"]^6 - Sqrt[2]*cpl1*GF*s*SMP["m_Z"]^6 - 
+         Sqrt[2]*c3pl1*GF*s*z^2*SMP["m_Z"]^6 - 2*Sqrt[2]*c3pl2*GF*s*z^2*
+          SMP["m_Z"]^6 + 2*Sqrt[2]*cdp*GF*s*z^2*SMP["m_Z"]^6 + 
+         2*Sqrt[2]*cll*GF*s*z^2*SMP["m_Z"]^6 + Sqrt[2]*cpl1*GF*s*z^2*
+          SMP["m_Z"]^6 + 2*Sqrt[2]*c3pl1*GF*SMP["m_H"]^2*SMP["m_Z"]^6 + 
+         2*Sqrt[2]*c3pl2*GF*SMP["m_H"]^2*SMP["m_Z"]^6 - 
+         2*Sqrt[2]*cdp*GF*SMP["m_H"]^2*SMP["m_Z"]^6 - 2*Sqrt[2]*cll*GF*
+          SMP["m_H"]^2*SMP["m_Z"]^6 - 2*Sqrt[2]*c3pl1*GF*z^2*SMP["m_H"]^2*
+          SMP["m_Z"]^6 - 2*Sqrt[2]*c3pl2*GF*z^2*SMP["m_H"]^2*SMP["m_Z"]^6 + 
+         2*Sqrt[2]*cdp*GF*z^2*SMP["m_H"]^2*SMP["m_Z"]^6 + 
+         2*Sqrt[2]*cll*GF*z^2*SMP["m_H"]^2*SMP["m_Z"]^6 - 
+         Sqrt[2]*c3pl1*GF*SMP["m_Z"]^8 - Sqrt[2]*c3pl2*GF*SMP["m_Z"]^8 + 
+         Sqrt[2]*cdp*GF*SMP["m_Z"]^8 + Sqrt[2]*cll*GF*SMP["m_Z"]^8 + 
+         Sqrt[2]*c3pl1*GF*z^2*SMP["m_Z"]^8 + Sqrt[2]*c3pl2*GF*z^2*
+          SMP["m_Z"]^8 - Sqrt[2]*cdp*GF*z^2*SMP["m_Z"]^8 - 
+         Sqrt[2]*cll*GF*z^2*SMP["m_Z"]^8))/2)))/
+  (32*Lambda^2*Pi*s^3*SMP["m_Z"]^2*(s - SMP["m_Z"]^2)^2) + 
+ (Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+      (s + SMP["m_Z"]^2)]*(4*fL["e-"]*fR["e+"]*
+     (-2*SMP["m_W"]^2*SMP["m_Z"]^2*(GF^2*s^3*SMP["m_Z"]^2 - 
+        GF^2*s^3*z^2*SMP["m_Z"]^2 - 2*GF^2*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*GF^2*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + GF^2*s*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - GF^2*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        6*GF^2*s^2*SMP["m_Z"]^4 + 2*GF^2*s^2*z^2*SMP["m_Z"]^4 - 
+        2*GF^2*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 2*GF^2*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + GF^2*s*SMP["m_Z"]^6 - GF^2*s*z^2*SMP["m_Z"]^6) - 
+      2*SMP["m_W"]^4*(-(GF^2*s^3*SMP["m_Z"]^2) + GF^2*s^3*z^2*SMP["m_Z"]^2 + 
+        2*GF^2*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 2*GF^2*s^2*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - GF^2*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        GF^2*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 6*GF^2*s^2*SMP["m_Z"]^4 - 
+        2*GF^2*s^2*z^2*SMP["m_Z"]^4 + 2*GF^2*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        2*GF^2*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - GF^2*s*SMP["m_Z"]^6 + 
+        GF^2*s*z^2*SMP["m_Z"]^6) + (s*SMP["m_Z"]^2*(GF^2*s^2*SMP["m_Z"]^4 - 
+         GF^2*s^2*z^2*SMP["m_Z"]^4 - 2*GF^2*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+         2*GF^2*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + GF^2*SMP["m_H"]^4*
+          SMP["m_Z"]^4 - GF^2*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 + 
+         6*GF^2*s*SMP["m_Z"]^6 + 2*GF^2*s*z^2*SMP["m_Z"]^6 - 
+         2*GF^2*SMP["m_H"]^2*SMP["m_Z"]^6 + 2*GF^2*z^2*SMP["m_H"]^2*
+          SMP["m_Z"]^6 + GF^2*SMP["m_Z"]^8 - GF^2*z^2*SMP["m_Z"]^8))/2) + 
+    4*fL["e+"]*fR["e-"]*(-2*SMP["m_W"]^4*(-(GF^2*s^3*SMP["m_Z"]^2) + 
+        GF^2*s^3*z^2*SMP["m_Z"]^2 + 2*GF^2*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*GF^2*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - GF^2*s*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + GF^2*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        6*GF^2*s^2*SMP["m_Z"]^4 - 2*GF^2*s^2*z^2*SMP["m_Z"]^4 + 
+        2*GF^2*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 2*GF^2*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - GF^2*s*SMP["m_Z"]^6 + GF^2*s*z^2*SMP["m_Z"]^6) + 
+      4*SMP["m_W"]^2*SMP["m_Z"]^2*(-(GF^2*s^3*SMP["m_Z"]^2) + 
+        GF^2*s^3*z^2*SMP["m_Z"]^2 + 2*GF^2*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*GF^2*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - GF^2*s*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + GF^2*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        6*GF^2*s^2*SMP["m_Z"]^4 - 2*GF^2*s^2*z^2*SMP["m_Z"]^4 + 
+        2*GF^2*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 2*GF^2*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - GF^2*s*SMP["m_Z"]^6 + GF^2*s*z^2*SMP["m_Z"]^6) - 
+      2*s*SMP["m_Z"]^2*(-(GF^2*s^2*SMP["m_Z"]^4) + GF^2*s^2*z^2*
+         SMP["m_Z"]^4 + 2*GF^2*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        2*GF^2*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - GF^2*SMP["m_H"]^4*
+         SMP["m_Z"]^4 + GF^2*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 - 
+        6*GF^2*s*SMP["m_Z"]^6 - 2*GF^2*s*z^2*SMP["m_Z"]^6 + 
+        2*GF^2*SMP["m_H"]^2*SMP["m_Z"]^6 - 2*GF^2*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^6 - GF^2*SMP["m_Z"]^8 + GF^2*z^2*SMP["m_Z"]^8))))/
+  (32*Pi*s^3*SMP["m_Z"]^2*(s - SMP["m_Z"]^2)^2) + 
+ (Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+      (s + SMP["m_Z"]^2)]*(4*fL["e+"]*fR["e-"]*
+     (cpWB*s*SMP["m_W"]*Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]^3*
+       (4*cpBB*s^3 - 3*cpe*s^3 + 4*cpBB*s^3*z^2 - cpe*s^3*z^2 - 
+        8*cpBB*s^2*SMP["m_H"]^2 + 2*cpe*s^2*SMP["m_H"]^2 - 
+        8*cpBB*s^2*z^2*SMP["m_H"]^2 + 2*cpe*s^2*z^2*SMP["m_H"]^2 + 
+        4*cpBB*s*SMP["m_H"]^4 + cpe*s*SMP["m_H"]^4 + 
+        4*cpBB*s*z^2*SMP["m_H"]^4 - cpe*s*z^2*SMP["m_H"]^4 - 
+        6*c3pl1*s^2*SMP["m_Z"]^2 - 6*c3pl2*s^2*SMP["m_Z"]^2 + 
+        6*cdp*s^2*SMP["m_Z"]^2 + 6*cll*s^2*SMP["m_Z"]^2 + 
+        12*cpBB*s^2*SMP["m_Z"]^2 - 2*cpe*s^2*SMP["m_Z"]^2 - 
+        2*c3pl1*s^2*z^2*SMP["m_Z"]^2 - 2*c3pl2*s^2*z^2*SMP["m_Z"]^2 + 
+        2*cdp*s^2*z^2*SMP["m_Z"]^2 + 2*cll*s^2*z^2*SMP["m_Z"]^2 - 
+        4*cpBB*s^2*z^2*SMP["m_Z"]^2 + 2*cpe*s^2*z^2*SMP["m_Z"]^2 + 
+        4*c3pl1*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*c3pl2*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 4*cdp*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*cll*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 2*cpe*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 4*c3pl1*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*c3pl2*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*cdp*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 4*cll*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        16*cpBB*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 2*cpe*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 2*c3pl1*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*c3pl2*SMP["m_H"]^4*SMP["m_Z"]^2 - 2*cdp*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*cll*SMP["m_H"]^4*SMP["m_Z"]^2 + 4*cpBB*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*c3pl1*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 2*c3pl2*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + 2*cdp*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*cll*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 4*cpBB*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 4*c3pl1*s*SMP["m_Z"]^4 - 4*c3pl2*s*SMP["m_Z"]^4 + 
+        4*cdp*s*SMP["m_Z"]^4 + 4*cll*s*SMP["m_Z"]^4 + 
+        12*cpBB*s*SMP["m_Z"]^4 - 3*cpe*s*SMP["m_Z"]^4 + 
+        4*c3pl1*s*z^2*SMP["m_Z"]^4 + 4*c3pl2*s*z^2*SMP["m_Z"]^4 - 
+        4*cdp*s*z^2*SMP["m_Z"]^4 - 4*cll*s*z^2*SMP["m_Z"]^4 - 
+        4*cpBB*s*z^2*SMP["m_Z"]^4 - cpe*s*z^2*SMP["m_Z"]^4 + 
+        4*c3pl1*SMP["m_H"]^2*SMP["m_Z"]^4 + 4*c3pl2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - 4*cdp*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*cll*SMP["m_H"]^2*SMP["m_Z"]^4 - 8*cpBB*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*c3pl1*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 4*c3pl2*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - 4*cdp*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*cll*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 8*cpBB*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - 6*c3pl1*SMP["m_Z"]^6 - 6*c3pl2*SMP["m_Z"]^6 + 
+        6*cdp*SMP["m_Z"]^6 + 6*cll*SMP["m_Z"]^6 + 4*cpBB*SMP["m_Z"]^6 - 
+        2*c3pl1*z^2*SMP["m_Z"]^6 - 2*c3pl2*z^2*SMP["m_Z"]^6 + 
+        2*cdp*z^2*SMP["m_Z"]^6 + 2*cll*z^2*SMP["m_Z"]^6 + 
+        4*cpBB*z^2*SMP["m_Z"]^6) + 4*cpWB*SMP["m_W"]^5*
+       Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]*(3*cpBB*s^3 - cpW*s^3 + 
+        3*cpBB*s^3*z^2 - cpW*s^3*z^2 - 6*cpBB*s^2*SMP["m_H"]^2 + 
+        2*cpW*s^2*SMP["m_H"]^2 - 6*cpBB*s^2*z^2*SMP["m_H"]^2 + 
+        2*cpW*s^2*z^2*SMP["m_H"]^2 + 3*cpBB*s*SMP["m_H"]^4 - 
+        cpW*s*SMP["m_H"]^4 + 3*cpBB*s*z^2*SMP["m_H"]^4 - 
+        cpW*s*z^2*SMP["m_H"]^4 - 4*c3pl1*s^2*SMP["m_Z"]^2 - 
+        4*c3pl2*s^2*SMP["m_Z"]^2 + 4*cdp*s^2*SMP["m_Z"]^2 + 
+        4*cll*s^2*SMP["m_Z"]^2 + 17*cpBB*s^2*SMP["m_Z"]^2 + 
+        2*cpDC*s^2*SMP["m_Z"]^2 - 5*cpW*s^2*SMP["m_Z"]^2 - 
+        3*cpBB*s^2*z^2*SMP["m_Z"]^2 - cpW*s^2*z^2*SMP["m_Z"]^2 + 
+        4*c3pl1*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*c3pl2*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 4*cdp*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*cll*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 8*cpBB*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 2*cpDC*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 12*cpBB*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 8*cpW*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        3*cpBB*SMP["m_H"]^4*SMP["m_Z"]^2 - 3*cpW*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        3*cpBB*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 3*cpW*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 4*c3pl1*s*SMP["m_Z"]^4 - 4*c3pl2*s*SMP["m_Z"]^4 + 
+        4*cdp*s*SMP["m_Z"]^4 + 4*cll*s*SMP["m_Z"]^4 + 
+        17*cpBB*s*SMP["m_Z"]^4 + 2*cpDC*s*SMP["m_Z"]^4 - 
+        15*cpW*s*SMP["m_Z"]^4 - 3*cpBB*s*z^2*SMP["m_Z"]^4 + 
+        5*cpW*s*z^2*SMP["m_Z"]^4 - 6*cpBB*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        6*cpW*SMP["m_H"]^2*SMP["m_Z"]^4 - 6*cpBB*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 6*cpW*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        3*cpBB*SMP["m_Z"]^6 - 3*cpW*SMP["m_Z"]^6 + 3*cpBB*z^2*SMP["m_Z"]^6 - 
+        3*cpW*z^2*SMP["m_Z"]^6) - 4*SMP["m_W"]^6*(2*cpBB^2*s^3 - 
+        2*cpBB*cpW*s^3 - cpWB^2*s^3 + 2*cpBB^2*s^3*z^2 - 2*cpBB*cpW*s^3*z^2 - 
+        cpWB^2*s^3*z^2 - 4*cpBB^2*s^2*SMP["m_H"]^2 + 4*cpBB*cpW*s^2*
+         SMP["m_H"]^2 + 2*cpWB^2*s^2*SMP["m_H"]^2 - 4*cpBB^2*s^2*z^2*
+         SMP["m_H"]^2 + 4*cpBB*cpW*s^2*z^2*SMP["m_H"]^2 + 
+        2*cpWB^2*s^2*z^2*SMP["m_H"]^2 + 2*cpBB^2*s*SMP["m_H"]^4 - 
+        2*cpBB*cpW*s*SMP["m_H"]^4 - cpWB^2*s*SMP["m_H"]^4 + 
+        2*cpBB^2*s*z^2*SMP["m_H"]^4 - 2*cpBB*cpW*s*z^2*SMP["m_H"]^4 - 
+        cpWB^2*s*z^2*SMP["m_H"]^4 - 4*c3pl1*cpBB*s^2*SMP["m_Z"]^2 - 
+        4*c3pl2*cpBB*s^2*SMP["m_Z"]^2 + 4*cdp*cpBB*s^2*SMP["m_Z"]^2 + 
+        4*cll*cpBB*s^2*SMP["m_Z"]^2 + 14*cpBB^2*s^2*SMP["m_Z"]^2 + 
+        2*cpBB*cpDC*s^2*SMP["m_Z"]^2 + 4*c3pl1*cpW*s^2*SMP["m_Z"]^2 + 
+        4*c3pl2*cpW*s^2*SMP["m_Z"]^2 - 4*cdp*cpW*s^2*SMP["m_Z"]^2 - 
+        4*cll*cpW*s^2*SMP["m_Z"]^2 - 16*cpBB*cpW*s^2*SMP["m_Z"]^2 - 
+        2*cpDC*cpW*s^2*SMP["m_Z"]^2 + 2*cpW^2*s^2*SMP["m_Z"]^2 - 
+        4*cpWB^2*s^2*SMP["m_Z"]^2 - 2*cpBB^2*s^2*z^2*SMP["m_Z"]^2 + 
+        2*cpW^2*s^2*z^2*SMP["m_Z"]^2 + 4*c3pl1*cpBB*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 4*c3pl2*cpBB*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*cdp*cpBB*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*cll*cpBB*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 8*cpBB^2*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*cpBB*cpDC*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*c3pl1*cpW*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 4*c3pl2*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*cdp*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*cll*cpW*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 12*cpBB*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*cpDC*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*cpW^2*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 2*cpWB^2*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        8*cpBB^2*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 12*cpBB*cpW*s*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^2 - 4*cpW^2*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 6*cpWB^2*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*cpBB^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 4*cpBB*cpW*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + 2*cpW^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*cpWB^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*cpBB^2*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 4*cpBB*cpW*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*cpW^2*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 2*cpWB^2*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 4*c3pl1*cpBB*s*SMP["m_Z"]^4 - 
+        4*c3pl2*cpBB*s*SMP["m_Z"]^4 + 4*cdp*cpBB*s*SMP["m_Z"]^4 + 
+        4*cll*cpBB*s*SMP["m_Z"]^4 + 14*cpBB^2*s*SMP["m_Z"]^4 + 
+        2*cpBB*cpDC*s*SMP["m_Z"]^4 + 4*c3pl1*cpW*s*SMP["m_Z"]^4 + 
+        4*c3pl2*cpW*s*SMP["m_Z"]^4 - 4*cdp*cpW*s*SMP["m_Z"]^4 - 
+        4*cll*cpW*s*SMP["m_Z"]^4 - 26*cpBB*cpW*s*SMP["m_Z"]^4 - 
+        2*cpDC*cpW*s*SMP["m_Z"]^4 + 12*cpW^2*s*SMP["m_Z"]^4 - 
+        9*cpWB^2*s*SMP["m_Z"]^4 - 2*cpBB^2*s*z^2*SMP["m_Z"]^4 + 
+        6*cpBB*cpW*s*z^2*SMP["m_Z"]^4 - 4*cpW^2*s*z^2*SMP["m_Z"]^4 + 
+        3*cpWB^2*s*z^2*SMP["m_Z"]^4 - 4*cpBB^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        8*cpBB*cpW*SMP["m_H"]^2*SMP["m_Z"]^4 - 4*cpW^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 4*cpWB^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*cpBB^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 8*cpBB*cpW*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - 4*cpW^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*cpWB^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 2*cpBB^2*SMP["m_Z"]^6 - 
+        4*cpBB*cpW*SMP["m_Z"]^6 + 2*cpW^2*SMP["m_Z"]^6 - 
+        2*cpWB^2*SMP["m_Z"]^6 + 2*cpBB^2*z^2*SMP["m_Z"]^6 - 
+        4*cpBB*cpW*z^2*SMP["m_Z"]^6 + 2*cpW^2*z^2*SMP["m_Z"]^6 - 
+        2*cpWB^2*z^2*SMP["m_Z"]^6) + cpWB*SMP["m_W"]^3*
+       Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]*
+       (-4*cpBB*s^4 - 4*cpBB*s^4*z^2 + 8*cpBB*s^3*SMP["m_H"]^2 + 
+        8*cpBB*s^3*z^2*SMP["m_H"]^2 - 4*cpBB*s^2*SMP["m_H"]^4 - 
+        4*cpBB*s^2*z^2*SMP["m_H"]^4 + 6*c3pl1*s^3*SMP["m_Z"]^2 + 
+        6*c3pl2*s^3*SMP["m_Z"]^2 - 6*cdp*s^3*SMP["m_Z"]^2 - 
+        6*cll*s^3*SMP["m_Z"]^2 - 24*cpBB*s^3*SMP["m_Z"]^2 - 
+        3*cpDC*s^3*SMP["m_Z"]^2 + 8*cpe*s^3*SMP["m_Z"]^2 + 
+        4*cpW*s^3*SMP["m_Z"]^2 + 2*c3pl1*s^3*z^2*SMP["m_Z"]^2 + 
+        2*c3pl2*s^3*z^2*SMP["m_Z"]^2 - 2*cdp*s^3*z^2*SMP["m_Z"]^2 - 
+        2*cll*s^3*z^2*SMP["m_Z"]^2 - 8*cpBB*s^3*z^2*SMP["m_Z"]^2 - 
+        cpDC*s^3*z^2*SMP["m_Z"]^2 + 4*cpW*s^3*z^2*SMP["m_Z"]^2 - 
+        4*c3pl1*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*c3pl2*s^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 4*cdp*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*cll*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 24*cpBB*s^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 2*cpDC*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        8*cpe*s^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 8*cpW*s^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 4*c3pl1*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*c3pl2*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*cdp*s^2*z^2*
+         SMP["m_H"]^2*SMP["m_Z"]^2 + 4*cll*s^2*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 40*cpBB*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*cpDC*s^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 8*cpW*s^2*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 2*c3pl1*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*c3pl2*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*cdp*s*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + 2*cll*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        16*cpBB*s*SMP["m_H"]^4*SMP["m_Z"]^2 + cpDC*s*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + 4*cpW*s*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*c3pl1*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*c3pl2*s*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 2*cdp*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*cll*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 16*cpBB*s*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - cpDC*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        4*cpW*s*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 20*c3pl1*s^2*SMP["m_Z"]^4 + 
+        20*c3pl2*s^2*SMP["m_Z"]^4 - 20*cdp*s^2*SMP["m_Z"]^4 - 
+        20*cll*s^2*SMP["m_Z"]^4 - 72*cpBB*s^2*SMP["m_Z"]^4 - 
+        2*cpDC*s^2*SMP["m_Z"]^4 + 8*cpe*s^2*SMP["m_Z"]^4 + 
+        12*cpW*s^2*SMP["m_Z"]^4 - 4*c3pl1*s^2*z^2*SMP["m_Z"]^4 - 
+        4*c3pl2*s^2*z^2*SMP["m_Z"]^4 + 4*cdp*s^2*z^2*SMP["m_Z"]^4 + 
+        4*cll*s^2*z^2*SMP["m_Z"]^4 + 24*cpBB*s^2*z^2*SMP["m_Z"]^4 + 
+        2*cpDC*s^2*z^2*SMP["m_Z"]^4 - 4*cpW*s^2*z^2*SMP["m_Z"]^4 - 
+        20*c3pl1*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 20*c3pl2*s*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 20*cdp*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        20*cll*s*SMP["m_H"]^2*SMP["m_Z"]^4 + 24*cpBB*s*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 2*cpDC*s*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*c3pl1*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 4*c3pl2*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 4*cdp*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*cll*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 40*cpBB*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 2*cpDC*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        16*cpW*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 4*cpBB*SMP["m_H"]^4*
+         SMP["m_Z"]^4 + 4*cpW*SMP["m_H"]^4*SMP["m_Z"]^4 - 
+        4*cpBB*z^2*SMP["m_H"]^4*SMP["m_Z"]^4 + 4*cpW*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^4 + 22*c3pl1*s*SMP["m_Z"]^6 + 22*c3pl2*s*SMP["m_Z"]^6 - 
+        22*cdp*s*SMP["m_Z"]^6 - 22*cll*s*SMP["m_Z"]^6 - 
+        24*cpBB*s*SMP["m_Z"]^6 - 3*cpDC*s*SMP["m_Z"]^6 + 
+        12*cpW*s*SMP["m_Z"]^6 + 2*c3pl1*s*z^2*SMP["m_Z"]^6 + 
+        2*c3pl2*s*z^2*SMP["m_Z"]^6 - 2*cdp*s*z^2*SMP["m_Z"]^6 - 
+        2*cll*s*z^2*SMP["m_Z"]^6 - 8*cpBB*s*z^2*SMP["m_Z"]^6 - 
+        cpDC*s*z^2*SMP["m_Z"]^6 - 4*cpW*s*z^2*SMP["m_Z"]^6 + 
+        8*cpBB*SMP["m_H"]^2*SMP["m_Z"]^6 - 8*cpW*SMP["m_H"]^2*SMP["m_Z"]^6 + 
+        8*cpBB*z^2*SMP["m_H"]^2*SMP["m_Z"]^6 - 8*cpW*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^6 - 4*cpBB*SMP["m_Z"]^8 + 4*cpW*SMP["m_Z"]^8 - 
+        4*cpBB*z^2*SMP["m_Z"]^8 + 4*cpW*z^2*SMP["m_Z"]^8) + 
+      8*(cpBB^2 - 2*cpBB*cpW + cpW^2 - cpWB^2)*SMP["m_W"]^8*
+       (s^2 + SMP["m_H"]^4 + SMP["m_Z"]^4 + 2*SMP["m_Z"]^2*
+         (s - SMP["m_H"]^2/2 + (s - SMP["m_Z"]^2 - 
+            z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                (s + SMP["m_Z"]^2)])/2) + 2*s*(SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+        2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)^
+          2 - 2*SMP["m_H"]^2*(s + SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) - 
+      16*(cpBB - cpW)*cpWB*SMP["m_W"]^7*Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*
+       SMP["m_Z"]*(s^2 + SMP["m_H"]^4 + SMP["m_Z"]^4 + 
+        2*SMP["m_Z"]^2*(s - SMP["m_H"]^2/2 + (s - SMP["m_Z"]^2 - 
+            z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                (s + SMP["m_Z"]^2)])/2) + 2*s*(SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+        2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)^
+          2 - 2*SMP["m_H"]^2*(s + SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+      s*SMP["m_Z"]^2*(8*cpBB^2*s*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        cpe^2*s^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+            z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+        4*SMP["m_Z"]^6*(2*cdp^2*s + 4*cdp*cll*s + 2*cll^2*s + 4*cdp*cpBB*s + 
+          4*cll*cpBB*s + 2*cpBB^2*s - c3pl2*(3*cdp*s + 3*cll*s + 4*cpBB*s + 
+            cdp*SMP["m_H"]^2 + cll*SMP["m_H"]^2 + cdp*SMP["m_Z"]^2 + 
+            cll*SMP["m_Z"]^2 + cdp*z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^
+                4 - 2*s*SMP["m_Z"]^2 - 2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+               SMP["m_Z"]^4] + cll*z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^
+                4 - 2*s*SMP["m_Z"]^2 - 2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+               SMP["m_Z"]^4]) + cdp^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*cdp*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + cll^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          c3pl1^2*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + c3pl2^2*(2*s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          2*c3pl1*(2*cdp*s + 2*cll*s + 2*cpBB*s + cdp*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) - c3pl2*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) - 4*SMP["m_Z"]^4*
+         (4*c3pl2*cpBB*s^2 - 4*cdp*cpBB*s^2 - 4*cll*cpBB*s^2 - 4*cpBB^2*s^2 - 
+          2*c3pl2*cpe*s^2 + 2*cdp*cpe*s^2 + 2*cll*cpe*s^2 + 2*cpBB*cpe*s^2 + 
+          c3pl2^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 2*c3pl2*cdp*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          cdp^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 2*c3pl2*cll*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*cdp*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + cll^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*cpBB^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - c3pl2*cpe*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          cdp*cpe*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + cll*cpe*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          c3pl2^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 2*c3pl2*cdp*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + cdp^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 2*c3pl2*cll*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 2*cdp*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 
+          cll^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + c3pl1^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          c3pl1*(4*cpBB*s^2 + ((c3pl2 - cdp - cll)*(-s + SMP["m_H"]^2 + 
+               SMP["m_Z"]^2 + z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 
+                  2*s*SMP["m_Z"]^2 - 2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+                  SMP["m_Z"]^4])*(s + SMP["m_H"]^2 + SMP["m_Z"]^2 + z*
+                Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 2*s*SMP["m_Z"]^
+                    2 - 2*SMP["m_H"]^2*SMP["m_Z"]^2 + SMP["m_Z"]^4]))/2 - 
+            cpe*s*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + s*SMP["m_Z"]^2*
+         (-8*cpBB*cpe*s^2 + 8*cpBB^2*(s^2 + 2*s*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2) + cpe*(-((c3pl1 + c3pl2 - cdp - cll)*
+              (-s + SMP["m_H"]^2 + SMP["m_Z"]^2 + z*Sqrt[s^2 - 
+                  2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 2*s*SMP["m_Z"]^2 - 
+                  2*SMP["m_H"]^2*SMP["m_Z"]^2 + SMP["m_Z"]^4])*
+              (s + SMP["m_H"]^2 + SMP["m_Z"]^2 + z*Sqrt[s^2 - 
+                  2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 2*s*SMP["m_Z"]^2 - 
+                  2*SMP["m_H"]^2*SMP["m_Z"]^2 + SMP["m_Z"]^4])) + 
+            cpe*s*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + SMP["m_H"]^2*
+         (-4*(c3pl1^2 + c3pl2^2 + cdp^2 + 2*c3pl1*(c3pl2 - cdp - cll) + 
+            2*cdp*cll + cll^2 - 2*c3pl2*(cdp + cll))*SMP["m_Z"]^6 + 
+          cpe^2*s^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*SMP["m_Z"]^4*
+           (-4*cdp*cpBB*s - 4*cll*cpBB*s + cdp*cpe*s + cll*cpe*s + 
+            c3pl1*(4*cpBB*s - cpe*s + (c3pl2 - cdp - cll)*(-s + SMP["m_H"]^
+                 2 + SMP["m_Z"]^2 + z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + 
+                   SMP["m_H"]^4 - 2*s*SMP["m_Z"]^2 - 2*SMP["m_H"]^2*
+                    SMP["m_Z"]^2 + SMP["m_Z"]^4])) + 
+            c3pl1^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + c3pl2^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            cdp^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 2*cdp*cll*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            cll^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + c3pl2*(4*cpBB*s - cpe*s - 
+              2*(cdp + cll)*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2))) + s*SMP["m_Z"]^2*
+           (8*cpBB*cpe*s - 16*cpBB^2*(s + SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            cpe*(cpe*s + 4*(-c3pl1 - c3pl2 + cdp + cll)*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2))))) + 
+      2*SMP["m_W"]^2*SMP["m_Z"]^2*(cpWB^2*SMP["m_Z"]^8 + 
+        SMP["m_H"]^4*((-8*cpBB^2 + cpWB^2)*s^2 + 2*(-4*cpBB^2 + 4*cpBB*cpW + 
+            cpWB^2)*s*SMP["m_Z"]^2 + cpWB^2*SMP["m_Z"]^4) + 
+        SMP["m_Z"]^6*(-8*cdp*cpBB*s - 8*cll*cpBB*s - 8*cpBB^2*s + 
+          8*c3pl1*(cpBB - cpW)*s + 8*c3pl2*(cpBB - cpW)*s + 8*cdp*cpW*s + 
+          8*cll*cpW*s + 8*cpBB*cpW*s - 2*cpWB^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+        s^2*(4*cpBB*cpe*s^2 + (2*c3pl1 + 2*c3pl2 - 2*cdp - 2*cll - cpDC)*cpe*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                 (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+             2)*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 8*cpBB^2*
+           (s^2 + 2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 
+            2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2) + cpWB^2*(s^2 + 2*s*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2)) - 2*SMP["m_Z"]^4*(4*cdp^2*s^2 + 
+          8*cdp*cll*s^2 + 4*cll^2*s^2 + 12*cdp*cpBB*s^2 + 12*cll*cpBB*s^2 + 
+          12*cpBB^2*s^2 + 2*cdp*cpDC*s^2 + 2*cll*cpDC*s^2 + 2*cpBB*cpDC*s^2 - 
+          2*cpBB*cpe*s^2 - 4*cdp*cpW*s^2 - 4*cll*cpW*s^2 - 8*cpBB*cpW*s^2 + 
+          2*cpe*cpW*s^2 - cpWB^2*s^2 + 2*cdp^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*cdp*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 2*cll^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          8*cpBB^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + cdp*cpDC*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          cll*cpDC*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 8*cpBB*cpW*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          cpWB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 2*c3pl1^2*s*(2*s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*c3pl2^2*s*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + c3pl2*s*(-8*cdp*s - 8*cll*s - 
+            12*cpBB*s - 2*cpDC*s + 4*cpW*s - 4*cdp*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            4*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - cpDC*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+          c3pl1*s*(-8*cdp*s - 8*cll*s - 12*cpBB*s - 2*cpDC*s + 4*cpW*s - 
+            4*cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 4*cll*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) + 4*c3pl2*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + s*SMP["m_Z"]^2*
+         (16*c3pl2*cpBB*s^2 - 16*cdp*cpBB*s^2 - 16*cll*cpBB*s^2 - 
+          24*cpBB^2*s^2 - 4*cpBB*cpDC*s^2 - 4*c3pl2*cpe*s^2 + 4*cdp*cpe*s^2 + 
+          4*cll*cpe*s^2 + 8*cpBB*cpe*s^2 + 2*cpDC*cpe*s^2 + 8*cpBB*cpW*s^2 - 
+          4*cpe*cpW*s^2 + 4*c3pl2^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          8*c3pl2*cdp*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*cdp^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          8*c3pl2*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 8*cdp*cll*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*cll^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 2*c3pl2*cpDC*s*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                 (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+             2) + 2*cdp*cpDC*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 2*cll*cpDC*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          2*c3pl2*cpe*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 2*cdp*cpe*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*cll*cpe*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + cpDC*cpe*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          16*cpBB*cpW*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*c3pl2^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 8*c3pl2*cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 4*cdp^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 8*c3pl2*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 8*cdp*cll*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 4*cll^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 16*cpBB^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 2*c3pl2*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 2*cdp*cpDC*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 2*cll*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 16*cpBB*cpW*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 2*cpWB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 4*c3pl1^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*c3pl1*(8*cpBB*s^2 + (4*c3pl2 - 4*cdp - 4*cll - cpDC)*
+             (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2)*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - cpe*s*(2*s + SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2))) + 
+        SMP["m_H"]^2*(2*SMP["m_Z"]^4*(2*c3pl1^2*s + 2*c3pl2^2*s + 2*cdp^2*s + 
+            4*cdp*cll*s + 2*cll^2*s + 4*cdp*cpBB*s + 4*cll*cpBB*s + 
+            cdp*cpDC*s + cll*cpDC*s - c3pl2*(4*cdp + 4*cll + 4*cpBB + cpDC - 
+              4*cpW)*s - 4*cdp*cpW*s - 4*cll*cpW*s + 
+            c3pl1*(4*c3pl2 - 4*cdp - 4*cll - 4*cpBB - cpDC + 4*cpW)*s - 
+            cpWB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2)) + s^2*(-4*cpBB*cpe*s + 
+            (-2*c3pl1 - 2*c3pl2 + 2*cdp + 2*cll + cpDC)*cpe*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            16*cpBB^2*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 2*cpWB^2*(s + SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+          s*SMP["m_Z"]^2*(16*cdp*cpBB*s + 16*cll*cpBB*s + 16*cpBB^2*s + 
+            4*cpBB*cpDC*s - 2*cdp*cpe*s - 2*cll*cpe*s - 4*cpBB*cpe*s - 
+            cpDC*cpe*s - 16*cpBB*cpW*s + 4*cpe*cpW*s - 4*c3pl1^2*
+             (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) - 4*c3pl2^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 4*cdp^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            8*cdp*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 4*cll^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            16*cpBB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 2*cdp*cpDC*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            2*cll*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 16*cpBB*cpW*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            2*cpWB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 2*c3pl2*(8*cpBB*s - cpe*s + 
+              (-4*cdp - 4*cll - cpDC)*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2)) - 2*c3pl1*(8*cpBB*s - cpe*s + 
+              (4*c3pl2 - 4*cdp - 4*cll - cpDC)*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2))))) + 
+      SMP["m_W"]^4*(2*(4*cpBB^2 - 8*cpBB*cpW + 4*cpW^2 - 5*cpWB^2)*
+         SMP["m_Z"]^8 + 2*SMP["m_H"]^4*((4*cpBB^2 - cpWB^2)*s^2 + 
+          2*(8*cpBB^2 - 8*cpBB*cpW - 3*cpWB^2)*s*SMP["m_Z"]^2 + 
+          (4*cpBB^2 - 8*cpBB*cpW + 4*cpW^2 - 5*cpWB^2)*SMP["m_Z"]^4) - 
+        4*SMP["m_Z"]^6*(-8*cdp*cpBB*s - 8*cll*cpBB*s - 12*cpBB^2*s - 
+          2*cpBB*cpDC*s + 8*c3pl1*(cpBB - cpW)*s + 8*c3pl2*(cpBB - cpW)*s + 
+          8*cdp*cpW*s + 8*cll*cpW*s + 16*cpBB*cpW*s + 2*cpDC*cpW*s - 
+          4*cpW^2*s + 2*cpWB^2*s + 4*cpBB^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          8*cpBB*cpW*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*cpW^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          5*cpWB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2)) + 2*(4*cpBB^2 - cpWB^2)*s^2*
+         (s^2 + 2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 
+          2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2) + s*SMP["m_Z"]^2*(-16*c3pl2*cpBB*s^2 + 16*cdp*cpBB*s^2 + 
+          16*cll*cpBB*s^2 + 48*cpBB^2*s^2 + 8*cpBB*cpDC*s^2 - 
+          8*cpBB*cpe*s^2 - 32*cpBB*cpW*s^2 + 8*cpe*cpW*s^2 - 8*cpWB^2*s^2 + 
+          c3pl2*(2*cdp + 2*cll + cpDC)*(-s + SMP["m_H"]^2 + SMP["m_Z"]^2 + 
+            z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 2*s*SMP["m_Z"]^2 - 
+               2*SMP["m_H"]^2*SMP["m_Z"]^2 + SMP["m_Z"]^4])*
+           (s + SMP["m_H"]^2 + SMP["m_Z"]^2 + z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + 
+               SMP["m_H"]^4 - 2*s*SMP["m_Z"]^2 - 2*SMP["m_H"]^2*SMP["m_Z"]^
+                 2 + SMP["m_Z"]^4]) - 4*cdp^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          8*cdp*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 4*cll^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          48*cpBB^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 4*cdp*cpDC*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*cll*cpDC*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - cpDC^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          64*cpBB*cpW*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 16*cpWB^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*cdp^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 8*cdp*cll*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 4*cll^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 64*cpBB^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 4*cdp*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 4*cll*cpDC*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - cpDC^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 64*cpBB*cpW*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 20*cpWB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 4*c3pl1^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*c3pl2^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*c3pl1*(4*cpBB*s^2 + (2*c3pl2 - 2*cdp - 2*cll - cpDC)*
+             (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2)*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + SMP["m_Z"]^4*
+         (8*cdp^2*s^2 + 16*cdp*cll*s^2 + 8*cll^2*s^2 + 48*cdp*cpBB*s^2 + 
+          48*cll*cpBB*s^2 + 80*cpBB^2*s^2 + 8*cdp*cpDC*s^2 + 8*cll*cpDC*s^2 + 
+          16*cpBB*cpDC*s^2 + 2*cpDC^2*s^2 - 8*cpBB*cpe*s^2 - 32*cdp*cpW*s^2 - 
+          32*cll*cpW*s^2 - 80*cpBB*cpW*s^2 - 8*cpDC*cpW*s^2 + 8*cpe*cpW*s^2 + 
+          8*cpW^2*s^2 - 12*cpWB^2*s^2 + 4*cdp^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          8*cdp*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*cll^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          48*cpBB^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*cdp*cpDC*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*cll*cpDC*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + cpDC^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          32*cpBB*cpW*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 16*cpW^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          16*cpBB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 32*cpBB*cpW*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 16*cpW^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 20*cpWB^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 4*c3pl1^2*s*(2*s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*c3pl2^2*s*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 4*c3pl2*s*(4*cdp*s + 4*cll*s + 
+            12*cpBB*s + 2*cpDC*s - 8*cpW*s + 2*cdp*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            2*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + cpDC*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) - 
+          4*c3pl1*s*(4*cdp*s + 4*cll*s + 12*cpBB*s + 2*cpDC*s - 8*cpW*s + 
+            2*cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 2*cll*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) - 2*c3pl2*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + SMP["m_H"]^2*
+         (-4*(4*cpBB^2 - cpWB^2)*s^2*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          SMP["m_Z"]^4*(-4*c3pl1^2*s - 4*c3pl2^2*s - 4*cdp^2*s - 
+            8*cdp*cll*s - 4*cll^2*s - 32*cdp*cpBB*s - 32*cll*cpBB*s - 
+            16*cpBB^2*s - 4*cdp*cpDC*s - 4*cll*cpDC*s - 8*cpBB*cpDC*s - 
+            cpDC^2*s + 4*c3pl2*(2*cdp + 2*cll + 8*cpBB + cpDC - 8*cpW)*s + 
+            32*cdp*cpW*s + 32*cll*cpW*s + 32*cpBB*cpW*s + 8*cpDC*cpW*s - 
+            16*cpW^2*s - 4*c3pl1*(2*c3pl2 - 2*cdp - 2*cll - 8*cpBB - cpDC + 
+              8*cpW)*s - 16*cpBB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 32*cpBB*cpW*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            16*cpW^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 20*cpWB^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+          s*SMP["m_Z"]^2*(16*c3pl2*cpBB*s - 16*cdp*cpBB*s - 16*cll*cpBB*s - 
+            64*cpBB^2*s - 8*cpBB*cpDC*s + 8*cpBB*cpe*s + 64*cpBB*cpW*s - 
+            8*cpe*cpW*s + 16*cpWB^2*s + 4*c3pl1^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            4*c3pl2^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 4*cdp^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            8*cdp*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 4*cll^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            64*cpBB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 4*cdp*cpDC*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            4*cll*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + cpDC^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            4*c3pl2*(2*cdp + 2*cll + cpDC)*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            64*cpBB*cpW*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 20*cpWB^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            4*c3pl1*(4*cpBB*s + (2*c3pl2 - 2*cdp - 2*cll - cpDC)*(
+                SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                     (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                        2)])/2)))))) + 4*fL["e-"]*fR["e+"]*
+     (4*cpWB*SMP["m_W"]^5*Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]*
+       (cpBB*s^3 + cpW*s^3 + cpBB*s^3*z^2 + cpW*s^3*z^2 - 
+        2*cpBB*s^2*SMP["m_H"]^2 - 2*cpW*s^2*SMP["m_H"]^2 - 
+        2*cpBB*s^2*z^2*SMP["m_H"]^2 - 2*cpW*s^2*z^2*SMP["m_H"]^2 + 
+        cpBB*s*SMP["m_H"]^4 + cpW*s*SMP["m_H"]^4 + cpBB*s*z^2*SMP["m_H"]^4 + 
+        cpW*s*z^2*SMP["m_H"]^4 - 4*c3pl1*s^2*SMP["m_Z"]^2 - 
+        4*c3pl2*s^2*SMP["m_Z"]^2 + 4*cdp*s^2*SMP["m_Z"]^2 + 
+        4*cll*s^2*SMP["m_Z"]^2 + 5*cpBB*s^2*SMP["m_Z"]^2 + 
+        2*cpDC*s^2*SMP["m_Z"]^2 + 7*cpW*s^2*SMP["m_Z"]^2 + 
+        cpBB*s^2*z^2*SMP["m_Z"]^2 - 5*cpW*s^2*z^2*SMP["m_Z"]^2 + 
+        4*c3pl1*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*c3pl2*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 4*cdp*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*cll*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*cpBB*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 2*cpDC*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        8*cpBB*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*cpW*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 3*cpBB*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        3*cpW*SMP["m_H"]^4*SMP["m_Z"]^2 + 3*cpBB*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 3*cpW*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        4*c3pl1*s*SMP["m_Z"]^4 - 4*c3pl2*s*SMP["m_Z"]^4 + 
+        4*cdp*s*SMP["m_Z"]^4 + 4*cll*s*SMP["m_Z"]^4 + 
+        15*cpBB*s*SMP["m_Z"]^4 + 2*cpDC*s*SMP["m_Z"]^4 - 
+        13*cpW*s*SMP["m_Z"]^4 - 5*cpBB*s*z^2*SMP["m_Z"]^4 + 
+        7*cpW*s*z^2*SMP["m_Z"]^4 - 6*cpBB*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        6*cpW*SMP["m_H"]^2*SMP["m_Z"]^4 - 6*cpBB*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 6*cpW*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        3*cpBB*SMP["m_Z"]^6 - 3*cpW*SMP["m_Z"]^6 + 3*cpBB*z^2*SMP["m_Z"]^6 - 
+        3*cpW*z^2*SMP["m_Z"]^6) + cpWB*SMP["m_W"]^3*
+       Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]^3*
+       (6*c3pl1*s^3 - 2*c3pl2*s^3 + 2*cdp*s^3 + 2*cll*s^3 + 2*cpBB*s^3 + 
+        cpDC*s^3 + 8*cpl1*s^3 + 6*cpW*s^3 + 2*c3pl1*s^3*z^2 + 
+        2*c3pl2*s^3*z^2 - 2*cdp*s^3*z^2 - 2*cll*s^3*z^2 - 6*cpBB*s^3*z^2 - 
+        cpDC*s^3*z^2 - 2*cpW*s^3*z^2 - 4*c3pl1*s^2*SMP["m_H"]^2 + 
+        4*c3pl2*s^2*SMP["m_H"]^2 - 4*cdp*s^2*SMP["m_H"]^2 - 
+        4*cll*s^2*SMP["m_H"]^2 + 4*cpBB*s^2*SMP["m_H"]^2 - 
+        2*cpDC*s^2*SMP["m_H"]^2 - 8*cpl1*s^2*SMP["m_H"]^2 - 
+        4*cpW*s^2*SMP["m_H"]^2 - 4*c3pl1*s^2*z^2*SMP["m_H"]^2 - 
+        4*c3pl2*s^2*z^2*SMP["m_H"]^2 + 4*cdp*s^2*z^2*SMP["m_H"]^2 + 
+        4*cll*s^2*z^2*SMP["m_H"]^2 + 12*cpBB*s^2*z^2*SMP["m_H"]^2 + 
+        2*cpDC*s^2*z^2*SMP["m_H"]^2 + 4*cpW*s^2*z^2*SMP["m_H"]^2 - 
+        2*c3pl1*s*SMP["m_H"]^4 - 2*c3pl2*s*SMP["m_H"]^4 + 
+        2*cdp*s*SMP["m_H"]^4 + 2*cll*s*SMP["m_H"]^4 - 6*cpBB*s*SMP["m_H"]^4 + 
+        cpDC*s*SMP["m_H"]^4 - 2*cpW*s*SMP["m_H"]^4 + 
+        2*c3pl1*s*z^2*SMP["m_H"]^4 + 2*c3pl2*s*z^2*SMP["m_H"]^4 - 
+        2*cdp*s*z^2*SMP["m_H"]^4 - 2*cll*s*z^2*SMP["m_H"]^4 - 
+        6*cpBB*s*z^2*SMP["m_H"]^4 - cpDC*s*z^2*SMP["m_H"]^4 - 
+        2*cpW*s*z^2*SMP["m_H"]^4 + 12*c3pl1*s^2*SMP["m_Z"]^2 + 
+        4*c3pl2*s^2*SMP["m_Z"]^2 - 4*cdp*s^2*SMP["m_Z"]^2 - 
+        4*cll*s^2*SMP["m_Z"]^2 - 16*cpBB*s^2*SMP["m_Z"]^2 + 
+        2*cpDC*s^2*SMP["m_Z"]^2 + 8*cpl1*s^2*SMP["m_Z"]^2 - 
+        16*cpW*s^2*SMP["m_Z"]^2 - 4*c3pl1*s^2*z^2*SMP["m_Z"]^2 - 
+        4*c3pl2*s^2*z^2*SMP["m_Z"]^2 + 4*cdp*s^2*z^2*SMP["m_Z"]^2 + 
+        4*cll*s^2*z^2*SMP["m_Z"]^2 + 8*cpBB*s^2*z^2*SMP["m_Z"]^2 + 
+        2*cpDC*s^2*z^2*SMP["m_Z"]^2 + 8*cpW*s^2*z^2*SMP["m_Z"]^2 - 
+        12*c3pl1*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 12*c3pl2*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 12*cdp*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        12*cll*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*cpBB*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 2*cpDC*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        12*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*c3pl1*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 4*c3pl2*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*cdp*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*cll*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 20*cpBB*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        2*cpDC*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*cpW*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 4*cpBB*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        4*cpW*SMP["m_H"]^4*SMP["m_Z"]^2 - 4*cpBB*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + 4*cpW*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        14*c3pl1*s*SMP["m_Z"]^4 + 14*c3pl2*s*SMP["m_Z"]^4 - 
+        14*cdp*s*SMP["m_Z"]^4 - 14*cll*s*SMP["m_Z"]^4 - 
+        14*cpBB*s*SMP["m_Z"]^4 - 3*cpDC*s*SMP["m_Z"]^4 + 
+        6*cpW*s*SMP["m_Z"]^4 + 2*c3pl1*s*z^2*SMP["m_Z"]^4 + 
+        2*c3pl2*s*z^2*SMP["m_Z"]^4 - 2*cdp*s*z^2*SMP["m_Z"]^4 - 
+        2*cll*s*z^2*SMP["m_Z"]^4 + 2*cpBB*s*z^2*SMP["m_Z"]^4 - 
+        cpDC*s*z^2*SMP["m_Z"]^4 - 10*cpW*s*z^2*SMP["m_Z"]^4 + 
+        8*cpBB*SMP["m_H"]^2*SMP["m_Z"]^4 - 8*cpW*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        8*cpBB*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 8*cpW*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - 4*cpBB*SMP["m_Z"]^6 + 4*cpW*SMP["m_Z"]^6 - 
+        4*cpBB*z^2*SMP["m_Z"]^6 + 4*cpW*z^2*SMP["m_Z"]^6) - 
+      4*SMP["m_W"]^6*(cpBB^2*s^3 - cpW^2*s^3 + cpBB^2*s^3*z^2 - 
+        cpW^2*s^3*z^2 - 2*cpBB^2*s^2*SMP["m_H"]^2 + 
+        2*cpW^2*s^2*SMP["m_H"]^2 - 2*cpBB^2*s^2*z^2*SMP["m_H"]^2 + 
+        2*cpW^2*s^2*z^2*SMP["m_H"]^2 + cpBB^2*s*SMP["m_H"]^4 - 
+        cpW^2*s*SMP["m_H"]^4 + cpBB^2*s*z^2*SMP["m_H"]^4 - 
+        cpW^2*s*z^2*SMP["m_H"]^4 - 4*c3pl1*cpBB*s^2*SMP["m_Z"]^2 - 
+        4*c3pl2*cpBB*s^2*SMP["m_Z"]^2 + 4*cdp*cpBB*s^2*SMP["m_Z"]^2 + 
+        4*cll*cpBB*s^2*SMP["m_Z"]^2 + 8*cpBB^2*s^2*SMP["m_Z"]^2 + 
+        2*cpBB*cpDC*s^2*SMP["m_Z"]^2 + 4*c3pl1*cpW*s^2*SMP["m_Z"]^2 + 
+        4*c3pl2*cpW*s^2*SMP["m_Z"]^2 - 4*cdp*cpW*s^2*SMP["m_Z"]^2 - 
+        4*cll*cpW*s^2*SMP["m_Z"]^2 - 4*cpBB*cpW*s^2*SMP["m_Z"]^2 - 
+        2*cpDC*cpW*s^2*SMP["m_Z"]^2 - 4*cpW^2*s^2*SMP["m_Z"]^2 + 
+        2*cpWB^2*s^2*SMP["m_Z"]^2 - 4*cpBB*cpW*s^2*z^2*SMP["m_Z"]^2 + 
+        4*cpW^2*s^2*z^2*SMP["m_Z"]^2 - 2*cpWB^2*s^2*z^2*SMP["m_Z"]^2 + 
+        4*c3pl1*cpBB*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*c3pl2*cpBB*s*
+         SMP["m_H"]^2*SMP["m_Z"]^2 - 4*cdp*cpBB*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*cll*cpBB*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 6*cpBB^2*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 - 2*cpBB*cpDC*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        4*c3pl1*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 4*c3pl2*cpW*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 4*cdp*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+        4*cll*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 + 8*cpBB*cpW*s*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 2*cpDC*cpW*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*cpW^2*s*SMP["m_H"]^2*SMP["m_Z"]^2 - 6*cpBB^2*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 8*cpBB*cpW*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 - 
+        2*cpW^2*s*z^2*SMP["m_H"]^2*SMP["m_Z"]^2 + 4*cpWB^2*s*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^2 + 2*cpBB^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        4*cpBB*cpW*SMP["m_H"]^4*SMP["m_Z"]^2 + 2*cpW^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 - 2*cpWB^2*SMP["m_H"]^4*SMP["m_Z"]^2 + 
+        2*cpBB^2*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 4*cpBB*cpW*z^2*SMP["m_H"]^4*
+         SMP["m_Z"]^2 + 2*cpW^2*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 
+        2*cpWB^2*z^2*SMP["m_H"]^4*SMP["m_Z"]^2 - 4*c3pl1*cpBB*s*
+         SMP["m_Z"]^4 - 4*c3pl2*cpBB*s*SMP["m_Z"]^4 + 
+        4*cdp*cpBB*s*SMP["m_Z"]^4 + 4*cll*cpBB*s*SMP["m_Z"]^4 + 
+        13*cpBB^2*s*SMP["m_Z"]^4 + 2*cpBB*cpDC*s*SMP["m_Z"]^4 + 
+        4*c3pl1*cpW*s*SMP["m_Z"]^4 + 4*c3pl2*cpW*s*SMP["m_Z"]^4 - 
+        4*cdp*cpW*s*SMP["m_Z"]^4 - 4*cll*cpW*s*SMP["m_Z"]^4 - 
+        24*cpBB*cpW*s*SMP["m_Z"]^4 - 2*cpDC*cpW*s*SMP["m_Z"]^4 + 
+        11*cpW^2*s*SMP["m_Z"]^4 - 8*cpWB^2*s*SMP["m_Z"]^4 - 
+        3*cpBB^2*s*z^2*SMP["m_Z"]^4 + 8*cpBB*cpW*s*z^2*SMP["m_Z"]^4 - 
+        5*cpW^2*s*z^2*SMP["m_Z"]^4 + 4*cpWB^2*s*z^2*SMP["m_Z"]^4 - 
+        4*cpBB^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 8*cpBB*cpW*SMP["m_H"]^2*
+         SMP["m_Z"]^4 - 4*cpW^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 
+        4*cpWB^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 4*cpBB^2*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 8*cpBB*cpW*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 - 
+        4*cpW^2*z^2*SMP["m_H"]^2*SMP["m_Z"]^4 + 4*cpWB^2*z^2*SMP["m_H"]^2*
+         SMP["m_Z"]^4 + 2*cpBB^2*SMP["m_Z"]^6 - 4*cpBB*cpW*SMP["m_Z"]^6 + 
+        2*cpW^2*SMP["m_Z"]^6 - 2*cpWB^2*SMP["m_Z"]^6 + 
+        2*cpBB^2*z^2*SMP["m_Z"]^6 - 4*cpBB*cpW*z^2*SMP["m_Z"]^6 + 
+        2*cpW^2*z^2*SMP["m_Z"]^6 - 2*cpWB^2*z^2*SMP["m_Z"]^6) + 
+      8*(cpBB^2 - 2*cpBB*cpW + cpW^2 - cpWB^2)*SMP["m_W"]^8*
+       (s^2 + SMP["m_H"]^4 + SMP["m_Z"]^4 + 2*SMP["m_Z"]^2*
+         (s - SMP["m_H"]^2/2 + (s - SMP["m_Z"]^2 - 
+            z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                (s + SMP["m_Z"]^2)])/2) + 2*s*(SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+        2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)^
+          2 - 2*SMP["m_H"]^2*(s + SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) - 
+      16*(cpBB - cpW)*cpWB*SMP["m_W"]^7*Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*
+       SMP["m_Z"]*(s^2 + SMP["m_H"]^4 + SMP["m_Z"]^4 + 
+        2*SMP["m_Z"]^2*(s - SMP["m_H"]^2/2 + (s - SMP["m_Z"]^2 - 
+            z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                (s + SMP["m_Z"]^2)])/2) + 2*s*(SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+        2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)^
+          2 - 2*SMP["m_H"]^2*(s + SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+      4*cpWB*s*SMP["m_W"]*Sqrt[1 - SMP["m_W"]^2/SMP["m_Z"]^2]*SMP["m_Z"]^3*
+       (cpBB*SMP["m_H"]^4*SMP["m_Z"]^2 + (-c3pl1 - c3pl2 + cdp + cll + cpBB)*
+         SMP["m_Z"]^6 + SMP["m_H"]^2*((c3pl1 + cpl1)*s + 
+          (c3pl1 + c3pl2 - cdp - cll - 2*cpBB)*SMP["m_Z"]^2)*
+         (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+            z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                (s + SMP["m_Z"]^2)])/2) - (c3pl1 + cpl1)*s*
+         (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+            z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+        SMP["m_Z"]^4*(-(cll*s) - cpl1*s + c3pl1*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                 (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+             2) - 2*cpBB*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + c3pl2*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          cdp*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2)) + SMP["m_Z"]^2*
+         ((s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                 (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+             2)*(cpl1*s + (-c3pl2 + cdp + cll)*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+          c3pl1*(s^2 - (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2)^2) + 
+          cpBB*(-s^2 + 2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 
+            2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2))) + SMP["m_W"]^4*
+       (2*(4*cpBB^2 - 8*cpBB*cpW + 4*cpW^2 - 5*cpWB^2)*SMP["m_Z"]^8 + 
+        2*SMP["m_H"]^4*((cpBB + cpW)^2*s^2 + 4*(2*cpBB^2 - cpBB*cpW - cpW^2)*
+           s*SMP["m_Z"]^2 + (4*cpBB^2 - 8*cpBB*cpW + 4*cpW^2 - 5*cpWB^2)*
+           SMP["m_Z"]^4) + 4*SMP["m_Z"]^6*(6*cdp*cpBB*s + 6*cll*cpBB*s + 
+          8*cpBB^2*s + 2*cpBB*cpDC*s - 6*cdp*cpW*s - 6*cll*cpW*s - 
+          10*cpBB*cpW*s - 2*cpDC*cpW*s + 2*cpW^2*s + 6*c3pl1*(-cpBB + cpW)*
+           s + 6*c3pl2*(-cpBB + cpW)*s + cpWB^2*s - 
+          4*cpBB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 8*cpBB*cpW*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*cpW^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 5*cpWB^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+        2*(cpBB + cpW)^2*s^2*(s^2 + 2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2) + s*SMP["m_Z"]^2*(8*cdp*cpBB*s^2 + 8*cll*cpBB*s^2 + 
+          20*cpBB^2*s^2 + 4*cpBB*cpDC*s^2 - 8*cpBB*cpl1*s^2 + 8*cdp*cpW*s^2 + 
+          8*cll*cpW*s^2 + 4*cpDC*cpW*s^2 + 8*cpl1*cpW*s^2 - 4*cpW^2*s^2 - 
+          c3pl2*(8*cpBB*s^2 + 8*cpW*s^2 - (2*cdp + 2*cll + cpDC)*
+             (-s + SMP["m_H"]^2 + SMP["m_Z"]^2 + z*Sqrt[s^2 - 
+                 2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 2*s*SMP["m_Z"]^2 - 
+                 2*SMP["m_H"]^2*SMP["m_Z"]^2 + SMP["m_Z"]^4])*
+             (s + SMP["m_H"]^2 + SMP["m_Z"]^2 + z*Sqrt[s^2 - 
+                 2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 2*s*SMP["m_Z"]^2 - 
+                 2*SMP["m_H"]^2*SMP["m_Z"]^2 + SMP["m_Z"]^4])) - 
+          4*cdp^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 8*cdp*cll*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*cll^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 28*cpBB^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*cdp*cpDC*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 4*cll*cpDC*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          cpDC^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 24*cpBB*cpW*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          20*cpW^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*cpWB^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*cdp^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 8*cdp*cll*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 4*cll^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 32*cpBB^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 4*cdp*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 4*cll*cpDC*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - cpDC^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 16*cpBB*cpW*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 16*cpW^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 + 4*cpWB^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 4*c3pl1^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*c3pl2^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*c3pl1*(4*cpBB*s^2 + (2*c3pl2 - 2*cdp - 2*cll - cpDC)*
+             (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2)*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + SMP["m_Z"]^4*
+         (8*cdp^2*s^2 + 16*cdp*cll*s^2 + 8*cll^2*s^2 + 32*cdp*cpBB*s^2 + 
+          32*cll*cpBB*s^2 + 42*cpBB^2*s^2 + 8*cdp*cpDC*s^2 + 8*cll*cpDC*s^2 + 
+          12*cpBB*cpDC*s^2 + 2*cpDC^2*s^2 - 8*cpBB*cpl1*s^2 - 
+          16*cdp*cpW*s^2 - 16*cll*cpW*s^2 - 28*cpBB*cpW*s^2 - 
+          4*cpDC*cpW*s^2 + 8*cpl1*cpW*s^2 - 6*cpW^2*s^2 + 6*cpWB^2*s^2 + 
+          4*cdp^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 8*cdp*cll*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*cll^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 16*cpBB^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*cdp*cpDC*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*cll*cpDC*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          cpDC^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 16*cpBB*cpW*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          32*cpW^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 24*cpWB^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          16*cpBB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 32*cpBB*cpW*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 16*cpW^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 20*cpWB^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 4*c3pl1^2*s*(2*s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*c3pl2^2*s*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 4*c3pl2*s*(4*cdp*s + 4*cll*s + 
+            8*cpBB*s + 2*cpDC*s - 4*cpW*s + 2*cdp*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            2*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + cpDC*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) - 
+          4*c3pl1*s*(4*cdp*s + 4*cll*s + 10*cpBB*s + 2*cpDC*s - 6*cpW*s + 
+            2*cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 2*cll*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) - 2*c3pl2*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + SMP["m_H"]^2*
+         (-4*(cpBB + cpW)^2*s^2*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          SMP["m_Z"]^4*(4*c3pl1^2*s + 4*c3pl2^2*s + 4*cdp^2*s + 8*cdp*cll*s + 
+            4*cll^2*s + 24*cdp*cpBB*s + 24*cll*cpBB*s + 16*cpBB^2*s + 
+            4*cdp*cpDC*s + 4*cll*cpDC*s + 8*cpBB*cpDC*s + cpDC^2*s - 
+            4*c3pl2*(2*cdp + 2*cll + 6*cpBB + cpDC - 6*cpW)*s - 
+            24*cdp*cpW*s - 24*cll*cpW*s - 32*cpBB*cpW*s - 8*cpDC*cpW*s + 
+            16*cpW^2*s + 4*c3pl1*(2*c3pl2 - 2*cdp - 2*cll - 6*cpBB - cpDC + 
+              6*cpW)*s + 16*cpBB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 32*cpBB*cpW*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            16*cpW^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 20*cpWB^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) - 
+          s*SMP["m_Z"]^2*(8*cdp*cpBB*s + 8*cll*cpBB*s + 32*cpBB^2*s + 
+            4*cpBB*cpDC*s - 8*cpBB*cpl1*s + 8*cdp*cpW*s + 8*cll*cpW*s - 
+            16*cpBB*cpW*s + 4*cpDC*cpW*s + 8*cpl1*cpW*s - 16*cpW^2*s - 
+            4*c3pl1^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 4*c3pl2^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            4*cdp^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 8*cdp*cll*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            4*cll^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 32*cpBB^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            4*cdp*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 4*cll*cpDC*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            cpDC^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 16*cpBB*cpW*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            16*cpW^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 4*cpWB^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            4*c3pl1*(4*cpBB*s + (2*c3pl2 - 2*cdp - 2*cll - cpDC)*(
+                SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                     (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                        2)])/2)) - c3pl2*(8*cpBB*s + 8*cpW*s - 
+              4*(2*cdp + 2*cll + cpDC)*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2))))) - 
+      2*SMP["m_W"]^2*SMP["m_Z"]^2*(-(cpWB^2*SMP["m_Z"]^8) + 
+        SMP["m_H"]^4*(2*cpBB*(cpBB + cpW)*s^2 + 4*cpBB*(cpBB - cpW)*s*
+           SMP["m_Z"]^2 - cpWB^2*SMP["m_Z"]^4) + 2*SMP["m_Z"]^6*
+         (2*cdp*cpBB*s + 2*cll*cpBB*s + 2*cpBB^2*s - 2*cdp*cpW*s - 
+          2*cll*cpW*s - 2*cpBB*cpW*s + 2*c3pl1*(-cpBB + cpW)*s + 
+          2*c3pl2*(-cpBB + cpW)*s + cpWB^2*s + cpWB^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+        s^2*(-2*cpBB*cpl1*s^2 - 2*cpl1*cpW*s^2 - 2*c3pl1^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                 (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+             2)*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + (-2*c3pl2 + 2*cdp + 2*cll + cpDC)*
+           cpl1*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                 (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+             2)*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 2*cpBB^2*
+           (s^2 + 2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 
+            2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2) + 2*cpBB*cpW*
+           (s^2 + 2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 
+            2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2) + c3pl1*(-2*cpBB*s^2 - 2*cpW*s^2 + 
+            (-2*c3pl2 + 2*cdp + 2*cll + cpDC - 2*cpl1)*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)*
+             (s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2))) + SMP["m_Z"]^4*(4*cdp^2*s^2 + 8*cdp*cll*s^2 + 
+          4*cll^2*s^2 + 10*cdp*cpBB*s^2 + 10*cll*cpBB*s^2 + 10*cpBB^2*s^2 + 
+          2*cdp*cpDC*s^2 + 2*cll*cpDC*s^2 + 2*cpBB*cpDC*s^2 - 
+          4*cpBB*cpl1*s^2 - 2*cdp*cpW*s^2 - 2*cll*cpW*s^2 - 6*cpBB*cpW*s^2 + 
+          4*cpl1*cpW*s^2 - cpWB^2*s^2 + 2*cdp^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          4*cdp*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 2*cll^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          8*cpBB^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + cdp*cpDC*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          cll*cpDC*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 8*cpBB*cpW*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*cpWB^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 2*cpWB^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 2*c3pl1^2*s*(2*s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*c3pl2^2*s*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + c3pl2*s*(-8*cdp*s - 8*cll*s - 
+            10*cpBB*s - 2*cpDC*s + 2*cpW*s - 4*cdp*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            4*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - cpDC*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+          c3pl1*s*(-8*cdp*s - 8*cll*s - 14*cpBB*s - 2*cpDC*s + 6*cpW*s - 
+            4*cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 4*cll*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) + 4*c3pl2*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + SMP["m_H"]^2*
+         (SMP["m_Z"]^4*(-2*c3pl1^2*s - 2*c3pl2^2*s - 2*cdp^2*s - 
+            4*cdp*cll*s - 2*cll^2*s - 4*cdp*cpBB*s - 4*cll*cpBB*s - 
+            cdp*cpDC*s - cll*cpDC*s + c3pl2*(4*cdp + 4*cll + 4*cpBB + cpDC - 
+              4*cpW)*s + 4*cdp*cpW*s + 4*cll*cpW*s - 
+            c3pl1*(4*c3pl2 - 4*cdp - 4*cll - 4*cpBB - cpDC + 4*cpW)*s + 
+            2*cpWB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2)) + s*SMP["m_Z"]^2*
+           (-6*cdp*cpBB*s - 6*cll*cpBB*s - 8*cpBB^2*s - 2*cpBB*cpDC*s + 
+            2*cdp*cpl1*s + 2*cll*cpl1*s + 4*cpBB*cpl1*s + cpDC*cpl1*s - 
+            2*cdp*cpW*s - 2*cll*cpW*s + 8*cpBB*cpW*s - 4*cpl1*cpW*s - 
+            2*c3pl1^2*(s - SMP["m_H"]^2/2 + (s - SMP["m_Z"]^2 - 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 2*c3pl2^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            2*cdp^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 4*cdp*cll*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            2*cll^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 8*cpBB^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            cdp*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + cll*cpDC*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            8*cpBB*cpW*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 2*cpWB^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            c3pl2*(6*cpBB*s - 2*cpl1*s + 2*cpW*s - 4*cdp*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+              4*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2) - cpDC*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+            c3pl1*(-2*c3pl2*s + 2*cdp*s + 2*cll*s + 10*cpBB*s + cpDC*s - 
+              2*cpl1*s - 2*cpW*s + 4*c3pl2*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+              4*cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2) - 4*cll*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+              cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2))) + 
+          s^2*(2*cpBB*cpl1*s + 2*cpl1*cpW*s + 2*c3pl1^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            (2*c3pl2 - 2*cdp - 2*cll - cpDC)*cpl1*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            4*cpBB^2*(s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 4*cpBB*cpW*
+             (s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) + c3pl1*(2*cpBB*s + 2*cpW*s + (2*c3pl2 - 2*cdp - 2*cll - 
+                cpDC + 2*cpl1)*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2)))) + s*SMP["m_Z"]^2*
+         (6*cdp*cpBB*s^2 + 6*cll*cpBB*s^2 + 8*cpBB^2*s^2 + 2*cpBB*cpDC*s^2 - 
+          4*cdp*cpl1*s^2 - 4*cll*cpl1*s^2 - 6*cpBB*cpl1*s^2 - 
+          2*cpDC*cpl1*s^2 + 2*cdp*cpW*s^2 + 2*cll*cpW*s^2 + 2*cpl1*cpW*s^2 - 
+          2*cdp^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 4*cdp*cll*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          2*cll^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + 4*cpBB^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          cdp*cpDC*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - cll*cpDC*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          2*cdp*cpl1*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 2*cll*cpl1*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          cpDC*cpl1*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 12*cpBB*cpW*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*cpWB^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 2*cdp^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 4*cdp*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 2*cll^2*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 8*cpBB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - cdp*cpDC*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - cll*cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 8*cpBB*cpW*
+           (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 + 2*cpWB^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 2*c3pl2^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          c3pl1^2*(4*s^2 - 2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                 z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                     (s + SMP["m_Z"]^2)])/2)^2) + 
+          c3pl2*(-6*cpBB*s^2 - 2*cpW*s^2 + 4*cdp*s*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            4*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + cpDC*s*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            4*cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                 z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                     (s + SMP["m_Z"]^2)])/2)^2 + 
+            4*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                 z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                     (s + SMP["m_Z"]^2)])/2)^2 + 
+            cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2 + 2*cpl1*s*(2*s + SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)) + 
+          c3pl1*(-4*cll*s^2 - 12*cpBB*s^2 - 2*cpDC*s^2 + 4*cpl1*s^2 + 
+            2*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + 2*cpl1*s*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            4*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                 z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                     (s + SMP["m_Z"]^2)])/2)^2 + 
+            cpDC*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2 + c3pl2*(4*s^2 - 2*s*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+              4*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                      (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                         2)])/2)^2) + cdp*(-4*s^2 + 2*s*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+              4*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                      (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                         2)])/2)^2)))) + s*SMP["m_Z"]^2*
+       (2*cpBB^2*s*SMP["m_H"]^4*SMP["m_Z"]^2 - (c3pl1 + cpl1)^2*s^2*
+         (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+            z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+          (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*
+                SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+        SMP["m_Z"]^6*(2*cdp^2*s + 4*cdp*cll*s + 2*cll^2*s + 4*cdp*cpBB*s + 
+          4*cll*cpBB*s + 2*cpBB^2*s - c3pl2*(3*cdp*s + 3*cll*s + 4*cpBB*s + 
+            cdp*SMP["m_H"]^2 + cll*SMP["m_H"]^2 + cdp*SMP["m_Z"]^2 + 
+            cll*SMP["m_Z"]^2 + cdp*z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^
+                4 - 2*s*SMP["m_Z"]^2 - 2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+               SMP["m_Z"]^4] + cll*z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^
+                4 - 2*s*SMP["m_Z"]^2 - 2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+               SMP["m_Z"]^4]) + cdp^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          2*cdp*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + cll^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          c3pl1^2*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) + c3pl2^2*(2*s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          2*c3pl1*(2*cdp*s + 2*cll*s + 2*cpBB*s + cdp*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) - c3pl2*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + SMP["m_Z"]^4*
+         (4*cdp*cpBB*s^2 + 4*cll*cpBB*s^2 + 4*cpBB^2*s^2 - 4*cdp*cpl1*s^2 - 
+          4*cll*cpl1*s^2 - 4*cpBB*cpl1*s^2 - cdp^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          2*cdp*cll*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - cll^2*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          4*cpBB^2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 2*cdp*cpl1*s*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+          2*cll*cpl1*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2) - 
+          cdp^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - 2*cdp*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*
+                Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                   (s + SMP["m_Z"]^2)])/2)^2 - 
+          cll^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                  (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+              2)^2 - c3pl2^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+              z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                  (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          c3pl1^2*(4*s^2 + s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - (SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)^2) + 
+          2*c3pl1*(2*c3pl2*s^2 - 2*cdp*s^2 - 2*cll*s^2 - 4*cpBB*s^2 + 
+            2*cpl1*s^2 + cpl1*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 
+            c3pl2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                 z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                     (s + SMP["m_Z"]^2)])/2)^2 + 
+            cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2 + cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                 z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                     (s + SMP["m_Z"]^2)])/2)^2) + 
+          2*c3pl2*(-2*cpBB*s^2 + (cdp + cll)*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2)*
+             (s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) + cpl1*s*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2))) + s*SMP["m_Z"]^2*
+         (-4*cpBB*cpl1*s^2 + c3pl1^2*(2*s^2 - s*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                    (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                       2)])/2)^2) + 2*cpBB^2*(s^2 + 
+            2*s*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                   (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/
+               2) + 2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                 z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                     (s + SMP["m_Z"]^2)])/2)^2) + 
+          cpl1*(-1/2*((c3pl2 - cdp - cll)*(-s + SMP["m_H"]^2 + SMP["m_Z"]^
+                2 + z*Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 
+                  2*s*SMP["m_Z"]^2 - 2*SMP["m_H"]^2*SMP["m_Z"]^2 + 
+                  SMP["m_Z"]^4])*(s + SMP["m_H"]^2 + SMP["m_Z"]^2 + z*
+                Sqrt[s^2 - 2*s*SMP["m_H"]^2 + SMP["m_H"]^4 - 2*s*SMP["m_Z"]^
+                    2 - 2*SMP["m_H"]^2*SMP["m_Z"]^2 + SMP["m_Z"]^4])) + 
+            cpl1*s*(2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2)) + 2*c3pl1*(-2*cpBB*s^2 + 
+            (-c3pl2 + cdp + cll)*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2)*(s + SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            cpl1*(2*s^2 - (SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2)^2))) + 
+        SMP["m_H"]^2*(-((c3pl1^2 + 2*c3pl1*c3pl2 + c3pl2^2 - 2*c3pl1*cdp - 
+             2*c3pl2*cdp + cdp^2 - 2*c3pl1*cll - 2*c3pl2*cll + 2*cdp*cll + 
+             cll^2)*SMP["m_Z"]^6) + (c3pl1 + cpl1)^2*s^2*(SMP["m_H"]^2/2 + 
+            (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 
+                 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+          s*SMP["m_Z"]^2*(4*cpBB*cpl1*s - 4*cpBB^2*(s + SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) - 
+            c3pl1^2*(s - 2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2)) - 2*c3pl1*(-2*cpBB*s + 
+              cpl1*(s - SMP["m_H"]^2/2 + (s - SMP["m_Z"]^2 - 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2) + (-c3pl2 + cdp + cll)*(
+                SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                     (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                        2)])/2)) - cpl1*(cpl1*s + 2*(-c3pl2 + cdp + cll)*(
+                SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + 
+                     (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^
+                        2)])/2))) + SMP["m_Z"]^4*(4*c3pl2*cpBB*s - 
+            4*cdp*cpBB*s - 4*cll*cpBB*s + 2*cdp*cpl1*s + 2*cll*cpl1*s + 
+            c3pl2^2*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + cdp^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            2*cdp*cll*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) + cll^2*(SMP["m_H"]^2/2 + 
+              (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                    2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+            c3pl1^2*(-2*s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                    (s + SMP["m_Z"]^2)])/2) - 2*c3pl2*(cpl1*s + 
+              (cdp + cll)*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2)) + 2*c3pl1*(cdp*s + cll*s + 
+              2*cpBB*s - cpl1*s - cdp*(SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2) - cll*(SMP["m_H"]^2/2 + 
+                (-s + SMP["m_Z"]^2 + z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^
+                      2 - 2*SMP["m_H"]^2*(s + SMP["m_Z"]^2)])/2) + 
+              c3pl2*(-s + SMP["m_H"]^2/2 + (-s + SMP["m_Z"]^2 + 
+                  z*Sqrt[SMP["m_H"]^4 + (s - SMP["m_Z"]^2)^2 - 2*SMP["m_H"]^2*
+                      (s + SMP["m_Z"]^2)])/2))))))))/
+  (32*Lambda^4*Pi*s^3*SMP["m_Z"]^2*(s - SMP["m_Z"]^2)^2)

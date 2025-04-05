@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage[a4paper]{geometry}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\allowdisplaybreaks
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\geometry{verbose, tmargin = 1.5cm, bmargin = 1.5cm, lmargin = 1cm, rmargin = 1cm}
+\usepackage{underscore}
+\begin{document}
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+ &  & \multicolumn{2}{c|}{HL-LHC} & \multicolumn{2}{c|}{FCC-ee} & \multicolumn{2}{c|}{CLIC} & \multicolumn{2}{c|}{ILC} \\ \hline
+Class & Coefficients & Fitted & Fixed  & Fitted & Fixed  & Fitted & Fixed  & Fitted & Fixed  \\ \hline
+\multirow{23}{*}{2FB}
+ & $c_{c \varphi}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{b \varphi}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{t \varphi}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\tau \varphi}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{tG}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{tW}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{tZ}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi q}^{(3)}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi Q}^{(3)}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi q}^{(-)}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi Q}^{(-)}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi u}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi d}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi t}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi l_1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi l_2}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi l_3}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi l_1}^{(3)}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi l_2}^{(3)}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi l_3}^{(3)}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi e}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi \mu}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi \tau}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & 
+\\ \hline
+\multirow{14}{*}{2L2H}
+ & $c_{Qq}^{1,8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qq}^{1,1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qq}^{3,8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qq}^{3,1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{tq}^{8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{tq}^{1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{tu}^{8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{tu}^{1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qu}^{8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qu}^{1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{td}^{8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{td}^{1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qd}^{8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qd}^{1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & 
+\\ \hline
+\multirow{5}{*}{4H}
+ & $c_{QQ}^{1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{QQ}^{8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qt}^{1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{Qt}^{8}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{tt}^{1}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & 
+\\ \hline
+\multirow{1}{*}{4l}
+ & $c_{ll}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & 
+\\ \hline
+\multirow{7}{*}{B}
+ & $c_{\varphi G}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi B}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi W}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi WB}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{WWW}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi \Box}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & \\ \cline{2-10}
+ & $c_{\varphi D}$ & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ &  & $\checkmark$ & 
+\\ \hline
+\hline & Number fitted coefficients & 50 &  & 50 &  & 50 &  & 50 &  \\ \hline
+\end{tabular}
+\caption{Coefficient comparison}
+\end{table}
+\end{document}

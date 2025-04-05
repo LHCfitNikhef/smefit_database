@@ -1,0 +1,130 @@
+\documentclass{article}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage[a4paper]{geometry}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\allowdisplaybreaks
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\geometry{verbose, tmargin = 1.5cm, bmargin = 1.5cm, lmargin = 1cm, rmargin = 1cm}
+\usepackage{underscore}
+\begin{document}
+\begin{longtable}{|c|l|c|c|c|}
+\hline
+\footnotesize
+ Type & Datasets  & HL-LHC & ILC: 250 + 500 GeV & ILC: 91 + 250 + 350 + 500 + 1000 GeV \\ \hline
+\multirow{12}{*}{4H}
+ & \href{https://arxiv.org}{ATLAS_ttbb_13TeV_2016}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tttt_13TeV_run2}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tttt_13TeV_slep_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tttt_13TeV_2023}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttbb_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttbb_13TeV_2016}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttbb_13TeV_dilepton_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttbb_13TeV_ljets_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tttt_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tttt_13TeV_run2}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tttt_13TeV_slep_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tttt_13TeV_2023}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\multirow{10}{*}{HrunI}
+ & \href{https://arxiv.org}{ATLAS_CMS_SSinc_RunI}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_SSinc_RunII}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_SSinc_RunII}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_WH_Hbb_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ZH_Hbb_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ggF_13TeV_2015}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ggF_ZZ_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_H_13TeV_2015_pTH}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ggF_aa_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_STXS_runII_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\multirow{4}{*}{LEP}
+ & \href{https://arxiv.org}{LEP1_EWPOs_2006}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{LEP_Bhabha_2013}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{LEP_Brw_2013}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{LEP_alphaEW}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\multirow{8}{*}{VV}
+ & \href{https://arxiv.org}{ATLAS_WW_13TeV_2016_memu}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_WZ_13TeV_2016_mTWZ}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_WZ_13TeV_2016_pTZ}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_WZ_13TeV_2022_pTZ}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{LEP_eeWW_182GeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{LEP_eeWW_189GeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{LEP_eeWW_198GeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{LEP_eeWW_206GeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\multirow{10}{*}{t8}
+ & \href{https://arxiv.org}{ATLAS_t_sch_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_t_tch_8TeV_diff_Yt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_t_sch_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_t_tch_8TeV_diff_Yt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_t_tch_8TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_t_sch_13TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_t_tch_13TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_t_tch_13TeV_2016_diff_Yt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_t_tch_13TeV_2019_diff_Yt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_t_tch_13TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\multirow{11}{*}{tW}
+ & \href{https://arxiv.org}{ATLAS_tW_13TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tW_8TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tW_slep_8TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tW_13TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tW_13TeV_slep_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tW_8TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tZ_13TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tZ_13TeV_run2_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tZ_13TeV_2016_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tZ_13TeV_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tZ_13TeV_pTt}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\multirow{17}{*}{tt}
+ & \href{https://arxiv.org}{ATLAS_tt_8TeV_dilep_Mtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tt_8TeV_ljets_Mtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt2D_8TeV_dilep_MttYtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt_8TeV_ljets_Ytt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tt_13TeV_ljets_2016_Mtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt_13TeV_Mtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt_13TeV_dilep_2015_Mtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt_13TeV_dilep_2016_Mtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt_13TeV_ljets_2015_Mtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt_13TeV_ljets_2016_Mtt}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt_13TeV_ljets_inc}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_WhelF_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_Whel_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_WhelF_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_CMS_tt_AC_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_tt_13TeV_asy_2022}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tt_13TeV_asy}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\multirow{12}{*}{ttV}
+ & \href{https://arxiv.org}{ATLAS_ttZ_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ttZ_13TeV_2016}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ttZ_13TeV_pTZ}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ttZ_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttZ_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttZ_13TeV_pTZ}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttZ_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ttW_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ttW_13TeV_2016}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{ATLAS_ttW_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttW_13TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_ttW_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\multirow{2}{*}{tta}
+ & \href{https://arxiv.org}{ATLAS_tta_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$\\ \cline{2-5}
+ & \href{https://arxiv.org}{CMS_tta_8TeV}  & $\checkmark$ & $\checkmark$ & $\checkmark$
+\\ \hline
+\caption{Dataset comparison}
+\end{longtable}
+\end{document}
