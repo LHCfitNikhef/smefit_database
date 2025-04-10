@@ -1,4 +1,4 @@
-dataset_name: FCCee_365_tt_optim_obs_full
+dataset_name: FCCee_365_tt_optim_obs
 num_data: 8
 num_sys: 8
 data_central:
