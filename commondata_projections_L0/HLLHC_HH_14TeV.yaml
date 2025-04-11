@@ -1,16 +1,16 @@
-dataset_name: LHC_HH_14TeV
+dataset_name: HLLHC_HH_14TeV
 description: HH inclusive signal strengths predictions for 14 TeV and HL-LHC luminosity.
-arxiv: 1902.00134
-doi: https://doi.org/10.23731/CYRM-2019-007.221
-location: Table 53, last line.
+arxiv: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2025-006/tab_05.png
+doi:
+location:
 units: None
 luminosity: 3000
 num_data: 1
 num_sys: 1
 data_central: 1.0000
 statistical_error:
-  - 0.31
+  - 0.265848
 systematics:
-  - 0.2528
+  - 0.0
 sys_names: UNCORR
 sys_type: ADD

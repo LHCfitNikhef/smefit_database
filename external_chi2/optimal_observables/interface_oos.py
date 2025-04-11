@@ -168,15 +168,16 @@ class OptimalWW:
         return chi2_value
 
 
-class Optimaltt:
+class OptimalttFCC365:
     def __init__(self, coefficients, rgemat=None):
-        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
+        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_tt_wc_basis), coefficients.size))
         for i, op in enumerate(oo_tt_wc_basis):
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
+        collider = "FCCee"
         self.datasets = {"{collider}_tt_365": "invcov_{collider}_tt_365GeV.dat"}
 
         incovs_reordered = []
