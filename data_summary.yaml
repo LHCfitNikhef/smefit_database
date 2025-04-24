@@ -94,7 +94,7 @@ CMS:
   - {name: CMS_tttt_13TeV_run2, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_tttt_13TeV_slep_inc, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_tttt_13TeV_2023, order: NLO_QCD} # order: LO, NLO_QCD
-CMS_uncor: # Version of some of the ATLAS data without correlations
+CMS_uncor: # Version of some of the CMS data without correlations
   - {name: CMS_tZ_13TeV_pTt_uncor, order: NLO_QCD} # order: LO, NLO_QCD
 HLLHC_proj:
   - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD} # order: LO, NLO_QCD
