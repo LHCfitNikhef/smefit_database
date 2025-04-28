@@ -1,0 +1,38 @@
+arxiv: 2207.00092
+data_central:
+- 0.053027000000000005
+- 0.004984000000000001
+- 0.0006000000000000005
+dataset_name: ATLAS_STXS_runII_13TeV
+description: ATLAS STXS 1.2 from run II
+doi: 10.17182/hepdata.130266.v1/t9
+hepdata:
+- https://www.hepdata.net/record/ins2104706?version=1&table=Figure%207
+- https://www.hepdata.net/record/ins2104706?version=1&table=Aux%20Figure%2023
+location: Fig. 7
+luminosity: 139
+num_data: 3
+num_sys: 3
+statistical_error:
+- 0.0
+- 0.0
+- 0.0
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD
+systematics:
+- - -5.274925123096984e-06
+  - -1.6235378915754018e-05
+  - -3.5120119708948276e-06
+- - -1.4662001072238898e-08
+  - 2.735326538999452e-07
+  - 2.020317639205151e-07
+- - -1.5775070184878508e-07
+  - -1.416527035807603e-06
+  - -1.2189419792625273e-06
+units: pb
