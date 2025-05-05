@@ -31,15 +31,6 @@ coefficients_plots:
     figsize: [10, 18]
     x_min: -3
     x_max: 3
-  spider_plot:
-    confidence_level: 95
-    figsize: [10, 15]
-    plot_cutoff: 400
-    x_min: 0.001
-    x_max: 500
-    x_log: True
-    log_scale: False
-    title: $\mathrm{Ratio\:of\:Uncertainties\:to\:Global\:Fit\:Baseline,\:NLO\:}\mathcal{O}\left(\Lambda^{-2}\right)$
   contours_2d:
     show: True
     confidence_level: 95
@@ -63,7 +54,7 @@ PCA:
   thr_show: 1.e-2
   #sv_min: 1.e-4
   plot: True
-  fit_list: # or list of fits to include by name
+  fit_list: [LHC_NLO_QUAD_GLOB, LHC_NLO_LIN_GLOB] # or list of fits to include by name
 chi2_plots:
   table: True # bool, chi2 table
   plot_experiment: # chi2 plot per experiment
