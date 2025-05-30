@@ -155,4 +155,3 @@ coefficients:
   Oll1111: {'constrain': [{'Oll': 1}], 'min': -1.5, 'max': 1.0}
   ## DIBOSON COEFFICIENTS ##
   OWWW: {'min': -0.5, 'max': 0.5}
-
