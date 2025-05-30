@@ -68,7 +68,6 @@ datasets:
   - {name: CMS_tZ_13TeV_inc, order: NLO_QCD}
   - {name: CMS_tZ_13TeV_pTt, order: NLO_QCD}
   - {name: CMS_t_sch_8TeV, order: NLO_QCD}
-  - {name: CMS_t_tch_13TeV_2016_diff_Yt, order: NLO_QCD}
   - {name: CMS_t_tch_13TeV_2019_diff_Yt, order: NLO_QCD}
   - {name: CMS_t_tch_13TeV_inc, order: NLO_QCD}
   - {name: CMS_t_tch_8TeV_diff_Yt, order: NLO_QCD}
@@ -114,11 +113,6 @@ coefficients:
   OtG: {'min': -1.0, 'max': 1.0}
   Otp: {'min': -8.0, 'max': 8.0}
   OtZ: {'min': -2, 'max': 2}
-  OQQ1: {'min': -10, 'max': 10.0}
-  OQQ8: {'min': -20.0, 'max': 20.0}
-  OQt1: {'min': -5.0, 'max': 5.0}
-  OQt8: {'min': -10.0, 'max': 10.0}
-  Ott1: {'min': -2.0, 'max': 2.0}
   O81qq: {'min': -1, 'max': 1}
   O11qq: {'min': -1, 'max': 1}
   O83qq: {'min': -1, 'max': 1}
@@ -161,4 +155,4 @@ coefficients:
   Oll1111: {'constrain': [{'Oll': 1}], 'min': -1.5, 'max': 1.0}
   ## DIBOSON COEFFICIENTS ##
   OWWW: {'min': -0.5, 'max': 0.5}
-rot_to_fit_basis: null
+
