@@ -72,7 +72,6 @@ datasets:
   - {name: CMS_tZ_13TeV_inc, order: NLO_QCD}
   - {name: CMS_tZ_13TeV_pTt, order: NLO_QCD}
   - {name: CMS_t_sch_8TeV, order: NLO_QCD}
-  - {name: CMS_t_tch_13TeV_2016_diff_Yt, order: NLO_QCD}
   - {name: CMS_t_tch_13TeV_2019_diff_Yt, order: NLO_QCD}
   - {name: CMS_t_tch_13TeV_inc, order: NLO_QCD}
   - {name: CMS_t_tch_8TeV_diff_Yt, order: NLO_QCD}
