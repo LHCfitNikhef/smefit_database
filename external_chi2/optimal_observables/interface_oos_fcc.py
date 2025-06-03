@@ -9,7 +9,7 @@ from smefit.coefficients import CoefficientManager
 current_file_path = pathlib.Path(__file__).resolve().parent
 
 # future colliders to include
-collider = "CEPC"
+collider = "FCCee"
 
 _logger = log.logging.getLogger(__name__)
 
@@ -32,7 +32,7 @@ def compute_rge_matrix(coefficients, rge_dict, scale):
 
     return rge_df.values, new_coeffs
 
-class OptimalWWCEPC161:
+class OptimalWWFCC161:
     def __init__(self, coefficients, rge_dict=None):
         oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
 
@@ -76,7 +76,7 @@ class OptimalWWCEPC161:
         return chi2_value
 
 
-class OptimalWWCEPC240:
+class OptimalWWFCC240:
     def __init__(self, coefficients, rge_dict=None):
         oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
 
@@ -120,7 +120,7 @@ class OptimalWWCEPC240:
         return chi2_value
 
 
-class OptimalWWCEPC365:
+class OptimalWWFCC365:
     def __init__(self, coefficients, rge_dict=None):
         oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
 
@@ -164,7 +164,7 @@ class OptimalWWCEPC365:
         return chi2_value
 
 
-class OptimalttCEPC365:
+class OptimalttFCC365:
     def __init__(self, coefficients, rge_dict=None):
         oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 

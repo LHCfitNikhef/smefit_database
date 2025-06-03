@@ -3,21 +3,13 @@ from smefit import compute_theory as pr
 from smefit.rge.rge import load_rge_matrix
 
 class CMS_DYMee_13TeV:
-    def __init__(self, coefficients, rgemat=None, **kwargs):
+    def __init__(self, coefficients, rge_dict=None, **kwargs):
 
         operators = {
             k: {"max": 0.0, "min": 0.0} for k in coefficients.name
         }
 
-        if rgemat is not None:
-            rge_dict = {
-                'init_scale': 1000.0, 
-                'obs_scale': 'dynamic', 
-                'smeft_accuracy': 'integrate', 
-                'yukawa': 'top', 
-                'adm_QCD': False
-            }
-
+        if rge_dict is not None:
             rgematrix, operators_to_keep = load_rge_matrix(
                 rge_dict=rge_dict,
                 coeff_list=list(operators.keys()),
