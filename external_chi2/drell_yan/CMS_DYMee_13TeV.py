@@ -1,3 +1,4 @@
+import jax.numpy as jnp
 from smefit import loader
 from smefit import compute_theory as pr
 from smefit.rge.rge import load_rge_matrix

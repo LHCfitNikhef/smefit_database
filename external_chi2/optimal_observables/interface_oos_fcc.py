@@ -1,7 +1,6 @@
 import numpy as np
 import pathlib
 import jax.numpy as jnp
-import re
 from smefit import log
 from smefit.rge.rge import RGE
 from smefit.coefficients import CoefficientManager
