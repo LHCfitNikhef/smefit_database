@@ -177,6 +177,7 @@ class OptimalttFCC365:
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
+        collider = "FCCee"
         self.datasets = {"{collider}_tt_365": "invcov_{collider}_tt_365GeV.dat"}
 
         incovs_reordered = []
