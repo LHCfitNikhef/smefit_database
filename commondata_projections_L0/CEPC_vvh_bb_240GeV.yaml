@@ -1,12 +1,12 @@
 dataset_name: CEPC_vvh_bb_240GeV
 description: Higgs production in VBF times bb BR.
 units: pb
-luminosity: 20000
+luminosity: 21600
 num_data: 1
 num_sys: 1
 data_central: 0.0037393688888888894
 statistical_error:
-  - 5.9456e-05
+  - 5.505185185185185e-05
 systematics:
   - 0.0
 sys_names: null

@@ -1,12 +1,12 @@
 dataset_name: CEPC_ee_240GeV
 description: e+e- production cross section.
 units: pb
-luminosity: 20000
+luminosity: 21600
 num_data: 1
 num_sys: 1
 data_central: 64.70903263964306
 statistical_error:
-  - 0.00162086
+  - 0.0015007962962962963
 systematics:
   - 0.0
 sys_names: null

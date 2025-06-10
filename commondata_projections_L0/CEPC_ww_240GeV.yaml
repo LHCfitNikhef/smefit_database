@@ -1,12 +1,12 @@
 dataset_name: CEPC_ww_240GeV
 description: Fully inclusive W-pair production cross section
 units: pb
-luminosity: 20000
+luminosity: 21600
 num_data: 1
 num_sys: 1
 data_central: 17.13
 statistical_error:
-  - 0.00147832
+  - 0.0013688148148148147
 systematics:
   - 0.0
 sys_names: UNCORR

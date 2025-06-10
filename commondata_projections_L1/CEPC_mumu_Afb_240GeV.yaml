@@ -1,11 +1,11 @@
 dataset_name: CEPC_mumu_Afb_240GeV
 description: Forward-backward asymmetry in mu+mu- production.
-luminosity: 20000
+luminosity: 21600
 num_data: 1
 num_sys: 1
 data_central: 0.5220646262062223
 statistical_error:
-  - 0.000139745
+  - 0.0001293935185185185
 systematics:
   - 0.0
 sys_names: null

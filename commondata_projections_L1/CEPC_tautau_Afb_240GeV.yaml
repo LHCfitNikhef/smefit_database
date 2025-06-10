@@ -1,11 +1,11 @@
 dataset_name: CEPC_tautau_Afb_240GeV
 description: Forward-backward asymmetry in tau+tau- production.
-luminosity: 20000
+luminosity: 21600
 num_data: 1
 num_sys: 1
 data_central: 0.5066219565392258
 statistical_error:
-  - 0.000153136
+  - 0.00014179259259259258
 systematics:
   - 0.0
 sys_names: null

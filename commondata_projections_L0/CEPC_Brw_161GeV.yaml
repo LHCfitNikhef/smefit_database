@@ -1,6 +1,6 @@
 dataset_name: CEPC_Brw_161GeV
 description: W leptonic branching ratio (first, second and third generation)
-luminosity: 6000
+luminosity: 6900
 num_data: 3
 num_sys: 3
 data_central:
@@ -8,9 +8,9 @@ data_central:
   - 0.1083
   - 0.1083
 statistical_error:
-  - 5.36085e-05
-  - 5.36085e-05
-  - 5.36085e-05
+  - 4.6616086956521745e-05
+  - 4.6616086956521745e-05
+  - 4.6616086956521745e-05
 systematics:
   - - 0.0
     - 0.0
