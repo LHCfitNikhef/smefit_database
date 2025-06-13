@@ -542,7 +542,7 @@ class OptimalttFCC365:
 
 class OptimalttFCC365full:
     def __init__(self, coefficients, rgemat=None):
-        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_tt_wc_basis), coefficients.size))
         for i, op in enumerate(oo_tt_wc_basis):
@@ -616,7 +616,7 @@ class OptimalttCEPC365:
 
 class OptimalttCEPC365full:
     def __init__(self, coefficients, rgemat=None):
-        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_tt_wc_basis), coefficients.size))
         for i, op in enumerate(oo_tt_wc_basis):
@@ -691,7 +691,7 @@ class OptimalttCLIC380:
 
 class OptimalttCLIC380full:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
         for i, op in enumerate(oo_wc_basis):
@@ -768,7 +768,7 @@ class OptimalttCLIC1500:
 
 class OptimalttCLIC1500full:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
         for i, op in enumerate(oo_wc_basis):
@@ -846,7 +846,7 @@ class OptimalttCLIC3000:
 
 class OptimalttCLIC3000full:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
         for i, op in enumerate(oo_wc_basis):
@@ -926,7 +926,7 @@ class OptimalttILC350:
 
 class OptimalttILC350full:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
         for i, op in enumerate(oo_wc_basis):
@@ -1008,7 +1008,7 @@ class OptimalttILC500:
 
 class OptimalttILC500full:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
         for i, op in enumerate(oo_wc_basis):
@@ -1090,7 +1090,7 @@ class OptimalttILC1000:
 
 class OptimalttILC1000full:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
+        oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_wc_basis), coefficients.size))
         for i, op in enumerate(oo_wc_basis):
