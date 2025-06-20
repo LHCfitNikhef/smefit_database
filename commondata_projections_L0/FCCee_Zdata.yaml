@@ -6,7 +6,21 @@ units:
 luminosity: 205000
 num_data: 14
 num_sys: 14
-description: EWPOs at FCCee. The ordering is GammaZ (GeV), SigmaHad (pb), Re, Rmu, Rtau, Ae, Amu, Atau, Rb, Rc, AFBb, AFBc, Ab, Ac
+description: EWPOs at FCCee. The ordering is 
+  GammaZ (GeV), 
+  SigmaHad (pb), 
+  Re, 
+  Rmu, 
+  Rtau, 
+  Ae, 
+  Amu, 
+  Atau, 
+  Rb, 
+  Rc, 
+  AFBb, 
+  AFBc, 
+  Ab, 
+  Ac
 data_central:
   - 2.4957
   - 41489.0
@@ -25,7 +39,7 @@ data_central:
 statistical_error:
   - 4.0e-06
   - 0.03
-  - 3.6e-06
+  - 3.4e-06
   - 2.4e-06
   - 2.7e-06
   - 13.5e-06

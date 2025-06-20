@@ -4,7 +4,26 @@ location: See Table 2.1 in 2404.12809
 arxiv: 0509008
 hepdata:
 units:
-description: LEP1 EWPOs. The ordering is GammaZ, SigmaHad, Re, Rmu, Rtau, AFBe, AFBmu, AFBtau, AeSLD, AmuSLD, AtauSLD, AtauPT, AePT, Rb, Rc, AFBb, AFBc, Ab, Ac
+description: LEP1 EWPOs. The order corresponds to the observables 
+  GammaZ, 
+  SigmaHad, 
+  Re, 
+  Rmu, 
+  Rtau, 
+  AFBe, 
+  AFBmu, 
+  AFBtau, 
+  AeSLD, 
+  AmuSLD, 
+  AtauSLD, 
+  AtauPT, 
+  AePT, 
+  Rb, 
+  Rc, 
+  AFBb, 
+  AFBc, 
+  Ab, 
+  Ac
 luminosity:
 num_data: 19
 num_sys: 19
