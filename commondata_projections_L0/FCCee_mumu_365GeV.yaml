@@ -1,12 +1,14 @@
 dataset_name: FCCee_mumu_365GeV
 description: mu+mu- production cross section.
 units: pb
-luminosity: 3000
+luminosity: 3120
+location: Table 27
+arxiv: https://arxiv.org/pdf/2206.08326
 num_data: 1
 num_sys: 1
 data_central: 0.7379895610512729
 statistical_error:
-  - 0.000480275
+  - 0.000470948
 systematics:
   - 0.0
 sys_names: null
