@@ -1,6 +1,6 @@
 dataset_name: FCCee_Brw_365GeV
 description: W leptonic branching ratio (first, second and third generation)
-luminosity: 3000
+luminosity: 3120
 num_data: 3
 num_sys: 3
 data_central:
@@ -8,9 +8,9 @@ data_central:
   - 0.1083
   - 0.1083
 statistical_error:
-  - 6.09574e-05
-  - 6.09574e-05
-  - 6.09574e-05
+  - 0.0000597736
+  - 0.0000597736
+  - 0.0000597736
 systematics:
   - - 0.0
     - 0.0
