@@ -1,0 +1,47 @@
+dataset_name: FCCee_vvh_bb_240GeV
+doi: https://doi.org/10.17181/3jjdh-6fz979
+location: Correlation from page 56 in https://repository.cern/records/3jjdh-6fz97
+arxiv: ''
+hepdata: ''
+units: pb
+description: FCC-ee ZH (H > bb, cc, gg) and VBF (H > bb) at 240 GeV
+luminosity: 3120
+num_data: 4
+num_sys: 4
+data_central:
+- 0.114912
+- 0.0171374
+- 0.00849312
+- 0.0037393688888888894
+statistical_error:
+- 0
+- 0
+- 0
+- 0
+systematics:
+- - 7.348555046585337e-05
+  - 0.0002667108928131881
+  - 3.057195551603588e-06
+  - -5.212462340295356e-06
+- - 0.00022980403335282586
+  - -6.363667651726498e-05
+  - 8.387602446066248e-07
+  - -1.587630948422098e-05
+- - -4.669649274838883e-06
+  - 6.418495870521603e-08
+  - -9.931088322347791e-06
+  - -6.837348177829364e-05
+- - -1.0955611319424917e-06
+  - -6.56886200335661e-07
+  - 6.7140458076682e-05
+  - -9.677788492272912e-06
+sys_names:
+- CORR
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD
+- ADD
