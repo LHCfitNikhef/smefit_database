@@ -1,13 +1,15 @@
 dataset_name: FCCee_vvh_tautau_365GeV
 description: Higgs production in VBF times tau+tau- BR.
+location: Table 2
+arxiv: https://repository.cern/records/n2emg-43f06
 units: pb
-luminosity: 3000
+luminosity: 3120
 num_data: 1
 num_sys: 1
-data_central: 0.001942814924640214
+data_central: 0.0020367792044357663
 statistical_error:
-  - 0.000113467
+- 0.00011232718933333335
 systematics:
-  - 0.0
-sys_names: null
-sys_type: null
+- 0.0
+sys_names:
+sys_type:
