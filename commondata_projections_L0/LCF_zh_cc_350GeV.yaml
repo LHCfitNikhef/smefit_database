@@ -1,0 +1,26 @@
+dataset_name: LCF_zh_cc_350GeV
+description: ZH inclusive production cross section times cc BR with polarised beams
+  (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=350 GeV
+units: pb
+luminosity:
+- 135
+- 45
+num_data: 2
+num_sys: 2
+data_central:
+- 0.011414648855733997
+- 0.01678264998089615
+statistical_error:
+- 0.0017121973283600995
+- 0.004346706345052103
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

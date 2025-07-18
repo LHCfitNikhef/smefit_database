@@ -1,0 +1,26 @@
+dataset_name: LCF_zh_ww_250GeV
+description: ZH inclusive production cross section times ww BR with polarised beams
+  (-0.8,+0.3) and (+0.8,-0.3) at sqrts=250 GeV
+units: pb
+luminosity:
+- 1350
+- 1350
+num_data: 2
+num_sys: 2
+data_central:
+- 0.03464509922534499
+- 0.05093775386356317
+statistical_error:
+- 0.0006873888030405228
+- 0.0010106491954346188
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

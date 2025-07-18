@@ -1,0 +1,26 @@
+dataset_name: LCF_vvh_tautau_350GeV
+description: Higgs production in VBF times tau tau BR with polarised beams (-0.8,+0.3)
+  and  (+0.8,-0.3) at sqrts=350 GeV
+units: pb
+luminosity:
+- 135
+- 45
+num_data: 2
+num_sys: 2
+data_central:
+- 0.0017854711111111113
+- 0.0017491271111111115
+statistical_error:
+- 0.00038923270222222225
+- 0.002728638293333334
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

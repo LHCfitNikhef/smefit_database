@@ -1,0 +1,26 @@
+dataset_name: LCF_vvh_gg_1000GeV
+description: Higgs production in VBF times gg BR with polarised beams (-0.8,+0.3)
+  and  (+0.8,-0.3) at sqrts=1000 GeV
+units: pb
+luminosity:
+- 3200
+- 3200
+num_data: 2
+num_sys: 2
+data_central:
+- 0.00927515111111111
+- 0.009096026666666666
+statistical_error:
+- 0.00012057696444444445
+- 0.00042751325333333334
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

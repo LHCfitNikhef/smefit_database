@@ -1,0 +1,25 @@
+dataset_name: LCF_ww_250GeV
+description: Fully inclusive W-pair production cross section
+units: pb
+luminosity:
+- 1350
+- 1350
+num_data: 2
+num_sys: 2
+data_central:
+- 16.66
+- 16.32
+statistical_error:
+- 0.003699970586405609
+- 0.013724980926762704
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD

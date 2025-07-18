@@ -1,0 +1,49 @@
+dataset_name: LCF_bb_Afb_250GeV
+description: 'Light difermion (bb) production at ILC. Observable: FB asymmetry (AFB).
+  Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass
+  2206.08326'
+units: pb
+luminosity:
+- 150
+- 1350
+- 1350
+- 150
+num_data: 4
+num_sys: 4
+data_central:
+- 0.6489275125432524
+- 0.6611635161783884
+- 0.3518317352250358
+- 0.4595616283071801
+statistical_error:
+- 0.0020799479361164348
+- 0.0006998219435861754
+- 0.0005105057298078966
+- 0.0017503554463921135
+systematics:
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
+- ADD
+- ADD

@@ -1,0 +1,26 @@
+dataset_name: LCF_vvhh_1000GeV
+description: ve ve~ H H production with polarised beams (+0.8,-0.2) and (-0.8,+0.2)
+  at sqrts=1000 GeV
+units: pb
+luminosity:
+- 3200
+- 3200
+num_data: 2
+num_sys: 2
+data_central:
+- 1.9613e-05
+- 0.00017183
+statistical_error:
+- 9.44136e-06
+- 2.79455e-05
+systematics:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+sys_names:
+- UNCORR
+- UNCORR
+sys_type:
+- ADD
+- ADD
