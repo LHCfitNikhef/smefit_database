@@ -1,7 +1,6 @@
 dataset_name: LEP3_vvh_bb_240GeV
 doi: https://doi.org/10.17181/3jjdh-6fz979
-location: Correlation from page 56 in https://repository.cern/records/3jjdh-6fz97.
-  Decorrelated for LEP3.
+location: Correlation from page 56 in https://repository.cern/records/3jjdh-6fz97. Decorrelated for LEP3.
 arxiv: ''
 hepdata: ''
 units: pb
@@ -10,39 +9,39 @@ luminosity: 2304.0
 num_data: 4
 num_sys: 4
 data_central:
-- 0.11441924055636733
-- 0.017228017208025546
-- 0.008327085162907194
-- 0.0035152696164243817
+  - 0.11441924055636733
+  - 0.017228017208025546
+  - 0.008327085162907194
+  - 0.0035152696164243817
 statistical_error:
-- 0.0
-- 0.0
-- 0.0
-- 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
 systematics:
-- - 0.0005224627337983065
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0005936569501926179
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0001471051535477945
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.00015382345146520022
+  - - 0.0005224627337983065
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0005936569501926179
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0001471051535477945
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.00015382345146520022
 sys_names:
-- CORR
-- CORR
-- CORR
-- CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
