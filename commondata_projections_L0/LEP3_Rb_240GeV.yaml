@@ -1,0 +1,14 @@
+dataset_name: LEP3_Rb_240GeV
+description: Rb
+luminosity: 2304.0
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 1
+num_sys: 1
+data_central: 0.1566952234104766
+statistical_error:
+- 9.227739000510256e-05
+systematics:
+- 0.0
+sys_names:
+sys_type:
