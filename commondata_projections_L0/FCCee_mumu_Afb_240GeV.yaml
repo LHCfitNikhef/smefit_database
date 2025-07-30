@@ -1,14 +1,14 @@
 dataset_name: FCCee_mumu_Afb_240GeV
 description: Forward-backward asymmetry in mu+mu- production.
 luminosity: 10800
-location: Table 27
-arxiv: https://arxiv.org/pdf/2206.08326
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
 num_data: 1
 num_sys: 1
 data_central: 0.5219136249314695
 statistical_error:
-  - 0.000190169
+  - 2.00e-04
 systematics:
-  - 0.0
+  - 2.40e-06
 sys_names: null
 sys_type: null
