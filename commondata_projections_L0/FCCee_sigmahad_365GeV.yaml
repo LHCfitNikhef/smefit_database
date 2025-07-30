@@ -1,0 +1,14 @@
+dataset_name: FCCee_sigmahad_365GeV
+description: sigmahad
+luminosity: 3120
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 1
+num_sys: 1
+data_central: 5.3802004303423665
+statistical_error:
+  - 0.001597919527811683
+systematics:
+  - 0.0005380200430342367
+sys_names: null
+sys_type: null

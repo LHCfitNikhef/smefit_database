@@ -1,0 +1,14 @@
+dataset_name: FCCee_Rb_365GeV
+description: Rb
+luminosity: 3120
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 1
+num_sys: 1
+data_central: 0.1186552382991608
+statistical_error:
+  - 1.0572181732455228e-04
+systematics:
+  - 1.2221489544813564e-04
+sys_names: null
+sys_type: null
