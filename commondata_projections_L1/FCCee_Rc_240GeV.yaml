@@ -1,13 +1,13 @@
-dataset_name: FCCee_tautau_Afb_240GeV
-description: Forward-backward asymmetry in tau+tau- production.
+dataset_name: FCCee_Rc_240GeV
+description: Rc
 luminosity: 10800
 location: Fig 1
 arxiv: https://repository.cern/records/3rj9z-94994
 num_data: 1
 num_sys: 1
-data_central: 0.5066143537167701
+data_central: 0.26499764891191085
 statistical_error:
-- 0.00024
+- 6.094014792338555e-05
 systematics:
 - 0.0
 sys_names:

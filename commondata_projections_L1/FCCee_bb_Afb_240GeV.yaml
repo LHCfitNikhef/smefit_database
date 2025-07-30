@@ -1,13 +1,13 @@
 dataset_name: FCCee_bb_Afb_240GeV
 description: Forward-backward asymmetry in bb production.
-location: Table 27
-arxiv: https://arxiv.org/pdf/2206.08326
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
 luminosity: 10800
 num_data: 1
 num_sys: 1
-data_central: 0.5915813401784674
+data_central: 0.5916652997156746
 statistical_error:
-- 0.000467586
+- 0.000844
 systematics:
 - 0.0
 sys_names:

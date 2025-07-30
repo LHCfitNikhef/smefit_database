@@ -1,5 +1,5 @@
 dataset_name: FCCee_sigmahad_365GeV
-description: sigmahad
+description: Hadronic cross section at 365 GeV.
 luminosity: 3120
 location: Fig 1
 arxiv: https://repository.cern/records/3rj9z-94994

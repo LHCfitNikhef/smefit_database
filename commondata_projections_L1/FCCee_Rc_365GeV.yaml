@@ -1,13 +1,13 @@
-dataset_name: FCCee_bb_Afb_365GeV
-description: Forward-backward asymmetry in bb production.
+dataset_name: FCCee_Rc_365GeV
+description: Rc
 luminosity: 3120
 location: Fig 1
 arxiv: https://repository.cern/records/3rj9z-94994
 num_data: 1
 num_sys: 1
-data_central: 0.6058747370446975
+data_central: 0.21470329278242423
 statistical_error:
-- 0.00277
+- 0.00015607097508984333
 systematics:
 - 0.0
 sys_names:

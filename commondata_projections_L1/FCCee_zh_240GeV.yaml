@@ -6,7 +6,7 @@ units: pb
 luminosity: 10800
 num_data: 1
 num_sys: 1
-data_central: 0.1947896101439064
+data_central: 0.1946963436718393
 statistical_error:
 - 0.00060264
 systematics:
