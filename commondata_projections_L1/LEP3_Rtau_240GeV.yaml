@@ -1,0 +1,14 @@
+dataset_name: LEP3_Rtau_240GeV
+description: Rtau
+luminosity: 2304.0
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 1
+num_sys: 1
+data_central: 6.444170848267456
+statistical_error:
+- 0.004142996468947424
+systematics:
+- 0.0
+sys_names:
+sys_type:

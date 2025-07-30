@@ -1,0 +1,13 @@
+dataset_name: LEP3_ww_161GeV
+description: Fully inclusive W-pair production cross section
+units: pb
+luminosity: 5600.0
+num_data: 1
+num_sys: 1
+data_central: 2.872222979656461
+statistical_error:
+- 0.0007076413350601519
+systematics:
+- 0.0
+sys_names: UNCORR
+sys_type: ADD

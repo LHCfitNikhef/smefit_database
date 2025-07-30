@@ -1,0 +1,31 @@
+dataset_name: LEP3_Brw_240GeV
+description: W leptonic branching ratio (first, second and third generation)
+luminosity: 2304.0
+num_data: 3
+num_sys: 3
+data_central:
+- 0.10808566889218495
+- 0.10846342042269458
+- 0.10850163748190518
+statistical_error:
+- 5.5041760081976624e-05
+- 5.5041760081976624e-05
+- 5.5041760081976624e-05
+systematics:
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+sys_names:
+- CORR
+- CORR
+- CORR
+sys_type:
+- ADD
+- ADD
+- ADD

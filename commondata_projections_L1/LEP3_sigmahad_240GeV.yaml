@@ -1,0 +1,14 @@
+dataset_name: LEP3_sigmahad_240GeV
+description: Hadronic cross section at 240 GeV.
+luminosity: 2304.0
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 1
+num_sys: 1
+data_central: 10.66762516540563
+statistical_error:
+- 0.002136311124095206
+systematics:
+- 0.0
+sys_names:
+sys_type:
