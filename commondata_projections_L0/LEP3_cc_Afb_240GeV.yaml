@@ -1,0 +1,14 @@
+dataset_name: LEP3_cc_Afb_240GeV
+description: Forward-backward asymmetry in cc production.
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+luminosity: 2304.0
+num_data: 1
+num_sys: 1
+data_central: 0.6197858139000236
+statistical_error:
+- 0.0015263697741700732
+systematics:
+- 0.0
+sys_names:
+sys_type:
