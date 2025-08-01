@@ -6,10 +6,10 @@ units: GeV
 luminosity: 5600.0
 num_data: 1
 num_sys: 1
-data_central: 2.0460534843058062
+data_central: 2.0458977652907344
 statistical_error:
-  - 0.0004999428538771778
+- 0.0004999428538771778
 systematics:
-  - 0.0002
+- 0.0002
 sys_names: UNCORR
 sys_type: ADD
