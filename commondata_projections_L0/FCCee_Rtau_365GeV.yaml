@@ -5,10 +5,10 @@ location: Fig 1
 arxiv: https://repository.cern/records/3rj9z-94994
 num_data: 1
 num_sys: 1
-data_central: 7.7245527588283105
+data_central: 7.625161687324663
 statistical_error:
-  - 0.007152360243890173
+- 0.007152360243890173
 systematics:
-  - 2.039281928330674e-05
-sys_names: null
-sys_type: null
+- 2.039281928330674e-05
+sys_names: UNCORR
+sys_type: ADD
