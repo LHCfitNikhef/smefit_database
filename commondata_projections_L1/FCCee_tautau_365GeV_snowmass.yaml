@@ -1,15 +1,15 @@
-dataset_name: FCCee_tautau_240GeV
+dataset_name: FCCee_tautau_365GeV
 description: tau+tau- production cross section.
 units: pb
-luminosity: 10800
+luminosity: 3120
 location: Table 27
 arxiv: https://arxiv.org/pdf/2206.08326
 num_data: 1
 num_sys: 1
-data_central: 1.488914393203126
+data_central: 0.627442111858252
 statistical_error:
-  - 0.000359565
+- 0.000433926
 systematics:
-  - 0.0
-sys_names:
-sys_type:
+- 0.0
+sys_names: UNCORR
+sys_type: ADD

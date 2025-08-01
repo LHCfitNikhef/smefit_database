@@ -6,10 +6,10 @@ units: pb
 luminosity: 3120
 num_data: 1
 num_sys: 1
-data_central: 0.0002439913258361269
+data_central: 0.00021818173736295768
 statistical_error:
-  - 3.596398e-05
+- 3.596398e-05
 systematics:
-  - 0.0
-sys_names:
-sys_type:
+- 0.0
+sys_names: UNCORR
+sys_type: ADD

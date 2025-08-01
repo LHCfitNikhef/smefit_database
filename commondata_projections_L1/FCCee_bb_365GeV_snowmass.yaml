@@ -6,10 +6,10 @@ location: Table 27
 arxiv: https://arxiv.org/pdf/2206.08326
 num_data: 1
 num_sys: 1
-data_central: 0.09564499140838702
+data_central: 0.09584147826577404
 statistical_error:
-  - 0.000167191
+- 0.000167191
 systematics:
-  - 0.0
-sys_names:
-sys_type:
+- 0.0
+sys_names: UNCORR
+sys_type: ADD
