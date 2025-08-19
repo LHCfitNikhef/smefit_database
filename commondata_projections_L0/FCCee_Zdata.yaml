@@ -1,4 +1,4 @@
-dataset_name: FCCee_EWPOs
+dataset_name: FCCee_Zdata
 units: pb/GeV
 description: EWPOs
 luminosity: 300000
