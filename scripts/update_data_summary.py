@@ -15,19 +15,30 @@ commondata_path = pathlib.Path("../commondata_projections_L0")
 theory_path = pathlib.Path("../theory")
 
 experiments = [
-    "LEP", "ATLAS_CMS", "ATLAS", "ATLAS_uncor", "CMS", "CMS_uncor",
-    "HLLHC_proj", "FCCee", "CEPC"
+    "LEP",
+    "ATLAS_CMS",
+    "ATLAS",
+    "ATLAS_uncor",
+    "CMS",
+    "CMS_uncor",
+    "HLLHC_proj",
+    "FCCee",
+    "CEPC",
 ]
 
 # Root mapping
-data_summary = {"Info": "Collection of all data implemented in SMEFiT, including the available theory options."}
+data_summary = {
+    "Info": "Collection of all data implemented in SMEFiT, including the available theory options."
+}
 
 for commondata_file in commondata_path.iterdir():
     if commondata_file.is_file() and commondata_file.suffix == ".yaml":
         dataset_name = commondata_file.stem
 
         try:
-            with open(theory_path / f"{dataset_name}.json", "r", encoding="utf-8") as file:
+            with open(
+                theory_path / f"{dataset_name}.json", "r", encoding="utf-8"
+            ) as file:
                 theory_content = json.load(file)
         except FileNotFoundError:
             print(f"Warning: Theory file for {dataset_name} not found.")
@@ -64,7 +75,10 @@ for commondata_file in commondata_path.iterdir():
                 # Create item and append
                 item = CommentedMap(name=dataset_name, order=order)
                 seq.append(item)
-                seq.yaml_add_eol_comment("order: " + ", ".join(f"{order}" for order in available_orders), len(seq) - 1)
+                seq.yaml_add_eol_comment(
+                    "order: " + ", ".join(f"{order}" for order in available_orders),
+                    len(seq) - 1,
+                )
 
 
 with open("../data_summary.yaml", "w") as f:
