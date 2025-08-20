@@ -24,7 +24,7 @@ def _split_factors(s: str):
 
 
 @pytest.mark.parametrize("json_path", JSON_FILES, ids=[p.name for p in JSON_FILES])
-def test_theory_operator_keys_whitelisted(json_path):
+def test_theory_operator_keys_allowed(json_path):
     data = json.loads(json_path.read_text(encoding="utf-8"))
     assert isinstance(data, dict), f"{json_path.name}: top-level JSON must be an object"
 
@@ -52,6 +52,6 @@ def test_theory_operator_keys_whitelisted(json_path):
                 )
 
     if errors:
-        msg = ["Operator whitelist violations:"]
+        msg = ["Operator allowed list violations:"]
         msg.extend(f"- {e}" for e in errors)
         pytest.fail("\n".join(msg))
