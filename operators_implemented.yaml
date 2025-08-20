@@ -59,13 +59,15 @@ operators:
   - Opmu
   - Opta
   # Four-lepton
-  - Oll
   - Oll1111
+  - Oll2222
+  - Oll3333
   - Oll1122
   - Oll1133
   - Oll2233
-  - Oll2222
-  - Oll3333
+  - Oll # Oll1221
+  - Oll1331
+  - Oll2332
   # 2L2Q operators
   - OQlM1
   - OQl31
