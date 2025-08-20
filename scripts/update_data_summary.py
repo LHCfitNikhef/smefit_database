@@ -16,6 +16,7 @@ theory_path = pathlib.Path("../theory")
 
 experiments = [
     "proj",
+    "HLLHC",
     "LEP",
     "ATLAS_CMS",
     "ATLAS",
