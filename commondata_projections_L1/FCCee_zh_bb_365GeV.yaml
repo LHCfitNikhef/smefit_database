@@ -1,15 +1,13 @@
 dataset_name: FCCee_zh_bb_365GeV
 description: ZH inclusive production cross section times bb BR.
-location: Table 2
-arxiv: https://repository.cern/records/n2emg-43f06
 units: pb
-luminosity: 3120
+luminosity: 3000
 num_data: 1
 num_sys: 1
-data_central: 0.07088922948000377
+data_central: 0.07151542781729031
 statistical_error:
-  - 0.00027201768
+  - 0.0002530867472290889
 systematics:
   - 0.0
-sys_names: UNCORR
-sys_type: ADD
+sys_names:
+sys_type:

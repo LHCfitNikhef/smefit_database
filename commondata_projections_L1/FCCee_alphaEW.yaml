@@ -1,16 +1,12 @@
 dataset_name: FCCee_alphaEW
-doi:
-location: Table 4
-arxiv: https://repository.cern/records/n2emg-43f06
-units:
-luminosity: 205000
 description: Alpha EW.
+luminosity: 300000
 num_data: 1
 num_sys: 1
-data_central: 0.007802316812962194
+data_central: 0.007799720992640258
 statistical_error:
-  - 2.34535e-06
+  - 1.63465e-07
 systematics:
-  - 0.0
+  - 7.30025e-08
 sys_names: UNCORR
 sys_type: ADD

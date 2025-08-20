@@ -1,16 +1,16 @@
 dataset_name: FCCee_Brw_161GeV
 description: W leptonic branching ratio (first, second and third generation)
-luminosity: 19200
+luminosity: 20000
 num_data: 3
 num_sys: 3
 data_central:
-  - 0.10818600564385138
-  - 0.10840137053646637
-  - 0.10839602571518298
+  - 0.10828737020687851
+  - 0.1082549742953446
+  - 0.10827885877676041
 statistical_error:
-  - 2.88123e-05
-  - 2.88123e-05
-  - 2.88123e-05
+  - 2.94064e-05
+  - 2.94064e-05
+  - 2.94064e-05
 systematics:
   - - 0.0
     - 0.0

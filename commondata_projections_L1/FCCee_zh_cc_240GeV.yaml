@@ -1,15 +1,13 @@
 dataset_name: FCCee_zh_cc_240GeV
 description: ZH inclusive production cross section times cc BR.
-location: Table 2
-arxiv: https://repository.cern/records/n2emg-43f06
 units: pb
-luminosity: 10800
+luminosity: 10000
 num_data: 1
 num_sys: 1
-data_central: 0.017423210733310462
+data_central: 0.017180226725603
 statistical_error:
-  - 0.0002741984
+  - 0.00026659549054620436
 systematics:
   - 0.0
-sys_names: UNCORR
-sys_type: ADD
+sys_names:
+sys_type:

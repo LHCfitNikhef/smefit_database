@@ -1,15 +1,13 @@
 dataset_name: FCCee_Wwidth
 description: W total width.
-location: Table 6
-arxiv: https://repository.cern/records/n2emg-43f06
 units: GeV
-luminosity:
+luminosity: 300000
 num_data: 1
 num_sys: 1
-data_central: 2.045869515418969
+data_central: 2.046593344160977
 statistical_error:
-  - 0.00027
+  - 0.000848528
 systematics:
-  - 0.0002
+  - 0.0003
 sys_names: UNCORR
 sys_type: ADD

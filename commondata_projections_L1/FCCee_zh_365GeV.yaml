@@ -1,15 +1,13 @@
 dataset_name: FCCee_zh_365GeV
 description: ZH inclusive production cross section.
-location: Table 2
-arxiv: https://repository.cern/records/n2emg-43f06
 units: pb
-luminosity: 3120
+luminosity: 3000
 num_data: 1
 num_sys: 1
-data_central: 0.12133009414923197
+data_central: 0.12131242812032304
 statistical_error:
-  - 0.00062972
+  - 0.0007706758497011101
 systematics:
   - 0.0
-sys_names: UNCORR
-sys_type: ADD
+sys_names:
+sys_type:

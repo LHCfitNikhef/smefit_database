@@ -1,15 +1,13 @@
 dataset_name: FCCee_vvh_WW_365GeV
 description: Higgs production in VBF times W+W- BR.
-location: Table 2
-arxiv: https://repository.cern/records/n2emg-43f06
 units: pb
-luminosity: 3120
+luminosity: 3000
 num_data: 1
 num_sys: 1
-data_central: 0.00496629727340522
+data_central: 0.005047196908787696
 statistical_error:
-  - 0.00010498222000000002
+  - 0.000127258
 systematics:
   - 0.0
-sys_names: UNCORR
-sys_type: ADD
+sys_names: null
+sys_type: null
