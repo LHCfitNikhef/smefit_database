@@ -3,135 +3,46 @@ ATLAS_CMS:
   - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_CMS_tt_AC_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
 ATLAS:
-  - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_CMS_tt_AC_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_SSinc_RunII, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_STXS_runII_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_STXS_runII_13TeV_uncor, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_STXS_runII_13TeV_uncor_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_WH_Hbb_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_WH_Hbb_13TeV_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_WW_13TeV_2016_memu, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_WW_13TeV_2016_memu_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_WZ_13TeV_2016_mTWZ, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_WZ_13TeV_2016_mTWZ_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_WhelF_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_Whel_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_Whel_13TeV_uncor, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_Whel_13TeV_uncor_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ZH_Hbb_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_ZH_Hbb_13TeV_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ggF_13TeV_2015, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_ggF_13TeV_2015_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ggF_ZZ_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_ggF_ZZ_13TeV_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_hh_runII_13TeV, order: LO} # order: LO
   - {name: ATLAS_tW_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_tW_13TeV_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tW_8TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tW_slep_8TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tZ_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tZ_13TeV_run2_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_tZ_13TeV_run2_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_t_sch_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_t_sch_13TeV_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_t_sch_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_t_tch_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_t_tch_13TeV_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_t_tch_8TeV_diff_Yt, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttW_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttW_13TeV_2016, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_ttW_13TeV_2016_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttW_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttZ_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttZ_13TeV_2016, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttZ_13TeV_pTZ, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttZ_13TeV_pTZ_uncor, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_ttZ_13TeV_pTZ_uncor_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttZ_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tt_13TeV_asy_2022, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tt_13TeV_asy_2022_uncor, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_tt_13TeV_asy_2022_uncor_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tt_13TeV_ljets_2016_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_tt_13TeV_ljets_2016_Mtt_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tt_8TeV_dilep_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tt_8TeV_ljets_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tta_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_ttbb_13TeV_2016, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_ttbb_13TeV_2016_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tttt_13TeV_2023, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_tttt_13TeV_2023_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tttt_13TeV_run2, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_tttt_13TeV_run2_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tttt_13TeV_slep_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_tttt_13TeV_slep_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
-CMS:
-  - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: ATLAS_CMS_tt_AC_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_H_13TeV_2015_pTH, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_H_13TeV_2015_pTH_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_SSinc_RunII, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_SSinc_RunII_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_WZ_13TeV_2016_pTZ, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_WZ_13TeV_2016_pTZ_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_WZ_13TeV_2022_pTZ, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_WZ_13TeV_2022_pTZ_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_WhelF_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ggF_aa_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ggF_aa_13TeV_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tW_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tW_13TeV_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tW_13TeV_slep_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tW_13TeV_slep_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tW_8TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tZ_13TeV_2016_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tZ_13TeV_2016_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tZ_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tZ_13TeV_pTt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tZ_13TeV_pTt_uncor, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tZ_13TeV_pTt_uncor_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_t_sch_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_t_tch_13TeV_2019_diff_Yt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_t_tch_13TeV_2019_diff_Yt_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_t_tch_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_t_tch_8TeV_diff_Yt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_t_tch_8TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt2D_8TeV_dilep_MttYtt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttW_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttW_13TeV_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttW_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttZ_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttZ_13TeV_pTZ, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttZ_13TeV_pTZ_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttZ_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_Mtt_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_asy, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_asy_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_dilep_2015_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_dilep_2016_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_dilep_2016_Mtt_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_ljets_2015_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_ljets_2016_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_ljets_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_13TeV_ljets_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tt_8TeV_ljets_Ytt, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tta_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttbb_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttbb_13TeV_2016, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttbb_13TeV_2016_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttbb_13TeV_dilepton_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttbb_13TeV_dilepton_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttbb_13TeV_ljets_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_ttbb_13TeV_ljets_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tttt_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tttt_13TeV_2023, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tttt_13TeV_2023_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tttt_13TeV_run2, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tttt_13TeV_run2_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tttt_13TeV_slep_inc, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tttt_13TeV_slep_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
 HLLHC:
   - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_STXS_runII_13TeV_uncor_proj, order: NLO_QCD} # order: LO, NLO_QCD
@@ -241,6 +152,48 @@ CEPC_91:
   - {name: CEPC_Wwidth, order: LO} # order: LO
   - {name: CEPC_Zdata, order: LO} # order: LO
   - {name: CEPC_alphaEW, order: LO} # order: LO
+CMS:
+  - {name: CMS_H_13TeV_2015_pTH, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_SSinc_RunII, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_WZ_13TeV_2016_pTZ, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_WZ_13TeV_2022_pTZ, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_WhelF_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ggF_aa_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tW_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tW_13TeV_slep_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tW_8TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tZ_13TeV_2016_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tZ_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tZ_13TeV_pTt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tZ_13TeV_pTt_uncor, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_t_sch_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_t_tch_13TeV_2019_diff_Yt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_t_tch_13TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_t_tch_8TeV_diff_Yt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_t_tch_8TeV_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt2D_8TeV_dilep_MttYtt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttW_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttW_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttZ_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttZ_13TeV_pTZ, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttZ_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt_13TeV_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt_13TeV_asy, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt_13TeV_dilep_2015_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt_13TeV_dilep_2016_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt_13TeV_ljets_2015_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt_13TeV_ljets_2016_Mtt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt_13TeV_ljets_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tt_8TeV_ljets_Ytt, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tta_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttbb_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttbb_13TeV_2016, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttbb_13TeV_dilepton_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_ttbb_13TeV_ljets_inc, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tttt_13TeV, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tttt_13TeV_2023, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tttt_13TeV_run2, order: NLO_QCD} # order: LO, NLO_QCD
+  - {name: CMS_tttt_13TeV_slep_inc, order: NLO_QCD} # order: LO, NLO_QCD
 FCCee_161:
   - {name: FCCee_161_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: FCCee_161_ww_semilep_optim_obs, order: LO} # order: LO

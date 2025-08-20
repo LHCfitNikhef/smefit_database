@@ -15,13 +15,13 @@ commondata_path = pathlib.Path("../commondata_projections_L0")
 theory_path = pathlib.Path("../theory")
 
 experiments = [
+    "proj",
     "LEP",
     "ATLAS_CMS",
     "ATLAS",
     "ATLAS_uncor",
     "CMS",
     "CMS_uncor",
-    "proj",
     "FCCee",
     "CEPC",
 ]
@@ -81,6 +81,7 @@ for theory_file in sorted(theory_path.iterdir()):
                     "order: " + ", ".join(f"{order}" for order in available_orders),
                     len(seq) - 1,
                 )
+                break
 
 
 with open("../data_summary.yaml", "w") as f:
