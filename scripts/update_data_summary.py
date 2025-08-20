@@ -21,7 +21,7 @@ experiments = [
     "ATLAS_uncor",
     "CMS",
     "CMS_uncor",
-    "HLLHC_proj",
+    "proj",
     "FCCee",
     "CEPC",
 ]
@@ -64,6 +64,8 @@ for theory_file in sorted(theory_path.iterdir()):
                     except IndexError:
                         sqrts = "91"
                     exp_name = f"{exp}_{sqrts}"
+                elif exp == "proj":
+                    exp_name = "HLLHC"
                 else:
                     exp_name = exp
 
