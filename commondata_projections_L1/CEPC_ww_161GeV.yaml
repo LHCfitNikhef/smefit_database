@@ -1,12 +1,12 @@
 dataset_name: CEPC_ww_161GeV
 description: Fully inclusive W-pair production cross section
 units: pb
-luminosity: 6900
+luminosity: 6000
 num_data: 1
 num_sys: 1
 data_central: 2.8716635133639805
 statistical_error:
-  - 0.0005777507877308318
+  - 0.000712504
 systematics:
   - 0.0
 sys_names: UNCORR
