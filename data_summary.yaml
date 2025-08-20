@@ -1,10 +1,9 @@
-Info: Collection of all data implemented in SMEFiT, including the available theory
-  options.
+Info: Collection of all data implemented in SMEFiT, including the available theory options.
 ATLAS_CMS:
-  - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD}  # order: LO, NLO_QCD
+  - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_CMS_tt_AC_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
 ATLAS:
-  - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD}  # order: LO, NLO_QCD
+  - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_CMS_tt_AC_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_SSinc_RunII, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD} # order: LO, NLO_QCD
@@ -68,7 +67,7 @@ ATLAS:
   - {name: ATLAS_tttt_13TeV_slep_inc, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_tttt_13TeV_slep_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
 CMS:
-  - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD}  # order: LO, NLO_QCD
+  - {name: ATLAS_CMS_SSinc_RunI, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_CMS_tt_AC_8TeV, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_H_13TeV_2015_pTH, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_H_13TeV_2015_pTH_proj, order: NLO_QCD} # order: LO, NLO_QCD
@@ -134,7 +133,7 @@ CMS:
   - {name: CMS_tttt_13TeV_slep_inc, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_tttt_13TeV_slep_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
 HLLHC:
-  - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD}  # order: LO, NLO_QCD
+  - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_STXS_runII_13TeV_uncor_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_WH_Hbb_13TeV_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: ATLAS_WW_13TeV_2016_memu_proj, order: NLO_QCD} # order: LO, NLO_QCD
@@ -178,12 +177,12 @@ HLLHC:
   - {name: CMS_tttt_13TeV_run2_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_tttt_13TeV_slep_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
 CEPC_161:
-  - {name: CEPC_161_ww_leptonic_optim_obs, order: LO}  # order: LO
+  - {name: CEPC_161_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: CEPC_161_ww_semilep_optim_obs, order: LO} # order: LO
   - {name: CEPC_Brw_161GeV, order: LO} # order: LO
   - {name: CEPC_ww_161GeV, order: LO} # order: LO
 CEPC_240:
-  - {name: CEPC_240_ww_leptonic_optim_obs, order: LO}  # order: LO
+  - {name: CEPC_240_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: CEPC_240_ww_semilep_optim_obs, order: LO} # order: LO
   - {name: CEPC_Brw_240GeV, order: LO} # order: LO
   - {name: CEPC_bb_240GeV, order: LO} # order: LO
@@ -208,7 +207,7 @@ CEPC_240:
   - {name: CEPC_zh_gg_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_tautau_240GeV, order: NLO_EW} # order: LO, NLO_EW
 CEPC_365:
-  - {name: CEPC_365_tt_optim_obs, order: LO}  # order: LO
+  - {name: CEPC_365_tt_optim_obs, order: LO} # order: LO
   - {name: CEPC_365_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: CEPC_365_ww_semilep_optim_obs, order: LO} # order: LO
   - {name: CEPC_Brw_365GeV, order: LO} # order: LO
@@ -239,16 +238,16 @@ CEPC_365:
   - {name: CEPC_zh_gg_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_tautau_365GeV, order: NLO_EW} # order: LO, NLO_EW
 CEPC_91:
-  - {name: CEPC_Wwidth, order: LO}  # order: LO
+  - {name: CEPC_Wwidth, order: LO} # order: LO
   - {name: CEPC_Zdata, order: LO} # order: LO
   - {name: CEPC_alphaEW, order: LO} # order: LO
 FCCee_161:
-  - {name: FCCee_161_ww_leptonic_optim_obs, order: LO}  # order: LO
+  - {name: FCCee_161_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: FCCee_161_ww_semilep_optim_obs, order: LO} # order: LO
   - {name: FCCee_Brw_161GeV, order: LO} # order: LO
   - {name: FCCee_ww_161GeV, order: LO} # order: LO
 FCCee_240:
-  - {name: FCCee_240_H_HADR, order: NLO_EW_only_for_ZH}  # order: LO, NLO_EW_only_for_ZH
+  - {name: FCCee_240_H_HADR, order: NLO_EW_only_for_ZH} # order: LO, NLO_EW_only_for_ZH
   - {name: FCCee_240_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: FCCee_240_ww_semilep_optim_obs, order: LO} # order: LO
   - {name: FCCee_Brw_240GeV, order: LO} # order: LO
@@ -275,7 +274,7 @@ FCCee_240:
   - {name: FCCee_zh_gg_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_tautau_240GeV, order: NLO_EW} # order: LO, NLO_EW
 FCCee_365:
-  - {name: FCCee_365_H_HADR, order: NLO_EW_only_for_ZH}  # order: LO, NLO_EW_only_for_ZH
+  - {name: FCCee_365_H_HADR, order: NLO_EW_only_for_ZH} # order: LO, NLO_EW_only_for_ZH
   - {name: FCCee_365_tt_optim_obs, order: LO} # order: LO
   - {name: FCCee_365_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: FCCee_365_ww_semilep_optim_obs, order: LO} # order: LO
@@ -308,11 +307,11 @@ FCCee_365:
   - {name: FCCee_zh_gg_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_tautau_365GeV, order: NLO_EW} # order: LO, NLO_EW
 FCCee_91:
-  - {name: FCCee_Wwidth, order: LO}  # order: LO
+  - {name: FCCee_Wwidth, order: LO} # order: LO
   - {name: FCCee_Zdata, order: LO} # order: LO
   - {name: FCCee_alphaEW, order: LO} # order: LO
 LEP:
-  - {name: LEP1_EWPOs_2006, order: LO}  # order: LO
+  - {name: LEP1_EWPOs_2006, order: LO} # order: LO
   - {name: LEP_Bhabha_2013, order: LO} # order: LO
   - {name: LEP_Brw_2013, order: LO} # order: LO
   - {name: LEP_alphaEW, order: LO} # order: LO
