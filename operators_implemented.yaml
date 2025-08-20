@@ -33,6 +33,13 @@ operators:
   - OQt1
   - OQt8
   - Ott1
+  # 4Heavy (right-handed bottom, only included in tttt and ttbb datasets)
+  - OQb1
+  - OQb8
+  - Otb1
+  - Otb8
+  - OQtQb1
+  - OQtQb8
   # 2L2H four-quarks 
   - O81qq
   - O11qq
