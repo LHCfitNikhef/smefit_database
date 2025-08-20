@@ -31,7 +31,7 @@ data_summary = {
     "Info": "Collection of all data implemented in SMEFiT, including the available theory options."
 }
 
-for commondata_file in commondata_path.iterdir():
+for commondata_file in sorted(commondata_path.iterdir()):
     if commondata_file.is_file() and commondata_file.suffix == ".yaml":
         dataset_name = commondata_file.stem
 
