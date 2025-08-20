@@ -61,6 +61,11 @@ operators:
   # Four-lepton
   - Oll
   - Oll1111
+  - Oll1122
+  - Oll1133
+  - Oll2233
+  - Oll2222
+  - Oll3333
   # 2L2Q operators
   - OQlM1
   - OQl31
