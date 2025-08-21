@@ -3,37 +3,35 @@ from smefit import loader
 from smefit import compute_theory as pr
 from smefit.rge.rge import load_rge_matrix
 
-class CMS_DYMee_13TeV:
-    def __init__(self, coefficients, rge_dict=None, use_quad=True, order='LO'):
 
-        operators = {
-            k: {"max": 0.0, "min": 0.0} for k in coefficients.name
-        }
+class CMS_DYMee_13TeV:
+    def __init__(self, coefficients, rge_dict=None, use_quad=True, order="LO"):
+        operators = {k: {"max": 0.0, "min": 0.0} for k in coefficients.name}
 
         if rge_dict is not None:
             rgematrix, operators_to_keep = load_rge_matrix(
                 rge_dict=rge_dict,
                 coeff_list=list(operators.keys()),
-                datasets=[{'name': 'CMS_DYMee_13TeV', 'order': order}],
-                theory_path='./theory',
+                datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
+                theory_path="./theory",
                 cutoff_scale=None,
-                result_path='./results',
-                result_ID='CMS_DYMee_13TeV',
+                result_path="./results",
+                result_ID="CMS_DYMee_13TeV",
             )
         else:
-            operators_to_keep=operators
-            rgematrix=None
+            operators_to_keep = operators
+            rgematrix = None
 
         self.drell_yan_dataset = loader.load_datasets(
-            commondata_path='./commondata',
-            datasets=[{'name': 'CMS_DYMee_13TeV', 'order': order}],
+            commondata_path="./commondata",
+            datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
             operators_to_keep=operators_to_keep,
             use_quad=use_quad,
             use_theory_covmat=True,
             use_t0=False,
             use_multiplicative_prescription=False,
             default_order=order,
-            theory_path='./theory',
+            theory_path="./theory",
             rot_to_fit_basis=None,
             has_uv_couplings=False,
             has_external_chi2=True,
@@ -54,5 +52,5 @@ class CMS_DYMee_13TeV:
         # If the measured number of events is 0, manually put x*log(x)=0
         log_term = jnp.where(data > 1e-6, data * jnp.log(data / theory), 0.0)
 
-        chi2 = 2. * jnp.sum(theory - data + log_term)
+        chi2 = 2.0 * jnp.sum(theory - data + log_term)
         return chi2
