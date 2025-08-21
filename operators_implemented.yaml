@@ -75,9 +75,25 @@ operators:
   - Oll # Oll1221
   - Oll1331
   - Oll2332
+  - Ole1111
+  - Ole3311
+  - Ole1133
+  - Ole2211
+  - Ole1221
+  - Ole1122
+  - Oee1111
+  - Oee1133
+  - Oee1122
   # 2L2Q operators
   - OQlM1
   - OQl31
   - OQe
   - Otl1
   - Ote
+  # 2L2q operators
+  - OqlM1
+  - Oql31
+  - Oqe
+  - Olu
+  - Olb
+  - Oeb
