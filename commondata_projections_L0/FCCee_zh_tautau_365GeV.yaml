@@ -1,13 +1,15 @@
 dataset_name: FCCee_zh_tautau_365GeV
 description: ZH inclusive production cross section times tau+tau- BR.
+location: Table 2
+arxiv: https://repository.cern/records/n2emg-43f06
 units: pb
-luminosity: 3000
+luminosity: 3120
 num_data: 1
 num_sys: 1
 data_central: 0.00698612
 statistical_error:
-  - 8.891909210761087e-05
+  - 8.383344e-05
 systematics:
   - 0.0
-sys_names:
-sys_type:
+sys_names: UNCORR
+sys_type: ADD
