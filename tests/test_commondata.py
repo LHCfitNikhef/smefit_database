@@ -7,7 +7,6 @@ BASE_DIR = os.path.dirname(__file__)
 COMMONDATA_DIRS = [
     os.path.join(BASE_DIR, "..", "commondata"),
     os.path.join(BASE_DIR, "..", "commondata_projections_L0"),
-    os.path.join(BASE_DIR, "..", "commondata_projections_L1"),
 ]
 
 
