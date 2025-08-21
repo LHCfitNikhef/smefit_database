@@ -1,26 +1,25 @@
 dataset_name: LCF_tth_1000GeV
-description: tt~H production with polarised beams (+0.8,-0.2) and (-0.8,+0.2) at sqrts=1000
-  GeV
+description: tt~H production with polarised beams (+0.8,-0.2) and (-0.8,+0.2) at sqrts=1000 GeV
 units: pb
 luminosity:
-- 3200
-- 3200
+  - 3200
+  - 3200
 num_data: 2
 num_sys: 2
 data_central:
-- 0.0015211
-- 0.0031068
+  - 0.0015211
+  - 0.0031068
 statistical_error:
-- 8.68987e-05
-- 0.000124133
+  - 8.68987e-05
+  - 0.000124133
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

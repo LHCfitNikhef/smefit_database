@@ -230,7 +230,7 @@ G[+1][s1 V[j1], s2 V[j2], s3 V[j3], s4 V[j4], s5 V[j5], s6 V[j6]].{MetricTensor[
 
 (* FlippingRules: the flipping rules determines how Dirac
    objects change when the order of fermion fields in the
-   coupling is reversed. In other words, it defines how the 
+   coupling is reversed. In other words, it defines how the
    coupling C[F, -F, ...] is derived from C[-F, F, ...].*)
 
 M$FlippingRules = {
@@ -242,7 +242,7 @@ M$FlippingRules = {
 M$TruncationRules = {
   _PolarizationVector -> 1,
   _DiracSpinor -> 1,
-  _MajoranaSpinor -> 1 
+  _MajoranaSpinor -> 1
 }
 	(* LastGenericRules: the very last rules that are applied to an
 	   amplitude before it is returned by CreateFeynAmp. *)

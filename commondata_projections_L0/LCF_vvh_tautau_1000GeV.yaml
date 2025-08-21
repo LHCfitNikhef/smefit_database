@@ -1,26 +1,25 @@
 dataset_name: LCF_vvh_tautau_1000GeV
-description: Higgs production in VBF times tau tau BR with polarised beams (-0.8,+0.3)
-  and  (+0.8,-0.3) at sqrts=1000 GeV
+description: Higgs production in VBF times tau tau BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=1000 GeV
 units: pb
 luminosity:
-- 3200
-- 3200
+  - 3200
+  - 3200
 num_data: 2
 num_sys: 2
 data_central:
-- 0.012247351111111112
-- 0.012010826666666669
+  - 0.012247351111111112
+  - 0.012010826666666669
 statistical_error:
-- 0.0002082049688888889
-- 0.0007686929066666668
+  - 0.0002082049688888889
+  - 0.0007686929066666668
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD
