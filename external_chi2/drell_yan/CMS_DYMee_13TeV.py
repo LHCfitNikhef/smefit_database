@@ -2,20 +2,53 @@ import jax.numpy as jnp
 from smefit import loader
 from smefit import compute_theory as pr
 from smefit.rge.rge import load_rge_matrix
+import os
 
 
 class CMS_DYMee_13TeV:
-    def __init__(self, coefficients, rge_dict=None, use_quad=True, order="LO"):
+    def __init__(
+        self,
+        coefficients,
+        rge_dict=None,
+        use_quad=True,
+        order="LO",
+        save_rge_path=None,
+        rg_matrix=None,
+    ):
+        """
+        Initialize the CMS_DYMee_13TeV class.
+
+        coefficients: The Wilson coefficients to be used in the analysis.
+        rge_dict: A dictionary containing the RGE information.
+        use_quad: Whether to add the quadratic contributions.
+        order: The order of the calculation (e.g., "LO", "NLO_QCD").
+        save_rge_path: The path to save the RGE matrix.
+        rg_matrix: A pre-computed RGE matrix.
+        """
+
         operators = {k: {"max": 0.0, "min": 0.0} for k in coefficients.name}
+        theory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "theory")
+        commondata_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), "commondata"
+        )
+        if save_rge_path is not None:
+            os.makedirs(os.path.join(save_rge_path, "CMS_DYMee_13TeV"), exist_ok=True)
+
+        # If a pre-computed rge matrix is provided, add it to the rge_dict
+        # If not, set it to False in case it was defined for the datasets
+        if rg_matrix is not None:
+            rge_dict["rg_matrix"] = rg_matrix
+        else:
+            rge_dict["rg_matrix"] = False
 
         if rge_dict is not None:
             rgematrix, operators_to_keep = load_rge_matrix(
                 rge_dict=rge_dict,
                 coeff_list=list(operators.keys()),
                 datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
-                theory_path="./theory",
+                theory_path=theory_path,
                 cutoff_scale=None,
-                result_path="./results",
+                result_path=save_rge_path,
                 result_ID="CMS_DYMee_13TeV",
             )
         else:
@@ -23,7 +56,7 @@ class CMS_DYMee_13TeV:
             rgematrix = None
 
         self.drell_yan_dataset = loader.load_datasets(
-            commondata_path="./commondata",
+            commondata_path=commondata_path,
             datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
             operators_to_keep=operators_to_keep,
             use_quad=use_quad,
@@ -31,7 +64,7 @@ class CMS_DYMee_13TeV:
             use_t0=False,
             use_multiplicative_prescription=False,
             default_order=order,
-            theory_path="./theory",
+            theory_path=theory_path,
             rot_to_fit_basis=None,
             has_uv_couplings=False,
             has_external_chi2=True,
