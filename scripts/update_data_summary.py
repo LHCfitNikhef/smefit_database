@@ -15,13 +15,14 @@ commondata_path = pathlib.Path("../commondata_projections_L0")
 theory_path = pathlib.Path("../theory")
 
 experiments = [
+    "proj",
+    "HLLHC",
     "LEP",
     "ATLAS_CMS",
     "ATLAS",
     "ATLAS_uncor",
     "CMS",
     "CMS_uncor",
-    "HLLHC_proj",
     "FCCee",
     "CEPC",
 ]
@@ -31,9 +32,9 @@ data_summary = {
     "Info": "Collection of all data implemented in SMEFiT, including the available theory options."
 }
 
-for commondata_file in commondata_path.iterdir():
-    if commondata_file.is_file() and commondata_file.suffix == ".yaml":
-        dataset_name = commondata_file.stem
+for theory_file in sorted(theory_path.iterdir()):
+    if theory_file.is_file() and theory_file.suffix == ".json":
+        dataset_name = theory_file.stem
 
         try:
             with open(
@@ -64,6 +65,8 @@ for commondata_file in commondata_path.iterdir():
                     except IndexError:
                         sqrts = "91"
                     exp_name = f"{exp}_{sqrts}"
+                elif exp == "proj":
+                    exp_name = "HLLHC"
                 else:
                     exp_name = exp
 
@@ -79,6 +82,7 @@ for commondata_file in commondata_path.iterdir():
                     "order: " + ", ".join(f"{order}" for order in available_orders),
                     len(seq) - 1,
                 )
+                break
 
 
 with open("../data_summary.yaml", "w") as f:
