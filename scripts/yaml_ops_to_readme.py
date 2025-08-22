@@ -96,7 +96,7 @@ def build_generated_section(
         "This section is auto-generated from `operators_implemented.yaml`. "
         "Do not edit it manually.\n\n"
         "Each entry defines the Wilson coefficient `cX`, corresponding to the SMEFiT operator `OX`, "
-        "as used in the JSON data tables.\n\n"
+        "as used in the JSON theory tables.\n\n"
     )
     parts = [header]
     for cat in seen_cats:
