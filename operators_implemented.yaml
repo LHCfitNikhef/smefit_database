@@ -6,8 +6,8 @@
 # (https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf)
 
 # Operator indices:
-#  - "i" indicates that the definition assumes the first two up-quark generations (i = 1, 2) are identical.
-#  - "j" indicates that the three down-quark generations (j = 1, 2, 3) are treated as identical.
+#  - "i" indicates that the definition assumes the first two right-handed up-quark and left-handed quark doublet generations (i = 1, 2) are identical.
+#  - "j" indicates that the three right-handed down-quark generations (j = 1, 2, 3) are treated as identical.
 # This is to reflect our flavour symmetry assumptions.
 
 operators:
