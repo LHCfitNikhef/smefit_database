@@ -1,9 +1,9 @@
 # List of SMEFT operator implemented
-# Definitions are in terms of the Warsaw basis coefficients from wcxf 
-# (https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf)
 
 # Definitions are in terms of the Wilson coefficients, e.g.
 # OpQM: "phiq1_33 - phiq3_33" means --> cpQM = cphiq1_33 - cphiq3_33
+# where the second are Warsaw basis coefficients from wcxf
+# (https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf)
 
 # Operator indices:
 #  - "i" indicates that the definition assumes the first two up-quark generations (i = 1, 2) are identical.
