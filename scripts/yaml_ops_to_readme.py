@@ -97,6 +97,10 @@ def build_generated_section(
         "Do not edit it manually.\n\n"
         "Each entry defines the Wilson coefficient `cX`, corresponding to the SMEFiT operator `OX`, "
         "as used in the JSON theory tables.\n\n"
+        "**Operator index conventions:**\n"
+        "- `i` denotes the first two up-quark generations (i = 1, 2), assumed identical.\n"
+        "- `j` denotes the three down-quark generations (j = 1, 2, 3), assumed identical.\n\n"
+        "These conventions reflect the flavour-symmetry assumptions adopted in SMEFiT.\n\n"
     )
     parts = [header]
     for cat in seen_cats:
