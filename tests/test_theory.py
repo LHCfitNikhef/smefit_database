@@ -117,3 +117,40 @@ def test_diag_quadratics_exist(json_path):
         msg = ["Quadratic term violations:"]
         msg.extend(f"- {e}" for e in errors)
         pytest.fail("\n".join(msg))
+
+
+@pytest.mark.parametrize("json_path", JSON_FILES, ids=[p.name for p in JSON_FILES])
+def test_theory_operator_correct_length(json_path):
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    assert isinstance(data, dict), f"{json_path.name}: top-level JSON must be an object"
+
+    errors = []  # collect all problems for this file
+    # check best_sm is there
+    assert "best_sm" in data, f"{json_path.name}: missing 'best_sm' key"
+    # get length of array best_sm
+    best_sm_length = len(data["best_sm"])
+
+    for top_key, section in data.items():
+        if top_key in SKIP_TOP_LEVEL_KEYS:
+            continue
+        if not isinstance(section, dict):
+            errors.append(
+                f"section '{top_key}' should be an object, found {type(section).__name__}"
+            )
+            continue
+
+        for contrib_key, contrib_value in section.items():
+            # get length
+            contrib_length = len(contrib_value)
+
+            if contrib_length != best_sm_length:
+                errors.append(
+                    f"{json_path.name} → '{top_key}': "
+                    f"contribution '{contrib_key}' has length {contrib_length}, "
+                    f"expected {best_sm_length}"
+                )
+
+    if errors:
+        msg = ["Operator array length violations:"]
+        msg.extend(f"- {e}" for e in errors)
+        pytest.fail("\n".join(msg))
