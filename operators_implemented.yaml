@@ -44,12 +44,12 @@ operators:
   OQt8: "qu8_3333"
   Ott1: "uu_3333"
   # 4Heavy (right-handed bottom, only included in tttt and ttbb datasets)
-  OQb1: "TODO"
-  OQb8: "TODO"
-  Otb1: "TODO"
-  Otb8: "TODO"
-  OQtQb1: "TODO"
-  OQtQb8: "TODO"
+  OQb1: "qd1_3333"
+  OQb8: "qd8_3333"
+  Otb1: "ud1_3333"
+  Otb8: "ud8_3333"
+  OQtQb1: "quqd1_3333"
+  OQtQb8: "quqd8_3333"
   # 2L2H four-quarks 
   O81qq: "qq1_i33i + 3 * qq3_i33i"
   O11qq: "qq1_ii33 + 1/6 * qq1_i33i + 1/2 * qq3_i33i"
