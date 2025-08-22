@@ -1,4 +1,3 @@
-# If src layout:
 from pathlib import Path
 import sys
 
