@@ -1,0 +1,99 @@
+# List of SMEFT operator implemented
+
+operators:
+  # Bosonic
+  - Op
+  - OpG
+  - OpB
+  - OpW
+  - OpWB
+  - OpBox
+  - OpD
+  - OWWW
+  # Dipoles
+  - OtW
+  - OtG
+  - OtZ
+  # Quark currents
+  - OpQM
+  - O3pQ3
+  - Opt
+  - OpqMi
+  - O3pq
+  - Opui
+  - Opdi
+  # Yukawa
+  - Otp
+  - Ocp
+  - Obp
+  - Otap
+  # 4Heavy four-quarks
+  - OQQ1
+  - OQQ8
+  - OQt1
+  - OQt8
+  - Ott1
+  # 4Heavy (right-handed bottom, only included in tttt and ttbb datasets)
+  - OQb1
+  - OQb8
+  - Otb1
+  - Otb8
+  - OQtQb1
+  - OQtQb8
+  # 2L2H four-quarks 
+  - O81qq
+  - O11qq
+  - O83qq
+  - O13qq
+  - O8qt
+  - O1qt
+  - O8ut
+  - O1ut
+  - O8qu
+  - O1qu
+  - O8dt
+  - O1dt
+  - O8qd
+  - O1qd
+  # Lepton currents
+  - Opl1
+  - Opl2
+  - Opl3
+  - O3pl1
+  - O3pl2
+  - O3pl3
+  - Ope
+  - Opmu
+  - Opta
+  # Four-lepton
+  - Oll1111
+  - Oll2222
+  - Oll3333
+  - Oll1122
+  - Oll1133
+  - Oll2233
+  - Oll # Oll1221
+  - Oll1331
+  - Oll2332
+  - Ole1111
+  - Ole3311
+  - Ole1133
+  - Ole2211
+  - Ole1221
+  - Ole1122
+  - Oee1111
+  - Oee1133
+  - Oee1122
+  # 2L2Q operators
+  - OQlM1
+  - OQl31
+  - OQe
+  - Otl1
+  - Ote
+  # 2L2q operators
+  - OqlM1
+  - Oql31
+  - Oqe
+  - Olu
+  - Olb
+  - Oeb
