@@ -1,5 +1,6 @@
-# smefit_database
-Repository for experimental data and theory calculations database
+# SMEFiT Database
+
+This repository collects the **experimental datasets** and **theoretical calculations** used in the SMEFiT global analysis framework.  
 
 <!-- BEGIN: SMEFT-OPERATORS -->
 ## SMEFiT Wilson coefficients
