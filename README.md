@@ -9,7 +9,7 @@ Definitions are given in terms of the [Warsaw basis (WCxf)](https://wcxf.github.
 
 This section is auto-generated from `operators_implemented.yaml`. Do not edit it manually.
 
-Each entry defines the Wilson coefficient `cX`, corresponding to the SMEFiT operator `OX`, as used in the JSON data tables.
+Each entry defines the Wilson coefficient `cX`, corresponding to the SMEFiT operator `OX`, as used in the JSON theory tables.
 
 ### Bosonic
 
