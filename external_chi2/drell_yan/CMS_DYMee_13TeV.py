@@ -12,6 +12,10 @@ class CMS_DYMee_13TeV:
         rge_dict=None,
         use_quad=True,
         order="LO",
+        use_theory_covmat=True,
+        use_t0=True,
+        use_multiplicative_prescription=False,
+        cutoff_scale=None,
         save_rge_path=None,
         rg_matrix=None,
     ):
@@ -22,6 +26,10 @@ class CMS_DYMee_13TeV:
         rge_dict: A dictionary containing the RGE information.
         use_quad: Whether to add the quadratic contributions.
         order: The order of the calculation (e.g., "LO", "NLO_QCD").
+        use_theory_covmat: Whether to use the theory covariance matrix.
+        use_t0: Whether to use the t0 prescription.
+        use_multiplicative_prescription: Whether to use the multiplicative prescription.
+        cutoff_scale: The cutoff scale for the data kinematics.
         save_rge_path: The path to save the RGE matrix.
         rg_matrix: A pre-computed RGE matrix.
         """
@@ -47,7 +55,7 @@ class CMS_DYMee_13TeV:
                 coeff_list=list(operators.keys()),
                 datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
                 theory_path=theory_path,
-                cutoff_scale=None,
+                cutoff_scale=cutoff_scale,
                 result_path=save_rge_path,
                 result_ID="CMS_DYMee_13TeV",
             )
@@ -60,16 +68,13 @@ class CMS_DYMee_13TeV:
             datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
             operators_to_keep=operators_to_keep,
             use_quad=use_quad,
-            use_theory_covmat=True,
-            use_t0=False,
-            use_multiplicative_prescription=False,
+            use_theory_covmat=use_theory_covmat,
+            use_t0=use_t0,
+            use_multiplicative_prescription=use_multiplicative_prescription,
             default_order=order,
             theory_path=theory_path,
-            rot_to_fit_basis=None,
-            has_uv_couplings=False,
-            has_external_chi2=True,
             rgemat=rgematrix,
-            cutoff_scale=None,
+            cutoff_scale=cutoff_scale,
         )
         self.use_quad = use_quad
 
