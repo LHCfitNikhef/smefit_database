@@ -8,7 +8,9 @@ Repository for experimental data and theory calculations database
 
 Auto-generated from `operators_implemented.yaml`. Do not edit this section by hand.
 
-Definitions are in terms of wilson coefficients cX, corresponding to the SMEFiT operators OX.### Bosonic
+Definitions are in terms of wilson coefficients cX, corresponding to the SMEFiT operators OX.
+
+### Bosonic
 
 ```text
 cp = phi
