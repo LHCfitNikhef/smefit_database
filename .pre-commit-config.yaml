@@ -23,3 +23,12 @@ repos:
     hooks:
       - id: yamlfmt
         name: Format YAML with yamlfmt
+  - repo: local
+    hooks:
+      - id: update-smeft-operators-readme
+        name: Update README from operators_implemented.yaml
+        entry: scripts/yaml_ops_to_readme.py
+        language: python
+        additional_dependencies: [pyyaml]
+        pass_filenames: false
+        files: ^operators_implemented\.yaml$
