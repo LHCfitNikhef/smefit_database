@@ -90,8 +90,10 @@ def build_generated_section(
         grouped[cat_by_op.get(op, "Uncategorised")].append((op_to_coeff_name(op), expr))
 
     header = (
-        "## SMEFiT Wilson coefficients (Warsaw / WCxf https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf)\n\n"
+        "## SMEFiT Wilson coefficients\n\n"
+        "(Warsaw WCxf https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf)\n\n"
         "Auto-generated from `operators_implemented.yaml`. Do not edit this section by hand.\n\n"
+        "Definitions are in terms of wilson coefficients cX, corresponding to the SMEFiT operators OX."
     )
     parts = [header]
     for cat in seen_cats:
