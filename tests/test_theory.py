@@ -3,6 +3,7 @@ import yaml
 from pathlib import Path
 import pytest
 import re
+import numpy as np
 
 SKIP_TOP_LEVEL_KEYS = {"best_sm", "scales", "theory_cov"}
 
@@ -154,3 +155,42 @@ def test_theory_operator_correct_length(json_path):
         msg = ["Operator array length violations:"]
         msg.extend(f"- {e}" for e in errors)
         pytest.fail("\n".join(msg))
+
+
+@pytest.mark.parametrize("json_path", JSON_FILES, ids=[p.name for p in JSON_FILES])
+def test_scales_correct_length(json_path):
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    assert isinstance(data, dict), f"{json_path.name}: top-level JSON must be an object"
+
+    errors = []  # collect all problems for this file
+    # check best_sm is there
+    assert "best_sm" in data, f"{json_path.name}: missing 'best_sm' key"
+    # get length of array best_sm
+    best_sm_length = len(data["best_sm"])
+
+    assert "scales" in data, f"{json_path.name}: missing 'scales' key"
+    scales_length = len(data["scales"])
+
+    assert (
+        scales_length == best_sm_length
+    ), f"{json_path.name}: 'scales' length {scales_length} does not match 'best_sm' length {best_sm_length}"
+
+
+@pytest.mark.parametrize("json_path", JSON_FILES, ids=[p.name for p in JSON_FILES])
+def test_theory_cov_correct_shape(json_path):
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    assert isinstance(data, dict), f"{json_path.name}: top-level JSON must be an object"
+
+    errors = []  # collect all problems for this file
+    # check best_sm is there
+    assert "best_sm" in data, f"{json_path.name}: missing 'best_sm' key"
+    # get length of array best_sm
+    best_sm_length = len(data["best_sm"])
+
+    assert "theory_cov" in data, f"{json_path.name}: missing 'theory_cov' key"
+    theory_cov_shape = np.array(data["theory_cov"]).shape
+
+    assert theory_cov_shape == (
+        best_sm_length,
+        best_sm_length,
+    ), f"{json_path.name}: 'theory_cov' shape {theory_cov_shape} does not match expected shape {(best_sm_length, best_sm_length)}"
