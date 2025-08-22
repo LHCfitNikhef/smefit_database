@@ -5,11 +5,11 @@ This repository collects the **experimental datasets** and **theoretical calcula
 <!-- BEGIN: SMEFT-OPERATORS -->
 ## SMEFiT Wilson coefficients
 
-(Warsaw WCxf https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf)
+Definitions are given in terms of the [Warsaw basis (WCxf)](https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf).
 
-Auto-generated from `operators_implemented.yaml`. Do not edit this section by hand.
+This section is auto-generated from `operators_implemented.yaml`. Do not edit it manually.
 
-Definitions are in terms of wilson coefficients cX, corresponding to the SMEFiT operators OX.
+Each entry defines the Wilson coefficient `cX`, corresponding to the SMEFiT operator `OX`, as used in the JSON data tables.
 
 ### Bosonic
 

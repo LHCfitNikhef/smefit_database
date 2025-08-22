@@ -91,9 +91,12 @@ def build_generated_section(
 
     header = (
         "## SMEFiT Wilson coefficients\n\n"
-        "(Warsaw WCxf https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf)\n\n"
-        "Auto-generated from `operators_implemented.yaml`. Do not edit this section by hand.\n\n"
-        "Definitions are in terms of wilson coefficients cX, corresponding to the SMEFiT operators OX.\n\n"
+        "Definitions are given in terms of the "
+        "[Warsaw basis (WCxf)](https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf).\n\n"
+        "This section is auto-generated from `operators_implemented.yaml`. "
+        "Do not edit it manually.\n\n"
+        "Each entry defines the Wilson coefficient `cX`, corresponding to the SMEFiT operator `OX`, "
+        "as used in the JSON data tables.\n\n"
     )
     parts = [header]
     for cat in seen_cats:
