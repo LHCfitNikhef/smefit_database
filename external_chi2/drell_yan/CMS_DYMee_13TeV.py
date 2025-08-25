@@ -82,9 +82,9 @@ class CMS_DYMee_13TeV:
     def compute_chi2(self, coefficient_values):
         # Compute theory predictions
         theory = pr.make_predictions(
-            dataset=self.drell_yan_dataset, 
-            coefficients_values=coefficient_values, 
-            use_quad=self.use_quad, 
+            dataset=self.drell_yan_dataset,
+            coefficients_values=coefficient_values,
+            use_quad=self.use_quad,
             use_multiplicative_prescription=self.use_multiplicative_prescription,
         )
 
