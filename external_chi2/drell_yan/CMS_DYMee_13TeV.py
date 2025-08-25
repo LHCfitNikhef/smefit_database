@@ -82,7 +82,10 @@ class CMS_DYMee_13TeV:
     def compute_chi2(self, coefficient_values):
         # Compute theory predictions
         theory = pr.make_predictions(
-            self.drell_yan_dataset, coefficient_values, self.use_quad, self.use_multiplicative_prescription
+            dataset=self.drell_yan_dataset, 
+            coefficients_values=coefficient_values, 
+            use_quad=self.use_quad, 
+            use_multiplicative_prescription=self.use_multiplicative_prescription
         )
 
         theory = jnp.where(theory > 0, theory, 1e-6)
