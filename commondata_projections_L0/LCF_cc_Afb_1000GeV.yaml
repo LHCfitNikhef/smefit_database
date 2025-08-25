@@ -1,0 +1,47 @@
+dataset_name: LCF_cc_Afb_1000GeV
+description: 'Light difermion (cc) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 800.0
+  - 3200.0
+  - 3200.0
+  - 800.0
+num_data: 4
+num_sys: 4
+data_central:
+  - 0.5621570310998957
+  - 0.5594347632793152
+  - 0.6184375627489329
+  - 0.6093649374354777
+statistical_error:
+  - 0.0008382698186591651
+  - 0.0004181188389977017
+  - 0.0004396154437221713
+  - 0.0008727577967536853
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
+  - ADD

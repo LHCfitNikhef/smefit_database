@@ -1,0 +1,25 @@
+dataset_name: LCF_zh_xstot_250GeV
+description: ZH inclusive production cross section with polarised beams (-0.8,+0.3) and (+0.8,-0.3) at sqrts=250 GeV
+units: pb
+luminosity:
+  - 1350
+  - 1350
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.35428113197223243
+  - 0.240962823051086
+statistical_error:
+  - 0.0030951818624850957
+  - 0.0021051749363253766
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD

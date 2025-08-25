@@ -1,0 +1,13 @@
+dataset_name: LCF_alphaEW_250GeV
+description: Alpha EW.
+luminosity:
+  - 270000
+num_data: 1
+num_sys: 1
+data_central: 0.007799703611262771
+statistical_error:
+  - 9.319861058016946e-07
+systematics:
+  - 0.0
+sys_names: UNCORR
+sys_type: ADD

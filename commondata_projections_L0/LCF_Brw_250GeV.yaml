@@ -1,0 +1,76 @@
+dataset_name: LCF_Brw_250GeV
+description: W leptonic branching ratio (first, second and third generation for first polarization and then same for second polarization). From 1907.04311
+luminosity:
+  - 1350
+  - 1350
+  - 1350
+  - 1350
+  - 1350
+  - 1350
+num_data: 6
+num_sys: 6
+data_central:
+  - 0.1083
+  - 0.1083
+  - 0.1083
+  - 0.1083
+  - 0.1083
+  - 0.1083
+statistical_error:
+  - 4.810405936467316e-05
+  - 4.810405936467316e-05
+  - 4.810405936467316e-05
+  - 0.00018215875421181382
+  - 0.00018215875421181382
+  - 0.00018215875421181382
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD

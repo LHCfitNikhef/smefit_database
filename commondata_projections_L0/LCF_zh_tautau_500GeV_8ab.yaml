@@ -1,0 +1,25 @@
+dataset_name: LCF_zh_tautau_500GeV_8ab
+description: ZH inclusive production cross section times tau tau BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
+units: pb
+luminosity:
+  - 3200
+  - 3200
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.003311310333446405
+  - 0.004868530167394453
+statistical_error:
+  - 5.666308979171159e-05
+  - 8.331021083777667e-05
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
