@@ -78,6 +78,7 @@ ctb1 = ud1_3333
 ctb8 = ud8_3333
 cQtQb1 = quqd1_3333
 cQtQb8 = quqd8_3333
+cbb = dd_3333
 ```
 
 ### 2L2H four-quarks
@@ -119,21 +120,28 @@ cpta = phie_33
 cll1111 = ll_1111
 cll2222 = ll_2222
 cll3333 = ll_3333
-cll1122 = ll_1122
-cll1133 = ll_1133
-cll2233 = ll_2233
+cll1122 = 1/2 * ll_1122
+cll1133 = 1/2 * ll_1133
+cll2233 = 1/2 * ll_2233
 cll = 1/2 * ll_1221
-cll1331 = ll_1331
-cll2332 = ll_2332
+cll1331 = 1/2 * ll_1331
+cll2332 = 1/2 * ll_2332
 cle1111 = le_1111
+cle2222 = le_2222
+cle3333 = le_3333
 cle3311 = le_3311
+cle3322 = le_3322
 cle1133 = le_1133
 cle2211 = le_2211
 cle1221 = le_1221
 cle1122 = le_1122
+cle2233 = le_2233
 cee1111 = ee_1111
-cee1133 = ee_1133
-cee1122 = ee_1122
+cee2222 = ee_2222
+cee3333 = ee_3333
+cee1133 = 1/4 * ee_1133
+cee1122 = 1/4 * ee_1122
+cee2233 = 1/4 * ee_2233
 ```
 
 ### 2L2Q operators
@@ -141,9 +149,15 @@ cee1122 = ee_1122
 ```text
 cQl1M = lq1_1133 - lq3_1133
 cQl13 = lq3_1133
+cQl3M = lq1_3333 - lq3_3333
+cQl33 = lq3_3333
 cQe = qe_3311
+cQta = qe_3333
 ctl1 = lu_1133
+ctl2 = lu_2233
+ctl3 = lu_3333
 cte = eu_1133
+ctta = eu_3333
 ```
 
 ### 2L2q operators
