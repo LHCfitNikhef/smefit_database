@@ -170,7 +170,7 @@ class OptimalWW:
 
 class OptimalttFCC365:
     def __init__(self, coefficients, rgemat=None):
-        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
+        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQl1M", "OQe", "Otl1", "Ote"]
 
         self.project = np.zeros((len(oo_tt_wc_basis), coefficients.size))
         for i, op in enumerate(oo_tt_wc_basis):
