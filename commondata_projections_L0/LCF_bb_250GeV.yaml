@@ -1,0 +1,47 @@
+dataset_name: LCF_bb_250GeV
+description: 'Light difermion (bb) production at ILC. Observable: inclusive cross section. Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 150
+  - 1350
+  - 1350
+  - 150
+num_data: 4
+num_sys: 4
+data_central:
+  - 0.2447466161614509
+  - 0.4404246563578048
+  - 0.1222706908864558
+  - 0.1001311773108377
+statistical_error:
+  - 0.0012773582534837305
+  - 0.000571174654716897
+  - 0.00030094996617065006
+  - 0.0008170319345486146
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
+  - ADD

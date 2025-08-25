@@ -1,0 +1,25 @@
+dataset_name: LCF_vvh_bb_250GeV
+description: Higgs production in VBF times bb BR with polarised beams (-0.8,+0.3) and (+0.8,-0.3) at sqrts=250 GeV
+units: pb
+luminosity:
+  - 1350
+  - 1350
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.0047223866666666675
+  - 0.004620715555555556
+statistical_error:
+  - 0.000164643196617391
+  - 0.0006564669307438164
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
