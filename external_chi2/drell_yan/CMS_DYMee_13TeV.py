@@ -85,7 +85,7 @@ class CMS_DYMee_13TeV:
             dataset=self.drell_yan_dataset, 
             coefficients_values=coefficient_values, 
             use_quad=self.use_quad, 
-            use_multiplicative_prescription=self.use_multiplicative_prescription
+            use_multiplicative_prescription=self.use_multiplicative_prescription,
         )
 
         theory = jnp.where(theory > 0, theory, 1e-6)
