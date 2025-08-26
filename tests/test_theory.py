@@ -3,6 +3,7 @@ import yaml
 from pathlib import Path
 import pytest
 import re
+import numpy as np
 
 SKIP_TOP_LEVEL_KEYS = {"best_sm", "scales", "theory_cov"}
 
@@ -85,5 +86,40 @@ def test_theory_operator_keys_allowed(json_path):
 
     if errors:
         msg = ["Operator allowed list violations:"]
+        msg.extend(f"- {e}" for e in errors)
+        pytest.fail("\n".join(msg))
+
+
+@pytest.mark.parametrize("json_path", JSON_FILES, ids=[p.name for p in JSON_FILES])
+def test_best_sm_against_theory_SM(json_path):
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    assert isinstance(data, dict), f"{json_path.name}: top-level JSON must be an object"
+
+    errors = []  # collect all problems for this file
+
+    assert "best_sm" in data, f"{json_path.name}: missing 'best_sm' key"
+    best_sm = data["best_sm"]
+
+    for top_key, section in data.items():
+        if top_key in SKIP_TOP_LEVEL_KEYS:
+            continue
+        if not isinstance(section, dict):
+            errors.append(
+                f"section '{top_key}' should be an object, found {type(section).__name__}"
+            )
+            continue
+
+        theory_sm = section["SM"]
+        if top_key == "LO" and ("_asy" in json_path.name or "_AC_" in json_path.name):
+            # special case for LO asymmetries where SM=0, no check
+            continue
+        # test that they are decently close (100%), collect all errors
+        try:
+            np.testing.assert_allclose(theory_sm, best_sm, rtol=1)
+        except AssertionError as e:
+            errors.append(f"{json_path.name} → '{top_key}': {e}")
+
+    if errors:
+        msg = ["Best SM against theory SM violations:"]
         msg.extend(f"- {e}" for e in errors)
         pytest.fail("\n".join(msg))
