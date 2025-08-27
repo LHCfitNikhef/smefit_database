@@ -1,0 +1,47 @@
+dataset_name: LCF_ee_Afb_1000GeV
+description: 'Light difermion (ee) production at LCF. Observable: FB asymmetry (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 800.0
+  - 3200.0
+  - 3200.0
+  - 800.0
+num_data: 4
+num_sys: 4
+data_central:
+  - 0.9583038702800712
+  - 0.969154678216741
+  - 0.9651429351911112
+  - 0.9545684605000726
+statistical_error:
+  - 0.0010944769699952983
+  - 0.0005503279358189365
+  - 0.0005491877340647934
+  - 0.0010923417851684933
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
+  - ADD

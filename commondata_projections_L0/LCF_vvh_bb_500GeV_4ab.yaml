@@ -1,0 +1,25 @@
+dataset_name: LCF_vvh_bb_500GeV_4ab
+description: Higgs production in VBF times bb BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
+units: pb
+luminosity:
+  - 1600
+  - 1600
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.04472937777777778
+  - 0.04374813333333334
+statistical_error:
+  - 0.00018786338666666668
+  - 0.0006649716266666668
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
