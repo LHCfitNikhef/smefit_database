@@ -1,5 +1,5 @@
 dataset_name: LCF_ee_Afb_1000GeV
-description: 'Light difermion (ee) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
+description: 'Light difermion (ee) production at LCF. Observable: FB asymmetry (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
 units: pb
 luminosity:
   - 800.0

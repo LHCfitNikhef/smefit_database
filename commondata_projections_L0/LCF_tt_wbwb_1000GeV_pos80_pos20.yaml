@@ -1,4 +1,4 @@
-dataset_name: ILC_tt_wbwb_1000GeV_pos80_pos20
+dataset_name: LCF_tt_wbwb_1000GeV_pos80_pos20
 num_data: 8
 num_sys: 8
 data_central:

@@ -1,4 +1,4 @@
-dataset_name: ILC_ww_semilep_optim_obs_1000GeV_pos80_neg20
+dataset_name: LCF_ww_semilep_optim_obs_1000GeV_pos80_neg20
 num_data: 6
 num_sys: 6
 data_central:

@@ -1,5 +1,5 @@
 dataset_name: LCF_tautau_Afb_1000GeV
-description: 'Light difermion (tautau) production at ILC. Observable: FB asymmetry (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
+description: 'Light difermion (tautau) production at LCF. Observable: FB asymmetry (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
 units: pb
 luminosity:
   - 800.0
