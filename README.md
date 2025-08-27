@@ -167,7 +167,10 @@ cql1M = lq1_11ii - lq3_11ii
 cql13 = lq3_11ii
 cqe = qe_ii11
 cl1u = lu_11ii
+cl1d = ld_11ii
 cl1b = ld_1133
+ceu = eu_11ii
+ced = ed_11ii
 ceb = ed_1133
 ```
 
