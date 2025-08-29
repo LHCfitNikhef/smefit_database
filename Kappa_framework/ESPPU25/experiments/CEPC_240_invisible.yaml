@@ -1,0 +1,15 @@
+dataset_name: CEPC_240_invisible.yaml
+doi: none
+location: Table II
+arxiv: '2205.08553'
+hepdata: none
+units: none
+description: CEPC 240 ZH and VBF (WW) production and total width, Invisible Branching Ratio constraints
+num_data: 1
+num_sys: 1
+data_central: 0.0
+statistical_error: 0.00032637668288410985
+systematics:
+  - 0.0
+sys_names: null
+sys_type: null

@@ -1,0 +1,47 @@
+dataset_name: FCC_hh84TeV
+doi: https://indico.cern.ch/event/1439855/contributions/6461619/
+location: Table 3
+arxiv: '-'
+hepdata: none
+units: none
+description: ggH production -> 2gamma, 2mu. 4mu, gammamumu. ttH -> ttbbb decay, ratios
+num_data: 11
+num_sys: 1
+data_central:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+statistical_error:
+  - 0.001
+  - 0.004
+  - 0.002
+  - 0.011
+  - 0.004
+  - 0.005
+  - 0.005
+  - 0.005
+  - 0.016
+  - 0.012
+  - 0.019
+systematics:
+  - - 0.01396
+    - 0.0113
+    - 0.0179
+    - 0.01296
+    - 0.0216
+    - 0.012
+    - 0.006244
+    - 0.012
+    - 0.012
+    - 0.016
+    - 0.0062
+sys_names: UNCORR
+sys_type: ADD
