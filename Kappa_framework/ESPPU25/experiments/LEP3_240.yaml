@@ -1,0 +1,53 @@
+dataset_name: LEP3240
+doi: https://indico.cern.ch/event/1439855/contributions/6461619/
+location: Table 2
+arxiv: '-'
+hepdata: none
+units: none
+description: sigma(ZH)* Br and VBF*  Br
+num_data: 13
+num_sys: 1
+data_central:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+statistical_error:
+  - 0.007129999999999999
+  - 0.004829999999999999
+  - 0.0368
+  - 0.0184
+  - 0.013339999999999998
+  - 0.253
+  - 0.0184
+  - 0.057499999999999996
+  - 0.0828
+  - 0.2714
+  - 0.043699999999999996
+  - 0.43699999999999994
+  - 0.1265
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+sys_names: UNCORR
+sys_type: ADD
