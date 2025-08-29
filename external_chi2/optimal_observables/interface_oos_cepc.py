@@ -7,13 +7,14 @@ current_file_path = pathlib.Path(__file__).resolve().parent
 # future colliders to include
 collider = "CEPC"
 
+oo_ww_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
+oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
+
 
 class OptimalWW161:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-
-        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
-        for i, op in enumerate(oo_wc_basis):
+        self.project = np.zeros((len(oo_ww_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_ww_wc_basis):
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
@@ -37,7 +38,7 @@ class OptimalWW161:
                 "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
             )
 
-        self.n_dat = len(oo_wc_basis)
+        self.n_dat = len(oo_ww_wc_basis)
 
     def compute_chi2(self, coefficient_values):
         chi2_value = jnp.einsum(
@@ -49,10 +50,8 @@ class OptimalWW161:
 
 class OptimalWW240:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-
-        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
-        for i, op in enumerate(oo_wc_basis):
+        self.project = np.zeros((len(oo_ww_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_ww_wc_basis):
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
@@ -76,7 +75,7 @@ class OptimalWW240:
                 "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
             )
 
-        self.n_dat = len(oo_wc_basis)
+        self.n_dat = len(oo_ww_wc_basis)
 
     def compute_chi2(self, coefficient_values):
         chi2_value = jnp.einsum(
@@ -88,10 +87,8 @@ class OptimalWW240:
 
 class OptimalWW365:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-
-        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
-        for i, op in enumerate(oo_wc_basis):
+        self.project = np.zeros((len(oo_ww_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_ww_wc_basis):
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
@@ -115,7 +112,7 @@ class OptimalWW365:
                 "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
             )
 
-        self.n_dat = len(oo_wc_basis)
+        self.n_dat = len(oo_ww_wc_basis)
 
     def compute_chi2(self, coefficient_values):
         chi2_value = jnp.einsum(
@@ -127,10 +124,8 @@ class OptimalWW365:
 
 class OptimalWW:
     def __init__(self, coefficients, rgemat=None):
-        oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-
-        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
-        for i, op in enumerate(oo_wc_basis):
+        self.project = np.zeros((len(oo_ww_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_ww_wc_basis):
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
@@ -158,7 +153,7 @@ class OptimalWW:
                 "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
             )
 
-        self.n_dat = len(oo_wc_basis)
+        self.n_dat = len(oo_ww_wc_basis)
 
     def compute_chi2(self, coefficient_values):
         chi2_value = jnp.einsum(
@@ -170,8 +165,6 @@ class OptimalWW:
 
 class Optimaltt:
     def __init__(self, coefficients, rgemat=None):
-        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
-
         self.project = np.zeros((len(oo_tt_wc_basis), coefficients.size))
         for i, op in enumerate(oo_tt_wc_basis):
             if op in coefficients.name:
