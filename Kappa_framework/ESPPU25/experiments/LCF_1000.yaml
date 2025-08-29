@@ -1,0 +1,38 @@
+dataset_name: LCF_1000
+doi: '-'
+location: Tab. 5
+arxiv: '2503.19983'
+hepdata: none
+units: none
+description: ' vvH (8p)'
+num_data: 8
+num_sys: 1
+data_central:
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+statistical_error:
+- 0.003
+- 0.016
+- 0.013
+- 0.015
+- 0.16
+- 0.022
+- 0.0088
+- 0.046
+systematics:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+sys_names: null
+sys_type: null

@@ -1,0 +1,62 @@
+dataset_name: muC_10000.yaml
+doi: none
+location: Table 15
+arxiv: '2206.08326'
+hepdata: none
+units: none
+description: muC3000 vvH and mumuH production 
+num_data: 16
+num_sys: 1
+data_central:
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+statistical_error:
+- 0.0022
+- 0.036
+- 0.0079
+- 0.032
+- 0.004
+- 0.011
+- 0.017
+- 0.12
+- 0.057
+- 0.0077
+- 0.17
+- 0.033
+- 0.11
+- 0.018
+- 0.048
+- 0.048
+systematics:
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+sys_names: null
+sys_type: null

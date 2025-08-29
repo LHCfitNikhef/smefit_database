@@ -1,0 +1,55 @@
+result_ID: kappa_FCChh
+result_path: /SMEFIT/ESPPU25_fit/kappa0
+data_path: smefit_database/Kappa_framework/ESPPU25/experiments
+theory_path: smefit_database/Kappa_framework/ESPPU25/theory_cards
+order: LO
+use_theory_covmat: false
+use_t0: true
+use_quad: false
+bounds: null
+poly_mode: true
+external_coefficients:
+  kh2: (0.57676*kb**2+0.063*ktau**2+0.0291*kc**2+0.215*kW**2+0.0264*kZ**2+0.0857*kg**2+0.00228*kgamma**2+0.00154*kZgamma**2+0.000220*kmu**2)
+nlive: 500
+lepsilon: 0.04
+target_evidence_unc: 0.04
+target_post_unc: 0.04
+frac_remain: 0.01
+store_raw: false
+datasets:
+- FCC_ee240
+- FCC_ee365
+- FCC_hh84
+coefficients:
+  kb:
+    min: 0.8
+    max: 1.2
+  ktau:
+    min: 0.4
+    max: 1.6
+  kc:
+    min: 0.4
+    max: 1.6
+  kW:
+    min: 0.9
+    max: 1.1
+  kZ:
+    min: 0.9
+    max: 1.1
+  kg:
+    min: 0.8
+    max: 1.2
+  kgamma:
+    min: 0.4
+    max: 1.6
+  kZgamma:
+    min: 0.4
+    max: 1.6
+  kmu:
+    min: 0.4
+    max: 1.6
+  kt:
+    min: 0.8
+    max: 1.2
+
+rot_to_fit_basis: null

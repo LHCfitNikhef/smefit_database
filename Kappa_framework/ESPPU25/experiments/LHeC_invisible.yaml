@@ -1,0 +1,15 @@
+dataset_name: LHeC_invisible
+doi: none
+location: Sec. 7.6
+arxiv: '2007.14491'
+hepdata: none
+units: none
+description: LHeC ZBF Higgs into invisible
+num_data: 1
+num_sys: 1
+data_central: 0.0
+statistical_error: 0.0275
+systematics:
+- 0.0
+sys_names: null
+sys_type: null

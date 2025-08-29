@@ -1,0 +1,15 @@
+dataset_name: LCF_250_invisible
+doi: '-'
+location: Table 2
+arxiv: '2503.19983'
+hepdata: none
+units: none
+description: sigma(ZH), Invisible Branching Ratio constraints
+num_data: 1
+num_sys: 1
+data_central: 0.0
+statistical_error: 0.0019
+systematics: 
+- 0.0
+sys_names: null
+sys_type: null
