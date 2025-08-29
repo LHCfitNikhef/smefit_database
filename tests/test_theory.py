@@ -16,8 +16,14 @@ OPERATORS_FILE = REPO_ROOT / "operators_implemented.yaml"
 with OPERATORS_FILE.open(encoding="utf-8") as f:
     ALLOWED_OPERATORS = set(yaml.safe_load(f)["operators"])
 
-# Collect all JSON files in the "theory" folder
-JSON_FILES = sorted(THEORY_DIR.glob("*.json"))
+
+JSON_DIRS = [
+    REPO_ROOT / "theory",
+    REPO_ROOT / "external_chi2/drell_yan/theory",
+]
+
+# Collect all JSON files in the specified directories
+JSON_FILES = sorted(f for d in JSON_DIRS for f in d.glob("*.json"))
 
 
 def _split_factors(s: str):
