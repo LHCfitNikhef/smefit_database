@@ -1,47 +1,49 @@
 dataset_name: LCF_ee_1000GeV
-description: 'Light difermion (ee) production at LCF. Observable: inclusive cross section. Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
+description: 'Light difermion (ee) production at LCF. Observable: inclusive cross
+  section. Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From
+  Snowmass 2206.08326'
 units: pb
 luminosity:
-  - 800.0
-  - 3200.0
-  - 3200.0
-  - 800.0
+- 800.0
+- 3200.0
+- 3200.0
+- 800.0
 num_data: 4
 num_sys: 4
 data_central:
-  - 3.793199836950852
-  - 4.394017998038422
-  - 3.827787643250643
-  - 3.4534616240781104
+- 3.793199836950852
+- 4.394017998038422
+- 3.827787643250643
+- 3.4534616240781104
 statistical_error:
-  - 0.002177498518068053
-  - 0.0011718065644068594
-  - 0.0010937018051168361
-  - 0.002077697530945647
+- 0.002177498518068053
+- 0.0011718065644068594
+- 0.0010937018051168361
+- 0.002077697530945647
 systematics:
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
 sys_names:
-  - UNCORR
-  - UNCORR
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
-  - ADD
-  - ADD
+- ADD
+- ADD
+- ADD
+- ADD

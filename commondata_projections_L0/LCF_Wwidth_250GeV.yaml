@@ -2,13 +2,13 @@ dataset_name: LCF_Wwidth_250GeV
 description: W total width.
 units: GeV
 luminosity:
-  - 270000
+- 270000
 num_data: 1
 num_sys: 1
 data_central: 2.045612800402105
 statistical_error:
-  - 0.0017213259316477408
+- 0.0017213259316477408
 systematics:
-  - 0.0
+- 0.0
 sys_names: UNCORR
 sys_type: ADD

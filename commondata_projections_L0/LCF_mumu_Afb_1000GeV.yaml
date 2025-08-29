@@ -1,47 +1,49 @@
 dataset_name: LCF_mumu_Afb_1000GeV
-description: 'Light difermion (mumu) production at LCF. Observable: FB asymmetry (AFB). Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
+description: 'Light difermion (mumu) production at LCF. Observable: FB asymmetry (AFB).
+  Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass
+  2206.08326'
 units: pb
 luminosity:
-  - 800.0
-  - 3200.0
-  - 3200.0
-  - 800.0
+- 800.0
+- 3200.0
+- 3200.0
+- 800.0
 num_data: 4
 num_sys: 4
 data_central:
-  - 0.4850825371719682
-  - 0.4882487276798549
-  - 0.4453201706664829
-  - 0.4495874753469714
+- 0.4850825371719682
+- 0.4882487276798549
+- 0.4453201706664829
+- 0.4495874753469714
 statistical_error:
-  - 0.0007786868250233595
-  - 0.0003906119908553175
-  - 0.0003730449749470912
-  - 0.0007496561506342187
+- 0.0007786868250233595
+- 0.0003906119908553175
+- 0.0003730449749470912
+- 0.0007496561506342187
 systematics:
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
 sys_names:
-  - UNCORR
-  - UNCORR
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
-  - ADD
-  - ADD
+- ADD
+- ADD
+- ADD
+- ADD

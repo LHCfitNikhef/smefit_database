@@ -2,24 +2,24 @@ dataset_name: LCF_ww_350GeV
 description: Fully inclusive W-pair production cross section
 units: pb
 luminosity:
-  - 135.0
-  - 45.0
+- 135.0
+- 45.0
 num_data: 2
 num_sys: 2
 data_central:
-  - 11.43
-  - 11.19
+- 11.43
+- 11.19
 statistical_error:
-  - 0.00969264
-  - 0.063783
+- 0.00969264
+- 0.063783
 systematics:
-  - - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
 sys_names:
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
+- ADD
+- ADD

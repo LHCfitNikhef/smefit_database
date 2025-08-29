@@ -1,25 +1,26 @@
 dataset_name: LCF_zh_xstot_350GeV
-description: ZH inclusive production cross section with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=350 GeV
+description: ZH inclusive production cross section with polarised beams (-0.8,+0.3)
+  and  (+0.8,-0.3) at sqrts=350 GeV
 units: pb
 luminosity:
-  - 135
-  - 45
+- 135
+- 45
 num_data: 2
 num_sys: 2
 data_central:
-  - 0.19037540941273692
-  - 0.1294830346629772
+- 0.19037540941273692
+- 0.1294830346629772
 statistical_error:
-  - 0.004683235071553328
-  - 0.005567770490508019
+- 0.004683235071553328
+- 0.005567770490508019
 systematics:
-  - - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
 sys_names:
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
+- ADD
+- ADD

@@ -1,25 +1,26 @@
 dataset_name: LCF_vvh_ww_500GeV_8ab
-description: Higgs production in VBF times ww BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
+description: Higgs production in VBF times ww BR with polarised beams (-0.8,+0.3)
+  and  (+0.8,-0.3) at sqrts=500 GeV
 units: pb
 luminosity:
-  - 3200
-  - 3200
+- 3200
+- 3200
 num_data: 2
 num_sys: 2
 data_central:
-  - 0.010879664444444444
-  - 0.010640993333333336
+- 0.010879664444444444
+- 0.010640993333333336
 statistical_error:
-  - 0.00010462594927753141
-  - 0.00041383751995084655
+- 0.00010462594927753141
+- 0.00041383751995084655
 systematics:
-  - - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
 sys_names:
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
+- ADD
+- ADD

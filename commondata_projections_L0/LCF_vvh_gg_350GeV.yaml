@@ -1,25 +1,26 @@
 dataset_name: LCF_vvh_gg_350GeV
-description: Higgs production in VBF times gg BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=350 GeV
+description: Higgs production in VBF times gg BR with polarised beams (-0.8,+0.3)
+  and  (+0.8,-0.3) at sqrts=350 GeV
 units: pb
 luminosity:
-  - 135
-  - 45
+- 135
+- 45
 num_data: 2
 num_sys: 2
 data_central:
-  - 0.001352171111111111
-  - 0.0013246471111111112
+- 0.001352171111111111
+- 0.0013246471111111112
 statistical_error:
-  - 0.00014197796666666666
-  - 0.0009934853333333333
+- 0.00014197796666666666
+- 0.0009934853333333333
 systematics:
-  - - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
 sys_names:
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
+- ADD
+- ADD

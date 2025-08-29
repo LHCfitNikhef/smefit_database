@@ -1,25 +1,26 @@
 dataset_name: LCF_zhh_500GeV_8ab
-description: ZHH production with polarised beams (+0.8,-0.3) and (-0.8,+0.3) at sqrts=500 GeV
+description: ZHH production with polarised beams (+0.8,-0.3) and (-0.8,+0.3) at sqrts=500
+  GeV
 units: pb
 luminosity:
-  - 3200
-  - 3200
+- 3200
+- 3200
 num_data: 2
 num_sys: 2
 data_central:
-  - 0.00015836
-  - 0.00023274
+- 0.00015836
+- 0.00023274
 statistical_error:
-  - 0.00125415
-  - 0.00184321
+- 0.00125415
+- 0.00184321
 systematics:
-  - - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
 sys_names:
-  - UNCORR
-  - UNCORR
+- UNCORR
+- UNCORR
 sys_type:
-  - ADD
-  - ADD
+- ADD
+- ADD
