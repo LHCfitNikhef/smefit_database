@@ -1,49 +1,47 @@
 dataset_name: LCF_ee_Afb_500GeV_8ab
-description: 'Light difermion (ee) production at LCF. Observable: FB asymmetry (AFB).
-  Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass
-  2206.08326'
+description: 'Light difermion (ee) production at LCF. Observable: FB asymmetry (AFB). Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 800
-- 3200
-- 3200
-- 800
+  - 800
+  - 3200
+  - 3200
+  - 800
 num_data: 4
 num_sys: 4
 data_central:
-- 0.9538821116802784
-- 0.9690944334064766
-- 0.9659528358807798
-- 0.9514048593806196
+  - 0.9538821116802784
+  - 0.9690944334064766
+  - 0.9659528358807798
+  - 0.9514048593806196
 statistical_error:
-- 0.0010919490096155352
-- 0.0005503108307488814
-- 0.0005494181114713491
-- 0.0010905301803369656
+  - 0.0010919490096155352
+  - 0.0005503108307488814
+  - 0.0005494181114713491
+  - 0.0010905301803369656
 systematics:
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD

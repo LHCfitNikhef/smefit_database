@@ -1,26 +1,25 @@
 dataset_name: LCF_zh_aa_500GeV_8ab
-description: ZH inclusive production cross section times aa BR with polarised beams
-  (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
+description: ZH inclusive production cross section times aa BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
 units: pb
 luminosity:
-- 3200
-- 3200
+  - 3200
+  - 3200
 num_data: 2
 num_sys: 2
 data_central:
-- 0.00013112584833524282
-- 0.00019279079399389432
+  - 0.00013112584833524282
+  - 0.00019279079399389432
 statistical_error:
-- 1.724591563768415e-05
-- 2.5356204067716385e-05
+  - 1.724591563768415e-05
+  - 2.5356204067716385e-05
 systematics:
-- - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
+  - ADD
+  - ADD

@@ -97,6 +97,7 @@ class OptimalWWLCF5004ab:
 
         return chi2_value
 
+
 class OptimalWWLCF5008ab:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
@@ -185,7 +186,8 @@ class OptimalWWLCF1000:
         )
 
         return chi2_value
-        
+
+
 class OptimalttLCF350:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
@@ -308,6 +310,7 @@ class OptimalttLCF5004ab:
 
         return chi2_value
 
+
 class OptimalttLCF5008ab:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ"]
@@ -348,6 +351,7 @@ class OptimalttLCF5008ab:
 
         return chi2_value
 
+
 class OptimalttLCF5004abfull:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
@@ -387,7 +391,8 @@ class OptimalttLCF5004abfull:
         )
 
         return chi2_value
-        
+
+
 class OptimalttLCF5008abfull:
     def __init__(self, coefficients, rgemat=None):
         oo_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "Ol1QM", "OeQ", "Ol1t", "Oet"]
@@ -509,5 +514,3 @@ class OptimalttLCF1000full:
         )
 
         return chi2_value
-
-

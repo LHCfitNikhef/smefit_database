@@ -1,49 +1,47 @@
 dataset_name: LCF_tautau_1000GeV
-description: 'Light difermion (tautau) production at LCF. Observable: inclusive cross
-  section. Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From
-  Snowmass 2206.08326'
+description: 'Light difermion (tautau) production at LCF. Observable: inclusive cross section. Beam polarization: neg80neg20, neg80pos20, pos80neg20, pos80pos20. From Snowmass 2206.08326'
 units: pb
 luminosity:
-- 800.0
-- 3200.0
-- 3200.0
-- 800.0
+  - 800.0
+  - 3200.0
+  - 3200.0
+  - 800.0
 num_data: 4
 num_sys: 4
 data_central:
-- 0.0738149409627391
-- 0.1032682885310823
-- 0.0877123045125858
-- 0.0644813505516412
+  - 0.0738149409627391
+  - 0.1032682885310823
+  - 0.0877123045125858
+  - 0.0644813505516412
 statistical_error:
-- 0.0003037575944785972
-- 0.00017964225607012182
-- 0.00016555994431076334
-- 0.0002839043645130372
+  - 0.0003037575944785972
+  - 0.00017964225607012182
+  - 0.00016555994431076334
+  - 0.0002839043645130372
 systematics:
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-- - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
 sys_names:
-- UNCORR
-- UNCORR
-- UNCORR
-- UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
-- ADD
-- ADD
-- ADD
-- ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
