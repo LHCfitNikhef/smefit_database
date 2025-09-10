@@ -4,7 +4,7 @@ from external_chi2.optimal_observables.interface_oos import (
 )
 
 EXPECTED_WW_WC_BASIS = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-EXPECTED_TT_WC_BASIS = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
+EXPECTED_TT_WC_BASIS = ["OpQM", "Opt", "OtW", "OtZ", "OQl1M", "OQe", "Otl1", "Ote"]
 
 
 def test_ww_oo_wc_basis_values():
