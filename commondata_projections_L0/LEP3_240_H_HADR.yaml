@@ -4,7 +4,7 @@ location: Correlation from page 56 in https://repository.cern/records/3jjdh-6fz9
 arxiv: ''
 hepdata: ''
 units: pb
-description: FCC-ee ZH (H > bb, cc, gg) and VBF (H > bb) at 240 GeV
+description: LEP3 ZH (H > bb, cc, gg) and VBF (H > bb) at 240 GeV
 luminosity: 2304.0
 num_data: 4
 num_sys: 4
