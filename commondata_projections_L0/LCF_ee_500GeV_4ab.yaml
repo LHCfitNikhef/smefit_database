@@ -1,0 +1,47 @@
+dataset_name: LCF_ee_500GeV_4ab
+description: 'Light difermion (ee) production at LCF. Observable: inclusive cross section. Beam polarization: neg80neg30, neg80pos30, pos80neg30, pos80pos30. From Snowmass 2206.08326'
+units: pb
+luminosity:
+  - 400.0
+  - 1600.0
+  - 1600.0
+  - 400.0
+num_data: 4
+num_sys: 4
+data_central:
+  - 14.569862755715064
+  - 16.97447948438956
+  - 15.181919915041185
+  - 13.75506295146572
+statistical_error:
+  - 0.006035284325471971
+  - 0.0032571536159265615
+  - 0.0030803733453756447
+  - 0.005864099025311927
+systematics:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
+  - ADD
