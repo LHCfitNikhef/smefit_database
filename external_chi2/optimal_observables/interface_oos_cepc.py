@@ -8,7 +8,7 @@ current_file_path = pathlib.Path(__file__).resolve().parent
 collider = "CEPC"
 
 oo_ww_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
+oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQl1M", "OQe", "Otl1", "Ote"]
 
 
 class OptimalWW161:
