@@ -1,0 +1,13 @@
+dataset_name: muC10000_invisible
+arxiv: '2411.00096'
+hepdata: none
+units: none
+description: Invisible Branching Ratio 68% upper limit
+num_data: 1
+num_sys: 1
+data_central: 0.0
+statistical_error: 0.0013
+systematics:
+  - 0.0
+sys_names: null
+sys_type: null
