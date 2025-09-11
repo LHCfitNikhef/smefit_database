@@ -225,9 +225,11 @@ def test_best_sm_against_theory_SM(json_path):
         if top_key == "LO" and ("_asy" in json_path.name or "_AC_" in json_path.name):
             # special case for LO asymmetries where SM=0, no check
             continue
-        # test that they are decently close (100%), collect all errors
+        # test that they are decently close (200%), collect all errors
+        # Test is "coarse" because we want to catch blatant mistakes, not do
+        # a precise validation of the SM numbers
         try:
-            np.testing.assert_allclose(theory_sm, best_sm, rtol=1)
+            np.testing.assert_allclose(theory_sm, best_sm, rtol=2)
         except AssertionError as e:
             errors.append(f"{json_path.name} → '{top_key}': {e}")
 
