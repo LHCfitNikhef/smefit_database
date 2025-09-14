@@ -1,0 +1,21 @@
+# path to where projections get saved
+projections_path: ./commondata_projections_new_physics
+# path to existing data
+commondata_path: ./commondata
+# path to theory tables
+theory_path: ./theory
+# datasets for which projections are computed
+datasets:
+  - {name: ATLAS_tt_13TeV_ljets_2016_Mtt, order: NLO_QCD}
+  - {name: CMS_ggF_aa_13TeV, order: NLO_QCD}
+  - {name: LEP1_EWPOs_2006, order: LO}
+coefficients:
+  OtG: {constrain: True, value: 1.0}
+  OpD: {constrain: True, value: 0.0}
+uv_couplings: False
+use_quad: False
+use_theory_covmat: False
+rot_to_fit_basis: null
+use_t0: False # use the t0 prescription to correct for d'Agostini bias
+fred_sys: 0.5 # systematics get reduced by 1/2
+fred_tot: 0.333 # total errors get reduced by 1/3

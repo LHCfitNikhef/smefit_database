@@ -58,6 +58,15 @@
           "type":"number"
         }
       }
+    },
+    "NLO_EW_only_for_ZH":{
+      "type":"object",
+      "additionalProperties":{
+        "type":"array",
+        "items":{
+          "type":"number"
+        }
+      }
     }
   },
   "required": ["best_sm", "scales", "theory_cov", "LO"],

@@ -49,5 +49,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     loaded_runcard = load_base_runcard(args.base_runcard.absolute())
-    loaded_runcard = update_paths(loaded_runcard, args.destination.absolute().parent)
+    loaded_runcard = update_paths(loaded_runcard, args.destination.absolute())
     dump_runcard(loaded_runcard, args.base_runcard.stem, args.destination.absolute())

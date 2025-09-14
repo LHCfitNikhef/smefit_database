@@ -1,5 +1,5 @@
 dataset_name: CMS_t_tch_8TeV_diff_Yt
-location: Fig. 4 (normalised -> absolute)
+location: Fig. 4 (normalised -> absolute). Data has been digitised from the plot, multiplying the numbers by 81.1947.
 arxiv: https://inspirehep.net/literature/1323200
 hepdata: none
 units: pb
