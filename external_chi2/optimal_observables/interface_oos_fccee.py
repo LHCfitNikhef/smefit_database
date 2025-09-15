@@ -34,7 +34,7 @@ def compute_rge_matrix(coefficients, rge_dict, scale):
     return rge_df.values, new_coeffs
 
 
-class OptimalWWFCC161:
+class OptimalWWFCCee161:
     def __init__(self, coefficients, rge_dict=None):
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
@@ -78,7 +78,7 @@ class OptimalWWFCC161:
         return chi2_value
 
 
-class OptimalWWFCC240:
+class OptimalWWFCCee240:
     def __init__(self, coefficients, rge_dict=None):
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
@@ -122,7 +122,7 @@ class OptimalWWFCC240:
         return chi2_value
 
 
-class OptimalWWFCC365:
+class OptimalWWFCCee365:
     def __init__(self, coefficients, rge_dict=None):
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
@@ -166,7 +166,7 @@ class OptimalWWFCC365:
         return chi2_value
 
 
-class OptimalttFCC365:
+class OptimalttFCCee365:
     def __init__(self, coefficients, rge_dict=None):
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
