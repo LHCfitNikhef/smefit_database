@@ -1,0 +1,14 @@
+dataset_name: FCCee_Rmu_365GeV
+description: Rmu
+luminosity: 3120
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 1
+num_sys: 1
+data_central: 7.052612542792751
+statistical_error:
+  - 0.005637264424280393
+systematics:
+  - 1.5717989440520322e-05
+sys_names: UNCORR
+sys_type: ADD

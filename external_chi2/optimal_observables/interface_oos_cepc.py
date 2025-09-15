@@ -9,6 +9,8 @@ current_file_path = pathlib.Path(__file__).resolve().parent
 
 # future colliders to include
 collider = "CEPC"
+oo_ww_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
+oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQl1M", "OQe", "Otl1", "Ote"]
 
 _logger = log.logging.getLogger(__name__)
 
@@ -33,8 +35,6 @@ def compute_rge_matrix(coefficients, rge_dict, scale):
 
 class OptimalWWCEPC161:
     def __init__(self, coefficients, rge_dict=None):
-        oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
                 coefficients, rge_dict, scale=161.0
@@ -42,8 +42,8 @@ class OptimalWWCEPC161:
         else:
             rgemat = None
 
-        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
-        for i, op in enumerate(oo_wc_basis):
+        self.project = np.zeros((len(oo_ww_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_ww_wc_basis):
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
@@ -67,7 +67,7 @@ class OptimalWWCEPC161:
                 "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
             )
 
-        self.n_dat = len(oo_wc_basis)
+        self.n_dat = len(oo_ww_wc_basis)
 
     def compute_chi2(self, coefficient_values):
         chi2_value = jnp.einsum(
@@ -79,8 +79,6 @@ class OptimalWWCEPC161:
 
 class OptimalWWCEPC240:
     def __init__(self, coefficients, rge_dict=None):
-        oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
                 coefficients, rge_dict, scale=240.0
@@ -88,8 +86,8 @@ class OptimalWWCEPC240:
         else:
             rgemat = None
 
-        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
-        for i, op in enumerate(oo_wc_basis):
+        self.project = np.zeros((len(oo_ww_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_ww_wc_basis):
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
@@ -113,7 +111,7 @@ class OptimalWWCEPC240:
                 "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
             )
 
-        self.n_dat = len(oo_wc_basis)
+        self.n_dat = len(oo_ww_wc_basis)
 
     def compute_chi2(self, coefficient_values):
         chi2_value = jnp.einsum(
@@ -125,8 +123,6 @@ class OptimalWWCEPC240:
 
 class OptimalWWCEPC365:
     def __init__(self, coefficients, rge_dict=None):
-        oo_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
-
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
                 coefficients, rge_dict, scale=365.0
@@ -134,8 +130,8 @@ class OptimalWWCEPC365:
         else:
             rgemat = None
 
-        self.project = np.zeros((len(oo_wc_basis), coefficients.size))
-        for i, op in enumerate(oo_wc_basis):
+        self.project = np.zeros((len(oo_ww_wc_basis), coefficients.size))
+        for i, op in enumerate(oo_ww_wc_basis):
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
@@ -159,7 +155,7 @@ class OptimalWWCEPC365:
                 "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
             )
 
-        self.n_dat = len(oo_wc_basis)
+        self.n_dat = len(oo_ww_wc_basis)
 
     def compute_chi2(self, coefficient_values):
         chi2_value = jnp.einsum(
@@ -171,8 +167,6 @@ class OptimalWWCEPC365:
 
 class OptimalttCEPC365:
     def __init__(self, coefficients, rge_dict=None):
-        oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQlM1", "OQe", "Otl1", "Ote"]
-
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
                 coefficients, rge_dict, scale=365.0

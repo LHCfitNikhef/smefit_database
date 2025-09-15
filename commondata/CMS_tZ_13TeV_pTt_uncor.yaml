@@ -5,15 +5,15 @@ arxiv: 2111.0286
 hepdata:
   - https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt
   - https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt_covariance_syst
-units: fb/GeV
-description: Absolute tZ cross-section differential in pTt
+units: fb
+description: Absolute tZ cross-section differential in pTt. The units are converted to fb by multiplying with the bin width in order to be compatible with the experimental covariance matrix.
 luminosity: 138
 num_data: 3
 num_sys: 3
 data_central:
-  - 0.061079999999999995
-  - 0.0678
-  - 0.0270475
+  - 5.497199999999999
+  - 6.102
+  - 2.92113
 statistical_error:
   - 0.015425197214146608
   - 0.014652969413126927
