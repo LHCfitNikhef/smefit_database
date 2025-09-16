@@ -1,4 +1,4 @@
-from external_chi2.optimal_observables.interface_oos import (
+from external_chi2.optimal_observables.interface_oos_fccee import (
     oo_ww_wc_basis,
     oo_tt_wc_basis,
 )
