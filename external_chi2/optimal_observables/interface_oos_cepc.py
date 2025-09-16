@@ -52,7 +52,7 @@ class OptimalWWCEPC161:
 
         incovs_reordered = []
         for path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / path.format(collider="CEPC"))
+            invcov = np.loadtxt(current_file_path / path)
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
@@ -96,7 +96,7 @@ class OptimalWWCEPC240:
 
         incovs_reordered = []
         for path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / path.format(collider="CEPC"))
+            invcov = np.loadtxt(current_file_path / path)
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
@@ -140,7 +140,7 @@ class OptimalWWCEPC365:
 
         incovs_reordered = []
         for path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / path.format(collider="CEPC"))
+            invcov = np.loadtxt(current_file_path / path)
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
@@ -181,7 +181,7 @@ class OptimalttCEPC365:
 
         incovs_reordered = []
         for path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / path.format(collider="CEPC"))
+            invcov = np.loadtxt(current_file_path / path)
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
