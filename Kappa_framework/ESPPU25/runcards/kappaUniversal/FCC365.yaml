@@ -1,7 +1,7 @@
 result_ID: kappa_FCC365
 result_path: /SMEFIT/ESPPU25_fit/kappa3/Universal/
-data_path: smefit_database/Kappa_framework/ESPPU25/experiments
-theory_path: smefit_database/Kappa_framework/ESPPU25/theory_cards
+data_path: smefit_database/kappa_framework/ESPPU25/experiments
+theory_path: smefit_database/kappa_framework/ESPPU25/theory
 order: LO
 use_theory_covmat: false
 use_t0: true
