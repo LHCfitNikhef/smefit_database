@@ -7,9 +7,6 @@ from smefit.coefficients import CoefficientManager
 
 current_file_path = pathlib.Path(__file__).resolve().parent
 
-# future colliders to include
-collider = "FCCee"
-
 oo_ww_wc_basis = ["OpD", "OpWB", "OWWW", "Opl1", "Ope", "O3pl1"]
 oo_tt_wc_basis = ["OpQM", "Opt", "OtW", "OtZ", "OQl1M", "OQe", "Otl1", "Ote"]
 
@@ -49,13 +46,13 @@ class OptimalWWFCCee161:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
         self.datasets = {
-            "{collider}_ww_lepto_161": "invcov_{collider}_ww_leptonic_161.dat",
-            "{collider}_ww_semilep_161": "invcov_{collider}_ww_semilep_161.dat",
+            "FCCee_ww_lepto_161": "invcov_FCCee_ww_leptonic_161.dat",
+            "FCCee_ww_semilep_161": "invcov_FCCee_ww_semilep_161.dat",
         }
 
         incovs_reordered = []
         for path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            invcov = np.loadtxt(current_file_path / path.format(collider="FCCee"))
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
@@ -93,13 +90,13 @@ class OptimalWWFCCee240:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
         self.datasets = {
-            "{collider}_ww_lepto_240": "invcov_{collider}_ww_leptonic_240.dat",
-            "{collider}_ww_semilep_240": "invcov_{collider}_ww_semilep_240.dat",
+            "FCCee_ww_lepto_240": "invcov_FCCee_ww_leptonic_240.dat",
+            "FCCee_ww_semilep_240": "invcov_FCCee_ww_semilep_240.dat",
         }
 
         incovs_reordered = []
         for path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            invcov = np.loadtxt(current_file_path / path.format(collider="FCCee"))
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
@@ -137,13 +134,13 @@ class OptimalWWFCCee365:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
         self.datasets = {
-            "{collider}_ww_lepto_365": "invcov_{collider}_ww_leptonic_365.dat",
-            "{collider}_ww_semilep_365": "invcov_{collider}_ww_semilep_365.dat",
+            "FCCee_ww_lepto_365": "invcov_FCCee_ww_leptonic_365.dat",
+            "FCCee_ww_semilep_365": "invcov_FCCee_ww_semilep_365.dat",
         }
 
         incovs_reordered = []
         for path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            invcov = np.loadtxt(current_file_path / path.format(collider="FCCee"))
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
@@ -180,12 +177,11 @@ class OptimalttFCCee365:
             if op in coefficients.name:
                 self.project[i, np.argwhere(coefficients.name == op)[0, 0]] = 1
 
-        collider = "FCCee"
-        self.datasets = {"{collider}_tt_365": "invcov_{collider}_tt_365GeV.dat"}
+        self.datasets = {"FCCee_tt_365": "invcov_FCCee_tt_365GeV.dat"}
 
         incovs_reordered = []
         for path in self.datasets.values():
-            invcov = np.loadtxt(current_file_path / path.format(collider=collider))
+            invcov = np.loadtxt(current_file_path / path.format(collider="FCCee"))
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
