@@ -57,6 +57,7 @@ ctp = uphi_33
 ccp = uphi_22
 cbp = dphi_33
 ctap = ephi_33
+cmup = ephi_22
 ```
 
 ### 4Heavy four-quarks
