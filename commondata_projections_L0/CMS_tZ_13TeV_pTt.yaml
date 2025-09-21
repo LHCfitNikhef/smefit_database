@@ -1,7 +1,7 @@
 dataset_name: CMS_tZ_13TeV_pTt
 doi: 10.17182/hepdata.105865.v1/t42
 location: Fig. 15 top left
-arxiv: 2111.0286
+arxiv: 2111.02860
 hepdata:
   - https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt
   - https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt_covariance_stat
