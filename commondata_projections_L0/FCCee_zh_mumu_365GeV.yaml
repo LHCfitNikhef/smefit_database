@@ -1,4 +1,4 @@
-dataset_name: FCCee_ZH_mumu_240GeV
+dataset_name: FCCee_zh_mumu_240GeV
 description: ZH inclusive production cross section times mumu BR.
 location: Table 2
 arxiv: https://repository.cern/records/n2emg-43f06
