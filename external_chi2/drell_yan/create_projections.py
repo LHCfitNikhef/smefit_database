@@ -29,7 +29,7 @@ experimental_card["statistical_error"] = [
     math.sqrt(x) if x > 1 else 1.0 for x in experimental_card["data_central"]
 ]
 experimental_card["systematics"] = [
-    [(3000.0 / 137.0) * x / 2.0 for x in experimental_card["systematics"][0]]
+    [x / 2.0 for x in experimental_card["systematics"][0]]
 ]
 
 # Save new cards
