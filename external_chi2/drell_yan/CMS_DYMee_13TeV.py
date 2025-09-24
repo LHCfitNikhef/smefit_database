@@ -42,14 +42,14 @@ class CMS_DYMee_13TeV:
         if save_rge_path is not None:
             os.makedirs(os.path.join(save_rge_path, "CMS_DYMee_13TeV"), exist_ok=True)
 
-        # If a pre-computed rge matrix is provided, add it to the rge_dict
-        # If not, set it to False in case it was defined for the datasets
-        if rg_matrix is not None:
-            rge_dict["rg_matrix"] = rg_matrix
-        else:
-            rge_dict["rg_matrix"] = False
-
         if rge_dict is not None:
+            # If a pre-computed rge matrix is provided, add it to the rge_dict
+            # If not, set it to False in case it was defined for the datasets
+            if rg_matrix is not None:
+                rge_dict["rg_matrix"] = rg_matrix
+            else:
+                rge_dict["rg_matrix"] = False
+
             rgematrix, operators_to_keep = load_rge_matrix(
                 rge_dict=rge_dict,
                 coeff_list=list(operators.keys()),
