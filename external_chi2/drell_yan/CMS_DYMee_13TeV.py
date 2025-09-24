@@ -3,6 +3,7 @@ from smefit import loader
 from smefit import compute_theory as pr
 from smefit.rge.rge import load_rge_matrix
 import os
+from pathlib import Path
 
 
 class CMS_DYMee_13TeV:
@@ -39,8 +40,8 @@ class CMS_DYMee_13TeV:
         commondata_path = os.path.join(
             os.path.dirname(os.path.abspath(__file__)), "commondata"
         )
-        if save_rge_path is not None:
-            os.makedirs(os.path.join(save_rge_path, "CMS_DYMee_13TeV"), exist_ok=True)
+
+        save_rge_path = None if save_rge_path is None else Path(save_rge_path)
 
         if rge_dict is not None:
             # If a pre-computed rge matrix is provided, add it to the rge_dict
@@ -56,8 +57,7 @@ class CMS_DYMee_13TeV:
                 datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
                 theory_path=theory_path,
                 cutoff_scale=cutoff_scale,
-                result_path=save_rge_path,
-                result_ID="CMS_DYMee_13TeV",
+                save_path=save_rge_path,
             )
         else:
             operators_to_keep = operators
