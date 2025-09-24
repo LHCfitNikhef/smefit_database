@@ -37,7 +37,7 @@ class HLLHC_DYMee_13TeV:
         operators = {k: {"max": 0.0, "min": 0.0} for k in coefficients.name}
         theory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "theory")
         commondata_path = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "commondata_projections_L0comm"
+            os.path.dirname(os.path.abspath(__file__)), "commondata_projections_L0"
         )
         if save_rge_path is not None:
             os.makedirs(os.path.join(save_rge_path, "HLLHC_DYMee_13TeV"), exist_ok=True)
