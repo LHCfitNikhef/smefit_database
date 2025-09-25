@@ -1,0 +1,89 @@
+name: Required Approver (by label)
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+      - labeled
+      - unlabeled
+  pull_request_review:
+    types:
+      - submitted
+      - edited
+      - dismissed
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  enforce:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check required approvers by label
+        uses: actions/github-script@v7
+        with:
+          script: |-
+            const pr = context.payload.pull_request;
+            if (!pr) {
+              core.info("No PR in context; skipping.");
+              return;
+            }
+
+            // ---- CONFIG: map labels -> required GitHub usernames ----
+            const labelToUser = {
+              "requires-luca":  "LucaMantani",
+              "requires-jaco":  "jacoterh",
+              "requires-alejo": "arossia94",
+            };
+
+            // Which labels are present?
+            const labels = (pr.labels || []).map(l => l.name);
+            const requiredUsers = Object.entries(labelToUser)
+              .filter(([label,_]) => labels.includes(label))
+              .map(([_,user]) => user.toLowerCase());
+
+            if (requiredUsers.length === 0) {
+              core.info("No 'required approver' labels on this PR. Passing.");
+              return; // success
+            }
+
+            const {owner, repo} = context.repo;
+            // Get all reviews (paginated), then compute each user's latest state
+            const reviews = await github.paginate(
+              github.rest.pulls.listReviews,
+              { owner, repo, pull_number: pr.number, per_page: 100 }
+            );
+
+            // Keep only the latest review state per user (by submitted_at)
+            const latestByUser = new Map();
+            for (const r of reviews) {
+              const login = (r.user?.login || "").toLowerCase();
+              // Skip bot/system accounts just in case
+              if (!login) continue;
+              const prev = latestByUser.get(login);
+              if (!prev || new Date(r.submitted_at || r.submittedAt || 0) > new Date(prev.submitted_at || prev.submittedAt || 0)) {
+                latestByUser.set(login, r);
+              }
+            }
+
+            // Build the set of approvers whose latest state is APPROVED (and not dismissed)
+            const approvers = new Set();
+            for (const [login, r] of latestByUser.entries()) {
+              // A dismissed approval shows state "DISMISSED" on the event; treat as not approved
+              if ((r.state || "").toUpperCase() === "APPROVED") {
+                approvers.add(login);
+              }
+            }
+
+            // Check coverage: every required user must be in approvers
+            const missing = requiredUsers.filter(u => !approvers.has(u));
+
+            if (missing.length > 0) {
+              core.setFailed(
+                `This PR requires approval from: ${missing.join(", ")} ` +
+                `(because of labels: ${Object.keys(labelToUser).filter(l => labels.includes(l)).join(", ")}).`
+              );
+            } else {
+              core.info("All required approvers have approved. Passing.");
+            }
