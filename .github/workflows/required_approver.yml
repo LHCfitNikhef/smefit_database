@@ -1,18 +1,12 @@
 name: Required Approver (by label)
 on:
   pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - ready_for_review
-      - labeled
-      - unlabeled
+    types: [labeled, unlabeled, synchronize, ready_for_review]
   pull_request_review:
-    types:
-      - submitted
-      - edited
-      - dismissed
+    types: [submitted, dismissed]
+concurrency:
+  group: required-approver-${{ github.event.pull_request.number || github.event.number }}
+  cancel-in-progress: true
 permissions:
   contents: read
   pull-requests: read
