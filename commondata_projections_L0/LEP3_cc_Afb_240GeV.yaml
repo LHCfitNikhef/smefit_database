@@ -5,7 +5,7 @@ arxiv: https://repository.cern/records/3rj9z-94994
 luminosity: 2304.0
 num_data: 1
 num_sys: 1
-data_central: 0.6197858139000236
+data_central: 0.6197858139000213
 statistical_error:
   - 0.0015263697741700732
 systematics:

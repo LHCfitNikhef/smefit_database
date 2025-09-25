@@ -1,46 +1,74 @@
 dataset_name: LEP3_240_H_HADR
-doi: https://doi.org/10.17181/3jjdh-6fz97
+doi: https://doi.org/10.17181/3jjdh-6fz979
 location: Correlation from page 56 in https://repository.cern/records/3jjdh-6fz97
 arxiv: ''
 hepdata: ''
 units: pb
-description: LEP3 ZH (H > bb, cc, gg) and VBF (H > bb) at 240 GeV
+description: FCC-ee ZH (H > bb, cc, gg) and VBF (H > bb, cc, gg) at 240 GeV respectively
 luminosity: 2304.0
-num_data: 4
-num_sys: 4
+num_data: 6
+num_sys: 6
 data_central:
-  - 0.114912
-  - 0.0171374
-  - 0.00849312
-  - 0.0037393688888888894
+  - 0.114886
+  - 0.0171336
+  - 0.00849123
+  - 0.003738538102643857
+  - 0.0005575481448566983
+  - 0.00027631450788713594
 statistical_error:
   - 0.0
   - 0.0
   - 0.0
   - 0.0
+  - 0.0
+  - 0.0
 systematics:
-  - - 0.0005224627337983065
+  - - 0.00024126060000000108
+    - 0.0
+    - 0.0
     - 0.0
     - 0.0
     - 0.0
   - - 0.0
-    - 0.0005936569501926179
+    - 0.00027413759999999926
+    - 0.0
+    - 0.0
     - 0.0
     - 0.0
   - - 0.0
     - 0.0
-    - 0.0001471051535477945
+    - 6.792984000000001e-05
+    - 0.0
+    - 0.0
     - 0.0
   - - 0.0
     - 0.0
     - 0.0
-    - 0.00015382345146520022
+    - 0.03701152721617419
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0593414752277266e-05
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.5197297933792475e-05
 sys_names:
   - CORR
   - CORR
   - CORR
   - CORR
+  - CORR
+  - CORR
 sys_type:
+  - ADD
+  - ADD
   - ADD
   - ADD
   - ADD
