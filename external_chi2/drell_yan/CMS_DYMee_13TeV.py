@@ -73,6 +73,7 @@ class CMS_DYMee_13TeV:
             use_multiplicative_prescription=use_multiplicative_prescription,
             default_order=order,
             theory_path=theory_path,
+            has_external_chi2=True,
             rgemat=rgematrix,
             cutoff_scale=cutoff_scale,
         )
