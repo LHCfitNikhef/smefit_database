@@ -1,5 +1,5 @@
 dataset_name: LEP3_zh_WW_240GeV
-description: ZH inclusive production cross section times W+W- BR.
+description: "ZH inclusive production cross section times W+W- BR, rescaled from FCCee by the luminosities reported in https://indico.cern.ch/event/1439855/contributions/6461601/attachments/3076522/5444412/188-LEP3_update_submitted.pdf"
 location: Table 2
 arxiv: https://repository.cern/records/n2emg-43f06
 units: pb

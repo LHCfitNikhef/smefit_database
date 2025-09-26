@@ -1,5 +1,5 @@
 dataset_name: LEP3_Brw_161GeV
-description: W leptonic branching ratio (first, second and third generation)
+description: "W leptonic branching ratio (first, second and third generation), rescaled from FCCee by the luminosities reported in https://indico.cern.ch/event/1439855/contributions/6461601/attachments/3076522/5444412/188-LEP3_update_submitted.pdf"
 luminosity: 5600.0
 num_data: 3
 num_sys: 3

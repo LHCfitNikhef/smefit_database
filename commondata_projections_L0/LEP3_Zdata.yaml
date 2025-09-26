@@ -6,7 +6,7 @@ units:
 luminosity: 48000.0
 num_data: 12
 num_sys: 12
-description: EWPOs at LEP3. The ordering is GammaZ (GeV), SigmaHad (pb), Re, Rmu, Rtau, Ae, Amu, Atau, Rb, Rc, Ab, Ac
+description: "EWPOs at LEP3. The ordering is GammaZ (GeV), SigmaHad (pb), Re, Rmu, Rtau, Ae, Amu, Atau, Rb, Rc, Ab, Ac, rescaled from FCCee by the luminosities reported in https://indico.cern.ch/event/1439855/contributions/6461601/attachments/3076522/5444412/188-LEP3_update_submitted.pdf"
 data_central:
   - 2.4957
   - 41489.0

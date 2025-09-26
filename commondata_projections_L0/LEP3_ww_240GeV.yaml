@@ -1,5 +1,5 @@
 dataset_name: LEP3_ww_240GeV
-description: Fully inclusive W-pair production cross section
+description: "Fully inclusive W-pair production cross section, rescaled from FCCee by the luminosities reported in https://indico.cern.ch/event/1439855/contributions/6461601/attachments/3076522/5444412/188-LEP3_update_submitted.pdf"
 units: pb
 luminosity: 2304.0
 num_data: 1
