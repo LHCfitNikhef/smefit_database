@@ -1,0 +1,16 @@
+dataset_name: LEP3_alphaEW
+doi:
+location: Table 4
+arxiv: https://repository.cern/records/n2emg-43f06
+units:
+luminosity: 48000.0
+description: "Alpha EW, rescaled from FCCee by the luminosities reported in https://indico.cern.ch/event/1439855/contributions/6461601/attachments/3076522/5444412/188-LEP3_update_submitted.pdf"
+num_data: 1
+num_sys: 1
+data_central: 0.007799703611262771
+statistical_error:
+  - 4.846899046496335e-06
+systematics:
+  - 0.0
+sys_names: UNCORR
+sys_type: ADD
