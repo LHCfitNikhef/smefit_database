@@ -19,6 +19,7 @@ class CMS_DYMee_13TeV:
         cutoff_scale=None,
         save_rge_path=None,
         rg_matrix=None,
+        use_projection_L0=False,
     ):
         """
         Initialize the CMS_DYMee_13TeV class.
@@ -37,9 +38,14 @@ class CMS_DYMee_13TeV:
 
         operators = {k: {"max": 0.0, "min": 0.0} for k in coefficients.name}
         theory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "theory")
-        commondata_path = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "commondata"
-        )
+        if use_projection_L0:
+            commondata_path = os.path.join(
+                os.path.dirname(os.path.abspath(__file__)), "commondata_projections_L0"
+            )
+        else:
+            commondata_path = os.path.join(
+                os.path.dirname(os.path.abspath(__file__)), "commondata"
+            )
 
         save_rge_path = None if save_rge_path is None else Path(save_rge_path)
 
