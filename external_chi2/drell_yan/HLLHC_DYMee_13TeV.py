@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 
 
-class CMS_DYMee_13TeV:
+class HLLHC_DYMee_13TeV:
     def __init__(
         self,
         coefficients,
@@ -19,10 +19,9 @@ class CMS_DYMee_13TeV:
         cutoff_scale=None,
         save_rge_path=None,
         rg_matrix=None,
-        use_projection_L0=False,
     ):
         """
-        Initialize the CMS_DYMee_13TeV class.
+        Initialize the HLLHC_DYMee_13TeV class.
 
         coefficients: The Wilson coefficients to be used in the analysis.
         rge_dict: A dictionary containing the RGE information.
@@ -38,14 +37,9 @@ class CMS_DYMee_13TeV:
 
         operators = {k: {"max": 0.0, "min": 0.0} for k in coefficients.name}
         theory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "theory")
-        if use_projection_L0:
-            commondata_path = os.path.join(
-                os.path.dirname(os.path.abspath(__file__)), "commondata_projections_L0"
-            )
-        else:
-            commondata_path = os.path.join(
-                os.path.dirname(os.path.abspath(__file__)), "commondata"
-            )
+        commondata_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), "commondata_projections_L0"
+        )
 
         save_rge_path = None if save_rge_path is None else Path(save_rge_path)
 
@@ -60,7 +54,7 @@ class CMS_DYMee_13TeV:
             rgematrix, operators_to_keep = load_rge_matrix(
                 rge_dict=rge_dict,
                 coeff_list=list(operators.keys()),
-                datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
+                datasets=[{"name": "HLLHC_DYMee_13TeV", "order": order}],
                 theory_path=theory_path,
                 cutoff_scale=cutoff_scale,
                 save_path=save_rge_path,
@@ -71,7 +65,7 @@ class CMS_DYMee_13TeV:
 
         self.drell_yan_dataset = loader.load_datasets(
             commondata_path=commondata_path,
-            datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
+            datasets=[{"name": "HLLHC_DYMee_13TeV", "order": order}],
             operators_to_keep=operators_to_keep,
             use_quad=use_quad,
             use_theory_covmat=use_theory_covmat,
