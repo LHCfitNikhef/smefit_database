@@ -1,0 +1,15 @@
+dataset_name: HL_LHC_SMTHcorr_invisible
+doi: none
+location: TAB4
+arxiv: '2206.08326'
+hepdata: none
+units: none
+description: Combined CMS ATLAS Higgs Signal Strenghts with theory uncertainties extracted by CMS TWIKI with correlation matrix, Invisible Branching Ratio constraints for VBF
+num_data: 1
+num_sys: 1
+data_central: 0.0
+statistical_error: 0.0125
+systematics:
+  - 0.0
+sys_names: null
+sys_type: null
