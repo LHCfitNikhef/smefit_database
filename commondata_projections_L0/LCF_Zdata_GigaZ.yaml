@@ -1,7 +1,7 @@
 dataset_name: LCF_Zdata_GigaZ
 units: pb/GeV
 description: EWPOs
-luminosity: 300000
+luminosity: 100
 num_data: 11
 num_sys: 11
 data_central:
