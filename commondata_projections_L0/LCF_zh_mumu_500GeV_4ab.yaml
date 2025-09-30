@@ -1,0 +1,25 @@
+dataset_name: LCF_zh_mumu_500GeV_4ab
+description: ZH inclusive production cross section with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
+units: pb
+luminosity:
+  - 1600
+  - 1600
+num_data: 2
+num_sys: 2
+data_central:
+  - 1.70829e-05
+  - 1.43233e-05
+statistical_error:
+  - 8.028963e-06
+  - 6.731951e-06
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
