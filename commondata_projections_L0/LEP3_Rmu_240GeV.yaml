@@ -1,0 +1,14 @@
+dataset_name: LEP3_Rmu_240GeV
+description: "Rmu, rescaled from FCCee by the luminosities reported in https://indico.cern.ch/event/1439855/contributions/6461601/attachments/3076522/5444412/188-LEP3_update_submitted.pdf"
+luminosity: 2304.0
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 1
+num_sys: 1
+data_central: 5.963560390873845
+statistical_error:
+  - 0.003260789584536667
+systematics:
+  - 1.311983285992246e-05
+sys_names: UNCORR
+sys_type: ADD

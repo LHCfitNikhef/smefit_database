@@ -1,20 +1,20 @@
 dataset_name: CMS_tZ_13TeV_pTt
 doi: 10.17182/hepdata.105865.v1/t42
 location: Fig. 15 top left
-arxiv: 2111.0286
+arxiv: 2111.02860
 hepdata:
   - https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt
   - https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt_covariance_stat
   - https://www.hepdata.net/record/ins1961177?version=1&table=parton_abs_TopPt_covariance_syst
-units: fb/GeV
-description: Absolute tZ cross-section differential in pTt
+units: fb
+description: Absolute tZ cross-section differential in pTt. The units are converted to fb by multiplying with the bin width in order to be compatible with the experimental covariance matrix.
 luminosity: 138
 num_data: 3
 num_sys: 3
 data_central:
-  - 0.06393670024243271
-  - 0.055543501084902344
-  - 0.021857282844543996
+  - 5.754303021818944
+  - 4.998915097641211
+  - 2.3605865472107515
 statistical_error:
   - 0.0
   - 0.0
