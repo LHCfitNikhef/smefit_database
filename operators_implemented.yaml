@@ -1,99 +1,127 @@
 # List of SMEFT operator implemented
 
+# Definitions are in terms of the Wilson coefficients, e.g.
+# OpQM: "phiq1_33 - phiq3_33" means --> cpQM = cphiq1_33 - cphiq3_33
+# where the second are Warsaw basis coefficients from wcxf
+# (https://wcxf.github.io/assets/pdf/SMEFT.Warsaw.pdf)
+
+# Operator indices:
+#  - "i" indicates that the definition assumes the first two right-handed up-quark and left-handed quark doublet generations (i = 1, 2) are identical.
+#  - "j" indicates that the three right-handed down-quark generations (j = 1, 2, 3) are treated as identical.
+# This is to reflect our flavour symmetry assumptions.
+
 operators:
   # Bosonic
-  - Op
-  - OpG
-  - OpB
-  - OpW
-  - OpWB
-  - OpBox
-  - OpD
-  - OWWW
+  Op: "phi"
+  OpG: "phiG"
+  OpB: "phiB"
+  OpW: "phiW"
+  OpWB: "phiWB"
+  OpBox: "phiBox"
+  OpD: "phiD"
+  OWWW: "W"
   # Dipoles
-  - OtW
-  - OtG
-  - OtZ
+  OtG: "1/gs * uG_33"
+  OtW: "uW_33"
+  OtZ: "cw * uW_33 - sw * uB_33"
   # Quark currents
-  - OpQM
-  - O3pQ3
-  - Opt
-  - OpqMi
-  - O3pq
-  - Opui
-  - Opdi
+  OpQM: "phiq1_33 - phiq3_33"
+  O3pQ3: "phiq3_33"
+  Opt: "phiu_33"
+  OpqMi: "phiq1_ii - phiq3_ii"
+  O3pq: "phiq3_ii"
+  Opui: "phiu_ii"
+  Opdi: "phid_jj"
   # Yukawa
-  - Otp
-  - Ocp
-  - Obp
-  - Otap
+  Otp: "uphi_33"
+  Ocp: "uphi_22"
+  Obp: "dphi_33"
+  Otap: "ephi_33"
+  Omup: "ephi_22"
   # 4Heavy four-quarks
-  - OQQ1
-  - OQQ8
-  - OQt1
-  - OQt8
-  - Ott1
+  OQQ1: "2 * qq1_3333 - 2/3 * qq3_3333"
+  OQQ8: "8 * qq3_3333"
+  OQt1: "qu1_3333"
+  OQt8: "qu8_3333"
+  Ott1: "uu_3333"
   # 4Heavy (right-handed bottom, only included in tttt and ttbb datasets)
-  - OQb1
-  - OQb8
-  - Otb1
-  - Otb8
-  - OQtQb1
-  - OQtQb8
+  OQb1: "qd1_3333"
+  OQb8: "qd8_3333"
+  Otb1: "ud1_3333"
+  Otb8: "ud8_3333"
+  OQtQb1: "quqd1_3333"
+  OQtQb8: "quqd8_3333"
+  Obb: "dd_3333"
   # 2L2H four-quarks 
-  - O81qq
-  - O11qq
-  - O83qq
-  - O13qq
-  - O8qt
-  - O1qt
-  - O8ut
-  - O1ut
-  - O8qu
-  - O1qu
-  - O8dt
-  - O1dt
-  - O8qd
-  - O1qd
+  O81qq: "qq1_i33i + 3 * qq3_i33i"
+  O11qq: "qq1_ii33 + 1/6 * qq1_i33i + 1/2 * qq3_i33i"
+  O83qq: "qq1_i33i - qq3_i33i"
+  O13qq: "qq3_ii33 + 1/6 * qq1_i33i - 1/6 * qq3_i33i"
+  O8qt: "qu8_ii33"
+  O1qt: "qu1_ii33"
+  O8ut: "2 * uu_i33i"
+  O1ut: "uu_ii33 + 1/3 * uu_i33i"
+  O8qu: "qu8_33ii"
+  O1qu: "qu1_33ii"
+  O8dt: "ud8_33jj"
+  O1dt: "ud1_33jj"
+  O8qd: "qd8_33jj"
+  O1qd: "qd1_33jj"
   # Lepton currents
-  - Opl1
-  - Opl2
-  - Opl3
-  - O3pl1
-  - O3pl2
-  - O3pl3
-  - Ope
-  - Opmu
-  - Opta
+  Opl1: "phil1_11"
+  Opl2: "phil1_22"
+  Opl3: "phil1_33"
+  O3pl1: "phil3_11"
+  O3pl2: "phil3_22"
+  O3pl3: "phil3_33"
+  Ope: "phie_11"
+  Opmu: "phie_22"
+  Opta: "phie_33"
   # Four-lepton
-  - Oll1111
-  - Oll2222
-  - Oll3333
-  - Oll1122
-  - Oll1133
-  - Oll2233
-  - Oll # Oll1221
-  - Oll1331
-  - Oll2332
-  - Ole1111
-  - Ole3311
-  - Ole1133
-  - Ole2211
-  - Ole1221
-  - Ole1122
-  - Oee1111
-  - Oee1133
-  - Oee1122
+  Oll1111: "ll_1111"
+  Oll2222: "ll_2222"
+  Oll3333: "ll_3333"
+  Oll1122: "1/2 * ll_1122"
+  Oll1133: "1/2 * ll_1133"
+  Oll2233: "1/2 * ll_2233"
+  Oll1221: "1/2 * ll_1221"
+  Oll1331: "1/2 * ll_1331"
+  Oll2332: "1/2 * ll_2332"
+  Ole1111: "le_1111"
+  Ole2222: "le_2222"
+  Ole3333: "le_3333"
+  Ole3311: "le_3311"
+  Ole3322: "le_3322"
+  Ole1133: "le_1133"
+  Ole2211: "le_2211"
+  Ole1221: "le_1221"
+  Ole1122: "le_1122"
+  Ole2233: "le_2233"
+  Oee1111: "ee_1111"
+  Oee2222: "ee_2222"
+  Oee3333: "ee_3333"
+  Oee1133: "1/4 * ee_1133"
+  Oee1122: "1/4 * ee_1122"
+  Oee2233: "1/4 * ee_2233"
   # 2L2Q operators
-  - OQlM1
-  - OQl31
-  - OQe
-  - Otl1
-  - Ote
+  OQl1M: "lq1_1133 - lq3_1133"
+  OQl13: "lq3_1133"
+  OQl3M: "lq1_3333 - lq3_3333"
+  OQl33: "lq3_3333"
+  OQe: "qe_3311"
+  OQta: "qe_3333"
+  Otl1: "lu_1133"
+  Otl2: "lu_2233"
+  Otl3: "lu_3333"
+  Ote: "eu_1133"
+  Otta: "eu_3333"
   # 2L2q operators
-  - OqlM1
-  - Oql31
-  - Oqe
-  - Olu
-  - Olb
-  - Oeb
+  Oql1M: "lq1_11ii - lq3_11ii"
+  Oql13: "lq3_11ii"
+  Oqe: "qe_ii11"
+  Ol1u: "lu_11ii"
+  Ol1d: "ld_11ii"
+  Ol1b: "ld_1133"
+  Oeu: "eu_11ii"
+  Oed: "ed_11ii"
+  Oeb: "ed_1133"
