@@ -10,8 +10,8 @@ data_central:
   - 1.9613e-05
   - 0.00017183
 statistical_error:
-  - 9.44136e-06
-  - 2.79455e-05
+  - 9.95206e-06
+  - 2.94571e-05
 systematics:
   - - 0.0
     - 0.0

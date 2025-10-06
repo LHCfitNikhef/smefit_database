@@ -1,9 +1,10 @@
 dataset_name: LCF_vvhh_500GeV_4ab
-description: ve ve~ H H production with polarised beams (+0.8,-0.2) and (-0.8,+0.2) at sqrts=500 GeV
+description: ve ve~ H H production with polarised beams (+0.8,-0.3) and (-0.8,+0.3)
+  at sqrts=500 GeV
 units: pb
 luminosity:
-  - 3200
-  - 3200
+  - 1600
+  - 1600
 num_data: 2
 num_sys: 2
 data_central:

@@ -1,5 +1,5 @@
 dataset_name: LCF_zh_ww_500GeV_4ab
-description: ZH inclusive production cross section times ww BR with polarised beams (-0.8,+0.3) and  (+0.8,-0.3) at sqrts=500 GeV
+description: ZH inclusive production cross section times ww BR with polarised beams (-0.8,+0.3) and (+0.8,-0.3) at sqrts=500 GeV
 units: pb
 luminosity:
   - 1600
