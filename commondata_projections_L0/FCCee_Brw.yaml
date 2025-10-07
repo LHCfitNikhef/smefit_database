@@ -24,9 +24,9 @@ systematics:
     - 0.0
     - 1.5e-05
 sys_names:
-  - CORR
-  - CORR
-  - CORR
+  - UNCORR
+  - UNCORR
+  - UNCORR
 sys_type:
   - ADD
   - ADD
