@@ -202,13 +202,12 @@ CMS:
 FCCee_161:
   - {name: FCCee_161_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: FCCee_161_ww_semilep_optim_obs, order: LO} # order: LO
-  - {name: FCCee_Brw_161GeV, order: LO} # order: LO
   - {name: FCCee_ww_161GeV, order: LO} # order: LO
 FCCee_240:
   - {name: FCCee_240_H_HADR, order: NLO_EW_only_for_ZH} # order: LO, NLO_EW_only_for_ZH
   - {name: FCCee_240_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: FCCee_240_ww_semilep_optim_obs, order: LO} # order: LO
-  - {name: FCCee_Brw_240GeV, order: LO} # order: LO
+  - {name: FCCee_Brw, order: LO} # order: LO
   - {name: FCCee_Rb_240GeV, order: LO} # order: LO
   - {name: FCCee_Rc_240GeV, order: LO} # order: LO
   - {name: FCCee_Rmu_240GeV, order: LO} # order: LO
@@ -236,7 +235,6 @@ FCCee_365:
   - {name: FCCee_365_tt_optim_obs, order: LO} # order: LO
   - {name: FCCee_365_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: FCCee_365_ww_semilep_optim_obs, order: LO} # order: LO
-  - {name: FCCee_Brw_365GeV, order: LO} # order: LO
   - {name: FCCee_Rb_365GeV, order: LO} # order: LO
   - {name: FCCee_Rc_365GeV, order: LO} # order: LO
   - {name: FCCee_Rmu_365GeV, order: LO} # order: LO
