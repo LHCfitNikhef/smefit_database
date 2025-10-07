@@ -1,0 +1,25 @@
+dataset_name: LCF_zh_cc_500GeV_4ab
+description: ZH inclusive production cross section times cc BR with polarised beams (-0.8,+0.3) and (+0.8,-0.3) at sqrts=500 GeV
+units: pb
+luminosity:
+  - 1600
+  - 1600
+num_data: 2
+num_sys: 2
+data_central:
+  - 0.00750205
+  - 0.00629018
+statistical_error:
+  - 0.00053264555
+  - 0.00044660277999999996
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
