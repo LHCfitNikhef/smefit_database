@@ -1,13 +1,13 @@
 dataset_name: CEPC_bb_240GeV
 description: bb production cross section.
 units: pb
-luminosity: 20000
+luminosity: 21600
 num_data: 1
 num_sys: 1
 data_central: 0.2507258693422858
 statistical_error:
-  - 0.000106789
+  - 0.00010275776316081824
 systematics:
   - 0.0
-sys_names: null
-sys_type: null
+sys_names:
+sys_type:
