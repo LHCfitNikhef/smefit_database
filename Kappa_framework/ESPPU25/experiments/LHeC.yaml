@@ -1,0 +1,56 @@
+dataset_name: LHeC
+doi: none
+location: Table 25, Fig. 7.12
+arxiv: '1905.03764, 2007.14491'
+hepdata: none
+units: none
+description: LHeC WBF and ZBF HIggs production and decays
+num_data: 14
+num_sys: 1
+data_central:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+statistical_error:
+  - 0.008
+  - 0.071
+  - 0.058
+  - 0.062
+  - 0.120
+  - 0.052
+  - 0.15
+  - 0.023
+  - 0.20
+  - 0.16
+  - 0.17
+  - 0.35
+  - 0.15
+  - 0.42
+systematics:
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+  - 0.00
+sys_names: null
+sys_type: null
