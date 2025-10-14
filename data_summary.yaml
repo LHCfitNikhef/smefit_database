@@ -290,3 +290,12 @@ LEP3_240:
   - {name: LEP3_zh_ZZ_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: LEP3_zh_aZ_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: LEP3_zh_aa_240GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LEP3_zh_mumu_240GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LEP3_zh_tautau_240GeV, order: NLO_EW} # order: LO, NLO_EW
+LEP3_161:
+  - {name: LEP3_ww_161GeV, order: LO} # order: LO
+  - {name: LEP3_Brw_161GeV, order: LO} # order: LO
+LEP3_91:
+  - {name: LEP3_Wwidth, order: LO} # order: LO
+  - {name: LEP3_Zdata, order: LO} # order: LO
+  - {name: LEP3_alphaEW, order: LO} # order: LO
