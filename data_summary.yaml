@@ -214,12 +214,9 @@ FCCee_240:
   - {name: FCCee_Rtau_240GeV, order: LO} # order: LO
   - {name: FCCee_bb_Afb_240GeV, order: LO} # order: LO
   - {name: FCCee_cc_Afb_240GeV, order: LO} # order: LO
-  - {name: FCCee_ee_Afb_240GeV, order: LO} # order: LO
   - {name: FCCee_mumu_Afb_240GeV, order: LO} # order: LO
   - {name: FCCee_sigmaHad_240GeV, order: LO} # order: LO
   - {name: FCCee_tautau_Afb_240GeV, order: LO} # order: LO
-  - {name: FCCee_vvh_240GeV, order: LO} # order: LO
-  - {name: FCCee_vvh_bb_240GeV, order: LO} # order: LO
   - {name: FCCee_ww_240GeV, order: LO} # order: LO
   - {name: FCCee_zh_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_WW_240GeV, order: NLO_EW} # order: LO, NLO_EW
@@ -275,3 +272,21 @@ LEP:
   - {name: LEP_eeWW_189GeV, order: LO} # order: LO
   - {name: LEP_eeWW_198GeV, order: LO} # order: LO
   - {name: LEP_eeWW_206GeV, order: LO} # order: LO
+LEP3_240:
+  - {name: LEP3_240_H_HADR, order: NLO_EW_only_for_ZH} # order: LO, NLO_EW_only_for_ZH
+  - {name: LEP3_Brw_240GeV, order: LO} # order: LO
+  - {name: LEP3_Rb_240GeV, order: LO} # order: LO
+  - {name: LEP3_Rc_240GeV, order: LO} # order: LO
+  - {name: LEP3_Rmu_240GeV, order: LO} # order: LO
+  - {name: LEP3_Rtau_240GeV, order: LO} # order: LO
+  - {name: LEP3_bb_Afb_240GeV, order: LO} # order: LO
+  - {name: LEP3_cc_Afb_240GeV, order: LO} # order: LO
+  - {name: LEP3_mumu_Afb_240GeV, order: LO} # order: LO
+  - {name: LEP3_sigmaHad_240GeV, order: LO} # order: LO
+  - {name: LEP3_tautau_Afb_240GeV, order: LO} # order: LO
+  - {name: LEP3_ww_240GeV, order: LO} # order: LO
+  - {name: LEP3_zh_240GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LEP3_zh_WW_240GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LEP3_zh_ZZ_240GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LEP3_zh_aZ_240GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LEP3_zh_aa_240GeV, order: NLO_EW} # order: LO, NLO_EW
