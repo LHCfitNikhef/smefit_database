@@ -264,8 +264,8 @@ FCCee_91:
   - {name: FCCee_Zdata, order: LO} # order: LO
   - {name: FCCee_alphaEW, order: LO} # order: LO
 LCF_250:
-  - {name: LCF_alphaEW_250GeV, order: LO}
-  - {name: LCF_vvh_bb_250GeV, order: LO}
+  - {name: LCF_alphaEW_250GeV, order: LO} # order: LO
+  - {name: LCF_vvh_bb_250GeV, order: LO} # order: LO
   - {name: LCF_zh_250GeV, order: LO}
   - {name: LCF_bb_250GeV, order: LO}
   - {name: LCF_ww_250GeV, order: LO}
@@ -437,14 +437,14 @@ LCF_1000:
   - {name: LCF_vvh_tautau_1000GeV, order: LO}
   - {name: LCF_vvh_ww_1000GeV, order: LO}
   - {name: LCF_vvh_zz_1000GeV, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_1000GeV_neg80_neg20, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_1000GeV_neg80_pos20, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_1000GeV_pos80_neg20, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_1000GeV_pos80_pos20, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_1000GeV_neg80_neg20, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_1000GeV_neg80_pos20, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_1000GeV_pos80_neg20, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_1000GeV_pos80_pos20, order: LO}
+  - {name: LCF_ww_leptonic_optim_obs_1000GeV_neg80_neg20, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_1000GeV_neg80_pos20, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_1000GeV_pos80_neg20, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_1000GeV_pos80_pos20, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_1000GeV_neg80_neg20, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_1000GeV_neg80_pos20, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_1000GeV_pos80_neg20, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_1000GeV_pos80_pos20, order: LO} # order: LO
 LEP:
   - {name: LEP1_EWPOs_2006, order: LO} # order: LO
   - {name: LEP_Bhabha_2013, order: LO} # order: LO
