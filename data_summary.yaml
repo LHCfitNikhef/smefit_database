@@ -112,6 +112,8 @@ CEPC_240:
   - {name: CEPC_tautau_240GeV, order: LO} # order: LO
   - {name: CEPC_tautau_Afb_240GeV, order: LO} # order: LO
   - {name: CEPC_vvh_bb_240GeV, order: LO} # order: LO
+  - {name: CEPC_vvh_cc_240GeV, order: LO} # order: LO
+  - {name: CEPC_vvh_gg_240GeV, order: LO} # order: LO
   - {name: CEPC_ww_240GeV, order: LO} # order: LO
   - {name: CEPC_zh_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_WW_240GeV, order: NLO_EW} # order: LO, NLO_EW
@@ -122,6 +124,7 @@ CEPC_240:
   - {name: CEPC_zh_cc_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_gg_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_tautau_240GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: CEPC_zh_mumu_240GeV, order: NLO_EW} # order: LO, NLO_EW
 CEPC_365:
   - {name: CEPC_365_tt_optim_obs, order: LO} # order: LO
   - {name: CEPC_365_ww_leptonic_optim_obs, order: LO} # order: LO
@@ -139,6 +142,7 @@ CEPC_365:
   - {name: CEPC_tautau_Afb_365GeV, order: LO} # order: LO
   - {name: CEPC_vvh_WW_365GeV, order: LO} # order: LO
   - {name: CEPC_vvh_ZZ_365GeV, order: LO} # order: LO
+  - {name: CEPC_vvh_aZ_365GeV, order: LO} # order: LO
   - {name: CEPC_vvh_aa_365GeV, order: LO} # order: LO
   - {name: CEPC_vvh_bb_365GeV, order: LO} # order: LO
   - {name: CEPC_vvh_cc_365GeV, order: LO} # order: LO
@@ -148,11 +152,13 @@ CEPC_365:
   - {name: CEPC_zh_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_WW_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_ZZ_365GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: CEPC_zh_aZ_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_aa_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_bb_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_cc_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_gg_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_tautau_365GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: CEPC_zh_mumu_365GeV, order: NLO_EW} # order: LO, NLO_EW
 CEPC_91:
   - {name: CEPC_Wwidth, order: LO} # order: LO
   - {name: CEPC_Zdata, order: LO} # order: LO
@@ -223,10 +229,8 @@ FCCee_240:
   - {name: FCCee_zh_ZZ_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_aZ_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_aa_240GeV, order: NLO_EW} # order: LO, NLO_EW
-  - {name: FCCee_zh_bb_240GeV, order: NLO_EW} # order: LO, NLO_EW
-  - {name: FCCee_zh_cc_240GeV, order: NLO_EW} # order: LO, NLO_EW
-  - {name: FCCee_zh_gg_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_tautau_240GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: FCCee_zh_mumu_240GeV, order: NLO_EW} # order: LO, NLO_EW
 FCCee_365:
   - {name: FCCee_365_H_HADR, order: NLO_EW_only_for_ZH} # order: LO, NLO_EW_only_for_ZH
   - {name: FCCee_365_tt_optim_obs, order: LO} # order: LO
@@ -238,31 +242,28 @@ FCCee_365:
   - {name: FCCee_Rtau_365GeV, order: LO} # order: LO
   - {name: FCCee_bb_Afb_365GeV, order: LO} # order: LO
   - {name: FCCee_cc_Afb_365GeV, order: LO} # order: LO
-  - {name: FCCee_ee_Afb_365GeV, order: LO} # order: LO
   - {name: FCCee_mumu_Afb_365GeV, order: LO} # order: LO
   - {name: FCCee_sigmaHad_365GeV, order: LO} # order: LO
   - {name: FCCee_tautau_Afb_365GeV, order: LO} # order: LO
-  - {name: FCCee_vvh_365GeV, order: LO} # order: LO
   - {name: FCCee_vvh_WW_365GeV, order: LO} # order: LO
   - {name: FCCee_vvh_ZZ_365GeV, order: LO} # order: LO
+  - {name: FCCee_vvh_aZ_365GeV, order: LO} # order: LO
   - {name: FCCee_vvh_aa_365GeV, order: LO} # order: LO
-  - {name: FCCee_vvh_bb_365GeV, order: LO} # order: LO
-  - {name: FCCee_vvh_cc_365GeV, order: LO} # order: LO
-  - {name: FCCee_vvh_gg_365GeV, order: LO} # order: LO
   - {name: FCCee_vvh_tautau_365GeV, order: LO} # order: LO
   - {name: FCCee_ww_365GeV, order: LO} # order: LO
   - {name: FCCee_zh_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_WW_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_ZZ_365GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: FCCee_zh_aZ_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_aa_365GeV, order: NLO_EW} # order: LO, NLO_EW
-  - {name: FCCee_zh_bb_365GeV, order: NLO_EW} # order: LO, NLO_EW
-  - {name: FCCee_zh_cc_365GeV, order: NLO_EW} # order: LO, NLO_EW
-  - {name: FCCee_zh_gg_365GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: FCCee_zh_tautau_365GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: FCCee_zh_mumu_365GeV, order: NLO_EW} # order: LO, NLO_EW
 FCCee_91:
   - {name: FCCee_Wwidth, order: LO} # order: LO
   - {name: FCCee_Zdata, order: LO} # order: LO
   - {name: FCCee_alphaEW, order: LO} # order: LO
+LCF_91:
+  - {name: LCF_Zdata_GigaZ, order: LO} # order: LO
 LCF_250:
   - {name: LCF_alphaEW_250GeV, order: LO} # order: LO
   - {name: LCF_vvh_bb_250GeV, order: LO} # order: LO
