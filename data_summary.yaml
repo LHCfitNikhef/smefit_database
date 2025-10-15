@@ -266,177 +266,177 @@ FCCee_91:
 LCF_250:
   - {name: LCF_alphaEW_250GeV, order: LO} # order: LO
   - {name: LCF_vvh_bb_250GeV, order: LO} # order: LO
-  - {name: LCF_zh_250GeV, order: LO}
-  - {name: LCF_bb_250GeV, order: LO}
-  - {name: LCF_ww_250GeV, order: LO}
-  - {name: LCF_zh_aa_250GeV, order: LO}
-  - {name: LCF_bb_Afb_250GeV, order: LO}
-  - {name: LCF_Wwidth_250GeV, order: LO}
-  - {name: LCF_zh_aZ_250GeV, order: LO}
-  - {name: LCF_Brw_250GeV, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_250GeV_neg80_neg30, order: LO}
-  - {name: LCF_zh_bb_250GeV, order: LO}
-  - {name: LCF_cc_250GeV, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_250GeV_neg80_pos30, order: LO}
-  - {name: LCF_zh_cc_250GeV, order: LO}
-  - {name: LCF_cc_Afb_250GeV, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_250GeV_pos80_neg30, order: LO}
-  - {name: LCF_zh_gg_250GeV, order: LO}
-  - {name: LCF_ee_250GeV, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_250GeV_pos80_pos30, order: LO}
-  - {name: LCF_zh_mumu_250GeV, order: LO}
-  - {name: LCF_ee_Afb_250GeV, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_250GeV_neg80_neg30, order: LO}
-  - {name: LCF_zh_tautau_250GeV, order: LO}
-  - {name: LCF_mumu_250GeV, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_250GeV_neg80_pos30, order: LO}
-  - {name: LCF_zh_ww_250GeV, order: LO}
-  - {name: LCF_mumu_Afb_250GeV, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_250GeV_pos80_neg30, order: LO}
-  - {name: LCF_zh_zz_250GeV, order: LO}
-  - {name: LCF_tautau_250GeV, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_250GeV_pos80_pos30, order: LO}
-  - {name: LCF_tautau_Afb_250GeV, order: LO}
-  - {name: LCF_Zdata_250GeV, order: LO}
+  - {name: LCF_zh_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_bb_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_250GeV, order: LO} # order: LO
+  - {name: LCF_zh_aa_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_bb_Afb_250GeV, order: LO} # order: LO
+  - {name: LCF_Wwidth_250GeV, order: LO} # order: LO
+  - {name: LCF_zh_aZ_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_Brw_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_250GeV_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_zh_bb_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_cc_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_250GeV_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_zh_cc_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_cc_Afb_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_250GeV_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_zh_gg_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_ee_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_250GeV_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_zh_mumu_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_ee_Afb_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_250GeV_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_zh_tautau_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_mumu_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_250GeV_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_zh_ww_250GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_mumu_Afb_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_250GeV_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_zh_zz_250GeV, order: NLO_EW} # order: NLO_EW
+  - {name: LCF_tautau_250GeV, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_250GeV_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_tautau_Afb_250GeV, order: LO} # order: LO
+  - {name: LCF_Zdata_250GeV, order: LO} # order: LO
 LCF_350:
-  - {name: LCF_Brw_350GeV, order: LO}
-  - {name: LCF_tt_wbwb_350GeV_neg80_neg30, order: LO}
-  - {name: LCF_tt_wbwb_350GeV_neg80_pos30, order: LO}
-  - {name: LCF_tt_wbwb_350GeV_pos80_neg30, order: LO}
-  - {name: LCF_tt_wbwb_350GeV_pos80_pos30, order: LO}
-  - {name: LCF_vvh_aa_350GeV, order: LO}
-  - {name: LCF_vvh_bb_350GeV, order: LO}
-  - {name: LCF_vvh_cc_350GeV, order: LO}
-  - {name: LCF_vvh_gg_350GeV, order: LO}
-  - {name: LCF_vvh_mumu_350GeV, order: LO}
-  - {name: LCF_vvh_tautau_350GeV, order: LO}
-  - {name: LCF_vvh_ww_350GeV, order: LO}
-  - {name: LCF_vvh_zz_350GeV, order: LO}
-  - {name: LCF_ww_350GeV, order: LO}
-  - {name: LCF_zh_350GeV, order: LO}
-  - {name: LCF_zh_aa_350GeV, order: LO}
-  - {name: LCF_zh_bb_350GeV, order: LO}
-  - {name: LCF_zh_cc_350GeV, order: LO}
-  - {name: LCF_zh_gg_350GeV, order: LO}
-  - {name: LCF_zh_mumu_350GeV, order: LO}
-  - {name: LCF_zh_tautau_350GeV, order: LO}
-  - {name: LCF_zh_ww_350GeV, order: LO}
-  - {name: LCF_zh_zz_350GeV, order: LO}
+  - {name: LCF_Brw_350GeV, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_350GeV_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_350GeV_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_350GeV_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_350GeV_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_vvh_aa_350GeV, order: LO} # order: LO
+  - {name: LCF_vvh_bb_350GeV, order: LO} # order: LO
+  - {name: LCF_vvh_cc_350GeV, order: LO} # order: LO
+  - {name: LCF_vvh_gg_350GeV, order: LO} # order: LO
+  - {name: LCF_vvh_mumu_350GeV, order: LO} # order: LO
+  - {name: LCF_vvh_tautau_350GeV, order: LO} # order: LO
+  - {name: LCF_vvh_ww_350GeV, order: LO} # order: LO
+  - {name: LCF_vvh_zz_350GeV, order: LO} # order: LO
+  - {name: LCF_ww_350GeV, order: LO} # order: LO
+  - {name: LCF_zh_350GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_aa_350GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_bb_350GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_cc_350GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_gg_350GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_mumu_350GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_tautau_350GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_ww_350GeV, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_zz_350GeV, order: NLO_EW} # order: LO, NLO_EW
 LCF_500_4ab:
-  - {name: LCF_bb_500GeV_4ab, order: LO}
-  - {name: LCF_bb_Afb_500GeV_4ab, order: LO}
-  - {name: LCF_Brw_500GeV_4ab, order: LO}
-  - {name: LCF_cc_500GeV_4ab, order: LO}
-  - {name: LCF_cc_Afb_500GeV_4ab, order: LO}
-  - {name: LCF_ee_500GeV_4ab, order: LO}
-  - {name: LCF_ee_Afb_500GeV_4ab, order: LO}
-  - {name: LCF_mumu_500GeV_4ab, order: LO}
-  - {name: LCF_mumu_Afb_500GeV_4ab, order: LO}
-  - {name: LCF_tautau_500GeV_4ab, order: LO}
-  - {name: LCF_tautau_Afb_500GeV_4ab, order: LO}
-  - {name: LCF_tth_500GeV_4ab, order: LO}
-  - {name: LCF_tt_wbwb_500GeV_4ab_neg80_neg30, order: LO}
-  - {name: LCF_tt_wbwb_500GeV_4ab_neg80_pos30, order: LO}
-  - {name: LCF_tt_wbwb_500GeV_4ab_pos80_neg30, order: LO}
-  - {name: LCF_tt_wbwb_500GeV_4ab_pos80_pos30, order: LO}
-  - {name: LCF_vvh_aa_500GeV_4ab, order: LO}
-  - {name: LCF_vvh_bb_500GeV_4ab, order: LO}
-  - {name: LCF_vvh_cc_500GeV_4ab, order: LO}
-  - {name: LCF_vvh_gg_500GeV_4ab, order: LO}
-  - {name: LCF_vvhh_500GeV_4ab, order: LO}
-  - {name: LCF_vvh_mumu_500GeV_4ab, order: LO}
-  - {name: LCF_vvh_tautau_500GeV_4ab, order: LO}
-  - {name: LCF_vvh_ww_500GeV_4ab, order: LO}
-  - {name: LCF_vvh_zz_500GeV_4ab, order: LO}
-  - {name: LCF_ww_500GeV_4ab, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_500GeV_4ab_neg80_neg30, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_500GeV_4ab_neg80_pos30, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_500GeV_4ab_pos80_neg30, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_500GeV_4ab_pos80_pos30, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_500GeV_4ab_neg80_neg30, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_500GeV_4ab_neg80_pos30, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_500GeV_4ab_pos80_neg30, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_500GeV_4ab_pos80_pos30, order: LO}
-  - {name: LCF_zh_500GeV_4ab, order: LO}
-  - {name: LCF_zh_aa_500GeV_4ab, order: LO}
-  - {name: LCF_zh_bb_500GeV_4ab, order: LO}
-  - {name: LCF_zh_cc_500GeV_4ab, order: LO}
-  - {name: LCF_zh_gg_500GeV_4ab, order: LO}
-  - {name: LCF_zhh_500GeV_4ab, order: LO}
-  - {name: LCF_zh_mumu_500GeV_4ab, order: LO}
-  - {name: LCF_zh_tautau_500GeV_4ab, order: LO}
-  - {name: LCF_zh_ww_500GeV_4ab, order: LO}
-  - {name: LCF_zh_zz_500GeV_4ab, order: LO}
+  - {name: LCF_bb_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_bb_Afb_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_Brw_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_cc_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_cc_Afb_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_ee_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_ee_Afb_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_mumu_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_mumu_Afb_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_tautau_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_tautau_Afb_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_tth_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_500GeV_4ab_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_500GeV_4ab_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_500GeV_4ab_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_500GeV_4ab_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_vvh_aa_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_vvh_bb_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_vvh_cc_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_vvh_gg_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_vvhh_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_vvh_mumu_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_vvh_tautau_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_vvh_ww_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_vvh_zz_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_ww_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_500GeV_4ab_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_500GeV_4ab_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_500GeV_4ab_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_500GeV_4ab_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_500GeV_4ab_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_500GeV_4ab_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_500GeV_4ab_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_500GeV_4ab_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_zh_500GeV_4ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_aa_500GeV_4ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_bb_500GeV_4ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_cc_500GeV_4ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_gg_500GeV_4ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zhh_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_zh_mumu_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_zh_tautau_500GeV_4ab, order: LO} # order: LO
+  - {name: LCF_zh_ww_500GeV_4ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_zz_500GeV_4ab, order: NLO_EW} # order: LO, NLO_EW
 LCF_500_8ab:
-  - {name: LCF_bb_500GeV_8ab, order: LO}
-  - {name: LCF_bb_Afb_500GeV_8ab, order: LO}
-  - {name: LCF_Brw_500GeV_8ab, order: LO}
-  - {name: LCF_cc_500GeV_8ab, order: LO}
-  - {name: LCF_cc_Afb_500GeV_8ab, order: LO}
-  - {name: LCF_ee_500GeV_8ab, order: LO}
-  - {name: LCF_ee_Afb_500GeV_8ab, order: LO}
-  - {name: LCF_mumu_500GeV_8ab, order: LO}
-  - {name: LCF_mumu_Afb_500GeV_8ab, order: LO}
-  - {name: LCF_tautau_500GeV_8ab, order: LO}
-  - {name: LCF_tautau_Afb_500GeV_8ab, order: LO}
-  - {name: LCF_tth_500GeV_8ab, order: LO}
-  - {name: LCF_tt_wbwb_500GeV_8ab_neg80_neg30, order: LO}
-  - {name: LCF_tt_wbwb_500GeV_8ab_neg80_pos30, order: LO}
-  - {name: LCF_tt_wbwb_500GeV_8ab_pos80_neg30, order: LO}
-  - {name: LCF_tt_wbwb_500GeV_8ab_pos80_pos30, order: LO}
-  - {name: LCF_vvh_aa_500GeV_8ab, order: LO}
-  - {name: LCF_vvh_bb_500GeV_8ab, order: LO}
-  - {name: LCF_vvh_cc_500GeV_8ab, order: LO}
-  - {name: LCF_vvh_gg_500GeV_8ab, order: LO}
-  - {name: LCF_vvhh_500GeV_8ab, order: LO}
-  - {name: LCF_vvh_mumu_500GeV_8ab, order: LO}
-  - {name: LCF_vvh_tautau_500GeV_8ab, order: LO}
-  - {name: LCF_vvh_ww_500GeV_8ab, order: LO}
-  - {name: LCF_vvh_zz_500GeV_8ab, order: LO}
-  - {name: LCF_ww_500GeV_8ab, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_500GeV_8ab_neg80_neg30, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_500GeV_8ab_neg80_pos30, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_500GeV_8ab_pos80_neg30, order: LO}
-  - {name: LCF_ww_leptonic_optim_obs_500GeV_8ab_pos80_pos30, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_500GeV_8ab_neg80_neg30, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_500GeV_8ab_neg80_pos30, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_500GeV_8ab_pos80_neg30, order: LO}
-  - {name: LCF_ww_semilep_optim_obs_500GeV_8ab_pos80_pos30, order: LO}
-  - {name: LCF_zh_500GeV_8ab, order: LO}
-  - {name: LCF_zh_aa_500GeV_8ab, order: LO}
-  - {name: LCF_zh_bb_500GeV_8ab, order: LO}
-  - {name: LCF_zh_cc_500GeV_8ab, order: LO}
-  - {name: LCF_zh_gg_500GeV_8ab, order: LO}
-  - {name: LCF_zhh_500GeV_8ab, order: LO}
-  - {name: LCF_zh_mumu_500GeV_8ab, order: LO}
-  - {name: LCF_zh_tautau_500GeV_8ab, order: LO}
-  - {name: LCF_zh_ww_500GeV_8ab, order: LO}
-  - {name: LCF_zh_zz_500GeV_8ab, order: LO}
+  - {name: LCF_bb_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_bb_Afb_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_Brw_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_cc_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_cc_Afb_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_ee_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_ee_Afb_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_mumu_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_mumu_Afb_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_tautau_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_tautau_Afb_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_tth_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_500GeV_8ab_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_500GeV_8ab_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_500GeV_8ab_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_500GeV_8ab_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_vvh_aa_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_vvh_bb_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_vvh_cc_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_vvh_gg_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_vvhh_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_vvh_mumu_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_vvh_tautau_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_vvh_ww_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_vvh_zz_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_ww_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_500GeV_8ab_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_500GeV_8ab_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_500GeV_8ab_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_ww_leptonic_optim_obs_500GeV_8ab_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_500GeV_8ab_neg80_neg30, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_500GeV_8ab_neg80_pos30, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_500GeV_8ab_pos80_neg30, order: LO} # order: LO
+  - {name: LCF_ww_semilep_optim_obs_500GeV_8ab_pos80_pos30, order: LO} # order: LO
+  - {name: LCF_zh_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_aa_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_bb_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_cc_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_gg_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zhh_500GeV_8ab, order: LO} # order: LO
+  - {name: LCF_zh_mumu_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_tautau_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_ww_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
+  - {name: LCF_zh_zz_500GeV_8ab, order: NLO_EW} # order: LO, NLO_EW
 LCF_1000:
-  - {name: LCF_bb_1000GeV, order: LO}
-  - {name: LCF_bb_Afb_1000GeV, order: LO}
-  - {name: LCF_cc_1000GeV, order: LO}
-  - {name: LCF_cc_Afb_1000GeV, order: LO}
-  - {name: LCF_ee_1000GeV, order: LO}
-  - {name: LCF_ee_Afb_1000GeV, order: LO}
-  - {name: LCF_mumu_1000GeV, order: LO}
-  - {name: LCF_mumu_Afb_1000GeV, order: LO}
-  - {name: LCF_tautau_1000GeV, order: LO}
-  - {name: LCF_tautau_Afb_1000GeV, order: LO}
-  - {name: LCF_tth_1000GeV, order: LO}
-  - {name: LCF_tt_wbwb_1000GeV_neg80_neg20, order: LO}
-  - {name: LCF_tt_wbwb_1000GeV_neg80_pos20, order: LO}
-  - {name: LCF_tt_wbwb_1000GeV_pos80_neg20, order: LO}
-  - {name: LCF_tt_wbwb_1000GeV_pos80_pos20, order: LO}
-  - {name: LCF_vvh_aa_1000GeV, order: LO}
-  - {name: LCF_vvh_bb_1000GeV, order: LO}
-  - {name: LCF_vvh_cc_1000GeV, order: LO}
-  - {name: LCF_vvh_gg_1000GeV, order: LO}
-  - {name: LCF_vvhh_1000GeV, order: LO}
-  - {name: LCF_vvh_mumu_1000GeV, order: LO}
-  - {name: LCF_vvh_tautau_1000GeV, order: LO}
-  - {name: LCF_vvh_ww_1000GeV, order: LO}
-  - {name: LCF_vvh_zz_1000GeV, order: LO}
+  - {name: LCF_bb_1000GeV, order: LO} # order: LO
+  - {name: LCF_bb_Afb_1000GeV, order: LO} # order: LO
+  - {name: LCF_cc_1000GeV, order: LO} # order: LO
+  - {name: LCF_cc_Afb_1000GeV, order: LO} # order: LO
+  - {name: LCF_ee_1000GeV, order: LO} # order: LO
+  - {name: LCF_ee_Afb_1000GeV, order: LO} # order: LO
+  - {name: LCF_mumu_1000GeV, order: LO} # order: LO
+  - {name: LCF_mumu_Afb_1000GeV, order: LO} # order: LO
+  - {name: LCF_tautau_1000GeV, order: LO} # order: LO
+  - {name: LCF_tautau_Afb_1000GeV, order: LO} # order: LO
+  - {name: LCF_tth_1000GeV, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_1000GeV_neg80_neg20, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_1000GeV_neg80_pos20, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_1000GeV_pos80_neg20, order: LO} # order: LO
+  - {name: LCF_tt_wbwb_1000GeV_pos80_pos20, order: LO} # order: LO
+  - {name: LCF_vvh_aa_1000GeV, order: LO} # order: LO
+  - {name: LCF_vvh_bb_1000GeV, order: LO} # order: LO
+  - {name: LCF_vvh_cc_1000GeV, order: LO} # order: LO
+  - {name: LCF_vvh_gg_1000GeV, order: LO} # order: LO
+  - {name: LCF_vvhh_1000GeV, order: LO} # order: LO
+  - {name: LCF_vvh_mumu_1000GeV, order: LO} # order: LO
+  - {name: LCF_vvh_tautau_1000GeV, order: LO} # order: LO
+  - {name: LCF_vvh_ww_1000GeV, order: LO} # order: LO
+  - {name: LCF_vvh_zz_1000GeV, order: LO} # order: LO
   - {name: LCF_ww_leptonic_optim_obs_1000GeV_neg80_neg20, order: LO} # order: LO
   - {name: LCF_ww_leptonic_optim_obs_1000GeV_neg80_pos20, order: LO} # order: LO
   - {name: LCF_ww_leptonic_optim_obs_1000GeV_pos80_neg20, order: LO} # order: LO
