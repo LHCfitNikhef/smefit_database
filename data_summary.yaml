@@ -112,8 +112,6 @@ CEPC_240:
   - {name: CEPC_tautau_240GeV, order: LO} # order: LO
   - {name: CEPC_tautau_Afb_240GeV, order: LO} # order: LO
   - {name: CEPC_vvh_bb_240GeV, order: LO} # order: LO
-  - {name: CEPC_vvh_cc_240GeV, order: LO} # order: LO
-  - {name: CEPC_vvh_gg_240GeV, order: LO} # order: LO
   - {name: CEPC_ww_240GeV, order: LO} # order: LO
   - {name: CEPC_zh_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: CEPC_zh_WW_240GeV, order: NLO_EW} # order: LO, NLO_EW
@@ -144,6 +142,8 @@ CEPC_365:
   - {name: CEPC_vvh_ZZ_365GeV, order: LO} # order: LO
   - {name: CEPC_vvh_aa_365GeV, order: LO} # order: LO
   - {name: CEPC_vvh_bb_365GeV, order: LO} # order: LO
+  - {name: CEPC_vvh_cc_365GeV, order: LO} # order: LO
+  - {name: CEPC_vvh_gg_365GeV, order: LO} # order: LO
   - {name: CEPC_vvh_tautau_365GeV, order: LO} # order: LO
   - {name: CEPC_ww_365GeV, order: LO} # order: LO
   - {name: CEPC_zh_365GeV, order: NLO_EW} # order: LO, NLO_EW
