@@ -6,7 +6,7 @@ hepdata: https://www.hepdata.net/record/ins1849964?version=2&table=Dielectron%20
 units: '# events'
 description: The number of events observed for electron pair production in the range 500-6070 GeV.
 luminosity: 3000
-num_data: 79
+num_data: 38
 num_sys: 1
 data_central:
   - 15535.904399082852
