@@ -72,7 +72,6 @@ HLLHC:
   - {name: CMS_ggF_aa_13TeV_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_tW_13TeV_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_tW_13TeV_slep_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
-  - {name: CMS_tZ_13TeV_2016_inc_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_tZ_13TeV_pTt_uncor_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_t_tch_13TeV_2019_diff_Yt_proj, order: NLO_QCD} # order: LO, NLO_QCD
   - {name: CMS_ttW_13TeV_proj, order: NLO_QCD} # order: LO, NLO_QCD
