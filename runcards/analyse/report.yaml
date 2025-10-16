@@ -35,7 +35,8 @@ coefficients_plots:
     show: True
     confidence_level: 95
     dofs_show: ["Op", "Ope"] # Null or list of op per fit to be displayed
-  posterior_histograms: True
+  posterior_histograms:
+    nrows: -1
   table:
     round_val: 3
     #
@@ -53,7 +54,8 @@ PCA:
   table: True # display the list of PC decomposition
   thr_show: 1.e-2
   #sv_min: 1.e-4
-  plot: True
+  plot:
+    figsize: [30, 30]
   fit_list: [LHC_NLO_QUAD_GLOB, LHC_NLO_LIN_GLOB] # or list of fits to include by name
 chi2_plots:
   table: True # bool, chi2 table
@@ -131,7 +133,8 @@ coeff_info:
     - [Opmu, "$c_{\\varphi \\mu}$"]
     - [Opta, "$c_{\\varphi \\tau}$"]
   4l:
-    - [Oll, "$c_{ll}$"]
+    - [Oll1221, "$c^{1221}_{ll}$"]
+    - [Oll1111, "$c^{1111}_{ll}$"]
   B:
     - [OpG, "$c_{\\varphi G}$"]
     - [OpGtil, "$c_{\\widetilde{\\varphi G}}$"] # Non SMEFiT2.0
