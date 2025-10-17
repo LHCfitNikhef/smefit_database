@@ -1,0 +1,13 @@
+dataset_name: CEPC_zh_mumu_365GeV
+description: ZH inclusive production cross section times mu+mu- BR.
+units: pb
+luminosity: 1000
+num_data: 1
+num_sys: 1
+data_central: 2.4304e-05
+statistical_error:
+  - 0.0000138533
+systematics:
+  - 0.0
+sys_names:
+sys_type:
