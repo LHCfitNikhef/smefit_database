@@ -1,0 +1,83 @@
+result_ID: FCC_FCChh
+result_path: /SMEFIT/ESPPU25_fit/kappa3/FvsV/
+data_path: smefit_database/Kappa_framework/ESPPU25/experiments
+theory_path: smefit_database/Kappa_framework/ESPPU25/theory_cards
+order: LO
+use_theory_covmat: false
+use_t0: true
+use_quad: true
+bounds: null
+poly_mode: true
+external_coefficients:
+  kh2: (0.57676*kb**2+0.063*ktau**2+0.0291*kc**2+0.215*kW**2+0.0264*kZ**2+0.0857*kg**2+0.00228*(1.59*kW**2+0.07*kt**2-0.66*kW*kt)+0.00154*(1.12*kW**2-0.12*kW*kt)+0.000220*kmu**2)/(1-BrInv-BrUnd)
+  kgamma: (1.59*kW**2+0.07*kt**2-0.66*kW*kt)**0.5
+  kZgamma: (1.12*kW**2-0.12*kW*kt)**0.5
+nlive: 500
+lepsilon: 0.04
+target_evidence_unc: 0.04
+target_post_unc: 0.04
+frac_remain: 0.01
+store_raw: false
+datasets:
+  - HL_LHC_SMTHcorr
+  - HL_LHC_SMTHcorr_invisible
+  - FCC_ee240
+  - FCC_ee240_invisible
+  - FCC_ee365
+  - FCC_ee365_invisible
+  - FCC_hh84
+  - FCC_hh84_invisible
+coefficients:
+  kb:
+    constrain:
+      - kF: 1.0
+    min: 0.9
+    max: 1.1
+  ktau:
+    constrain:
+      - kF: 1.0
+    min: 0.9
+    max: 1.1
+  kc:
+    constrain:
+      - kF: 1.0
+    min: 0.9
+    max: 1.1
+  kW:
+    constrain:
+      - kV: 1.0
+    min: 0.9
+    max: 1.1
+  kZ:
+    constrain:
+      - kV: 1.0
+    min: 0.9
+    max: 1.1
+  kg:
+    constrain:
+      - kF: 1.0
+    min: 0.9
+    max: 1.1
+  kmu:
+    constrain:
+      - kF: 1.0
+    min: 0.9
+    max: 1.1
+  kt:
+    constrain:
+      - kF: 1.0
+    min: 0.9
+    max: 1.1
+  BrInv:
+    min: 0.0
+    max: 0.1
+  BrUnd:
+    min: 0.0
+    max: 0.1
+  kF:
+    min: 0.9
+    max: 1.1
+  kV:
+    min: 0.9
+    max: 1.1
+rot_to_fit_basis: null
