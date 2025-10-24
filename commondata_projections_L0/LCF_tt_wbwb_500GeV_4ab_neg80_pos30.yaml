@@ -1,4 +1,4 @@
-dataset_name: LCF_tt_wbwb_500GeV_neg80_pos30
+dataset_name: LCF_tt_wbwb_500GeV_4ab_neg80_pos30
 num_data: 8
 num_sys: 8
 data_central:
