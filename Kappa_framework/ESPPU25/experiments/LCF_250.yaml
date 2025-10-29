@@ -1,0 +1,41 @@
+dataset_name: LCF_250
+doi: '-'
+location: Tab. 5
+arxiv: '2503.19983'
+hepdata: none
+units: none
+description: ZH (8p) and vvH (1p)
+num_data: 9
+num_sys: 1
+data_central:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+statistical_error:
+  - 0.0062
+  - 0.0041
+  - 0.025
+  - 0.021
+  - 0.0098
+  - 0.055
+  - 0.014
+  - 0.1
+  - 0.025
+systematics:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+sys_names: null
+sys_type: null
