@@ -1,11 +1,15 @@
 # python
-import pathlib
+import pathlib, os
 import numpy as np
 import pytest
 from smefit.loader import Loader
 from smefit.covmat import covmat_from_systematics
 
-COMMONDATA_DIRS = ["../commondata", "../commondata_projections_L0"]
+BASE_DIR = os.path.dirname(__file__)
+COMMONDATA_DIRS = [
+    pathlib.Path(BASE_DIR + "/../commondata"),
+    pathlib.Path(BASE_DIR + "/../commondata_projections_L0"),
+]
 
 
 def get_yaml_files(directories):
@@ -22,8 +26,8 @@ def get_yaml_files(directories):
 
 @pytest.mark.parametrize("dataset,commondata_dir", get_yaml_files(COMMONDATA_DIRS))
 def test_experimental_covmat(dataset, commondata_dir):
-    Loader.commondata_path = pathlib.Path(commondata_dir)
-    Loader.theory_path = pathlib.Path("../theory")
+    Loader.commondata_path = commondata_dir
+    Loader.theory_path = pathlib.Path(BASE_DIR + "/../theory")
 
     loaded_dataset = Loader(
         setname=dataset,
