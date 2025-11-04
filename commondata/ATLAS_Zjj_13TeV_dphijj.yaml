@@ -9,7 +9,7 @@ description: Differential cross-section measurements for the electroweak product
 luminosity: 139
 num_data: 12
 num_sys: 12
-data central:
+data_central:
   - 26.437
   - 17.36
   - 11.665

@@ -1,0 +1,208 @@
+dataset_name: ATLAS_Zjj_13TeV_dphijj
+doi: 10.1140/epjc/s10052-020-08734-w
+location: Data from Table 04 & 21 in HEPdata
+arxiv: 2006.15458
+hepdata:
+  - https://www.hepdata.net/record/ins1803608
+units: none
+description: Differential cross-section measurements for the electroweak production  of dijets in association with a $Z$ boson in proton$-$proton collisions at ATLAS.  Absolute differential distribution in dphi(jj) & statistical correlation matrix obtained from hepdata record:https://www.hepdata.net/record/ins1803608, Table 04 & 21. HERWIG7VBFNLO prediction also given in HEPdata record, including theoretical errors. Correlation matrix constructed assuming fully correlated systematics and uncorrelated theory errors.
+luminosity: 3000.0
+num_data: 12
+num_sys: 12
+data_central:
+  - 27.397
+  - 22.038
+  - 11.917
+  - 4.3846
+  - 1.5262
+  - 0.80637
+  - 0.84705
+  - 1.5624
+  - 4.4635
+  - 12.281
+  - 21.877
+  - 27.293
+statistical_error:
+  - 0.8589705201977091
+  - 0.6887733606231787
+  - 0.32852227237900344
+  - 0.1283253765546266
+  - 0.07629876041172093
+  - 0.04888149304371631
+  - 0.04711892105167923
+  - 0.06617905711023692
+  - 0.12288231365629394
+  - 0.3251627275771332
+  - 0.7441783298114711
+  - 0.8873190971478354
+systematics:
+  - - 3.7176880000000017
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 1.849903
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.7717265000000005
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.22686799999999988
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.13422949999999997
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0832285
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0820670000000009
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.11171950000000178
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.22582250000000056
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.8482335000000004
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 2.0504405
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 3.708639499999996
+sys_names:
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
