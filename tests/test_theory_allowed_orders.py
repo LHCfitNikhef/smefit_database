@@ -1,6 +1,6 @@
 import json
-import re
 from pathlib import Path
+import yaml
 
 keys_to_ignore = ["best_sm", "scales", "theory_cov"]
 
@@ -8,35 +8,20 @@ keys_to_ignore = ["best_sm", "scales", "theory_cov"]
 def load_data_summary_allowed_orders(summary_path: Path):
     text = summary_path.read_text(encoding="utf-8")
 
-    # try YAML first
-    try:
-        import yaml
-
-        data = yaml.safe_load(text)
-        mapping = {}
-        if isinstance(data, dict):
-            for section, items in data.items():
-                if not isinstance(items, list):
-                    continue
-                for it in items:
-                    if isinstance(it, dict) and "name" in it:
-                        name = str(it["name"])
-                        ao = it.get("allowed_orders")
-                        if ao is None:
-                            ao = []
-                        mapping[name] = [str(x) for x in ao]
-        return mapping
-    except Exception:
-        # fallback: regex scan for inline entries like: name: NAME, ... allowed_orders: [A, B]
-        mapping = {}
-        for m in re.finditer(
-            r"name:\s*([A-Za-z0-9_\-]+)[^\n\r]*allowed_orders:\s*\[([^\]]*)\]", text
-        ):
-            name = m.group(1)
-            ao_raw = m.group(2)
-            ao = [x.strip() for x in ao_raw.split(",") if x.strip()]
-            mapping[name] = ao
-        return mapping
+    data = yaml.safe_load(text)
+    mapping = {}
+    if isinstance(data, dict):
+        for section, items in data.items():
+            if not isinstance(items, list):
+                continue
+            for it in items:
+                if isinstance(it, dict) and "name" in it:
+                    name = str(it["name"])
+                    ao = it.get("allowed_orders")
+                    if ao is None:
+                        ao = []
+                    mapping[name] = [str(x) for x in ao]
+    return mapping
 
 
 def find_order_keys_in_theory_json(json_path: Path):

@@ -1,4 +1,4 @@
-import re
+import yaml
 from pathlib import Path
 import pytest
 
@@ -8,29 +8,18 @@ COMMONDATA_DIRS = ["commondata", "commondata_projections_L0"]
 def load_summary_names(summary_path: Path):
     text = summary_path.read_text(encoding="utf-8")
 
-    # strip possible code-fence markers if present
-    text = re.sub(r"^```[a-zA-Z]*\n", "", text)
-    text = re.sub(r"\n```$", "", text)
-
     names = set()
 
-    try:
-        import yaml
-
-        data = yaml.safe_load(text)
-        if isinstance(data, dict):
-            for section, items in data.items():
-                if not isinstance(items, list):
-                    continue
-                for it in items:
-                    if isinstance(it, dict) and "name" in it:
-                        names.add(str(it["name"]))
-                    elif isinstance(it, str):
-                        names.add(it)
-    except Exception:
-        # fallback: regex extract 'name: SOME_NAME' occurrences
-        for m in re.finditer(r"name:\s*([A-Za-z0-9_\-\.]+)", text):
-            names.add(m.group(1))
+    data = yaml.safe_load(text)
+    if isinstance(data, dict):
+        for section, items in data.items():
+            if not isinstance(items, list):
+                continue
+            for it in items:
+                if isinstance(it, dict) and "name" in it:
+                    names.add(str(it["name"]))
+                elif isinstance(it, str):
+                    names.add(it)
 
     return names
 
