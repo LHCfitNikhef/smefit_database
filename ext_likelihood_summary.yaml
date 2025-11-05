@@ -7,9 +7,9 @@ external_chi2:
     use_theory_covmat: True
     use_t0: True
     use_multiplicative_prescription: False
-    cutoff_scale: None # in GeV, to cut off data points above this scale
-    save_rge_path: None # path to save RGE matrix if computed
-    rg_matrix: None # path to load precomputed RGE matrix
+    cutoff_scale: null # in GeV, to cut off data points above this scale
+    save_rge_path: null # path to save RGE matrix if computed
+    rg_matrix: null # path to load precomputed RGE matrix
     use_projection_L0: False
   HLLHC_DYMee_13TeV:
     path: /path/to/smefit_database/external_chi2/drell_yan/HLLHC_DYMee_13TeV.py
@@ -18,9 +18,9 @@ external_chi2:
     use_theory_covmat: True
     use_t0: True
     use_multiplicative_prescription: False
-    cutoff_scale: None # in GeV, to cut off data points above this scale
-    save_rge_path: None # path to save RGE matrix if computed
-    rg_matrix: None # path to load precomputed RGE matrix
+    cutoff_scale: null # in GeV, to cut off data points above this scale
+    save_rge_path: null # path to save RGE matrix if computed
+    rg_matrix: null # path to load precomputed RGE matrix
   OptimalWWCEPC161:
     path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_cepc.py
   OptimalWWCEPC240:
