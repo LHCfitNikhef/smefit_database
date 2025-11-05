@@ -360,8 +360,8 @@ LCF_500_4ab:
   - {name: LCF_zh_cc_500GeV_4ab, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
   - {name: LCF_zh_gg_500GeV_4ab, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
   - {name: LCF_zhh_500GeV_4ab, order: LO, allowed_orders: [LO]}
-  - {name: LCF_zh_mumu_500GeV_4ab, order: LO, allowed_orders: [LO]}
-  - {name: LCF_zh_tautau_500GeV_4ab, order: LO, allowed_orders: [LO]}
+  - {name: LCF_zh_mumu_500GeV_4ab, order: LO, allowed_orders: [LO, NLO_EW]}
+  - {name: LCF_zh_tautau_500GeV_4ab, order: LO, allowed_orders: [LO, NLO_EW]}
   - {name: LCF_zh_ww_500GeV_4ab, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
   - {name: LCF_zh_zz_500GeV_4ab, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
 LCF_500_8ab:
