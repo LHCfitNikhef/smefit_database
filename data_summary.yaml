@@ -454,7 +454,7 @@ LEP3_240:
   - {name: LEP3_240_H_HADR, order: NLO_EW_only_for_ZH} # order: LO, NLO_EW_only_for_ZH
   - {name: LEP3_240_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: LEP3_240_ww_semilep_optim_obs, order: LO} # order: LO
-  - {name: LEP3_Brw_240GeV, order: LO} # order: LO
+  - {name: LEP3_Brw, order: LO} # order: LO
   - {name: LEP3_Rb_240GeV, order: LO} # order: LO
   - {name: LEP3_Rc_240GeV, order: LO} # order: LO
   - {name: LEP3_Rmu_240GeV, order: LO} # order: LO
@@ -473,7 +473,6 @@ LEP3_240:
   - {name: LEP3_zh_mumu_240GeV, order: NLO_EW} # order: LO, NLO_EW
   - {name: LEP3_zh_tautau_240GeV, order: NLO_EW} # order: LO, NLO_EW
 LEP3_161:
-  - {name: LEP3_ww_161GeV, order: LO} # order: LO
   - {name: LEP3_Brw_161GeV, order: LO} # order: LO
   - {name: LEP3_161_ww_leptonic_optim_obs, order: LO} # order: LO
   - {name: LEP3_161_ww_semilep_optim_obs, order: LO} # order: LO
