@@ -2,6 +2,8 @@ import json
 import re
 from pathlib import Path
 
+keys_to_ignore = ["best_sm", "scales", "theory_cov"]
+
 
 def load_data_summary_allowed_orders(summary_path: Path):
     text = summary_path.read_text(encoding="utf-8")
@@ -38,9 +40,9 @@ def load_data_summary_allowed_orders(summary_path: Path):
 
 
 def find_order_keys_in_theory_json(json_path: Path):
-    # load top-level keys that look like order identifiers (uppercase, underscores)
+    # load top-level keys that are not in the keys_to_ignore list
     data = json.loads(json_path.read_text(encoding="utf-8"))
-    orders = [k for k in data.keys() if re.match(r"^[A-Z][A-Z0-9_]*$", k)]
+    orders = [k for k in data.keys() if k not in keys_to_ignore]
     return orders
 
 
