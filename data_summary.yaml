@@ -304,7 +304,6 @@ LCF_350:
   - {name: LCF_vvh_bb_350GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_vvh_cc_350GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_vvh_gg_350GeV, order: LO, allowed_orders: [LO]}
-  - {name: LCF_vvhh_350GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_vvh_mumu_350GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_vvh_tautau_350GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_vvh_ww_350GeV, order: LO, allowed_orders: [LO]}

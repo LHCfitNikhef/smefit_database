@@ -55,3 +55,29 @@ def test_commondata_folder_present_in_data_summary(folder):
         f"Found {len(missing)} files under '{folder}' not present in data_summary.yaml: "
         + ", ".join(missing)
     )
+
+
+def test_data_summary_entries_exist_in_commondata_or_projections():
+    """Ensure each entry listed in data_summary.yaml has a matching file in
+    either `commondata/` or `commondata_projections_L0/`.
+    """
+    repo_root = Path(__file__).resolve().parents[1]
+    summary = repo_root / "data_summary.yaml"
+    assert summary.exists(), f"data_summary.yaml not found at {summary}"
+
+    summary_names = load_summary_names(summary)
+
+    cd = repo_root / "commondata"
+    proj = repo_root / "commondata_projections_L0"
+
+    stems_cd = collect_commondata_file_stems(cd)
+    stems_proj = collect_commondata_file_stems(proj)
+
+    available = stems_cd.union(stems_proj)
+
+    missing = sorted([name for name in summary_names if name not in available])
+
+    assert not missing, (
+        f"data_summary.yaml contains {len(missing)} entries with no matching file in "
+        "commondata/ or commondata_projections_L0/: " + ", ".join(missing)
+    )
