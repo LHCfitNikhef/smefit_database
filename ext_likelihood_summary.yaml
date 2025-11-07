@@ -1,0 +1,59 @@
+Info: Collection of all external likelihoods implemented in SMEFiT.
+external_chi2:
+  CMS_DYMee_13TeV:
+    path: /path/to/smefit_database/external_chi2/drell_yan/CMS_DYMee_13TeV.py
+    use_quad: True
+    order: "LO" # LO, NLO_QCD
+    use_theory_covmat: True
+    use_t0: True
+    use_multiplicative_prescription: False
+    cutoff_scale: null # in GeV, to cut off data points above this scale
+    save_rge_path: null # path to save RGE matrix if computed
+    rg_matrix: null # path to load precomputed RGE matrix
+    use_projection_L0: False
+  HLLHC_DYMee_13TeV:
+    path: /path/to/smefit_database/external_chi2/drell_yan/HLLHC_DYMee_13TeV.py
+    use_quad: True
+    order: "LO" # LO, NLO_QCD
+    use_theory_covmat: True
+    use_t0: True
+    use_multiplicative_prescription: False
+    cutoff_scale: null # in GeV, to cut off data points above this scale
+    save_rge_path: null # path to save RGE matrix if computed
+    rg_matrix: null # path to load precomputed RGE matrix
+  OptimalWWCEPC161:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_cepc.py
+  OptimalWWCEPC240:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_cepc.py
+  OptimalWWCEPC365:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_cepc.py
+  OptimalttCEPC365:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_cepc.py
+  OptimalWWFCCee161:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_fccee.py
+  OptimalWWFCCee240:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_fccee.py
+  OptimalWWFCCee365:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_fccee.py
+  OptimalttFCCee365:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_fccee.py
+  OptimalWW_LEP3_161:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lep3.py
+  OptimalWW_LEP3_240:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lep3.py
+  OptimalWWLCF250:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  OptimalWWLCF5004ab:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  OptimalWWLCF5008ab:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  OptimalWWLCF1000:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  OptimalttLCF350:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  OptimalttLCF5004ab:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  OptimalttLCF5008ab:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  OptimalttLCF1000:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
