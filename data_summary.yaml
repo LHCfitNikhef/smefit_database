@@ -43,6 +43,7 @@ ATLAS:
   - {name: ATLAS_tttt_13TeV_2023, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_tttt_13TeV_run2, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_tttt_13TeV_slep_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_Zjj_13TeV_dphijj, order: LO, allowed_orders: [LO]}
 HLLHC:
   - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_STXS_runII_13TeV_uncor_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
@@ -91,6 +92,7 @@ HLLHC:
   - {name: HLLHC_HH_bbtautau_14TeV_low_high_mass, order: LO, allowed_orders: [LO]}
   - {name: HLLHC_tt_13TeV_Mtt, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: HLLHC_tt_13TeV_asy, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_Zjj_13TeV_dphijj_proj, order: LO, allowed_orders: [LO]}
 CEPC_161:
   - {name: CEPC_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: CEPC_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
