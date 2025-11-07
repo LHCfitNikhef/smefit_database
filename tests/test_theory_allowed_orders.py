@@ -51,7 +51,7 @@ def test_theory_orders_are_allowed():
 
         if stem not in mapping:
             failures.append(
-                f"No data_summary entry for theory file '{stem}' (path: {jf})"
+                f"No data_summary entry for theory file '{stem}' (path: {jf}). Please add it to '{summary}'."
             )
             continue
 
