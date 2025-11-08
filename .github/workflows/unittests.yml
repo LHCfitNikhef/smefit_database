@@ -21,3 +21,13 @@ jobs:
           pip install smefit
       - name: Run tests
         run: pytest
+      - name: Install smefit
+        run: |
+          pip install smefit
+      - name: Test with pytest
+        run: |
+          # add test packages
+          pip install pytest
+          pip install pytest-cov
+          pip install pytest-env
+          pytest
