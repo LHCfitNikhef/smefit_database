@@ -237,3 +237,34 @@ def test_best_sm_against_theory_SM(json_path):
         msg = ["Best SM against theory SM violations:"]
         msg.extend(f"- {e}" for e in errors)
         pytest.fail("\n".join(msg))
+
+
+def _collect_yaml_stems(dir_path: Path):
+    stems = set()
+    p = Path(dir_path)
+    if not p.exists():
+        return stems
+    for f in p.rglob("*.yaml"):
+        stems.add(f.stem)
+    return stems
+
+
+def test_theory_json_files_have_matching_commondata_yaml():
+    """Ensure each JSON theory file in `theory/` has a corresponding YAML file
+    in either `commondata/` or `commondata_projections_L0/` (matching filename stem).
+    """
+    stems_cd = _collect_yaml_stems(REPO_ROOT / "commondata")
+    stems_proj = _collect_yaml_stems(REPO_ROOT / "commondata_projections_L0")
+
+    available = stems_cd.union(stems_proj)
+
+    missing = []
+    for json_file in sorted((THEORY_DIR).glob("*.json")):
+        name = json_file.stem
+        if name not in available:
+            missing.append(name)
+
+    assert not missing, (
+        f"Found {len(missing)} theory JSON files with no matching YAML in "
+        "commondata/ or commondata_projections_L0/: " + ", ".join(missing)
+    )
