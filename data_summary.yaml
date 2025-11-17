@@ -93,8 +93,8 @@ HLLHC:
   - {name: HLLHC_tt_13TeV_Mtt, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: HLLHC_tt_13TeV_asy, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_Zjj_13TeV_dphijj_proj, order: LO, allowed_orders: [LO]}
-  - {name: HL_Higgs, order: LO, allowed_orders: [LO, NLO_QCD]}
-  - {name: HL_Higgs_SS_mumu_za, order: LO, allowed_orders: [LO, NLO_QCD]}
+  - {name: HL_Higgs_14TeV, order: LO, allowed_orders: [LO, NLO_QCD]}
+  - {name: HL_Higgs_SS_mumu_za_14TeV, order: LO, allowed_orders: [LO, NLO_QCD]}
 CEPC_161:
   - {name: CEPC_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: CEPC_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
