@@ -1,7 +1,7 @@
 dataset_name: CEPC_Zdata
 units: pb,GeV
 description: "EWPOs at CEPC. The ordering is GammaZ (GeV), SigmaHad (pb), Re, Rmu, Rtau, Ae, Amu, Atau, Rb, Rc, Ab, Ac"
-arxiv: "2205.08553v2"
+arxiv: '2205.08553v2'
 luminosity: 100000
 num_data: 12
 num_sys: 12
