@@ -1,0 +1,26 @@
+dataset_name: HLLHC_H_SS_mumu_za_14TeV
+location: Table 1, production channel in reference
+arxiv: 2504.00672
+hepdata: none
+units: none
+description: HL CMS+ATLAS signal strengths from Higgs decay in mumu (ggH, VBF) and Za (ggH, VBF, WH, ZH, ttH)
+luminosity: 6000
+num_data: 2
+num_sys: 2
+data_central:
+  - 1.0
+  - 1.0
+statistical_error:
+  - 0.059
+  - 0.14
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
