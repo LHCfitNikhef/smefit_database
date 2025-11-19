@@ -93,6 +93,8 @@ HLLHC:
   - {name: HLLHC_tt_13TeV_Mtt, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: HLLHC_tt_13TeV_asy, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_Zjj_13TeV_dphijj_proj, order: LO, allowed_orders: [LO]}
+  - {name: HLLHC_H_14TeV_Snowmass, order: LO, allowed_orders: [LO, NLO_QCD]}
+  - {name: HLLHC_H_14TeV_2025, order: LO, allowed_orders: [LO, NLO_QCD]}
 CEPC_161:
   - {name: CEPC_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: CEPC_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
