@@ -1,11 +1,11 @@
-dataset_name: FCCee_ee_Afb_365GeV
+dataset_name: LEP3_ee_Afb_240GeV
 description: Forward-backward asymmetry in e+e- production.
-luminosity: 1000
+luminosity: 2304
 num_data: 1
 num_sys: 1
-data_central: 0.959412131187776
+data_central: 0.9572900169221884
 statistical_error:
-  - 2.77354e-05
+  - 2.03894508e-05
 systematics:
   - 0.0
 sys_names: UNCORR
