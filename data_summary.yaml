@@ -219,6 +219,8 @@ FCCee_240:
   - {name: FCCee_Rtau_240GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_bb_Afb_240GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_cc_Afb_240GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_ee_Afb_240GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_ee_240GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_mumu_Afb_240GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_sigmaHad_240GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_tautau_Afb_240GeV, order: LO, allowed_orders: [LO]}
@@ -242,6 +244,8 @@ FCCee_365:
   - {name: FCCee_bb_Afb_365GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_cc_Afb_365GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_mumu_Afb_365GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_ee_Afb_365GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_ee_365GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_sigmaHad_365GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_tautau_Afb_365GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_vvh_WW_365GeV, order: LO, allowed_orders: [LO]}
