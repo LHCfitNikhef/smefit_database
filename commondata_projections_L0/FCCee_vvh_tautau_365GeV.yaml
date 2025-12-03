@@ -7,10 +7,10 @@ luminosity: 3120
 num_data: 1
 num_sys: 1
 data_central:
-- 0.002005397022883802
+  - 0.002005397022883802
 statistical_error:
-- 0.00011232718933333335
+  - 0.00011232718933333335
 systematics:
-- 0.0
+  - 0.0
 sys_names: UNCORR
 sys_type: ADD
