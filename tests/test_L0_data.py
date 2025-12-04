@@ -54,6 +54,7 @@ def test_dataset_name_matches_filename(yaml_file):
         best_sm = best_sm[0]
 
     data_central = projection_L0.get("data_central")
+
     assert np.allclose(
-        best_sm, data_central, rtol=1e-3
+        best_sm, data_central, atol=0.0
     ), f"L0 projection does not match best_sm for {filename}"
