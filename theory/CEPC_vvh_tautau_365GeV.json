@@ -5,9 +5,19 @@
   "scales": [
     365.0
   ],
-  "theory_cov": [
+  "theory_cov_current": [
     [
       4.714308477450799e-10
+    ]
+  ],
+  "theory_cov_conservative": [
+    [
+      1.5334322290351353e-11
+    ]
+  ],
+  "theory_cov_aggressive": [
+    [
+      1.6279719187070606e-12
     ]
   ],
   "LO": {
