@@ -12,6 +12,9 @@ SKIP_TOP_LEVEL_KEYS = {
     "theory_cov_aggressive",
     "theory_cov_conservative",
     "theory_cov_current",
+    "theory_cov_aggressive_with_parametric",
+    "theory_cov_conservative_with_parametric",
+    "theory_cov_current_with_parametric",
 }
 
 # Paths
