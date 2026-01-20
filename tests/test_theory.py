@@ -5,7 +5,14 @@ import pytest
 import re
 import numpy as np
 
-SKIP_TOP_LEVEL_KEYS = {"best_sm", "scales", "theory_cov"}
+SKIP_TOP_LEVEL_KEYS = {
+    "best_sm",
+    "scales",
+    "theory_cov",
+    "theory_cov_aggressive",
+    "theory_cov_conservative",
+    "theory_cov_current",
+}
 
 # Paths
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -193,13 +200,22 @@ def test_theory_cov_correct_shape(json_path):
     # get length of array best_sm
     best_sm_length = len(data["best_sm"])
 
-    assert "theory_cov" in data, f"{json_path.name}: missing 'theory_cov' key"
-    theory_cov_shape = np.array(data["theory_cov"]).shape
-
-    assert theory_cov_shape == (
-        best_sm_length,
-        best_sm_length,
-    ), f"{json_path.name}: 'theory_cov' shape {theory_cov_shape} does not match expected shape {(best_sm_length, best_sm_length)}"
+    possible_cov_keys = [
+        "theory_cov",
+        "theory_cov_aggressive",
+        "theory_cov_conservative",
+        "theory_cov_current",
+    ]
+    theory_cov_present = [k for k in possible_cov_keys if k in data]
+    assert (
+        theory_cov_present
+    ), f"{json_path.name}: missing one of {possible_cov_keys} keys"
+    for cov_key in theory_cov_present:
+        theory_cov_shape = np.array(data[cov_key]).shape
+        assert theory_cov_shape == (
+            best_sm_length,
+            best_sm_length,
+        ), f"{json_path.name}: '{cov_key}' shape {theory_cov_shape} does not match expected shape {(best_sm_length, best_sm_length)}"
 
 
 @pytest.mark.parametrize("json_path", JSON_FILES, ids=[p.name for p in JSON_FILES])
