@@ -50,6 +50,33 @@
         }
       }
     },
+    "theory_cov_current_with_parametric":{
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "theory_cov_aggressive_with_parametric":{
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "theory_cov_conservative_with_parametric":{
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
     "LO":{
       "type":"object",
       "additionalProperties":{
