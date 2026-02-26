@@ -1,8 +1,7 @@
 dataset_name: LCF_Zdata_250GeV
 units: pb/GeV
 description: EWPOs
-luminosity:
-  - 270000
+luminosity: 270000
 num_data: 11
 num_sys: 11
 data_central:
