@@ -103,6 +103,7 @@ def rge_matrix_manager(coefficients, rge_dict, scale):
             )
     else:
         rgemat = None
+        new_coeffs = coefficients
 
     return rgemat, new_coeffs
 
