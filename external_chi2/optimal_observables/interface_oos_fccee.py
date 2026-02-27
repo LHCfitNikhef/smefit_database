@@ -39,7 +39,6 @@ def compute_rge_matrix(coefficients, rge_dict, scale):
 
     return rge_df.values, new_coeffs
 
-
 # function that manages the inclusion og the RGE matrix in the optimal observables classes. It returns the RGE matrix and the updated coefficients.
 # It decides if the RGE matrix should be computed or loaded from a precomputed file based on the rge_dict input.
 def rge_matrix_manager(coefficients, rge_dict, scale):
