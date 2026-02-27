@@ -21,7 +21,7 @@ systematics:
     - 1.0028000000000001
 sys_names:
   - UNCORR
-  - ATLASLUMI15
+  - ATLASLUMI15_PROJ
 sys_type:
   - ADD
   - ADD
