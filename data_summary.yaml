@@ -264,11 +264,9 @@ FCCee_365:
 FCCee_91:
   - {name: FCCee_Wwidth, order: LO, allowed_orders: [LO]}
   - {name: FCCee_Zdata, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_alphaEW, order: LO, allowed_orders: [LO]}
 LCF_91:
   - {name: LCF_Zdata_GigaZ, order: LO, allowed_orders: [LO]}
 LCF_250:
-  - {name: LCF_alphaEW_250GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_vvh_bb_250GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_zh_250GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
   - {name: LCF_bb_250GeV, order: LO, allowed_orders: [LO]}
@@ -453,7 +451,6 @@ LEP:
   - {name: LEP1_EWPOs_2006, order: LO, allowed_orders: [LO]}
   - {name: LEP_Bhabha_2013, order: LO, allowed_orders: [LO]}
   - {name: LEP_Brw_2013, order: LO, allowed_orders: [LO]}
-  - {name: LEP_alphaEW, order: LO, allowed_orders: [LO]}
   - {name: LEP_eeWW_182GeV, order: LO, allowed_orders: [LO]}
   - {name: LEP_eeWW_189GeV, order: LO, allowed_orders: [LO]}
   - {name: LEP_eeWW_198GeV, order: LO, allowed_orders: [LO]}
@@ -489,4 +486,3 @@ LEP3_161:
 LEP3_91:
   - {name: LEP3_Wwidth, order: LO, allowed_orders: [LO]}
   - {name: LEP3_Zdata, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_alphaEW, order: LO, allowed_orders: [LO]}
