@@ -1,8 +1,7 @@
 dataset_name: LCF_Wwidth_250GeV
 description: W total width.
 units: GeV
-luminosity:
-  - 270000
+luminosity: 270000
 num_data: 1
 num_sys: 1
 data_central: 2.045612800402105
