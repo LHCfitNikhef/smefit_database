@@ -1,9 +1,9 @@
-result_ID: LCF_500
-result_path: /SMEFIT/ESPPU25_fit/kappa0
-data_path: smefit_database/Kappa_framework/ESPPU25/experiments
-theory_path: smefit_database/Kappa_framework/ESPPU25/theory_cards
+result_ID: LCF_500_th
+result_path: /home/tentori/SMEFIT/ESPPU25_fit/kappa0
+data_path: /home/tentori/SMEFIT/smefit_database/Kappa_framework/ESPPU25/experiments
+theory_path: /home/tentori/SMEFIT/smefit_database/Kappa_framework/ESPPU25/theory_cards
 order: LO
-use_theory_covmat: false
+use_theory_covmat: true
 use_t0: true
 use_quad: false
 bounds: null
@@ -11,15 +11,16 @@ poly_mode: true
 external_coefficients:
   kh2: (0.57676*kb**2+0.063*ktau**2+0.0291*kc**2+0.215*kW**2+0.0264*kZ**2+0.0857*kg**2+0.00228*kgamma**2+0.00154*kZgamma**2+0.000220*kmu**2)
 nlive: 500
-lepsilon: 0.04
-target_evidence_unc: 0.04
-target_post_unc: 0.04
-frac_remain: 0.01
+lepsilon: 0.03
+target_evidence_unc: 0.03
+target_post_unc: 0.03
+frac_remain: 0.03
 store_raw: false
 datasets:
   - LCF_250
   - LCF_350
   - LCF_500
+  - LCF_500_tth
 coefficients:
   kb:
     min: 0.8
@@ -51,8 +52,6 @@ coefficients:
     min: 0.4
     max: 1.6
   kt:
-    min: 0.999
-    max: 1.001
-    constrain: true
-    value: 1.0
+    min: 0.4
+    max: 1.6
 rot_to_fit_basis: null
