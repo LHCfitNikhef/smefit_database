@@ -52,5 +52,5 @@ systematics:
   - 0.00
   - 0.00
   - 0.00
-sys_names: null
-sys_type: null
+sys_names: UNCORR
+sys_type: ADD

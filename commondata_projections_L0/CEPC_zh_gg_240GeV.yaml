@@ -9,5 +9,5 @@ statistical_error:
   - 6.61973412256622e-05
 systematics:
   - 0.0
-sys_names: null
-sys_type: null
+sys_names: UNCORR
+sys_type: ADD
