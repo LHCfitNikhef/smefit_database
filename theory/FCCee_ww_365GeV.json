@@ -7,12 +7,12 @@
   ],
   "theory_cov_current": [
     [
-      0.0018455616000000005
+      0.0018455616
     ]
   ],
   "theory_cov_conservative": [
     [
-      5.652032400000001e-05
+      5.6520324e-05
     ]
   ],
   "theory_cov_aggressive": [

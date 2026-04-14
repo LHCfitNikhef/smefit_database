@@ -12,6 +12,12 @@ repos:
         args: ["--schemafile", ".github/theory_scheme.json"]
   - repo: local
     hooks:
+      - id: normalize-json-floats
+        name: Normalize JSON floats (12 significant digits)
+        entry: python .github/normalize_floats_json.py
+        language: python
+        types: [json]
+        files: ^theory/.*\.json$
       - id: format-json
         name: Format JSON Files
         entry: python .github/format_json.py
