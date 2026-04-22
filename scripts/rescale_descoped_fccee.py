@@ -26,7 +26,9 @@ def rescale(lumi_scale: float) -> None:
     descoped_files = sorted(COMMONDATA_DIR.glob("descoped_FCCee_*.yaml"))
 
     if not descoped_files:
-        raise FileNotFoundError(f"No descoped_FCCee_*.yaml files found in {COMMONDATA_DIR}")
+        raise FileNotFoundError(
+            f"No descoped_FCCee_*.yaml files found in {COMMONDATA_DIR}"
+        )
 
     for descoped_path in descoped_files:
         original_name = descoped_path.name.replace("descoped_FCCee_", "FCCee_", 1)
@@ -42,7 +44,9 @@ def rescale(lumi_scale: float) -> None:
         if "luminosity" not in data:
             # optim_obs files carry no luminosity — their covariance lives in the
             # external .dat files and must be rescaled separately.
-            print(f"SKIPPED  {descoped_path.name}  (no luminosity field — external covariance)")
+            print(
+                f"SKIPPED  {descoped_path.name}  (no luminosity field — external covariance)"
+            )
             continue
 
         data["dataset_name"] = descoped_path.stem
@@ -52,12 +56,20 @@ def rescale(lumi_scale: float) -> None:
         with open(descoped_path, "w") as f:
             yaml.dump(data, f, default_flow_style=False, sort_keys=False)
 
-        print(f"Updated {descoped_path.name}  (lumi x{lumi_scale}, stat x{stat_scale:.6f})")
+        print(
+            f"Updated {descoped_path.name}  (lumi x{lumi_scale}, stat x{stat_scale:.6f})"
+        )
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("lumi_scale", type=float, help="Luminosity scaling factor (descoped / vanilla FCC-ee)")
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        "lumi_scale",
+        type=float,
+        help="Luminosity scaling factor (descoped / vanilla FCC-ee)",
+    )
     args = parser.parse_args()
 
     if args.lumi_scale <= 0:
