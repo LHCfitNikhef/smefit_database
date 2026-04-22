@@ -1,0 +1,33 @@
+dataset_name: FCCee_Brw
+description: W leptonic branching ratios (first, second and third generation) with FCC-ee Feasibility Study uncertainties. It combines data from the WW (161 GeV) and Zh (240 GeV) runs.
+arxiv: https://repository.cern/records/n2emg-43f06
+location: Table 6
+luminosity: 30000
+num_data: 3
+num_sys: 3
+data_central:
+  - 0.1083
+  - 0.1083
+  - 0.1083
+statistical_error:
+  - 1.3e-05
+  - 1.3e-05
+  - 1.3e-05
+systematics:
+  - - 1.0e-05
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 1.0e-05
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 1.5e-05
+sys_names:
+  - UNCORR
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
