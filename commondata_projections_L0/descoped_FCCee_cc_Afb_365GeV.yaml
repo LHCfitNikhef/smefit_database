@@ -1,14 +1,14 @@
-dataset_name: FCCee_cc_Afb_365GeV
+dataset_name: descoped_FCCee_cc_Afb_365GeV
 description: Forward-backward asymmetry in cc production.
-luminosity: 3120
+luminosity: 3120.0
 location: Fig 1
 arxiv: https://repository.cern/records/3rj9z-94994
 num_data: 1
 num_sys: 1
 data_central: 0.5956504476168163
 statistical_error:
-  - 0.00222
+- 0.00222
 systematics:
-  - 4.95e-06
+- 4.95e-06
 sys_names: UNCORR
 sys_type: ADD
