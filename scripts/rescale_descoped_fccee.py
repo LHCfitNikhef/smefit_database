@@ -21,6 +21,13 @@ import yaml
 COMMONDATA_DIR = Path(__file__).parent.parent / "commondata_projections_L0"
 
 
+class _YamlfmtDumper(yaml.Dumper):
+    """PyYAML dumper that indents list items to match yamlfmt's style."""
+
+    def increase_indent(self, flow=False, indentless=False):
+        return super().increase_indent(flow=flow, indentless=False)
+
+
 def rescale(lumi_scale: float) -> None:
     stat_scale = 1.0 / math.sqrt(lumi_scale)
     descoped_files = sorted(COMMONDATA_DIR.glob("descoped_FCCee_*.yaml"))
@@ -54,7 +61,14 @@ def rescale(lumi_scale: float) -> None:
         data["statistical_error"] = [v * stat_scale for v in data["statistical_error"]]
 
         with open(descoped_path, "w") as f:
-            yaml.dump(data, f, default_flow_style=False, sort_keys=False)
+            yaml.dump(
+                data,
+                f,
+                Dumper=_YamlfmtDumper,
+                default_flow_style=False,
+                sort_keys=False,
+                width=10000,
+            )
 
         print(
             f"Updated {descoped_path.name}  (lumi x{lumi_scale}, stat x{stat_scale:.6f})"
