@@ -486,7 +486,6 @@ LEP3_161:
 LEP3_91:
   - {name: LEP3_Wwidth, order: LO, allowed_orders: [LO]}
   - {name: LEP3_Zdata, order: LO, allowed_orders: [LO]}
-
 descoped_FCCee_161:
   - {name: descoped_FCCee_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: descoped_FCCee_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
