@@ -5,7 +5,7 @@ arxiv: ''
 hepdata: ''
 units: pb
 description: FCC-ee ZH (H > bb, cc, gg) and VBF (H > bb, cc, gg) at 240 GeV respectively
-luminosity: 3120
+luminosity: 10800
 num_data: 6
 num_sys: 6
 data_central:
@@ -16,12 +16,12 @@ data_central:
   - 0.0005575481448566983
   - 0.00027631450788713594
 statistical_error:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
 systematics:
   - - -7.068549381966553e-05
     - -0.00026713727850035545
