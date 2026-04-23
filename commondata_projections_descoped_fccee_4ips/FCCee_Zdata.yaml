@@ -3,7 +3,7 @@ doi:
 location: GammaZ and SigmaHad from Table 4, rest from Table 5
 arxiv: https://repository.cern/records/n2emg-43f06
 units:
-luminosity: 205000
+luminosity: 123000.0
 num_data: 13
 num_sys: 13
 description: EWPOs at FCCee. The ordering is GammaZ (GeV), SigmaHad (pb), Re, Rmu, Rtau, Ae, Amu, Atau, Rb, Rc, Ab, Ac, alphaEW(mZ)
@@ -22,19 +22,19 @@ data_central:
   - 0.6680344273460154
   - 0.007799703611262771
 statistical_error:
-  - 4.0e-06
-  - 0.03
-  - 7.05772e-05
-  - 4.98192e-05
-  - 5.60466e-05
-  - 1.35e-05
-  - 3.2e-05
-  - 3.4e-05
-  - 2.5903199999999996e-07
-  - 2.41122e-07
-  - 9.8e-05
-  - 6.0e-05
-  - 4.81098e-08
+  - 5.163977794943223e-06
+  - 0.03872983346207417
+  - 9.11147734073167e-05
+  - 6.431631064045884e-05
+  - 7.235584947051621e-05
+  - 1.7428425057933377e-05
+  - 4.131182235954578e-05
+  - 4.389381125701739e-05
+  - 3.344088740449331e-07
+  - 3.112871634680749e-07
+  - 0.00012651745597610896
+  - 7.745966692414834e-05
+  - 6.210948472978986e-08
 systematics:
   - - 1.2e-05
     - 0.0

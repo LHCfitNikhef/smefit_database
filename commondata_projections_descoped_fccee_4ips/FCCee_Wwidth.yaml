@@ -3,12 +3,12 @@ description: W total width.
 location: Table 6
 arxiv: https://repository.cern/records/n2emg-43f06
 units: GeV
-luminosity: 205000
+luminosity: 123000.0
 num_data: 1
 num_sys: 1
 data_central: 2.045612800402105
 statistical_error:
-  - 0.00027
+  - 0.0003485685011586675
 systematics:
   - 0.0002
 sys_names: UNCORR

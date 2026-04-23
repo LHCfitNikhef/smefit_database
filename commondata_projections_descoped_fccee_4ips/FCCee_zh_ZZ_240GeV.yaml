@@ -3,12 +3,12 @@ description: ZH inclusive production cross section times ZZ BR.
 location: Table 2
 arxiv: https://repository.cern/records/n2emg-43f06
 units: pb
-luminosity: 10800
+luminosity: 6480.0
 num_data: 1
 num_sys: 1
 data_central: 0.00401671
 statistical_error:
-  - 0.00010044
+  - 0.0001296674824310243
 systematics:
   - 0.0
 sys_names: UNCORR
