@@ -255,6 +255,35 @@ def test_best_sm_against_theory_SM(json_path):
         pytest.fail("\n".join(msg))
 
 
+@pytest.mark.parametrize("json_path", JSON_FILES, ids=[p.name for p in JSON_FILES])
+def test_diag_quadratics_positive(json_path):
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+
+    errors = []
+
+    for top_key, section in data.items():
+        if top_key in SKIP_TOP_LEVEL_KEYS:
+            continue
+        if not isinstance(section, dict):
+            continue
+
+        for contrib_key, contrib_value in section.items():
+            factors = _split_factors(contrib_key)
+            if len(factors) == 2 and factors[0] == factors[1]:
+                values = np.array(contrib_value)
+                negative_bins = np.where(values < 0)[0]
+                if negative_bins.size > 0:
+                    errors.append(
+                        f"{json_path.name} → '{top_key}': "
+                        f"diagonal quadratic '{contrib_key}' has negative values at bins {negative_bins.tolist()}"
+                    )
+
+    if errors:
+        msg = ["Diagonal quadratic positivity violations:"]
+        msg.extend(f"- {e}" for e in errors)
+        pytest.fail("\n".join(msg))
+
+
 def _collect_yaml_stems(dir_path: Path):
     stems = set()
     p = Path(dir_path)
