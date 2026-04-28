@@ -2,6 +2,55 @@ Model name: CompositeHiggsSILH
 UV Collection: FutureColliders
 UV model: CompositeHiggsSILH
 coefficients:
+  O11qq:
+    constrain:
+      - gSt:
+          - 0.0016909045594608867
+          - -2
+    max: 100
+    min: -100
+  O13qq:
+    constrain:
+      - gSt:
+          - -0.004232449929070553
+          - -2
+    max: 100
+    min: -100
+  O1dt:
+    constrain:
+      - gSt:
+          - 4.5092028960928654e-05
+          - -2
+    max: 100
+    min: -100
+  O1qd:
+    constrain:
+      - gSt:
+          - 1.1273007240232164e-05
+          - -2
+    max: 100
+    min: -100
+  O1qt:
+    constrain:
+      - gSt:
+          - -2.2546014480464327e-05
+          - -2
+    max: 100
+    min: -100
+  O1qu:
+    constrain:
+      - gSt:
+          - -2.2546014480464327e-05
+          - -2
+    max: 100
+    min: -100
+  O1ut:
+    constrain:
+      - gSt:
+          - -4.5092028960928654e-05
+          - -2
+    max: 100
+    min: -100
   O3pQ3:
     constrain:
       - gSt:
@@ -67,6 +116,125 @@ coefficients:
           - 2
     max: 100
     min: -100
+  O81qq:
+    constrain:
+      - gSt:
+          - -0.0033874456225418893
+          - -2
+    max: 100
+    min: -100
+  O83qq:
+    constrain:
+      - gSt:
+          - -0.0033874456225418893
+          - -2
+    max: 100
+    min: -100
+  O8dt:
+    constrain:
+      - gSt:
+          - -0.027099564980335115
+          - -2
+    max: 100
+    min: -100
+  O8qd:
+    constrain:
+      - gSt:
+          - -0.027099564980335115
+          - -2
+    max: 100
+    min: -100
+  O8qt:
+    constrain:
+      - gSt:
+          - -0.027099564980335115
+          - -2
+    max: 100
+    min: -100
+  O8qu:
+    constrain:
+      - gSt:
+          - -0.027099564980335115
+          - -2
+    max: 100
+    min: -100
+  O8ut:
+    constrain:
+      - gSt:
+          - -0.013549782490167557
+          - -2
+    max: 100
+    min: -100
+  OQQ1:
+    constrain:
+      - gSt:
+          - 0.00018131685378322763
+          - -2
+    max: 100
+    min: -100
+  OQQ8:
+    constrain:
+      - gSt:
+          - -0.02934300526917524
+          - -2
+    max: 100
+    min: -100
+  OQe:
+    constrain:
+      - gSt:
+          - 3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  OQl13:
+    constrain:
+      - gSt:
+          - 1.6909510860348243e-05
+          - -2
+    max: 100
+    min: -100
+  OQl31:
+    constrain:
+      - gSt:
+          - -0.0005608600722100312
+          - -2
+    max: 100
+    min: -100
+  OQl33:
+    constrain:
+      - gSt:
+          - -0.0005608600722100312
+          - -2
+    max: 100
+    min: -100
+  OQlM1:
+    constrain:
+      - gSt:
+          - 0.0005777695830703794
+          - -2
+    max: 100
+    min: -100
+  OQt1:
+    constrain:
+      - gSt:
+          - -2.2546014480464327e-05
+          - -2
+    max: 100
+    min: -100
+  OQt8:
+    constrain:
+      - gSt:
+          - -0.027099564980335115
+          - -2
+    max: 100
+    min: -100
+  OQta:
+    constrain:
+      - gSt:
+          - 3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
   OWWW:
     constrain:
       - gSt:
@@ -74,44 +242,239 @@ coefficients:
           - 0
     max: 100
     min: -100
+  Obb:
+    constrain:
+      - gSt:
+          - -0.004527867170629418
+          - -2
+    max: 100
+    min: -100
   Obp:
     constrain:
       - gSt:
-          - 6.317608436705534e-05
+          - 9.676155109790696e-05
           - 0
       - gSt:
-          - -2.6930999501098648e-05
+          - -1.3465499750549324e-05
           - -2
       - gSt:
           - 0.000296803298440325
           - 2
     max: 100
     min: -100
+  Oee1111:
+    constrain:
+      - gSt:
+          - -0.00010145706516208947
+          - -2
+    max: 100
+    min: -100
+  Oee1122:
+    constrain:
+      - gSt:
+          - -0.00010145706516208947
+          - -2
+    max: 100
+    min: -100
+  Oee1133:
+    constrain:
+      - gSt:
+          - -0.00010145706516208947
+          - -2
+    max: 100
+    min: -100
+  Oee2222:
+    constrain:
+      - gSt:
+          - -0.00010145706516208947
+          - -2
+    max: 100
+    min: -100
+  Oee2233:
+    constrain:
+      - gSt:
+          - -0.00010145706516208947
+          - -2
+    max: 100
+    min: -100
+  Oee3333:
+    constrain:
+      - gSt:
+          - -0.00010145706516208947
+          - -2
+    max: 100
+    min: -100
+  Oeu:
+    constrain:
+      - gSt:
+          - 0.00013527608688278594
+          - -2
+    max: 100
+    min: -100
+  Olb:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Old:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole1111:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole1122:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole1133:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole2211:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole2222:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole2233:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole3311:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole3322:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Ole3333:
+    constrain:
+      - gSt:
+          - -3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Oll1111:
+    constrain:
+      - gSt:
+          - -0.00030579430239553794
+          - -2
+    max: 100
+    min: -100
   Oll1122:
     constrain:
       - gSt:
-          - 0.0005101315396289864
+          - 0.0002550657698144932
+          - -2
+    max: 100
+    min: -100
+  Oll1133:
+    constrain:
+      - gSt:
+          - 0.0002550657698144932
           - -2
     max: 100
     min: -100
   Oll1221:
     constrain:
       - gSt:
-          - -0.0011217201444200624
+          - -0.0005608600722100312
+          - -2
+    max: 100
+    min: -100
+  Oll1331:
+    constrain:
+      - gSt:
+          - -0.0005608600722100312
+          - -2
+    max: 100
+    min: -100
+  Oll2222:
+    constrain:
+      - gSt:
+          - -0.00030579430239553794
+          - -2
+    max: 100
+    min: -100
+  Oll2233:
+    constrain:
+      - gSt:
+          - 0.0002550657698144932
+          - -2
+    max: 100
+    min: -100
+  Oll2332:
+    constrain:
+      - gSt:
+          - -0.0005608600722100312
+          - -2
+    max: 100
+    min: -100
+  Oll3333:
+    constrain:
+      - gSt:
+          - -0.00030579430239553794
+          - -2
+    max: 100
+    min: -100
+  Olu:
+    constrain:
+      - gSt:
+          - 6.763804344139297e-05
           - -2
     max: 100
     min: -100
   Op:
     constrain:
       - gSt:
-          - 0.0013618320885098467
+          - 0.001362374034576561
           - 0
       - gSt:
-          - -0.00029026410597998465
+          - 1.97389709336201e-08
+          - -4
+      - gSt:
+          - -0.0002904493246374608
           - -2
       - gSt:
-          - -0.0015887029794243123
+          - -0.0015892071067333988
           - 2
+      - gSt:
+          - -3.209847384522806e-09
+          - 4
     max: 100
     min: -100
   OpB:
@@ -314,30 +677,93 @@ coefficients:
           - 2
     max: 100
     min: -100
+  Oqe:
+    constrain:
+      - gSt:
+          - 3.3819021720696486e-05
+          - -2
+    max: 100
+    min: -100
+  Oql31:
+    constrain:
+      - gSt:
+          - -0.0005608600722100312
+          - -2
+    max: 100
+    min: -100
+  OqlM1:
+    constrain:
+      - gSt:
+          - 0.0005777695830703794
+          - -2
+    max: 100
+    min: -100
   Otap:
     constrain:
       - gSt:
-          - 2.6902734491234093e-05
+          - 4.120467965413263e-05
           - 0
       - gSt:
-          - -1.146822466793196e-05
+          - -5.73411233396598e-06
           - -2
       - gSt:
           - 0.00012638992134540156
           - 2
     max: 100
     min: -100
+  Otat:
+    constrain:
+      - gSt:
+          - 0.00013527608688278594
+          - -2
+    max: 100
+    min: -100
+  Ote:
+    constrain:
+      - gSt:
+          - 0.00013527608688278594
+          - -2
+    max: 100
+    min: -100
+  Otl1:
+    constrain:
+      - gSt:
+          - 6.763804344139297e-05
+          - -2
+    max: 100
+    min: -100
+  Otl2:
+    constrain:
+      - gSt:
+          - 6.763804344139297e-05
+          - -2
+    max: 100
+    min: -100
+  Otl3:
+    constrain:
+      - gSt:
+          - 6.763804344139297e-05
+          - -2
+    max: 100
+    min: -100
   Otp:
     constrain:
       - gSt:
-          - 0.0026110766352278668
+          - 0.003999168796094355
           - 0
       - gSt:
-          - -0.0011130620750741155
+          - -0.0005565310375370577
           - -2
       - gSt:
           - 0.012266922927882909
           - 2
+    max: 100
+    min: -100
+  Ott1:
+    constrain:
+      - gSt:
+          - -0.004561686192350115
+          - -2
     max: 100
     min: -100
   gSt:
@@ -667,6 +1093,7 @@ external_chi2:
 frac_remain: 0.0008
 lepsilon: 0.001
 maxiter: 10000
+n_samples: 100000
 nlive: 3000
 result_path: /data/theorie/arossia/smefit_results/esppu_paper/uv_scans
 rge:
