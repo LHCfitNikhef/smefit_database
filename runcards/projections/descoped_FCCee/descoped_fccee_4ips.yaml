@@ -8,9 +8,9 @@ commondata_path: ../../../commondata_projections_L0
 theory_path: ../../../theory
 # datasets for which projections are computed
 datasets:
-# FCCee_91, 0.6 * 205000 = 123000.0
-  - { name: FCCee_Wwidth, order: LO}
-  - { name: FCCee_Zdata, order: LO}
+  # FCCee_91, 0.6 * 205000 = 123000.0
+  - {name: FCCee_Wwidth, order: LO}
+  - {name: FCCee_Zdata, order: LO}
 #FCCee_161, 0.6 * 19200 = 11520.0
 #  - {name: FCCee_ww_161GeV, order: LO}
 ## FCCee_240, 0.6 * 10800 = 6480.0
@@ -43,5 +43,3 @@ rot_to_fit_basis: null
 use_t0: False # use the t0 prescription to correct for d'Agostini bias
 fred_sys: 1
 fred_tot: 1
-
-
