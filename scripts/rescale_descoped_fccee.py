@@ -8,10 +8,12 @@ Optim-obs datasets (no luminosity field) are skipped — their covariance lives
 in the external .dat files and must be rescaled separately.
 
 Usage:
-    python scripts/rescale_descoped_fccee.py <lumi_scale> [--runcard PATH]
+    python scripts/rescale_descoped_fccee.py <lumi_scale> <output_dir> [--runcard PATH]
 
-lumi_scale: ratio of descoped to nominal FCC-ee luminosity per energy group.
-            E.g. 0.3 means 30% of nominal luminosity for each group.
+lumi_scale:  ratio of descoped to nominal FCC-ee luminosity per energy group.
+             E.g. 0.3 means 30% of nominal luminosity for each group.
+output_dir:  directory where projected files are written (created if absent).
+             Files keep their original FCCee_* names.
 """
 
 import argparse
@@ -77,7 +79,8 @@ def get_datasets_per_group() -> dict[str, list[dict]]:
     return groups
 
 
-def rescale(lumi_scale: float, runcard_template: Path) -> None:
+def rescale(lumi_scale: float, output_dir: Path, runcard_template: Path) -> None:
+    output_dir.mkdir(parents=True, exist_ok=True)
     template = yaml.safe_load(runcard_template.read_text())
     groups = get_datasets_per_group()
 
@@ -110,10 +113,9 @@ def rescale(lumi_scale: float, runcard_template: Path) -> None:
 
             for out_file in sorted(proj_dir.glob("FCCee_*.yaml")):
                 data = yaml.safe_load(out_file.read_text())
-                data["dataset_name"] = f"descoped_{data['dataset_name']}"
-                dest = COMMONDATA_DIR / f"descoped_{out_file.name}"
+                dest = output_dir / out_file.name
                 _yaml_dump(data, dest)
-                print(f"  Written: {dest.name}")
+                print(f"  Written: {dest}")
 
 
 def main() -> None:
@@ -126,6 +128,11 @@ def main() -> None:
         help="Luminosity scaling factor (descoped / nominal FCC-ee per group)",
     )
     parser.add_argument(
+        "output_dir",
+        type=Path,
+        help="Directory to write projected files into (created if absent)",
+    )
+    parser.add_argument(
         "--runcard",
         type=Path,
         default=DEFAULT_RUNCARD,
@@ -136,7 +143,7 @@ def main() -> None:
     if args.lumi_scale <= 0:
         parser.error("lumi_scale must be a positive number")
 
-    rescale(args.lumi_scale, args.runcard)
+    rescale(args.lumi_scale, args.output_dir, args.runcard)
 
 
 if __name__ == "__main__":
