@@ -31,7 +31,7 @@ def compute_rge_matrix(coefficients, rge_dict, scale):
     return rge_df.values, new_coeffs
 
 
-class OptimalWWFCCee161:
+class DescopedOptimalWWFCCee161:
     def __init__(self, coefficients, rge_dict=None):
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
@@ -60,7 +60,7 @@ class OptimalWWFCCee161:
         # rescale invcov_tot by luminosity ratio starting from FCCee
         # FCCee (161): 19200 ab-1
         # descoped FCCee (161): 11520.0 ab-1
-        self.incov_tot *= 11520.0 / 19200
+        self.incov_tot *= 0.365
 
         self.rgemat = rgemat
 
@@ -80,7 +80,7 @@ class OptimalWWFCCee161:
         return chi2_value
 
 
-class OptimalWWFCCee240:
+class DescopedOptimalWWFCCee240:
     def __init__(self, coefficients, rge_dict=None):
         if rge_dict is not None:
             rgemat, coefficients = compute_rge_matrix(
@@ -108,7 +108,7 @@ class OptimalWWFCCee240:
 
         # FCCee (240): 10800 ab-1
         # descoped FCCee (240): 6480.0 ab-1
-        self.incov_tot *= 6480.0 / 10800
+        self.incov_tot *= 0.365
 
         self.rgemat = rgemat
 

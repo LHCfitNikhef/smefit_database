@@ -57,3 +57,7 @@ external_chi2:
     path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
   OptimalttLCF1000:
     path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  DescopedOptimalWWFCCee161:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_descoped_fccee.py
+  DescopedOptimalWWFCCee240:
+    path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_descoped_fccee.py
