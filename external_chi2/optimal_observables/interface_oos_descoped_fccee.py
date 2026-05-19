@@ -60,7 +60,7 @@ class DescopedOptimalWWFCCee161:
         # rescale invcov_tot by luminosity ratio starting from FCCee
         # FCCee (161): 19200 ab-1
         # descoped FCCee (161): 11520.0 ab-1
-        self.incov_tot *= 0.365
+        self.incov_tot /= 0.365
 
         self.rgemat = rgemat
 
@@ -108,7 +108,7 @@ class DescopedOptimalWWFCCee240:
 
         # FCCee (240): 10800 ab-1
         # descoped FCCee (240): 6480.0 ab-1
-        self.incov_tot *= 0.365
+        self.incov_tot /= 0.365
 
         self.rgemat = rgemat
 
