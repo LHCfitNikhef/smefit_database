@@ -1,5 +1,5 @@
 dataset_name: FCCee_Wwidth
-description: W total width. Combines data from the WW threshold and higher energy runs.
+description: W total width from the WW threshold run.
 location: Table 6
 arxiv: https://repository.cern/records/n2emg-43f06
 units: GeV
