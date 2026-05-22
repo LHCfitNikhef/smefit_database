@@ -41,8 +41,6 @@ def test_l0_projection_matches_best_sm(yaml_file):
     filename = yaml_file.stem
     theory_file = yaml_file.parent / "../theory" / f"{filename}.json"
 
-    # we never have projections that end with "uncor"
-
     with open(theory_file) as f:
         theory_data = json.load(f)
 
