@@ -8,19 +8,19 @@ num_data: 13
 num_sys: 13
 description: EWPOs at LEP3. The ordering is GammaZ (GeV), SigmaHad (pb), Re, Rmu, Rtau, Ae, Amu, Atau, Rb, Rc, Ab, Ac, rescaled from FCCee by the luminosities reported in https://indico.cern.ch/event/1439855/contributions/6461601/attachments/3076522/5444412/188-LEP3_update_submitted.pdf, alphaEW(mZ)
 data_central:
-  - 2.495901447547
-  - 41482.23088418359
-  - 20.76373697724
-  - 20.76373697724
-  - 20.76373697724
-  - 0.149311207986
-  - 0.149311207986
-  - 0.149311207986
-  - 0.21584880711
-  - 0.172253219393
-  - 0.934923930622
-  - 0.668797579266
-  - 0.00780797
+  - 2.495266944235
+  - 41488.16350728358
+  - 20.756060355836
+  - 20.756060355836
+  - 20.756060355836
+  - 0.149225065947
+  - 0.149225065947
+  - 0.149225065947
+  - 0.215862791072
+  - 0.17222884431
+  - 0.934915917189
+  - 0.668759849564
+  - 0.00780832
 statistical_error:
   - 8.266397845091496e-06
   - 0.06199798383818622
