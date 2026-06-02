@@ -1,7 +1,7 @@
 # path to where projections get saved
 # projections_path: /Users/jaco/Documents/smefit_database/commondata_projections_descoped_fccee_4ips
 projections_path: ../../../commondata_projections_fccee_30MW_2IP_short # *0.365 rescaling
-# projections_path: ../../../commondata_projections_fccee_30MW_4IP_long # *0.61 rescaling
+# projections_path: ../../../commondata_projections_fccee_30MW_4IP_short # *0.6 rescaling
 # projections_path: ../../../commondata_projections_fccee_150MW_4IP_long # *3 rescaling
 # path to existing data
 # commondata_path: /Users/jaco/Documents/smefit_database/commondata_projections_L0
