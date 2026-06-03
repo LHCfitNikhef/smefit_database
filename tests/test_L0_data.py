@@ -35,13 +35,11 @@ def get_yaml_files(directories):
 
 
 @pytest.mark.parametrize("yaml_file", get_yaml_files(PROJECTION_DIR))
-def test_dataset_name_matches_filename(yaml_file):
-    """Check that the dataset_name in the YAML matches the filename."""
+def test_l0_projection_matches_best_sm(yaml_file):
+    """Check that the L0 projection matches the best SM."""
 
     filename = yaml_file.stem
     theory_file = yaml_file.parent / "../theory" / f"{filename}.json"
-
-    # we never have projections that end with "uncor"
 
     with open(theory_file) as f:
         theory_data = json.load(f)
@@ -54,6 +52,7 @@ def test_dataset_name_matches_filename(yaml_file):
         best_sm = best_sm[0]
 
     data_central = projection_L0.get("data_central")
+
     assert np.allclose(
-        best_sm, data_central, rtol=1e-3
+        best_sm, data_central, atol=0.0
     ), f"L0 projection does not match best_sm for {filename}"

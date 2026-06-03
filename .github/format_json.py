@@ -2,6 +2,49 @@ import json
 import sys
 
 
+def sort_innermost(d):
+    """
+    Recursively sorts ONLY innermost dictionaries.
+
+    Innermost dictionary sorting rules:
+      1. "SM" always first (if present)
+      2. Keys WITHOUT "*" next (alphabetical)
+      3. Keys WITH "*" last (alphabetical)
+    """
+    if isinstance(d, dict):
+        # Recursively process values first
+        new_dict = {k: sort_innermost(v) for k, v in d.items()}
+
+        # Check if this dictionary contains nested dicts
+        contains_dict = any(isinstance(v, dict) for v in new_dict.values())
+
+        if not contains_dict:
+            keys = list(new_dict.keys())
+
+            def key_priority(k):
+                # Priority tuple:
+                # 1. "SM" → priority 0
+                # 2. No "*" → priority 1
+                # 3. Contains "*" → priority 2
+                if k == "SM":
+                    return (0, k)
+                if "*" in k:
+                    return (2, k)
+                return (1, k)
+
+            keys_sorted = sorted(keys, key=key_priority)
+
+            return {k: new_dict[k] for k in keys_sorted}
+
+        return new_dict
+
+    # The recursion only visits lists to process any dictionaries they contain, it doesn't sort list themselves!
+    elif isinstance(d, list):
+        return [sort_innermost(i) for i in d]
+
+    return d
+
+
 def format_json_file(file_path):
     """
     Formats a JSON file to ensure consistent indentation and readability.
@@ -34,12 +77,13 @@ def format_json_file(file_path):
             print(f"Error: {file_path} is not valid JSON. {e}")
             return False
 
-    # Reformat the data by ensuring arrays have their elements on separate lines
-    formatted_data = json.dumps(data, indent=2, separators=(",", ": "))
+    # Apply custom sort rule
+    data = sort_innermost(data)
 
-    # Write the reformatted JSON back to the file
-    with open(file_path, "w") as f:
-        f.write(formatted_data + "\n")  # Adding a newline at the end of the file
+    # Write formatted output (NO sort_keys here!)
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, separators=(",", ": "))
+        f.write("\n")
 
     print(f"Formatted {file_path} successfully.")
     return True

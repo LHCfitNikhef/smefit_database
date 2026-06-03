@@ -11,5 +11,5 @@ data_central: 0.0
 statistical_error: 0.0019
 systematics:
   - 0.0
-sys_names: null
-sys_type: null
+sys_names: UNCORR
+sys_type: ADD

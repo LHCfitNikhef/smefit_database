@@ -2,7 +2,14 @@ import json
 from pathlib import Path
 import yaml
 
-keys_to_ignore = ["best_sm", "scales", "theory_cov"]
+keys_to_ignore = [
+    "best_sm",
+    "scales",
+    "theory_cov",
+    "theory_cov_aggressive",
+    "theory_cov_conservative",
+    "theory_cov_current",
+]
 
 
 def load_data_summary_allowed_orders(summary_path: Path):

@@ -16,7 +16,7 @@ systematics:
   - 1.2778666402535657
 sys_names:
   - UNCORR
-  - CMSLUMI15
+  - CMSLUMI15_PROJ
 sys_type:
   - ADD
   - ADD
