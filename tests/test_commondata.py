@@ -8,6 +8,7 @@ COMMONDATA_DIRS = [
     os.path.join(BASE_DIR, "..", "commondata"),
     os.path.join(BASE_DIR, "..", "commondata_projections_L0"),
     os.path.join(BASE_DIR, "..", "external_chi2/drell_yan/commondata"),
+    os.path.join(BASE_DIR, "..", "external_chi2/drell_yan/commondata_projections_L0"),
 ]
 
 

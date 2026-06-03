@@ -1,12 +1,12 @@
 dataset_name: CEPC_bb_Afb_240GeV
 description: Forward-backward asymmetry in bb production.
-luminosity: 20000
+luminosity: 21600
 num_data: 1
 num_sys: 1
 data_central: 0.5921796515517678
 statistical_error:
-  - 0.000343504
+  - 0.00033053687811285536
 systematics:
   - 0.0
-sys_names: null
-sys_type: null
+sys_names:
+sys_type:

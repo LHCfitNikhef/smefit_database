@@ -3,6 +3,7 @@ from smefit import loader
 from smefit import compute_theory as pr
 from smefit.rge.rge import load_rge_matrix
 import os
+from pathlib import Path
 
 
 class CMS_DYMee_13TeV:
@@ -18,6 +19,7 @@ class CMS_DYMee_13TeV:
         cutoff_scale=None,
         save_rge_path=None,
         rg_matrix=None,
+        use_projection_L0=False,
     ):
         """
         Initialize the CMS_DYMee_13TeV class.
@@ -36,28 +38,32 @@ class CMS_DYMee_13TeV:
 
         operators = {k: {"max": 0.0, "min": 0.0} for k in coefficients.name}
         theory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "theory")
-        commondata_path = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "commondata"
-        )
-        if save_rge_path is not None:
-            os.makedirs(os.path.join(save_rge_path, "CMS_DYMee_13TeV"), exist_ok=True)
-
-        # If a pre-computed rge matrix is provided, add it to the rge_dict
-        # If not, set it to False in case it was defined for the datasets
-        if rg_matrix is not None:
-            rge_dict["rg_matrix"] = rg_matrix
+        if use_projection_L0:
+            commondata_path = os.path.join(
+                os.path.dirname(os.path.abspath(__file__)), "commondata_projections_L0"
+            )
         else:
-            rge_dict["rg_matrix"] = False
+            commondata_path = os.path.join(
+                os.path.dirname(os.path.abspath(__file__)), "commondata"
+            )
+
+        save_rge_path = None if save_rge_path is None else Path(save_rge_path)
 
         if rge_dict is not None:
+            # If a pre-computed rge matrix is provided, add it to the rge_dict
+            # If not, set it to False in case it was defined for the datasets
+            if rg_matrix is not None:
+                rge_dict["rg_matrix"] = rg_matrix
+            else:
+                rge_dict["rg_matrix"] = False
+
             rgematrix, operators_to_keep = load_rge_matrix(
                 rge_dict=rge_dict,
                 coeff_list=list(operators.keys()),
                 datasets=[{"name": "CMS_DYMee_13TeV", "order": order}],
                 theory_path=theory_path,
                 cutoff_scale=cutoff_scale,
-                result_path=save_rge_path,
-                result_ID="CMS_DYMee_13TeV",
+                save_path=save_rge_path,
             )
         else:
             operators_to_keep = operators
@@ -73,6 +79,7 @@ class CMS_DYMee_13TeV:
             use_multiplicative_prescription=use_multiplicative_prescription,
             default_order=order,
             theory_path=theory_path,
+            has_external_chi2=True,
             rgemat=rgematrix,
             cutoff_scale=cutoff_scale,
         )

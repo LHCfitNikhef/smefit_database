@@ -37,6 +37,7 @@ operators:
   Ocp: "uphi_22"
   Obp: "dphi_33"
   Otap: "ephi_33"
+  Omup: "ephi_22"
   # 4Heavy four-quarks
   OQQ1: "2 * qq1_3333 - 2/3 * qq3_3333"
   OQQ8: "8 * qq3_3333"

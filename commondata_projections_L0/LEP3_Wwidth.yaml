@@ -1,0 +1,15 @@
+dataset_name: LEP3_Wwidth
+description: "W total width, rescaled from FCCee by the luminosities reported in https://indico.cern.ch/event/1439855/contributions/6461601/attachments/3076522/5444412/188-LEP3_update_submitted.pdf"
+location: Table 6, uses data from the WW threshold run
+arxiv: https://repository.cern/records/n2emg-43f06
+units: GeV
+luminosity: 5600
+num_data: 1
+num_sys: 1
+data_central: 2.045612800402105
+statistical_error:
+  - 0.000499943
+systematics:
+  - 0.0002
+sys_names: UNCORR
+sys_type: ADD

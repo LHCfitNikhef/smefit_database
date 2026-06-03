@@ -1,0 +1,25 @@
+dataset_name: LCF_ww_500GeV_8ab
+description: Fully inclusive W-pair production cross section
+units: pb
+luminosity:
+  - 3200
+  - 3200
+num_data: 2
+num_sys: 2
+data_central:
+  - 7.268
+  - 7.097
+statistical_error:
+  - 0.0015880288944701225
+  - 0.006122370927818733
+systematics:
+  - - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+sys_names:
+  - UNCORR
+  - UNCORR
+sys_type:
+  - ADD
+  - ADD
