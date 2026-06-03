@@ -32,6 +32,7 @@ operators:
   O3pq: "phiq3_ii"
   Opui: "phiu_ii"
   Opdi: "phid_jj"
+  Opb: "phid_33"
   # Yukawa
   Otp: "uphi_33"
   Ocp: "uphi_22"

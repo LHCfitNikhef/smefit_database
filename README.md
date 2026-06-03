@@ -48,6 +48,7 @@ cpqMi = phiq1_ii - phiq3_ii
 c3pq = phiq3_ii
 cpui = phiu_ii
 cpdi = phid_jj
+cpb = phid_33
 ```
 
 ### Yukawa
