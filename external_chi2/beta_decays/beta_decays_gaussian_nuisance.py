@@ -28,16 +28,11 @@ Example runcard entries::
         path: ./gaussian_constraints.py
         central: 0.0
         sigma: 1.0
-      GaussConstraintVud:
-        path: ./gaussian_constraints.py
-        central: 0.97373
-        sigma: 0.00031
 
 Default central values and sigmas (overridable in the runcard):
   DRV  : central = 0.02467,  sigma = 0.00022   (Hardy & Towner, arXiv:2010.13797)
   eta2 : central = 0.0,      sigma = 1.0        (loose — data-driven)
   eta3 : central = 0.0,      sigma = 1.0        (loose — data-driven)
-  Vud  : central = 0.97373,  sigma = 0.00031    (PDG 2022, kaon+pion decays)
 """
 
 from __future__ import annotations
@@ -55,9 +50,17 @@ class _GaussConstraintBase:
 
     def __init__(self, coefficients, rge_dict=None, central=None, sigma=None, **_):
         free_names = list(coefficients.free_names)
-        self._idx = free_names.index(self._param_name) if self._param_name in free_names else None
-        self._central = jnp.float64(float(central if central is not None else self._default_central))
-        self._sigma   = jnp.float64(float(sigma   if sigma   is not None else self._default_sigma))
+        self._idx = (
+            free_names.index(self._param_name)
+            if self._param_name in free_names
+            else None
+        )
+        self._central = jnp.float64(
+            float(central if central is not None else self._default_central)
+        )
+        self._sigma = jnp.float64(
+            float(sigma if sigma is not None else self._default_sigma)
+        )
         self.num_data = 1
 
     def compute_chi2(self, coefficient_values):
@@ -72,9 +75,21 @@ class GaussConstraintDRV(_GaussConstraintBase):
 
     Default: central = 0.02467, sigma = 0.00022  (Hardy & Towner 2020)
     """
+
     _param_name = "DRV"
     _default_central = 0.02467
-    _default_sigma   = 0.00022
+    _default_sigma = 0.00022
+
+
+class GaussConstraintEta1(_GaussConstraintBase):
+    """Gaussian prior on eta1 (isospin-breaking nuclear correction).
+
+    Default: central = 0.0, sigma = 1.0  (data-driven; tighten as needed)
+    """
+
+    _param_name = "eta1"
+    _default_central = 0.0
+    _default_sigma = 1.0
 
 
 class GaussConstraintEta2(_GaussConstraintBase):
@@ -82,9 +97,10 @@ class GaussConstraintEta2(_GaussConstraintBase):
 
     Default: central = 0.0, sigma = 1.0  (data-driven; tighten as needed)
     """
+
     _param_name = "eta2"
     _default_central = 0.0
-    _default_sigma   = 1.0
+    _default_sigma = 1.0
 
 
 class GaussConstraintEta3(_GaussConstraintBase):
@@ -92,16 +108,7 @@ class GaussConstraintEta3(_GaussConstraintBase):
 
     Default: central = 0.0, sigma = 1.0  (data-driven; tighten as needed)
     """
+
     _param_name = "eta3"
     _default_central = 0.0
-    _default_sigma   = 1.0
-
-
-class GaussConstraintVud(_GaussConstraintBase):
-    """Gaussian prior on Vud from kaon/pion decays (external to beta decays).
-
-    Default: central = 0.97373, sigma = 0.00031  (PDG 2022)
-    """
-    _param_name = "Vud"
-    _default_central = 0.97373
-    _default_sigma   = 0.00031
+    _default_sigma = 1.0
