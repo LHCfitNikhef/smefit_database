@@ -48,77 +48,65 @@ from rgevolve.tools.functions import run_and_match, get_wc_basis
 
 jax.config.update("jax_enable_x64", True)
 
-# Experimental Ft values and 1-sigma uncertainties from 2010.13797 (in units of 10^-3 s)
-_EXP_MEAN = jnp.array(
-    [
-        3075.7,
-        3070.2,
-        3076.2,
-        3072.4,
-        3075.4,
-        3071.6,
-        3075.1,
-        3072.9,
-        3077.8,
-        3071.7,
-        3074.3,
-        3071.1,
-        3070.4,
-        3072.4,
-        3077.0,
-    ]
-)
-_EXP_STD = jnp.array(
-    [4.4, 1.9, 7.0, 1.1, 5.7, 1.8, 3.1, 2.0, 6.2, 2.0, 2.0, 1.6, 2.5, 6.7, 11.0]
-)
-# Q-values in MeV from https://journals.aps.org/prc/pdf/10.1103/PhysRevC.91.025501
-_Q = jnp.array(
-    [
-        1.908,
-        2.831,
-        4.125,
-        4.233,
-        4.841,
-        5.492,
-        6.062,
-        6.044,
-        6.612,
-        6.426,
-        7.052,
-        7.634,
-        8.244,
-        9.181,
-        10.417,
-    ]
-)
+# Experimental Ft values (10^-3 s, 2010.13797), uncertainties, and Q-values (MeV,
+# https://journals.aps.org/prc/pdf/10.1103/PhysRevC.91.025501) per nucleus
+_NUCLEI = {
+    "10C": {"mean": 3075.7, "std": 4.4, "Q": 1.908, "delta_r": 8.999999999999999e-05},
+    "14O": {"mean": 3070.2, "std": 1.9, "Q": 2.831, "delta_r": 7.666666666666667e-05},
+    "22Mg": {"mean": 3076.2, "std": 7.0, "Q": 4.125, "delta_r": 6.666666666666667e-05},
+    "26Al": {"mean": 3072.4, "std": 1.1, "Q": 4.233, "delta_r": 6.666666666666667e-05},
+    "26Si": {"mean": 3075.4, "std": 5.7, "Q": 4.841, "delta_r": 6.333333333333333e-05},
+    "34Cl": {"mean": 3071.6, "std": 1.8, "Q": 5.492, "delta_r": 5.9999999999999995e-05},
+    "34Ar": {"mean": 3075.1, "std": 3.1, "Q": 6.062, "delta_r": 5.666666666666667e-05},
+    "38K": {"mean": 3072.9, "std": 2.0, "Q": 6.044, "delta_r": 5.666666666666667e-05},
+    "38Ca": {"mean": 3077.8, "std": 6.2, "Q": 6.612, "delta_r": 5.666666666666667e-05},
+    "42Sc": {"mean": 3071.7, "std": 2.0, "Q": 6.426, "delta_r": 5.666666666666667e-05},
+    "46V": {"mean": 3074.3, "std": 2.0, "Q": 7.052, "delta_r": 5.333333333333333e-05},
+    "50Mn": {"mean": 3071.1, "std": 1.6, "Q": 7.634, "delta_r": 5e-05},
+    "54Co": {"mean": 3070.4, "std": 2.5, "Q": 8.244, "delta_r": 5e-05},
+    "62Ga": {"mean": 3072.4, "std": 6.7, "Q": 9.181, "delta_r": 4.666666666666667e-05},
+    "74Rb": {
+        "mean": 3077.0,
+        "std": 11.0,
+        "Q": 10.417,
+        "delta_r": 4.3333333333333334e-05,
+    },
+}
 
-_CONV = 1.52e24
-_PREF = 4 * jnp.pi**3 * jnp.log(2.0) / (2 * (0.511e-3) ** 5)  # GeV^-1
+_EXP_MEAN = jnp.array([v["mean"] for v in _NUCLEI.values()])
+_EXP_STD = jnp.array([v["std"] for v in _NUCLEI.values()])
+_Q = jnp.array([v["Q"] for v in _NUCLEI.values()])
+_DELTA_R = jnp.array([v["delta_r"] for v in _NUCLEI.values()])
+
+_CONV = 1.519267e24
+_PREF = 4 * jnp.pi**3 * jnp.log(2.0) / (2 * (0.5109989e-3) ** 5)  # GeV^-1
 _GF = 1.1663787e-5  # GeV^-2
 
-_BD_PARAM_NAMES = {"DRV", "eta2", "eta3", "Vud"}
+_BD_PARAM_NAMES = {"DRV", "eta1", "eta2", "eta3", "Vud"}
 
 
 @jax.jit
-def _chi2_sm(DRV, eta2, eta3, Vud):
+def _chi2_sm(DRV, eta1, eta2, eta3, Vud):
     mean = _EXP_MEAN * _CONV
     std = _EXP_STD * _CONV
-    Q = _Q * _CONV
+    Q = _Q
     CV = jnp.sqrt(2.0) * _GF * Vud * jnp.sqrt(1.0 + DRV)
     Ft = _PREF / CV**2
-    Ftt = Ft - eta2 * 3.3e-4 - eta3 * 8.0e-5 * Q
+    # Ftt = Ft * (1 - eta1 * _DELTA_R - eta2 * 3.3e-4 - eta3 * 8.0e-5 * Q)
+    Ftt = Ft - mean * (eta1 * _DELTA_R + eta2 * 3.3e-4 + eta3 * 8.0e-5 * Q)
     return jnp.sum((Ftt - mean) ** 2 / std**2)
 
 
 @jax.jit
-def _chi2_smeft(DRV, eta2, eta3, Vud, L):
+def _chi2_smeft(DRV, eta1, eta2, eta3, Vud, L):
     mean = _EXP_MEAN * _CONV
     std = _EXP_STD * _CONV
-    Q = _Q * _CONV
+    Q = _Q
     Lf = -2.0 * jnp.sqrt(2.0) * _GF + L
     CV = -0.5 * Vud * Lf * jnp.sqrt(1.0 + DRV)
     Ft = _PREF / CV**2
-    Ftt = Ft - eta2 * 3.3e-4 - eta3 * 8.0e-5 * Q
+    # Ftt = Ft * (1 - eta1 * _DELTA_R - eta2 * 3.3e-4 - eta3 * 8.0e-5 * Q)
+    Ftt = Ft - mean * (eta1 * _DELTA_R + eta2 * 3.3e-4 + eta3 * 8.0e-5 * Q)
     return jnp.sum((Ftt - mean) ** 2 / std**2)
 
 
@@ -264,13 +252,14 @@ class BetaDecayChi2RGevolve:
             return coefficient_values[idx] if idx is not None else default
 
         DRV = _get("DRV", 0.02467)
+        eta1 = _get("eta1", 0.0)
         eta2 = _get("eta2", 0.0)
         eta3 = _get("eta3", 0.0)
         Vud = _get("Vud", 0.9737)
 
         if self._dL is None:
-            return _chi2_sm(DRV, eta2, eta3, Vud)
+            return _chi2_sm(DRV, eta1, eta2, eta3, Vud)
 
         smeft_vals = coefficient_values[self._smeft_idx]
         L = jnp.dot(self._dL, smeft_vals)
-        return _chi2_smeft(DRV, eta2, eta3, Vud, L)
+        return _chi2_smeft(DRV, eta1, eta2, eta3, Vud, L)
