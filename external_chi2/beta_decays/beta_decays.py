@@ -46,8 +46,6 @@ import jax.numpy as jnp
 from smefit.rge import RGE
 from rgevolve.tools.functions import run_and_match, get_wc_basis
 
-jax.config.update("jax_enable_x64", True)
-
 # Experimental Ft values (10^-3 s, 2010.13797), uncertainties, and Q-values (MeV,
 # https://journals.aps.org/prc/pdf/10.1103/PhysRevC.91.025501) per nucleus
 _NUCLEI = {
