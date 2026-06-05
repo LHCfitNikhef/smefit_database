@@ -14,6 +14,7 @@ SKIP_TOP_LEVEL_KEYS = {
 def _is_skip_key(key: str) -> bool:
     return key in SKIP_TOP_LEVEL_KEYS or key.startswith("theory_cov")
 
+
 # Paths
 REPO_ROOT = Path(__file__).resolve().parents[1]
 THEORY_DIR = REPO_ROOT / "theory"

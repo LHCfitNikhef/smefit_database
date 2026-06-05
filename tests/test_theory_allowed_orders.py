@@ -30,7 +30,11 @@ def load_data_summary_allowed_orders(summary_path: Path):
 def find_order_keys_in_theory_json(json_path: Path):
     # load top-level keys that are not in the keys_to_ignore list
     data = json.loads(json_path.read_text(encoding="utf-8"))
-    orders = [k for k in data.keys() if k not in keys_to_ignore and not k.startswith("theory_cov")]
+    orders = [
+        k
+        for k in data.keys()
+        if k not in keys_to_ignore and not k.startswith("theory_cov")
+    ]
     return orders
 
 
