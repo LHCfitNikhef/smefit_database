@@ -14,42 +14,6 @@
         "type":"number"
       }
     },
-    "theory_cov":{
-      "type": "array",
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
-      }
-    },
-    "theory_cov_current":{
-      "type": "array",
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
-      }
-    },
-    "theory_cov_aggressive":{
-      "type": "array",
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
-      }
-    },
-    "theory_cov_conservative":{
-      "type": "array",
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
-      }
-    },
     "LO":{
       "type":"object",
       "additionalProperties":{
@@ -92,6 +56,17 @@
         "type":"array",
         "items":{
           "type":"number"
+        }
+      }
+    }
+  },
+  "patternProperties": {
+    "^theory_cov": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
         }
       }
     }

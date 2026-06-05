@@ -8,11 +8,12 @@ import numpy as np
 SKIP_TOP_LEVEL_KEYS = {
     "best_sm",
     "scales",
-    "theory_cov",
-    "theory_cov_aggressive",
-    "theory_cov_conservative",
-    "theory_cov_current",
 }
+
+
+def _is_skip_key(key: str) -> bool:
+    return key in SKIP_TOP_LEVEL_KEYS or key.startswith("theory_cov")
+
 
 # Paths
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -45,7 +46,7 @@ def test_SM_is_there(json_path):
     errors = []  # collect all problems for this file
 
     for top_key, section in data.items():
-        if top_key in SKIP_TOP_LEVEL_KEYS:
+        if _is_skip_key(top_key):
             continue
         if not isinstance(section, dict):
             errors.append(
@@ -71,7 +72,7 @@ def test_theory_operator_keys_allowed(json_path):
     errors = []  # collect all problems for this file
 
     for top_key, section in data.items():
-        if top_key in SKIP_TOP_LEVEL_KEYS:
+        if _is_skip_key(top_key):
             continue
         if not isinstance(section, dict):
             errors.append(
@@ -104,7 +105,7 @@ def test_diag_quadratics_exist(json_path):
     errors = []  # collect all problems for this file
 
     for top_key, section in data.items():
-        if top_key in SKIP_TOP_LEVEL_KEYS:
+        if _is_skip_key(top_key):
             continue
         if not isinstance(section, dict):
             errors.append(
@@ -145,7 +146,7 @@ def test_theory_operator_correct_length(json_path):
     best_sm_length = len(data["best_sm"])
 
     for top_key, section in data.items():
-        if top_key in SKIP_TOP_LEVEL_KEYS:
+        if _is_skip_key(top_key):
             continue
         if not isinstance(section, dict):
             errors.append(
@@ -229,7 +230,7 @@ def test_best_sm_against_theory_SM(json_path):
     best_sm = data["best_sm"]
 
     for top_key, section in data.items():
-        if top_key in SKIP_TOP_LEVEL_KEYS:
+        if _is_skip_key(top_key):
             continue
         if not isinstance(section, dict):
             errors.append(
