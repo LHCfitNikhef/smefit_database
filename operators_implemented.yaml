@@ -19,11 +19,11 @@ operators:
   OpWB: "phiWB"
   OpBox: "phiBox"
   OpD: "phiD"
-  OWWW: "W"
+  OWWW: "-W"
   # Dipoles
-  OtG: "1/gs * uG_33"
-  OtW: "uW_33"
-  OtZ: "cw * uW_33 - sw * uB_33"
+  OtG: "-1/gs * uG_33"
+  OtW: "-uW_33"
+  OtZ: "-cw * uW_33 + sw * uB_33"
   # Quark currents
   OpQM: "phiq1_33 - phiq3_33"
   O3pQ3: "phiq3_33"
@@ -32,6 +32,7 @@ operators:
   O3pq: "phiq3_ii"
   Opui: "phiu_ii"
   Opdi: "phid_jj"
+  Opb: "phid_33"
   # Yukawa
   Otp: "uphi_33"
   Ocp: "uphi_22"

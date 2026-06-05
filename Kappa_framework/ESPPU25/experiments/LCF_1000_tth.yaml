@@ -1,0 +1,18 @@
+dataset_name: LCF_1000_tth
+doi: '-'
+hepdata: none
+units: none
+description: ttH inferred from yukawa coupling, both polarizations
+num_data: 2
+num_sys: 1
+data_central:
+  - 1.0
+  - 1.0
+statistical_error:
+  - 0.057
+  - 0.04
+systematics:
+  - - 0.0
+    - 0.0
+sys_names: null
+sys_type: null

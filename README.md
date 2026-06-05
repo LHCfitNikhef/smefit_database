@@ -27,15 +27,15 @@ cpW = phiW
 cpWB = phiWB
 cpBox = phiBox
 cpD = phiD
-cWWW = W
+cWWW = -W
 ```
 
 ### Dipoles
 
 ```text
-ctG = 1/gs * uG_33
-ctW = uW_33
-ctZ = cw * uW_33 - sw * uB_33
+ctG = -1/gs * uG_33
+ctW = -uW_33
+ctZ = -cw * uW_33 + sw * uB_33
 ```
 
 ### Quark currents
@@ -48,6 +48,7 @@ cpqMi = phiq1_ii - phiq3_ii
 c3pq = phiq3_ii
 cpui = phiu_ii
 cpdi = phid_jj
+cpb = phid_33
 ```
 
 ### Yukawa
