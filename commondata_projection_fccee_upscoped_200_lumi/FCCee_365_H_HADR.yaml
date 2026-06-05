@@ -1,0 +1,75 @@
+dataset_name: FCCee_365_H_HADR
+doi: https://doi.org/10.17181/3jjdh-6fz979
+location: Correlation from page 56 in https://repository.cern/records/3jjdh-6fz97
+arxiv: ''
+hepdata: ''
+units: pb
+description: FCC-ee ZH (H > bb, cc, gg) and VBF (H > bb, cc, gg) at 365 GeV respectively
+luminosity: 6240.0
+num_data: 6
+num_sys: 6
+data_central:
+  - 0.0715677
+  - 0.0106733
+  - 0.00528955
+  - 0.02054836702954899
+  - 0.0030644876694067976
+  - 0.0015187251721839577
+statistical_error:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+systematics:
+  - - 0.00027195726000000023
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.00030952569999999986
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.00011108054999999996
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.00013561922239502334
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.00010419258075983116
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 3.94868544767829e-05
+sys_names:
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+  - CORR
+sys_type:
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
+  - ADD
