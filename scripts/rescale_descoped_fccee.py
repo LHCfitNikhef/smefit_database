@@ -32,11 +32,11 @@ DEFAULT_RUNCARD = (
 )
 
 # Nominal luminosities (fb^-1) per FCCee energy group.
-# FCCee_365 is intentionally omitted — not part of the descoped run plan.
 NOMINAL_LUMI = {
     "FCCee_91": 205000,
     "FCCee_161": 19200,
     "FCCee_240": 10800,
+    "FCCee_365": 3120,
 }
 
 
