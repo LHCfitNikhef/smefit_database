@@ -37,6 +37,7 @@ NOMINAL_LUMI = {
     "FCCee_161": 19200,
     "FCCee_240": 10800,
     "FCCee_365": 3120,
+    "FCCee_combined": 30000,  # Combined datasets (e.g., Brw = 161 + 240)
 }
 
 
