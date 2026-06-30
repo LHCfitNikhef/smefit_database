@@ -213,7 +213,6 @@ FCCee_240:
   - {name: FCCee_240_H_HADR, order: NLO_EW_only_for_ZH, allowed_orders: [LO, NLO_EW_only_for_ZH]}
   - {name: FCCee_240_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: FCCee_240_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_Brw, order: LO, allowed_orders: [LO]}
   - {name: FCCee_Rb_240GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_Rc_240GeV, order: LO, allowed_orders: [LO]}
   - {name: FCCee_Rmu_240GeV, order: LO, allowed_orders: [LO]}
@@ -233,6 +232,8 @@ FCCee_240:
   - {name: FCCee_zh_aa_240GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
   - {name: FCCee_zh_tautau_240GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
   - {name: FCCee_zh_mumu_240GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
+FCCee_combined:
+  - {name: FCCee_Brw, order: LO, allowed_orders: [LO]}
 FCCee_365:
   - {name: FCCee_365_H_HADR, order: NLO_EW_only_for_ZH, allowed_orders: [LO, NLO_EW_only_for_ZH]}
   - {name: FCCee_365_tt_optim_obs, order: LO, allowed_orders: [LO]}
