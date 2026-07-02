@@ -4,30 +4,28 @@
 # target directory, using relative paths pointing into commondata_projections_L0.
 # Usage: scripts/symlink_non_fcc_projections.sh <target_dir>
 
-set -euo pipefail
+SCENARIOS=(
+    "commondata_projection_fccee_upscoped_120lumi_global"
+    "commondata_projection_fccee_upscoped_150lumi_top_only"
+    "commondata_projections_fccee_30MW_2IP_36p5lumi"
+    "commondata_projections_fccee_30MW_4IP_60lumi"
+)
 
-REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-TARGET="$REPO_ROOT/${1:?Usage: $0 <target_dir>}"
-REF="$REPO_ROOT/commondata_projections_fccee_30MW_4IP_60lumi"
+# symlink all LHC and HL-LHC projections
+cd ../commondata_projection_FCCee_scenarios/
+for scenario in "${SCENARIOS[@]}"; do
+    cd $scenario
+    for f in ../../commondata_projections_L0/*.yaml; do
 
-if [ ! -d "$TARGET" ]; then
-    echo "Error: target directory '$TARGET' does not exist." >&2
-    exit 1
-fi
-
-for f in "$REF"/*.yaml; do
-    fname="$(basename "$f")"
-    if [[ "$fname" != FCCee_* && "$fname" != fccee_* ]]; then
-        # Read the symlink target from the reference dir and replicate it
-        link_target="$(readlink "$f")"
-        ln -sf "$link_target" "$TARGET/$fname"
+    if [[ "$f" != *ATLAS* && "$f" != *CMS*  && "$f" != *HLLHC* && "$f" != *LEP_* && "$f" != *LEP1*  ]]; then
+        continue
     fi
+      ln -sf $f .
+    done
+    cd ../
 done
 
-echo "Symlinks created in $TARGET"
-
 # symlink all non-ttbar FCC data
-
 cd ../commondata_projection_FCCee_scenarios/commondata_projection_fccee_upscoped_150lumi_top_only
 for f in ../../commondata_projections_L0/FCCee*.yaml; do
     # if 365 in filename skip
@@ -36,3 +34,4 @@ for f in ../../commondata_projections_L0/FCCee*.yaml; do
     fi
     ln -s $f .
 done
+
