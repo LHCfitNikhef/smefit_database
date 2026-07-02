@@ -5,9 +5,8 @@ as 1/sqrt(lumi_factor) relative to the full-FCC baseline
 (commondata_projections_L0), since statistical uncertainties scale with
 luminosity as 1/sqrt(L).
 
-Exception: in the "top_only" scenario, only FCCee_365 datasets are upscoped
-(that's where top-quark measurements live); every other dataset is expected
-to be identical to the baseline (lumi_factor == 1).
+Exception: in the "top_only" scenario, only FCCee_365 datasets are upscoped;
+every other dataset is expected to be identical to the baseline (lumi_factor == 1).
 
 Usage:
     python scripts/test_rescaling_projections.py [--scenario NAME] [--rtol RTOL]
