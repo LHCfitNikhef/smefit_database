@@ -25,3 +25,14 @@ for f in "$REF"/*.yaml; do
 done
 
 echo "Symlinks created in $TARGET"
+
+# symlink all non-ttbar FCC data
+
+cd ../commondata_projection_FCCee_scenarios/commondata_projection_fccee_upscoped_150lumi_top_only
+for f in ../../commondata_projections_L0/FCCee*.yaml; do
+    # if 365 in filename skip
+    if [[ "$f" == *365* ]]; then
+        continue
+    fi
+    ln -s $f .
+done
