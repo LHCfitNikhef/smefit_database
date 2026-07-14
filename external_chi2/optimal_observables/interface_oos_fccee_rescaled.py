@@ -138,3 +138,94 @@ class DescopedOptimalWWFCCee240:
     def compute_chi2(self, coefficient_values):
         resolved = self.coefficients.resolve(coefficient_values)
         return jnp.einsum("i, ij, j", resolved, self.incov_tot, resolved)
+
+
+class DescopedOptimalWWFCCee365:
+    def __init__(self, coefficients, rge_dict=None, lumi_scale=1.0):
+        if rge_dict is not None:
+            _obs_scale = rge_dict.get("obs_scale", "dynamic")
+            rgemat, coeff_names = compute_rge_matrix(
+                coefficients,
+                rge_dict,
+                scale=365.0 if _obs_scale == "dynamic" else _obs_scale,
+            )
+        else:
+            rgemat = None
+            coeff_names = np.array(coefficients.names)
+
+        self.project = np.zeros((len(oo_ww_wc_basis), len(coeff_names)))
+        for i, op in enumerate(oo_ww_wc_basis):
+            if op in coeff_names:
+                self.project[i, np.argwhere(coeff_names == op)[0, 0]] = 1
+
+        self.datasets = {
+            "FCCee_ww_lepto_365": "invcov_FCCee_ww_leptonic_365.dat",
+            "FCCee_ww_semilep_365": "invcov_FCCee_ww_semilep_365.dat",
+        }
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.incov_tot *= lumi_scale
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.coefficients = coefficients
+        self.num_data = len(oo_ww_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        resolved = self.coefficients.resolve(coefficient_values)
+        return jnp.einsum("i, ij, j", resolved, self.incov_tot, resolved)
+
+
+class DescopedOptimalttFCCee365:
+    def __init__(self, coefficients, rge_dict=None, lumi_scale=1.0):
+        if rge_dict is not None:
+            _obs_scale = rge_dict.get("obs_scale", "dynamic")
+            rgemat, coeff_names = compute_rge_matrix(
+                coefficients,
+                rge_dict,
+                scale=365.0 if _obs_scale == "dynamic" else _obs_scale,
+            )
+        else:
+            rgemat = None
+            coeff_names = np.array(coefficients.names)
+
+        self.project = np.zeros((len(oo_tt_wc_basis), len(coeff_names)))
+        for i, op in enumerate(oo_tt_wc_basis):
+            if op in coeff_names:
+                self.project[i, np.argwhere(coeff_names == op)[0, 0]] = 1
+
+        self.datasets = {"FCCee_tt_365": "invcov_FCCee_tt_365GeV.dat"}
+
+        incovs_reordered = []
+        for path in self.datasets.values():
+            invcov = np.loadtxt(current_file_path / path)
+            temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
+            incovs_reordered.append(temp)
+        self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+
+        self.incov_tot *= lumi_scale
+
+        self.rgemat = rgemat
+
+        if self.rgemat is not None:
+            self.incov_tot = jnp.einsum(
+                "ij, jk, kl", self.rgemat.T, self.incov_tot, self.rgemat
+            )
+
+        self.coefficients = coefficients
+        self.num_data = len(oo_tt_wc_basis)
+
+    def compute_chi2(self, coefficient_values):
+        resolved = self.coefficients.resolve(coefficient_values)
+        return jnp.einsum("i, ij, j", resolved, self.incov_tot, resolved)
