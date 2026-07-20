@@ -128,9 +128,31 @@ def main() -> None:
         action="store_true",
         help="Print the computed scale factors without writing any files",
     )
+    parser.add_argument(
+        "--target-dir",
+        type=Path,
+        help="Additional scenario directory whose FCCee_240/365_H_HADR.yaml "
+        "should be rescaled, given together with --lumi-scale. Processed on "
+        "top of the entries already listed in TARGET_LUMI_SCALE above.",
+    )
+    parser.add_argument(
+        "--lumi-scale",
+        type=float,
+        help="Luminosity scale factor to apply to --target-dir's files",
+    )
     args = parser.parse_args()
 
-    for rel_path, lumi_scale in TARGET_LUMI_SCALE.items():
+    if (args.target_dir is None) != (args.lumi_scale is None):
+        parser.error("--target-dir and --lumi-scale must be given together")
+
+    targets = dict(TARGET_LUMI_SCALE)
+    if args.target_dir is not None:
+        for energy in ("240", "365"):
+            path = args.target_dir / f"FCCee_{energy}_H_HADR.yaml"
+            rel = path.resolve().relative_to(REPO_ROOT.resolve())
+            targets[str(rel)] = args.lumi_scale
+
+    for rel_path, lumi_scale in targets.items():
         target = REPO_ROOT / rel_path
         if not target.is_file():
             raise FileNotFoundError(target)

@@ -134,11 +134,32 @@ def main() -> None:
         action="store_true",
         help="Print the computed scale factors without writing any files",
     )
+    parser.add_argument(
+        "--target-dir",
+        type=Path,
+        help="Additional scenario directory whose FCCee_Zdata.yaml should be "
+        "rescaled, given together with --lumi-scale. Processed on top of the "
+        "entries already listed in TARGET_LUMI_SCALE above.",
+    )
+    parser.add_argument(
+        "--lumi-scale",
+        type=float,
+        help="Luminosity scale factor to apply to --target-dir's file",
+    )
     args = parser.parse_args()
+
+    if (args.target_dir is None) != (args.lumi_scale is None):
+        parser.error("--target-dir and --lumi-scale must be given together")
+
+    targets = dict(TARGET_LUMI_SCALE)
+    if args.target_dir is not None:
+        path = args.target_dir / "FCCee_Zdata.yaml"
+        rel = path.resolve().relative_to(REPO_ROOT.resolve())
+        targets[str(rel)] = args.lumi_scale
 
     nominal = yaml.safe_load(NOMINAL_FILE.read_text())
 
-    for rel_path, lumi_scale in TARGET_LUMI_SCALE.items():
+    for rel_path, lumi_scale in targets.items():
         target = REPO_ROOT / rel_path
         if not target.is_file():
             raise FileNotFoundError(target)

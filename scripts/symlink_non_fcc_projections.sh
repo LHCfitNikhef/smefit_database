@@ -11,6 +11,14 @@ SCENARIOS=(
     "commondata_projections_fccee_30MW_4IP_60lumi"
 )
 
+# Append the target dir (if given and not already in the list above).
+if [[ -n "$1" ]]; then
+    name="$(basename "$1")"
+    if [[ ! " ${SCENARIOS[*]} " == *" $name "* ]]; then
+        SCENARIOS+=("$name")
+    fi
+fi
+
 # symlink all LHC and HL-LHC projections
 cd ../commondata_projection_FCCee_scenarios/
 for scenario in "${SCENARIOS[@]}"; do
