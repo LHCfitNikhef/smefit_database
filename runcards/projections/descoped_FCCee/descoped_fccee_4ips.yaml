@@ -1,0 +1,45 @@
+# path to where projections get saved
+# projections_path: /Users/jaco/Documents/smefit_database/commondata_projections_descoped_fccee_4ips
+projections_path: ../../../commondata_projections_descoped_fccee_short_run
+# path to existing data
+# commondata_path: /Users/jaco/Documents/smefit_database/commondata_projections_L0
+commondata_path: ../../../commondata_projections_L0
+# path to theory tables
+theory_path: ../../../theory
+# datasets for which projections are computed
+datasets:
+  # FCCee_91, 0.6 * 205000 = 123000.0
+  - {name: FCCee_Wwidth, order: LO}
+  - {name: FCCee_Zdata, order: LO}
+#FCCee_161, 0.6 * 19200 = 11520.0
+#  - {name: FCCee_ww_161GeV, order: LO}
+## FCCee_240, 0.6 * 10800 = 6480.0
+#  - {name: FCCee_240_H_HADR, order: NLO_EW_only_for_ZH}
+#  - {name: FCCee_Brw, order: LO}
+#  - {name: FCCee_Rb_240GeV, order: LO}
+#  - {name: FCCee_Rc_240GeV, order: LO}
+#  - {name: FCCee_Rmu_240GeV, order: LO}
+#  - {name: FCCee_Rtau_240GeV, order: LO}
+#  - {name: FCCee_bb_Afb_240GeV, order: LO}
+#  - {name: FCCee_cc_Afb_240GeV, order: LO}
+#  - {name: FCCee_ee_Afb_240GeV, order: LO}
+#  - {name: FCCee_ee_240GeV, order: LO}
+#  - {name: FCCee_mumu_Afb_240GeV, order: LO}
+#  - {name: FCCee_sigmaHad_240GeV, order: LO}
+#  - {name: FCCee_tautau_Afb_240GeV, order: LO}
+#  - {name: FCCee_ww_240GeV, order: LO}
+#  - {name: FCCee_zh_240GeV, order: NLO_EW}
+#  - {name: FCCee_zh_WW_240GeV, order: NLO_EW}
+#  - {name: FCCee_zh_ZZ_240GeV, order: NLO_EW}
+#  - {name: FCCee_zh_aZ_240GeV, order: NLO_EW}
+#  - {name: FCCee_zh_aa_240GeV, order: NLO_EW}
+#  - {name: FCCee_zh_tautau_240GeV, order: NLO_EW}
+#  - {name: FCCee_zh_mumu_240GeV, order: NLO_EW}
+
+uv_couplings: False
+use_quad: False
+use_theory_covmat: False
+rot_to_fit_basis: null
+use_t0: False # use the t0 prescription to correct for d'Agostini bias
+fred_sys: 1
+fred_tot: 1

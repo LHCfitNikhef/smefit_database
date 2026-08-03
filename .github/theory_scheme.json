@@ -14,42 +14,6 @@
         "type":"number"
       }
     },
-    "theory_cov":{
-      "type": "array",
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
-      }
-    },
-    "theory_cov_current":{
-      "type": "array",
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
-      }
-    },
-    "theory_cov_aggressive":{
-      "type": "array",
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
-      }
-    },
-    "theory_cov_conservative":{
-      "type": "array",
-      "items": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
-      }
-    },
     "LO":{
       "type":"object",
       "additionalProperties":{
@@ -96,12 +60,41 @@
       }
     }
   },
+  "patternProperties": {
+    "^theory_cov": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    }
+  },
   "required": ["best_sm", "scales", "LO"],
   "anyOf": [
     {"required": ["theory_cov"]},
     {"required": ["theory_cov_current"]},
     {"required": ["theory_cov_conservative"]},
-    {"required": ["theory_cov_aggressive"]}
+    {"required": ["theory_cov_aggressive"]},
+    {"required": ["theory_cov_current_nominal_mt"]},
+    {"required": ["theory_cov_current_nominal_nomt"]},
+    {"required": ["theory_cov_aggressive_nominal_mt"]},
+    {"required": ["theory_cov_aggressive_nominal_nomt"]},
+    {"required": ["theory_cov_conservative_nominal_mt"]},
+    {"required": ["theory_cov_conservative_nominal_nomt"]},
+    {"required": ["theory_cov_current_desc_36p5lumi_mt"]},
+    {"required": ["theory_cov_current_desc_36p5lumi_nomt"]},
+    {"required": ["theory_cov_aggressive_desc_36p5lumi_mt"]},
+    {"required": ["theory_cov_aggressive_desc_36p5lumi_nomt"]},
+    {"required": ["theory_cov_conservative_desc_36p5lumi_mt"]},
+    {"required": ["theory_cov_conservative_desc_36p5lumi_nomt"]},
+    {"required": ["theory_cov_current_desc_61lumi_mt"]},
+    {"required": ["theory_cov_current_desc_61lumi_nomt"]},
+    {"required": ["theory_cov_aggressive_desc_61lumi_mt"]},
+    {"required": ["theory_cov_aggressive_desc_61lumi_nomt"]},
+    {"required": ["theory_cov_conservative_desc_61lumi_mt"]},
+    {"required": ["theory_cov_conservative_desc_61lumi_nomt"]}
     ],
   "additionalProperties": false
 }
