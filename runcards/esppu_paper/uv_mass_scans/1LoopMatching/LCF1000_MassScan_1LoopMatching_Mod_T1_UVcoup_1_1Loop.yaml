@@ -665,10 +665,164 @@ coefficients:
           - -2
     max: 100
     min: -100
+  Omuu:
+    constrain:
+      - m:
+          - 1.8503549875981254e-05
+          - -2
+    max: 100
+    min: -100
+  Otau:
+    constrain:
+      - m:
+          - 1.8503549875981254e-05
+          - -2
+    max: 100
+    min: -100
+  Omud:
+    constrain:
+      - m:
+          - -9.251774937990627e-06
+          - -2
+    max: 100
+    min: -100
+  Otad:
+    constrain:
+      - m:
+          - -9.251774937990627e-06
+          - -2
+    max: 100
+    min: -100
+  Omub:
+    constrain:
+      - m:
+          - -9.251774937990627e-06
+          - -2
+    max: 100
+    min: -100
+  Otab:
+    constrain:
+      - m:
+          - -9.251774937990627e-06
+          - -2
+    max: 100
+    min: -100
+  Otmu:
+    constrain:
+      - m:
+          - 1.8503549875981254e-05
+          - -2
+    max: 100
+    min: -100
+  Oql23:
+    constrain:
+      - m:
+          - -0.00046029875162978396
+          - -2
+    max: 100
+    min: -100
+  Oql33:
+    constrain:
+      - m:
+          - -0.00046029875162978396
+          - -2
+    max: 100
+    min: -100
+  Oql2M:
+    constrain:
+      - m:
+          - 0.0004626116953642816
+          - -2
+    max: 100
+    min: -100
+  Oql3M:
+    constrain:
+      - m:
+          - 0.0004626116953642816
+          - -2
+    max: 100
+    min: -100
+  OQl23:
+    constrain:
+      - m:
+          - -0.0002775214916807475
+          - -2
+    max: 100
+    min: -100
+  OQl2M:
+    constrain:
+      - m:
+          - 0.0003460796179989451
+          - -2
+    max: 100
+    min: -100
+  Ol2u:
+    constrain:
+      - m:
+          - 9.251774937990627e-06
+          - -2
+    max: 100
+    min: -100
+  Ol3u:
+    constrain:
+      - m:
+          - 9.251774937990627e-06
+          - -2
+    max: 100
+    min: -100
+  Ol2d:
+    constrain:
+      - m:
+          - -4.625887468995314e-06
+          - -2
+    max: 100
+    min: -100
+  Ol3d:
+    constrain:
+      - m:
+          - -4.625887468995314e-06
+          - -2
+    max: 100
+    min: -100
+  Ol2b:
+    constrain:
+      - m:
+          - -4.625887468995314e-06
+          - -2
+    max: 100
+    min: -100
+  Ol3b:
+    constrain:
+      - m:
+          - -4.625887468995314e-06
+          - -2
+    max: 100
+    min: -100
+  Oqmu:
+    constrain:
+      - m:
+          - 4.625887468995314e-06
+          - -2
+    max: 100
+    min: -100
+  Oqta:
+    constrain:
+      - m:
+          - 4.625887468995314e-06
+          - -2
+    max: 100
+    min: -100
+  OQmu:
+    constrain:
+      - m:
+          - 0.0001371162526363952
+          - -2
+    max: 100
+    min: -100
   m:
     is_mass: true
-    max: 120.0
-    min: 0.1
+    max: 25.0
+    min: 2.0
 data_path: /data/theorie/arossia/smefit_database/commondata_projections_L0
 datasets:
   - name: LEP1_EWPOs_2006
