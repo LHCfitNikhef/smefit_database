@@ -100,6 +100,17 @@ c8dt = ud8_33jj
 c1dt = ud1_33jj
 c8qd = qd8_33jj
 c1qd = qd1_33jj
+cdd = dd_jjkk
+cddp = dd_jkkj
+cqq1 = qq1_iill
+cqq1p = qq1_illi
+cqq3 = qq3_iill
+cqq3p = qq3_illi
+cuu = uu_iill
+cuup = uu_illi
+cqu1 = qu1_iiii
+cud1 = ud1_iijj
+cqd1 = qd1_iijj
 ```
 
 ### Lepton currents
@@ -150,15 +161,19 @@ cee2233 = 1/4 * ee_2233
 
 ```text
 cQl1M = lq1_1133 - lq3_1133
+cQl2M = lq1_2233 - lq3_2233
 cQl13 = lq3_1133
+cQl23 = lq3_2233
 cQl3M = lq1_3333 - lq3_3333
 cQl33 = lq3_3333
 cQe = qe_3311
+cQmu = qe_3322
 cQta = qe_3333
 ctl1 = lu_1133
 ctl2 = lu_2233
 ctl3 = lu_3333
 cte = eu_1133
+ctmu = eu_2233
 ctta = eu_3333
 ```
 
@@ -166,14 +181,32 @@ ctta = eu_3333
 
 ```text
 cql1M = lq1_11ii - lq3_11ii
+cql2M = lq1_22ii - lq3_22ii
+cql3M = lq1_33ii - lq3_33ii
 cql13 = lq3_11ii
+cql23 = lq3_22ii
+cql33 = lq3_33ii
 cqe = qe_ii11
+cqmu = qe_ii22
+cqta = qe_ii33
 cl1u = lu_11ii
+cl2u = lu_22ii
+cl3u = lu_33ii
 cl1d = ld_11ii
+cl2d = ld_22ii
+cl3d = ld_33ii
 cl1b = ld_1133
+cl2b = ld_2233
+cl3b = ld_3333
 ceu = eu_11ii
+cmuu = eu_22ii
+ctau = eu_33ii
 ced = ed_11ii
+cmud = ed_22ii
+ctad = ed_33ii
 ceb = ed_1133
+cmub = ed_2233
+ctab = ed_3333
 ```
 
 
