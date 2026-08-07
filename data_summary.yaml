@@ -263,7 +263,7 @@ FCCee_365:
   - {name: FCCee_zh_mumu_365GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
 FCCee_91:
   - {name: FCCee_Wwidth, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_Zdata, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_Zdata, order: LO, allowed_orders: [LO, NLO_EW]}
 LCF_91:
   - {name: LCF_Zdata_GigaZ, order: LO, allowed_orders: [LO]}
 LCF_250:
