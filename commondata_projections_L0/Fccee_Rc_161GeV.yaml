@@ -1,0 +1,18 @@
+dataset_name: FCCee_Rc_161GeV
+description: Rc at 157.5 and 162.5 GeV
+luminosity: 19200
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 2
+num_sys: 1
+data_central:
+  - 0.2422518168658886,
+  - 0.2448648065567455
+statistical_error:
+  - 3.5368765262419735e-05
+  - 3.6729720983511825e-05
+systematics:
+  - 4.554334157078705e-05
+  - 4.750377247200863e-05
+sys_names: UNCORR
+sys_type: ADD

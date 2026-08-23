@@ -1,0 +1,18 @@
+dataset_name: FCCee_sigmaHad_161GeV
+description: Hadronic cross section at 157.5 and 162.5 GeV
+luminosity: 19200
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 2
+num_sys: 1
+data_central:
+  - 32.866591450958154,
+  - 29.758355603817424
+statistical_error:
+  - 0.0018372424621085606
+  - 0.0017378879672629377
+systematics:
+  - 0.0032866591450958155
+  - 0.0029758355603817428
+sys_names: UNCORR
+sys_type: ADD
