@@ -6,7 +6,7 @@ arxiv: https://repository.cern/records/3rj9z-94994
 num_data: 2
 num_sys: 1
 data_central:
-  - 32.866591450958154,
+  - 32.866591450958154
   - 29.758355603817424
 statistical_error:
   - 0.0018372424621085606
