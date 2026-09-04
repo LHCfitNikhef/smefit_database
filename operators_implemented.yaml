@@ -8,6 +8,12 @@
 # Operator indices:
 #  - "i" indicates that the definition assumes the first two right-handed up-quark and left-handed quark doublet generations (i = 1, 2) are identical.
 #  - "j" indicates that the three right-handed down-quark generations (j = 1, 2, 3) are treated as identical.
+#  - "k" is a second, independent instance of "j" (i.e. also ranges over the three identical
+#    right-handed down-quark generations), used where an operator needs two generic down-type
+#    indices that can differ from one another -- e.g. to distinguish the "direct" pairing
+#    (jjkk) from the crossed pairing (jkkj),
+#  - "l" is the analogous second, independent instance of "i" (right-handed up-quark / left-handed
+#    quark doublet generations), used to distinguish the direct (iill) from  crossed (illi)
 # This is to reflect our flavour symmetry assumptions.
 
 operators:
@@ -68,6 +74,18 @@ operators:
   O1dt: "ud1_33jj"
   O8qd: "qd8_33jj"
   O1qd: "qd1_33jj"
+  # 4 light quarks
+  Odd: "dd_jjkk"
+  Oddp: "dd_jkkj"
+  Oqq1: "qq1_iill"
+  Oqq1p: "qq1_illi"
+  Oqq3: "qq3_iill"
+  Oqq3p: "qq3_illi"
+  Ouu: "uu_iill"
+  Ouup: "uu_illi"
+  Oqu1: "qu1_iiii"
+  Oud1: "ud1_iijj"
+  Oqd1: "qd1_iijj"
   # Lepton currents
   Opl1: "phil1_11"
   Opl2: "phil1_22"
@@ -106,23 +124,45 @@ operators:
   Oee2233: "1/4 * ee_2233"
   # 2L2Q operators
   OQl1M: "lq1_1133 - lq3_1133"
+  OQl2M: "lq1_2233 - lq3_2233"
   OQl13: "lq3_1133"
+  OQl23: "lq3_2233"
   OQl3M: "lq1_3333 - lq3_3333"
   OQl33: "lq3_3333"
   OQe: "qe_3311"
+  OQmu: "qe_3322"
   OQta: "qe_3333"
   Otl1: "lu_1133"
   Otl2: "lu_2233"
   Otl3: "lu_3333"
   Ote: "eu_1133"
+  Otmu: "eu_2233"
   Otta: "eu_3333"
   # 2L2q operators
   Oql1M: "lq1_11ii - lq3_11ii"
+  Oql2M: "lq1_22ii - lq3_22ii"
+  Oql3M: "lq1_33ii - lq3_33ii"
   Oql13: "lq3_11ii"
+  Oql23: "lq3_22ii"
+  Oql33: "lq3_33ii"
   Oqe: "qe_ii11"
+  Oqmu: "qe_ii22"
+  Oqta: "qe_ii33"
   Ol1u: "lu_11ii"
+  Ol2u: "lu_22ii"
+  Ol3u: "lu_33ii"
   Ol1d: "ld_11ii"
+  Ol2d: "ld_22ii"
+  Ol3d: "ld_33ii"
   Ol1b: "ld_1133"
+  Ol2b: "ld_2233"
+  Ol3b: "ld_3333"
   Oeu: "eu_11ii"
+  Omuu: "eu_22ii"
+  Otau: "eu_33ii"
   Oed: "ed_11ii"
+  Omud: "ed_22ii"
+  Otad: "ed_33ii"
   Oeb: "ed_1133"
+  Omub: "ed_2233"
+  Otab: "ed_3333"
