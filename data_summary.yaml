@@ -265,7 +265,7 @@ FCCee_91:
   - {name: FCCee_Wwidth, order: LO, allowed_orders: [LO]}
   - {name: FCCee_Zdata, order: LO, allowed_orders: [LO, NLO_EW]}
 LCF_91:
-  - {name: LCF_Zdata_GigaZ, order: LO, allowed_orders: [LO]}
+  - {name: LCF_Zdata_GigaZ, order: LO, allowed_orders: [LO, NLO_EW]}
 LCF_250:
   - {name: LCF_vvh_bb_250GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_zh_250GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
@@ -299,7 +299,7 @@ LCF_250:
   - {name: LCF_tautau_250GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_ww_semilep_optim_obs_250GeV_pos80_pos30, order: LO, allowed_orders: [LO]}
   - {name: LCF_tautau_Afb_250GeV, order: LO, allowed_orders: [LO]}
-  - {name: LCF_Zdata_250GeV, order: LO, allowed_orders: [LO]}
+  - {name: LCF_Zdata_250GeV, order: LO, allowed_orders: [LO, NLO_EW]}
 LCF_350:
   - {name: LCF_Brw_350GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_tt_wbwb_350GeV_neg80_neg30, order: LO, allowed_orders: [LO]}
@@ -448,7 +448,7 @@ LCF_1000:
   - {name: LCF_ww_semilep_optim_obs_1000GeV_pos80_neg20, order: LO, allowed_orders: [LO]}
   - {name: LCF_ww_semilep_optim_obs_1000GeV_pos80_pos20, order: LO, allowed_orders: [LO]}
 LEP:
-  - {name: LEP1_EWPOs_2006, order: LO, allowed_orders: [LO]}
+  - {name: LEP1_EWPOs_2006, order: LO, allowed_orders: [LO, NLO_EW]}
   - {name: LEP_Bhabha_2013, order: LO, allowed_orders: [LO]}
   - {name: LEP_Brw_2013, order: LO, allowed_orders: [LO]}
   - {name: LEP_eeWW_182GeV, order: LO, allowed_orders: [LO]}
@@ -485,4 +485,4 @@ LEP3_161:
   - {name: LEP3_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
 LEP3_91:
   - {name: LEP3_Wwidth, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_Zdata, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_Zdata, order: LO, allowed_orders: [LO, NLO_EW]}
