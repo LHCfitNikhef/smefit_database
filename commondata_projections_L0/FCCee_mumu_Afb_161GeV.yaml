@@ -1,0 +1,18 @@
+dataset_name: FCCee_mumu_Afb_161GeV
+description: Forward-backward asymmetry in mumu production at 157.5 and 162.5 GeV
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+luminosity: 19200
+num_data: 2
+num_sys: 1
+data_central:
+  - 0.610905471387082
+  - 0.6007997210242269
+statistical_error:
+  - 1.23e-04
+  - 1.29e-04
+systematics:
+  - 2.40e-06
+  - 2.40e-06
+sys_names: UNCORR
+sys_type: ADD

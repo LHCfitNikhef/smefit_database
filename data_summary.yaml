@@ -208,6 +208,15 @@ FCCee_161:
   - {name: FCCee_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: FCCee_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: FCCee_ww_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_Rb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_Rc_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_Rmu_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_Rtau_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_sigmaHad_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_bb_Afb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_cc_Afb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_mumu_Afb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: FCCee_tautau_Afb_161GeV, order: LO, allowed_orders: [LO]}
 FCCee_240:
   - {name: FCCee_240_H_HADR, order: NLO_EW_only_for_ZH, allowed_orders: [LO, NLO_EW_only_for_ZH]}
   - {name: FCCee_240_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}

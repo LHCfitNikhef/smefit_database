@@ -1,0 +1,18 @@
+dataset_name: FCCee_Rmu_161GeV
+description: Rmu at 157.5 and 162.5 GeV
+luminosity: 19200
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 2
+num_sys: 1
+data_central:
+  - 7.176185336451315
+  - 7.012643034051929
+statistical_error:
+  - 0.0011891874524989916
+  - 0.001207612152447234
+systematics:
+  - 1.5787607740192894e-05
+  - 1.5427814674914246e-05
+sys_names: UNCORR
+sys_type: ADD
