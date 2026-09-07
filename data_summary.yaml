@@ -40,9 +40,9 @@ ATLAS:
   - {name: ATLAS_tt_8TeV_ljets_Mtt, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_tta_8TeV, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_ttbb_13TeV_2016, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: ATLAS_tttt_13TeV_2023, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_tttt_13TeV_2023, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: ATLAS_tttt_13TeV_run2, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: ATLAS_tttt_13TeV_slep_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_tttt_13TeV_slep_inc, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: ATLAS_Zjj_13TeV_dphijj, order: LO, allowed_orders: [LO]}
 HLLHC:
   - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
@@ -63,9 +63,9 @@ HLLHC:
   - {name: ATLAS_tt_13TeV_asy_2022_uncor_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_tt_13TeV_ljets_2016_Mtt_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_ttbb_13TeV_2016_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: ATLAS_tttt_13TeV_2023_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_tttt_13TeV_2023_proj, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: ATLAS_tttt_13TeV_run2_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: ATLAS_tttt_13TeV_slep_inc_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_tttt_13TeV_slep_inc_proj, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: CMS_H_13TeV_2015_pTH_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_SSinc_RunII_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_WZ_13TeV_2016_pTZ_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
@@ -84,9 +84,9 @@ HLLHC:
   - {name: CMS_ttbb_13TeV_2016_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_ttbb_13TeV_dilepton_inc_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_ttbb_13TeV_ljets_inc_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: CMS_tttt_13TeV_2023_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: CMS_tttt_13TeV_2023_proj, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: CMS_tttt_13TeV_run2_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: CMS_tttt_13TeV_slep_inc_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: CMS_tttt_13TeV_slep_inc_proj, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: HLLHC_HH_14TeV, order: LO, allowed_orders: [LO]}
   - {name: HLLHC_HH_bbaa_14TeV_low_high_mass, order: LO, allowed_orders: [LO]}
   - {name: HLLHC_HH_bbtautau_14TeV_low_high_mass, order: LO, allowed_orders: [LO]}
@@ -201,9 +201,9 @@ CMS:
   - {name: CMS_ttbb_13TeV_dilepton_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_ttbb_13TeV_ljets_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_tttt_13TeV, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: CMS_tttt_13TeV_2023, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: CMS_tttt_13TeV_2023, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: CMS_tttt_13TeV_run2, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: CMS_tttt_13TeV_slep_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: CMS_tttt_13TeV_slep_inc, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
 FCCee_161:
   - {name: FCCee_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: FCCee_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
