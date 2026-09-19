@@ -490,6 +490,16 @@ LEP3_240:
   - {name: LEP3_zh_tautau_240GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
 LEP3_161:
   - {name: LEP3_ww_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_Rb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_Rc_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_Rmu_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_Rtau_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_sigmaHad_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_bb_Afb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_cc_Afb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_mumu_Afb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_tautau_Afb_161GeV, order: LO, allowed_orders: [LO]}
+  - {name: LEP3_ww_161GeV, order: LO, allowed_orders: [LO]}
   - {name: LEP3_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: LEP3_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
 LEP3_91:
