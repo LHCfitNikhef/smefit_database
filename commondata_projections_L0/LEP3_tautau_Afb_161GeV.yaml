@@ -1,0 +1,18 @@
+dataset_name: LEP3_tautau_Afb_161GeV
+description: Forward-backward asymmetry in tautau production at 157.5 and 162.5 GeV
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+luminosity: 5600
+num_data: 2
+num_sys: 1
+data_central:
+  - 0.5928036308548916
+  - 0.5829973256436918
+statistical_error:
+  - 0.0002721911093331301
+  - 0.00028515259072994586
+systematics:
+  - 2.4e-06
+  - 2.4e-06
+sys_names: UNCORR
+sys_type: ADD
