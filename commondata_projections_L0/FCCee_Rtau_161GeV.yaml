@@ -1,0 +1,18 @@
+dataset_name: FCCee_Rtau_161GeV
+description: Rtau at 157.5 and 162.5 GeV
+luminosity: 19200
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+num_data: 2
+num_sys: 1
+data_central:
+  - 7.758766436782207
+  - 7.581947351521808
+statistical_error:
+  - 0.0015143277613502365
+  - 0.001536098791090289
+systematics:
+  - 2.0483143393105028e-05
+  - 2.0016341008017572e-05
+sys_names: UNCORR
+sys_type: ADD

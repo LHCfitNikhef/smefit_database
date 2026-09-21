@@ -1,0 +1,18 @@
+dataset_name: FCCee_cc_Afb_161GeV
+description: Forward-backward asymmetry in cc production at 157.5 and 162.5 GeV
+location: Fig 1
+arxiv: https://repository.cern/records/3rj9z-94994
+luminosity: 19200
+num_data: 2
+num_sys: 1
+data_central:
+  - 0.6674888010611435
+  - 0.6635175533976257
+statistical_error:
+  - 4.46e-04
+  - 4.60e-04
+systematics:
+  - 4.95e-06
+  - 4.95e-06
+sys_names: UNCORR
+sys_type: ADD
