@@ -2,20 +2,6 @@ Model name: 15
 UV Collection: Granada
 UV model: 15
 coefficients:
-  OQQ1:
-    constrain:
-      - m:
-          - 3.3333333333333335
-          - -2
-    max: 100
-    min: -100
-  OQQ8:
-    constrain:
-      - m:
-          - -4.0
-          - -2
-    max: 100
-    min: -100
   OQl33:
     constrain:
       - m:
@@ -32,8 +18,8 @@ coefficients:
     min: -100
   m:
     is_mass: true
-    max: 200.0
-    min: 0.1
+    max: 20.0
+    min: 1.0
 data_path: /data/theorie/arossia/smefit_database/commondata_projections_L0
 datasets:
   - name: LEP1_EWPOs_2006

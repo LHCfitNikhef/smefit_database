@@ -12,14 +12,14 @@ coefficients:
   Oll1221:
     constrain:
       - m:
-          - 1.0
+          - -1.0
           - -2
     max: 100
     min: -100
   m:
     is_mass: true
-    max: 300
-    min: 0.1
+    max: 102.40702341137123
+    min: 48.24448160535117
 data_path: /data/theorie/arossia/smefit_database/commondata_projections_L0
 datasets:
   - name: LEP1_EWPOs_2006
