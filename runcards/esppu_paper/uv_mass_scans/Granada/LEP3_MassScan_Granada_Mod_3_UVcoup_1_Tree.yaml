@@ -5,7 +5,7 @@ coefficients:
   Oll1122:
     constrain:
       - m:
-          - -1.0
+          - 1.0
           - -2
     max: 100
     min: -100
