@@ -59,6 +59,15 @@
         }
       }
     },
+    "LO_QCD_EW": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
     "NLO_QCD":{
       "type":"object",
       "additionalProperties":{
