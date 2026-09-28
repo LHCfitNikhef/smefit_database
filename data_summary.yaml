@@ -40,9 +40,9 @@ ATLAS:
   - {name: ATLAS_tt_8TeV_ljets_Mtt, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_tta_8TeV, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_ttbb_13TeV_2016, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: ATLAS_tttt_13TeV_2023, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_tttt_13TeV_2023, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: ATLAS_tttt_13TeV_run2, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: ATLAS_tttt_13TeV_slep_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_tttt_13TeV_slep_inc, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: ATLAS_Zjj_13TeV_dphijj, order: LO, allowed_orders: [LO]}
 HLLHC:
   - {name: ATLAS_SSinc_RunII_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
@@ -63,9 +63,9 @@ HLLHC:
   - {name: ATLAS_tt_13TeV_asy_2022_uncor_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_tt_13TeV_ljets_2016_Mtt_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: ATLAS_ttbb_13TeV_2016_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: ATLAS_tttt_13TeV_2023_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_tttt_13TeV_2023_proj, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: ATLAS_tttt_13TeV_run2_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: ATLAS_tttt_13TeV_slep_inc_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: ATLAS_tttt_13TeV_slep_inc_proj, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: CMS_H_13TeV_2015_pTH_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_SSinc_RunII_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_WZ_13TeV_2016_pTZ_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
@@ -84,9 +84,9 @@ HLLHC:
   - {name: CMS_ttbb_13TeV_2016_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_ttbb_13TeV_dilepton_inc_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_ttbb_13TeV_ljets_inc_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: CMS_tttt_13TeV_2023_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: CMS_tttt_13TeV_2023_proj, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: CMS_tttt_13TeV_run2_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: CMS_tttt_13TeV_slep_inc_proj, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: CMS_tttt_13TeV_slep_inc_proj, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: HLLHC_HH_14TeV, order: LO, allowed_orders: [LO]}
   - {name: HLLHC_HH_bbaa_14TeV_low_high_mass, order: LO, allowed_orders: [LO]}
   - {name: HLLHC_HH_bbtautau_14TeV_low_high_mass, order: LO, allowed_orders: [LO]}
@@ -201,22 +201,13 @@ CMS:
   - {name: CMS_ttbb_13TeV_dilepton_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_ttbb_13TeV_ljets_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
   - {name: CMS_tttt_13TeV, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: CMS_tttt_13TeV_2023, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: CMS_tttt_13TeV_2023, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
   - {name: CMS_tttt_13TeV_run2, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
-  - {name: CMS_tttt_13TeV_slep_inc, order: NLO_QCD, allowed_orders: [LO, NLO_QCD]}
+  - {name: CMS_tttt_13TeV_slep_inc, order: LO_QCD_EW, allowed_orders: [LO, LO_QCD_EW]}
 FCCee_161:
   - {name: FCCee_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: FCCee_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: FCCee_ww_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_Rb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_Rc_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_Rmu_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_Rtau_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_sigmaHad_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_bb_Afb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_cc_Afb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_mumu_Afb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_tautau_Afb_161GeV, order: LO, allowed_orders: [LO]}
 FCCee_240:
   - {name: FCCee_240_H_HADR, order: NLO_EW_only_for_ZH, allowed_orders: [LO, NLO_EW_only_for_ZH]}
   - {name: FCCee_240_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
@@ -272,9 +263,9 @@ FCCee_365:
   - {name: FCCee_zh_mumu_365GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
 FCCee_91:
   - {name: FCCee_Wwidth, order: LO, allowed_orders: [LO]}
-  - {name: FCCee_Zdata, order: LO, allowed_orders: [LO, NLO_EW]}
+  - {name: FCCee_Zdata, order: LO, allowed_orders: [LO]}
 LCF_91:
-  - {name: LCF_Zdata_GigaZ, order: LO, allowed_orders: [LO, NLO_EW]}
+  - {name: LCF_Zdata_GigaZ, order: LO, allowed_orders: [LO]}
 LCF_250:
   - {name: LCF_vvh_bb_250GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_zh_250GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
@@ -308,7 +299,7 @@ LCF_250:
   - {name: LCF_tautau_250GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_ww_semilep_optim_obs_250GeV_pos80_pos30, order: LO, allowed_orders: [LO]}
   - {name: LCF_tautau_Afb_250GeV, order: LO, allowed_orders: [LO]}
-  - {name: LCF_Zdata_250GeV, order: LO, allowed_orders: [LO, NLO_EW]}
+  - {name: LCF_Zdata_250GeV, order: LO, allowed_orders: [LO]}
 LCF_350:
   - {name: LCF_Brw_350GeV, order: LO, allowed_orders: [LO]}
   - {name: LCF_tt_wbwb_350GeV_neg80_neg30, order: LO, allowed_orders: [LO]}
@@ -457,7 +448,7 @@ LCF_1000:
   - {name: LCF_ww_semilep_optim_obs_1000GeV_pos80_neg20, order: LO, allowed_orders: [LO]}
   - {name: LCF_ww_semilep_optim_obs_1000GeV_pos80_pos20, order: LO, allowed_orders: [LO]}
 LEP:
-  - {name: LEP1_EWPOs_2006, order: LO, allowed_orders: [LO, NLO_EW]}
+  - {name: LEP1_EWPOs_2006, order: LO, allowed_orders: [LO]}
   - {name: LEP_Bhabha_2013, order: LO, allowed_orders: [LO]}
   - {name: LEP_Brw_2013, order: LO, allowed_orders: [LO]}
   - {name: LEP_eeWW_182GeV, order: LO, allowed_orders: [LO]}
@@ -490,18 +481,8 @@ LEP3_240:
   - {name: LEP3_zh_tautau_240GeV, order: NLO_EW, allowed_orders: [LO, NLO_EW]}
 LEP3_161:
   - {name: LEP3_ww_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_Rb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_Rc_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_Rmu_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_Rtau_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_sigmaHad_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_bb_Afb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_cc_Afb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_mumu_Afb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_tautau_Afb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_ww_161GeV, order: LO, allowed_orders: [LO]}
   - {name: LEP3_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: LEP3_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
 LEP3_91:
   - {name: LEP3_Wwidth, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_Zdata, order: LO, allowed_orders: [LO, NLO_EW]}
+  - {name: LEP3_Zdata, order: LO, allowed_orders: [LO]}
