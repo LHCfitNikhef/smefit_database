@@ -12,7 +12,7 @@ statistical_error:
   - 1.23e-04
   - 1.29e-04
 systematics:
-  - 2.40e-06
-  - 2.40e-06
+  - - 2.40e-06
+    - 2.40e-06
 sys_names: UNCORR
 sys_type: ADD
