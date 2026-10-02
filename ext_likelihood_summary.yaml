@@ -57,3 +57,26 @@ external_chi2:
     path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
   OptimalttLCF1000:
     path: /path/to/smefit_database/external_chi2/optimal_observables/interface_oos_lcf.py
+  SA_beta_decays:
+    path: /path/to/smefit_database/external_chi2/low_energy/superallowed_beta_decay.py
+    starting_scale: null # SMEFT scale in GeV, defaults to rge init_scale or 10000
+  GaussConstraintDRV:
+    path: /path/to/smefit_database/external_chi2/low_energy/gaussian_constraints.py
+    central: 0.02467 # Hardy & Towner, arXiv:2010.13797
+    sigma: 0.00022
+  GaussConstraintEta1:
+    path: /path/to/smefit_database/external_chi2/low_energy/gaussian_constraints.py
+    central: 0.0
+    sigma: 1.0
+  GaussConstraintEta2:
+    path: /path/to/smefit_database/external_chi2/low_energy/gaussian_constraints.py
+    central: 0.0
+    sigma: 1.0
+  GaussConstraintEta3:
+    path: /path/to/smefit_database/external_chi2/low_energy/gaussian_constraints.py
+    central: 0.0
+    sigma: 1.0
+  GaussConstraintVud:
+    path: /path/to/smefit_database/external_chi2/low_energy/gaussian_constraints.py
+    central: 0.97373 # PDG 2022, kaon+pion decays
+    sigma: 0.00031
