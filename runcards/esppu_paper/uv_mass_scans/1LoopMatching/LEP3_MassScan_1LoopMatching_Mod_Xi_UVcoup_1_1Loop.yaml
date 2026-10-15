@@ -416,10 +416,52 @@ coefficients:
           - -8
     max: 100
     min: -100
+  Oql23:
+    constrain:
+      - m:
+          - -9.589557325620498e-06
+          - -2
+    max: 100
+    min: -100
+  Oql33:
+    constrain:
+      - m:
+          - -9.589557325620498e-06
+          - -2
+    max: 100
+    min: -100
+  Oql2M:
+    constrain:
+      - m:
+          - 9.589557325620498e-06
+          - -2
+    max: 100
+    min: -100
+  Oql3M:
+    constrain:
+      - m:
+          - 9.589557325620498e-06
+          - -2
+    max: 100
+    min: -100
+  OQl23:
+    constrain:
+      - m:
+          - -9.589557325620498e-06
+          - -2
+    max: 100
+    min: -100
+  OQl2M:
+    constrain:
+      - m:
+          - 9.589557325620498e-06
+          - -2
+    max: 100
+    min: -100
   m:
     is_mass: true
-    max: 120.0
-    min: 0.1
+    max: 25.0
+    min: 2.0
 data_path: /data/theorie/arossia/smefit_database/commondata_projections_L0
 datasets:
   - name: LEP1_EWPOs_2006
