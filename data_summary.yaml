@@ -499,7 +499,6 @@ LEP3_161:
   - {name: LEP3_cc_Afb_161GeV, order: LO, allowed_orders: [LO]}
   - {name: LEP3_mumu_Afb_161GeV, order: LO, allowed_orders: [LO]}
   - {name: LEP3_tautau_Afb_161GeV, order: LO, allowed_orders: [LO]}
-  - {name: LEP3_ww_161GeV, order: LO, allowed_orders: [LO]}
   - {name: LEP3_161_ww_leptonic_optim_obs, order: LO, allowed_orders: [LO]}
   - {name: LEP3_161_ww_semilep_optim_obs, order: LO, allowed_orders: [LO]}
 LEP3_91:
