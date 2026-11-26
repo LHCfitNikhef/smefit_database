@@ -56,9 +56,9 @@ class OptimalWW_LEP3_161:
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
-        # FCCee (161): 19200 ab-1
-        # LEP3 (161): 5600 ab-1
-        self.incov_tot *= 5600 / 19200
+        # FCCee reference (161): 20 ab-1
+        # LEP3 (161): 5.6 ab-1
+        self.incov_tot *= 5600 / 20000
 
         self.rgemat = rgemat
 
@@ -104,10 +104,10 @@ class OptimalWW_LEP3_240:
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
-        # rescale invcov_tot by luminosity ratio starting from FCCee
-        # FCCee (240): 10800 ab-1
-        # LEP3 (240): 2304 ab-1
-        self.incov_tot *= 2304 / 10800
+        # rescale invcov_tot by luminosity ratio starting from FCCee reference
+        # FCCee reference (240): 10 ab-1
+        # LEP3 (240): 2.304 ab-1
+        self.incov_tot *= 2304 / 10000
 
         self.rgemat = rgemat
 
