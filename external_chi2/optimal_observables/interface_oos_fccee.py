@@ -57,6 +57,10 @@ class OptimalWWFCCee161:
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
 
+        # FCCee reference (161): 20 ab-1
+        # FCCee (161): 19.2 ab-1
+        self.incov_tot *= 19200 / 20000
+
         self.rgemat = rgemat
 
         if self.rgemat is not None:
@@ -100,6 +104,9 @@ class OptimalWWFCCee240:
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
+        # FCCee reference (240): 10 ab-1
+        # FCCee (240): 10.8 ab-1
+        self.incov_tot *= 10800 / 10000
 
         self.rgemat = rgemat
 
@@ -144,7 +151,9 @@ class OptimalWWFCCee365:
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
-
+        # FCCee reference (365): 3000 fb-1
+        # FCCee (365): 3120 fb-1
+        self.incov_tot *= 3120 / 3000
         self.rgemat = rgemat
 
         if self.rgemat is not None:
@@ -185,7 +194,9 @@ class OptimalttFCCee365:
             temp = jnp.einsum("ij, jk, kl", self.project.T, invcov, self.project)
             incovs_reordered.append(temp)
         self.incov_tot = jnp.sum(jnp.array(incovs_reordered), axis=0)
-
+        # FCCee reference (365): 3 ab-1
+        # FCCee (365): 3.12 ab-1
+        self.incov_tot *= 3120 / 3000
         self.rgemat = rgemat
 
         if self.rgemat is not None:
